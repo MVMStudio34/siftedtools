@@ -1,0 +1,14 @@
+---
+const { label } = Astro.props as { label?: string };
+---
+{label ? (
+  <div class="sieve-wrap wrap">
+    <div class="sieve-label">{label}</div>
+  </div>
+) : (
+  <div class="sieve" role="presentation"></div>
+)}
+
+<style>
+  .sieve-wrap{padding:30px 24px}
+</style>

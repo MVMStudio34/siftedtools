@@ -1,0 +1,49 @@
+---
+// Carte outil pour les pages comparatives. L'or est réservé au verdict.
+interface Props {
+  rank?: number;
+  name: string;
+  verdict: string;          // ex "Meilleur SAV équipe"
+  summary: string;
+  score?: number;           // /100, optionnel
+  priceFrom?: string;       // ex "À partir de 50 $/mois"
+  href: string;             // lien interne vers le comparatif détaillé
+  affiliateUrl?: string;    // lien affilié sortant (placeholder tant que non signé)
+}
+const { rank, name, verdict, summary, score, priceFrom, href, affiliateUrl } = Astro.props;
+---
+<article class="card">
+  <div class="card-top">
+    {rank && <span class="mono rank">{String(rank).padStart(2, "0")}</span>}
+    <div class="title">
+      <h3 class="ui">{name}</h3>
+      <span class="tag">{verdict}</span>
+    </div>
+    {score && <span class="mono score" title="Score SiftedTools /100">{score}<small>/100</small></span>}
+  </div>
+  <p class="summary">{summary}</p>
+  <div class="card-foot">
+    {priceFrom && <span class="note">{priceFrom}</span>}
+    <div class="actions">
+      <a class="btn btn-ghost sm" href={href}>Voir l'analyse</a>
+      {affiliateUrl && (
+        <a class="btn btn-primary sm" href={affiliateUrl} rel="sponsored nofollow noopener" target="_blank">Tester</a>
+      )}
+    </div>
+  </div>
+</article>
+
+<style>
+  .card{background:var(--card);border:1px solid var(--mesh);border-radius:var(--radius-lg);padding:22px 22px 18px;transition:border-color .15s,transform .15s}
+  .card:hover{border-color:var(--gold-light);transform:translateY(-2px)}
+  .card-top{display:flex;align-items:flex-start;gap:14px}
+  .rank{color:var(--gold);font-size:14px;padding-top:4px}
+  .title{flex:1;display:flex;flex-direction:column;gap:7px}
+  .title h3{font-size:20px}
+  .score{font-size:20px;color:var(--ink)}
+  .score small{font-size:11px;color:var(--muted)}
+  .summary{font-size:15px;color:var(--slate);line-height:1.55;margin:12px 0 16px}
+  .card-foot{display:flex;align-items:center;justify-content:space-between;gap:12px;flex-wrap:wrap}
+  .actions{display:flex;gap:8px}
+  .btn.sm{font-size:13px;padding:8px 13px}
+</style>

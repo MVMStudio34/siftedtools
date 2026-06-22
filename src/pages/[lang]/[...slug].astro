@@ -1,0 +1,107 @@
+---
+import { getCollection, render } from "astro:content";
+import type { GetStaticPaths } from "astro";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import AffiliateDisclosure from "../../components/AffiliateDisclosure.astro";
+import AuthorBio from "../../components/AuthorBio.astro";
+import FAQ from "../../components/FAQ.astro";
+import { organization, webPage, breadcrumb, faqPage, buildGraph } from "../../lib/schema";
+
+const SITE = "https://siftedtools.com";
+
+export const getStaticPaths: GetStaticPaths = async () => {
+  const COLLECTIONS = ["tools", "guides", "glossary", "benchmarks"] as const;
+  const slugOf = (id, lang) => {
+    const clean = id.replace(/\.(md|mdx)$/i, "");
+    return clean.startsWith(`${lang}/`) ? clean.slice(lang.length + 1) : clean;
+  };
+  const paths = [];
+  for (const col of COLLECTIONS) {
+    const entries = await getCollection(col, ({ data }) => data.draft !== true);
+    for (const entry of entries) {
+      const lang = entry.data.lang;
+      const slug = slugOf(entry.id, lang);
+      paths.push({ params: { lang, slug }, props: { entry, lang, slug } });
+    }
+  }
+  return paths;
+};
+
+const { entry, lang, slug } = Astro.props;
+const data = entry.data;
+const pageUrl = `${SITE}/${lang}/${slug}/`;
+const dateStr = new Date(data.updatedAt).toISOString().slice(0, 10);
+const { Content } = await render(entry);
+
+const nodes = [
+  organization(),
+  webPage({ url: pageUrl, title: data.title, description: data.description, updatedAt: new Date(data.updatedAt), lang }),
+  breadcrumb([
+    { name: "Accueil", url: `${SITE}/${lang}/` },
+    { name: data.title, url: pageUrl },
+  ]),
+];
+if (data.faq?.length) nodes.push(faqPage(data.faq.map((f) => ({ question: f.q, answer: f.a }))));
+const schema = [buildGraph(...nodes)];
+---
+<BaseLayout
+  title={`${data.title} | SiftedTools`}
+  description={data.description}
+  canonical={pageUrl}
+  alternates={data.alternates}
+  updatedAt={dateStr}
+  schema={schema}
+>
+  <article class="article">
+    <nav class="crumbs ui" aria-label="Fil d'Ariane">
+      <a href={`/${lang}/`}>Accueil</a>
+      <span aria-hidden="true">/</span>
+      <span>{data.title}</span>
+    </nav>
+
+    <header class="art-head">
+      <h1 class="ui">{data.title}</h1>
+      <p class="meta note">Testé et rédigé par {data.reviewedBy} · Vérifié le {dateStr}</p>
+    </header>
+
+    <div class="disclosure-slot"><AffiliateDisclosure compact={true} /></div>
+
+    {data.offers?.length > 0 && (
+      <div class="offers">
+        <span class="eyebrow">Tester directement</span>
+        <div class="offer-btns">
+          {data.offers.map((o) => (
+            <a class="btn btn-primary" href={o.url} rel="sponsored nofollow noopener" target="_blank">
+              {o.label} <span aria-hidden="true">↗</span>
+            </a>
+          ))}
+        </div>
+      </div>
+    )}
+
+    <div class="prose">
+      <Content />
+    </div>
+
+    {data.faq?.length > 0 && (
+      <div class="faq-slot"><FAQ items={data.faq} /></div>
+    )}
+
+    <div class="author-slot"><AuthorBio updatedAt={dateStr} /></div>
+  </article>
+</BaseLayout>
+
+<style>
+  .article{max-width:760px;margin:0 auto;padding:40px 24px 0}
+  .crumbs{display:flex;gap:10px;font-size:13px;color:var(--slate);margin-bottom:26px;flex-wrap:wrap}
+  .crumbs a{color:var(--gold)}
+  .crumbs span[aria-hidden]{color:var(--muted)}
+  .art-head h1{font-size:clamp(30px,5vw,44px);line-height:1.08}
+  .art-head .meta{margin-top:14px}
+  .disclosure-slot{margin:26px 0}
+  .offers{background:var(--card);border:1px solid var(--mesh);border-radius:var(--radius-lg);padding:20px 22px;margin:26px 0}
+  .offers .eyebrow{display:block;margin-bottom:12px}
+  .offer-btns{display:flex;gap:10px;flex-wrap:wrap}
+  .faq-slot{margin-top:48px}
+  .author-slot{margin:48px 0}
+</style>

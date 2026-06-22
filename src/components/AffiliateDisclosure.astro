@@ -1,0 +1,16 @@
+---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const { compact = false } = Astro.props;
+const t = useTranslations(getLangFromUrl(Astro.url));
+---
+<aside class={`disclosure ${compact ? "compact" : ""}`} role="note">
+  <span class="tag">Transparence</span>
+  <p>{t("disclosure.short")}</p>
+</aside>
+
+<style>
+  .disclosure{display:flex;gap:14px;align-items:flex-start;background:var(--card);border:1px solid var(--mesh);border-left:3px solid var(--gold);border-radius:var(--radius);padding:16px 18px}
+  .disclosure p{font-size:14px;color:var(--slate);line-height:1.55;font-family:"Newsreader",serif}
+  .disclosure.compact{padding:12px 14px}
+  .disclosure.compact p{font-size:13px}
+</style>

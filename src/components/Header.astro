@@ -1,0 +1,87 @@
+---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
+const base = `/${lang}`;
+const nav = [
+  { href: `${base}/outils-ia-ecommerce/`, label: t("nav.tools") },
+  { href: `${base}/comparatifs/`, label: t("nav.comparisons") },
+  { href: `${base}/barometre-geo/`, label: t("nav.barometer") },
+  { href: `${base}/methodologie/`, label: t("nav.method") },
+];
+---
+<header class="site-header">
+  <div class="wrap bar">
+    <a class="brand" href={`${base}/`} aria-label="SiftedTools — accueil">
+      <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true">
+        <circle cx="3" cy="3" r="1.4" fill="var(--gold)"/>
+        <circle cx="9" cy="3" r="1.4" fill="var(--mesh)"/>
+        <circle cx="15" cy="3" r="1.4" fill="var(--mesh)"/>
+        <circle cx="3" cy="9" r="1.4" fill="var(--mesh)"/>
+        <circle cx="9" cy="9" r="1.4" fill="var(--gold)"/>
+        <circle cx="15" cy="9" r="1.4" fill="var(--mesh)"/>
+        <circle cx="3" cy="15" r="1.4" fill="var(--mesh)"/>
+        <circle cx="9" cy="15" r="1.4" fill="var(--mesh)"/>
+        <circle cx="15" cy="15" r="1.4" fill="var(--gold)"/>
+      </svg>
+      <span class="ui brand-name">{t("brand.name")}</span>
+    </a>
+
+    <nav class="nav-desktop ui" aria-label="Navigation principale">
+      {nav.map((n) => <a href={n.href}>{n.label}</a>)}
+    </nav>
+
+    <div class="header-right">
+      <a class="btn btn-quiz quiz-desktop" href={`${base}/trouver-mon-stack/`}>{t("cta.quiz")}</a>
+      <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="mobile-menu" aria-label={t("menu.open")}>
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </div>
+
+  <div class="mobile-menu" id="mobile-menu" data-menu>
+    <nav class="ui" aria-label="Navigation mobile">
+      {nav.map((n) => <a href={n.href}>{n.label}</a>)}
+      <a class="btn btn-quiz mobile-quiz" href={`${base}/trouver-mon-stack/`}>{t("cta.quizLong")}</a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header{position:sticky;top:0;z-index:50;background:color-mix(in srgb,var(--porcelain) 88%,transparent);backdrop-filter:blur(8px);border-bottom:1px solid var(--mesh)}
+  .bar{display:flex;align-items:center;justify-content:space-between;height:64px}
+  .brand{display:flex;align-items:center;gap:9px}
+  .brand-name{font-weight:700;font-size:18px}
+  .nav-desktop{display:flex;gap:26px;font-size:15px;font-weight:500}
+  .nav-desktop a{color:var(--slate)}
+  .nav-desktop a:hover{color:var(--ink)}
+  .header-right{display:flex;align-items:center;gap:12px}
+  .menu-btn{display:none;flex-direction:column;gap:4px;background:none;border:none;padding:8px;cursor:pointer}
+  .menu-btn span{width:20px;height:2px;background:var(--ink);transition:.2s}
+  .menu-btn[aria-expanded="true"] span:nth-child(1){transform:translateY(6px) rotate(45deg)}
+  .menu-btn[aria-expanded="true"] span:nth-child(2){opacity:0}
+  .menu-btn[aria-expanded="true"] span:nth-child(3){transform:translateY(-6px) rotate(-45deg)}
+  .mobile-menu{display:none;border-bottom:1px solid var(--mesh);background:var(--porcelain)}
+  .mobile-menu.open{display:block}
+  .mobile-menu nav{display:flex;flex-direction:column;padding:12px 24px 22px}
+  .mobile-menu nav a{padding:13px 0;color:var(--ink);font-size:17px;font-weight:500;border-bottom:1px solid var(--mesh)}
+  .mobile-quiz{margin-top:16px;justify-content:center;border-bottom:none!important}
+
+  @media (max-width:820px){
+    .nav-desktop,.quiz-desktop{display:none}
+    .menu-btn{display:flex}
+  }
+  @media (prefers-reduced-motion:reduce){
+    .menu-btn span{transition:none}
+  }
+</style>
+
+<script>
+  const btn = document.querySelector("[data-menu-btn]");
+  const menu = document.querySelector("[data-menu]");
+  btn?.addEventListener("click", () => {
+    const open = menu?.classList.toggle("open");
+    btn.setAttribute("aria-expanded", String(!!open));
+    btn.setAttribute("aria-label", open ? "Fermer le menu" : "Ouvrir le menu");
+  });
+</script>

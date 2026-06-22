@@ -1,0 +1,36 @@
+---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const t = useTranslations(getLangFromUrl(Astro.url));
+// BREVO : remplace l'action par l'URL de ton formulaire Brevo (Contacts > Formulaires > partager > action du <form>).
+// Tant que ce n'est pas branché, le formulaire ne fait rien d'autre qu'afficher l'UI.
+const BREVO_FORM_ACTION = "#"; // ex: "https://xxxx.sibforms.com/serve/MUIF..."
+---
+<div class="capture">
+  <div class="capture-copy">
+    <span class="eyebrow">Newsletter</span>
+    <h2 class="ui">{t("email.heading")}</h2>
+    <p>{t("email.sub")}</p>
+  </div>
+  <form class="capture-form" action={BREVO_FORM_ACTION} method="POST">
+    <input
+      type="email" name="EMAIL" required
+      placeholder={t("email.placeholder")}
+      autocomplete="email" aria-label={t("email.placeholder")}
+    />
+    <button type="submit" class="btn btn-primary">{t("email.button")}</button>
+  </form>
+  <p class="note capture-note">{t("email.note")}</p>
+</div>
+
+<style>
+  .capture{background:var(--ink);color:var(--porcelain);border-radius:var(--radius-lg);padding:40px 36px;text-align:center}
+  .capture .eyebrow{color:var(--gold-light)}
+  .capture h2{font-size:28px;margin:8px 0 10px}
+  .capture-copy p{font-size:16px;color:#C7C8CD;max-width:54ch;margin:0 auto}
+  .capture-form{display:flex;gap:10px;justify-content:center;margin:24px auto 0;max-width:460px}
+  .capture-form input{flex:1;padding:12px 14px;border-radius:var(--radius);border:1.4px solid #3A3B43;background:#1F2027;color:var(--porcelain);font-family:"Space Mono",monospace;font-size:14px}
+  .capture-form input::placeholder{color:var(--muted)}
+  .capture-form .btn-primary{background:var(--porcelain);color:var(--ink);border-color:var(--porcelain);white-space:nowrap}
+  .capture-note{margin-top:14px;color:var(--muted)}
+  @media (max-width:560px){.capture-form{flex-direction:column}}
+</style>

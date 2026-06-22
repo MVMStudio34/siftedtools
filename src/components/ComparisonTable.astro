@@ -1,0 +1,37 @@
+---
+// Tableau comparatif générique. Données fournies par la page.
+interface Row { tool: string; cells: string[]; highlight?: boolean; }
+interface Props { columns: string[]; rows: Row[]; caption?: string; }
+const { columns, rows, caption } = Astro.props;
+---
+<div class="table-scroll">
+  <table class="cmp">
+    {caption && <caption class="note">{caption}</caption>}
+    <thead>
+      <tr>
+        <th class="ui">Outil</th>
+        {columns.map((c) => <th class="ui">{c}</th>)}
+      </tr>
+    </thead>
+    <tbody>
+      {rows.map((r) => (
+        <tr class={r.highlight ? "hl" : ""}>
+          <th scope="row" class="ui tool">{r.tool}</th>
+          {r.cells.map((cell) => <td>{cell}</td>)}
+        </tr>
+      ))}
+    </tbody>
+  </table>
+</div>
+
+<style>
+  .table-scroll{overflow-x:auto;border:1px solid var(--mesh);border-radius:var(--radius-lg)}
+  .cmp{width:100%;border-collapse:collapse;font-size:14.5px;min-width:560px}
+  .cmp caption{text-align:left;padding:14px 16px;border-bottom:1px solid var(--mesh)}
+  .cmp th,.cmp td{padding:13px 16px;text-align:left;border-bottom:1px solid var(--mesh)}
+  .cmp thead th{background:var(--porcelain);font-size:13px;color:var(--slate);position:sticky;top:0}
+  .cmp .tool{background:var(--card);font-weight:600}
+  .cmp tbody tr:last-child th,.cmp tbody tr:last-child td{border-bottom:none}
+  .cmp tr.hl td,.cmp tr.hl .tool{background:var(--gold-tint)}
+  .cmp td{color:var(--slate);font-family:"Newsreader",serif}
+</style>

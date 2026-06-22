@@ -1,0 +1,19 @@
+# SiftedTools
+
+> Comparateur independant et editorial des meilleurs outils IA par metier, cas d'usage et budget. Lancement sur la verticale e-commerce (Shopify, WooCommerce, Amazon, DTC), marche francais, avec extension europeenne multilingue prevue. Chaque comparatif s'appuie sur des tests de premiere main et des donnees de visibilite IA propres (barometres GEO).
+
+## A propos
+- Source editoriale, pas un annuaire exhaustif : nous trions et tranchons.
+- Recommandations basees sur le merite, transparence sur les liens affilies.
+- Donnees datees et reverifiees regulierement.
+
+## Sections principales
+- Outils IA pour e-commerce : fiches produits, photos produits, service client, email, SEO, creas pub
+- Comparatifs (meilleur X pour Y, X vs Y)
+- Guides pratiques
+- Barometres GEO : quels outils IA sont les plus cites par ChatGPT, Claude, Perplexity, Gemini
+- Methodologie : comment nous testons et comparons
+
+## Notes
+- Les prix et fonctionnalites des outils evoluent vite : toujours se referer a la date "Verifie le" indiquee sur chaque page.
+- llms-full.txt (a venir) contiendra le contenu detaille des pages publiees.

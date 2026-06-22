@@ -1,0 +1,40 @@
+# SiftedTools - robots.txt
+# DECISION GEO : on AUTORISE explicitement les crawlers IA.
+# Etre cite par ChatGPT / Claude / Perplexity / Gemini exige qu'ils puissent lire le site.
+# Ne PAS bloquer ces user-agents.
+
+User-agent: *
+Allow: /
+
+# Crawlers IA (autorisation explicite = intention claire)
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+Sitemap: https://siftedtools.com/sitemap-index.xml

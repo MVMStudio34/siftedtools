@@ -1,0 +1,30 @@
+---
+// FAQ accessible (details/summary). Très bon pour l'extraction par les IA.
+// Le JSON-LD FAQPage correspondant s'injecte côté page via buildFaqPage() (src/lib/schema.ts).
+interface QA { q: string; a: string; }
+const { items = [], title = "Questions fréquentes" } = Astro.props as { items: QA[]; title?: string };
+---
+<section class="faq" aria-labelledby="faq-title">
+  <h2 id="faq-title" class="ui">{title}</h2>
+  <div class="faq-list">
+    {items.map((item) => (
+      <details>
+        <summary class="ui">{item.q}</summary>
+        <div class="answer"><p>{item.a}</p></div>
+      </details>
+    ))}
+  </div>
+</section>
+
+<style>
+  .faq h2{font-size:28px;margin-bottom:20px}
+  .faq-list{border-top:1px solid var(--mesh)}
+  details{border-bottom:1px solid var(--mesh)}
+  summary{cursor:pointer;list-style:none;padding:18px 0;font-size:17px;font-weight:600;display:flex;justify-content:space-between;gap:16px;align-items:center}
+  summary::-webkit-details-marker{display:none}
+  summary::after{content:"+";color:var(--gold);font-family:"Space Mono",monospace;font-size:20px;transition:transform .2s}
+  details[open] summary::after{content:"–"}
+  .answer{padding:0 0 20px}
+  .answer p{font-size:15.5px;color:var(--slate);line-height:1.6;max-width:70ch}
+  @media (prefers-reduced-motion:reduce){summary::after{transition:none}}
+</style>

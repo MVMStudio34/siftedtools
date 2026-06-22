@@ -1,0 +1,71 @@
+/* SiftedTools — design system. Direction "crible" : encre, porcelaine, or tamisé. */
+:root{
+  --ink:#16171D;
+  --ink-soft:#2A2B33;
+  --porcelain:#F4F5F2;
+  --card:#FBFBF9;
+  --gold:#B17C2E;
+  --gold-tint:#B17C2E1a;
+  --gold-light:#D8B877;
+  --slate:#5B5E66;
+  --mesh:#DAD9D2;
+  --muted:#9A9CA1;
+  --radius:7px;
+  --radius-lg:14px;
+  --maxw:1120px;
+}
+
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{
+  background:var(--porcelain);
+  color:var(--ink);
+  font-family:"Newsreader",Georgia,serif;
+  font-size:18px;line-height:1.6;
+  -webkit-font-smoothing:antialiased;
+}
+h1,h2,h3,h4,.ui{font-family:"Space Grotesk",system-ui,sans-serif;letter-spacing:-.02em}
+.mono{font-family:"Space Mono",ui-monospace,monospace}
+a{color:inherit;text-decoration:none}
+a:focus-visible,button:focus-visible,input:focus-visible{outline:2px solid var(--gold);outline-offset:3px;border-radius:3px}
+img{max-width:100%;display:block}
+
+/* layout */
+.wrap{max-width:var(--maxw);margin:0 auto;padding:0 24px}
+section{padding:64px 0}
+
+/* primitives */
+.eyebrow{font-family:"Space Mono",monospace;font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--gold)}
+.tag{font-family:"Space Mono",monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);background:var(--gold-tint);padding:4px 8px;border-radius:4px;white-space:nowrap;display:inline-block}
+.note{font-family:"Space Mono",monospace;font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+/* buttons */
+.btn{font-family:"Space Grotesk";font-weight:600;font-size:15px;padding:11px 18px;border-radius:var(--radius);border:1.4px solid var(--ink);cursor:pointer;display:inline-flex;align-items:center;gap:8px;transition:transform .15s,background .15s,color .15s;line-height:1}
+.btn-primary{background:var(--ink);color:var(--porcelain)}
+.btn-primary:hover{transform:translateY(-1px)}
+.btn-ghost{background:transparent;color:var(--ink)}
+.btn-ghost:hover{background:var(--ink);color:var(--porcelain)}
+.btn-quiz{background:var(--ink);color:var(--porcelain);border-color:var(--ink);position:relative}
+.btn-quiz::after{content:"";position:absolute;left:14px;right:14px;bottom:6px;height:2px;background:var(--gold)}
+
+/* sieve divider (signature) */
+.sieve{height:14px;background-image:radial-gradient(var(--mesh) 1.1px,transparent 1.2px);background-size:7px 7px;background-position:center;opacity:.9}
+.sieve-label{display:flex;align-items:center;gap:14px;color:var(--slate);font-family:"Space Mono",monospace;font-size:11px;letter-spacing:.18em;text-transform:uppercase}
+.sieve-label::before,.sieve-label::after{content:"";flex:1;height:0;border-top:1.2px dotted var(--mesh)}
+
+/* prose (for content pages) */
+.prose{max-width:72ch}
+.prose h2{font-size:28px;margin:38px 0 14px}
+.prose h3{font-size:21px;margin:28px 0 10px}
+.prose p{margin:0 0 16px}
+.prose ul{margin:0 0 16px 22px}
+.prose a{color:var(--gold);text-decoration:underline;text-underline-offset:2px}
+.prose strong{font-weight:600;color:var(--ink)}
+.prose table{width:100%;border-collapse:collapse;font-size:15px;margin:24px 0;border:1px solid var(--mesh);border-radius:var(--radius-lg);overflow:hidden}
+.prose th,.prose td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--mesh);vertical-align:top}
+.prose thead th{background:var(--porcelain);font-family:"Space Grotesk",sans-serif;font-size:13px;color:var(--slate)}
+.prose tbody tr:last-child th,.prose tbody tr:last-child td{border-bottom:none}
+.prose td:first-child,.prose th:first-child{font-family:"Space Grotesk",sans-serif;font-weight:600;font-size:14px}
+.prose blockquote{border-left:3px solid var(--gold);padding:6px 0 6px 18px;margin:20px 0;color:var(--slate);font-style:italic}
+.prose code{font-family:"Space Mono",monospace;font-size:.88em;background:var(--card);border:1px solid var(--mesh);padding:1px 5px;border-radius:4px}
+.prose hr{border:none;border-top:1px solid var(--mesh);margin:34px 0}
