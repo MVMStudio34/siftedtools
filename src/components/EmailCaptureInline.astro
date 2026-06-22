@@ -1,0 +1,181 @@
+---
+// Composant compact d'inscription newsletter, réutilisable sur la home et les pages de contenu.
+// URL Brevo et champs cachés alignés sur newsletter.astro.
+---
+
+<section class="capture-inline" aria-label="Inscription au Baromètre GEO mensuel">
+  <div class="capture-grid">
+
+    <div class="capture-text">
+      <p class="capture-eyebrow">Newsletter mensuelle · gratuite</p>
+      <h2 class="capture-title">Quels outils IA <em>ChatGPT, Gemini et Perplexity</em> recommandent ce mois-ci ?</h2>
+      <p class="capture-lede">Le Baromètre GEO, livré dans votre boîte le 1<sup>er</sup> de chaque mois. Données mesurées, pas opinions.</p>
+    </div>
+
+    <div class="capture-form-wrap">
+      <form class="capture-form" method="POST" action="https://8408209a.sibforms.com/serve/MUIFAAROj0qPfDixIsYDMIBUfmf1sP3x14RK2wiJ06T2kwPnCLSJ0k_2ts6YmbcCJf38OfaJ4aC7FitxINDq0x7GZ5GMANaW9wvN2hF0K-GD6qby5iww44X35gWBn3ZDnOLaEHHf9o6NcegapIB1gXixVgC_df5HlQQEdF1lSIN9Gry7h9pXe984sZk6sDJEkLTmb7WklFPSl_HFdA==" accept-charset="utf-8">
+
+        <div class="capture-row">
+          <input type="email" name="EMAIL" placeholder="votre@email.com" required autocomplete="email" aria-label="Adresse email">
+          <button type="submit">Recevoir</button>
+        </div>
+
+        <label class="capture-rgpd">
+          <input type="checkbox" required>
+          <span>J'accepte de recevoir le Baromètre. Désinscription en 1 clic. <a href="/fr/confidentialite/">Confidentialité</a>.</span>
+        </label>
+
+        <input type="text" name="email_address_check" value="" style="position:absolute;left:-9999px;" tabindex="-1" autocomplete="off">
+        <input type="hidden" name="locale" value="fr">
+        <input type="hidden" name="html_type" value="simple">
+      </form>
+    </div>
+
+  </div>
+</section>
+
+<style>
+  .capture-inline {
+    background: var(--encre, #16171D);
+    color: var(--porcelaine, #F4F5F2);
+    padding: 2.5rem 2rem;
+    border-radius: 4px;
+    margin: 3rem 0;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .capture-inline::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background: var(--or-tamise, #B17C2E);
+  }
+
+  .capture-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.5rem;
+    align-items: center;
+  }
+
+  .capture-eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--or-pale, #D4A04F);
+    margin-bottom: 0.75rem;
+    line-height: 1;
+  }
+
+  .capture-title {
+    font-family: 'Newsreader', Georgia, serif;
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    letter-spacing: -0.01em;
+    color: var(--porcelaine, #F4F5F2);
+    margin: 0 0 0.75rem 0;
+  }
+
+  .capture-title em {
+    font-style: italic;
+    color: var(--or-pale, #D4A04F);
+  }
+
+  .capture-lede {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    color: rgba(244, 245, 242, 0.7);
+    margin: 0;
+  }
+
+  .capture-lede sup { font-size: 0.7em; vertical-align: super; }
+
+  .capture-form { position: relative; }
+
+  .capture-row {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .capture-row input[type="email"] {
+    padding: 0.85rem 1rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.95rem;
+    background: rgba(244, 245, 242, 0.05);
+    border: 1px solid rgba(244, 245, 242, 0.15);
+    border-radius: 3px;
+    color: var(--porcelaine, #F4F5F2);
+    transition: border-color 0.15s ease, background 0.15s ease;
+  }
+
+  .capture-row input[type="email"]::placeholder { color: rgba(244, 245, 242, 0.4); }
+
+  .capture-row input[type="email"]:focus {
+    outline: none;
+    border-color: var(--or-tamise, #B17C2E);
+    background: rgba(244, 245, 242, 0.08);
+  }
+
+  .capture-row button {
+    padding: 0.85rem 1.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.9rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    background: var(--or-tamise, #B17C2E);
+    color: var(--porcelaine, #F4F5F2);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.15s ease, transform 0.05s ease;
+    white-space: nowrap;
+  }
+
+  .capture-row button:hover { background: var(--or-pale, #D4A04F); }
+  .capture-row button:active { transform: translateY(1px); }
+
+  .capture-rgpd {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.5rem;
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.75rem;
+    line-height: 1.4;
+    color: rgba(244, 245, 242, 0.6);
+    cursor: pointer;
+  }
+
+  .capture-rgpd input[type="checkbox"] {
+    flex-shrink: 0;
+    width: 14px;
+    height: 14px;
+    margin-top: 2px;
+    accent-color: var(--or-tamise, #B17C2E);
+    cursor: pointer;
+  }
+
+  .capture-rgpd a {
+    color: rgba(244, 245, 242, 0.85);
+    text-decoration: underline;
+    text-decoration-color: var(--or-tamise, #B17C2E);
+    text-underline-offset: 2px;
+  }
+
+  .capture-rgpd a:hover { color: var(--or-pale, #D4A04F); }
+
+  @media (max-width: 720px) {
+    .capture-inline { padding: 2rem 1.5rem; margin: 2rem 0; }
+    .capture-grid { grid-template-columns: 1fr; gap: 1.5rem; }
+    .capture-title { font-size: 1.25rem; }
+    .capture-row { grid-template-columns: 1fr; }
+  }
+</style>

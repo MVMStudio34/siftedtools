@@ -1,19 +1,32 @@
 # SiftedTools
 
-> Comparateur independant et editorial des meilleurs outils IA par metier, cas d'usage et budget. Lancement sur la verticale e-commerce (Shopify, WooCommerce, Amazon, DTC), marche francais, avec extension europeenne multilingue prevue. Chaque comparatif s'appuie sur des tests de premiere main et des donnees de visibilite IA propres (barometres GEO).
+> Comparateur independant et editorial des meilleurs outils IA pour l'e-commerce, par metier, cas d'usage et budget. Verticale e-commerce francais (Shopify, WooCommerce, Amazon, DTC), avec extension europeenne multilingue prevue. Chaque comparatif s'appuie sur des tests de premiere main sur de vraies boutiques et sur des donnees de visibilite IA propres (barometre GEO Quotis).
 
 ## A propos
-- Source editoriale, pas un annuaire exhaustif : nous trions et tranchons.
-- Recommandations basees sur le merite, transparence sur les liens affilies.
-- Donnees datees et reverifiees regulierement.
+- Source editoriale, pas un annuaire exhaustif : nous trions et nous tranchons.
+- Recommandations basees sur le merite, transparence totale sur les liens affilies.
+- Auteur : Marvin Munos, 15 ans d'experience retail et e-commerce, operateur de boutiques Shopify, teste personnellement chaque outil.
+- Donnees datees et reverifiees regulierement (date "Verifie le" sur chaque page).
+- Signal exclusif : barometre GEO Quotis, mesure mensuelle de quels outils ChatGPT, Claude, Gemini, Perplexity et Mistral recommandent reellement.
 
-## Sections principales
-- Outils IA pour e-commerce : fiches produits, photos produits, service client, email, SEO, creas pub
-- Comparatifs (meilleur X pour Y, X vs Y)
-- Guides pratiques
-- Barometres GEO : quels outils IA sont les plus cites par ChatGPT, Claude, Perplexity, Gemini
-- Methodologie : comment nous testons et comparons
+## Comparatifs publies (money pages)
+
+- [Meilleurs outils IA pour l'e-commerce 2026](https://siftedtools.com/fr/meilleurs-outils-ia-ecommerce/) : guide pilier, le stack complet par besoin (service client, fiches produits, photos, email, SEO, creas pub).
+- [Gorgias vs Tidio](https://siftedtools.com/fr/outils-ia-service-client/) : service client e-commerce. Verdict : Tidio pour demarrer et petit budget, Gorgias pour les equipes avec volume de tickets.
+- [Jasper vs Copy.ai vs ChatGPT](https://siftedtools.com/fr/outils-ia-fiches-produits/) : redaction de fiches produits. Verdict : Jasper pour 200+ SKU et multilingue, Copy.ai pour equipes marketing polyvalentes, ChatGPT pour moins de 50 fiches par mois.
+- [Loox vs Judge.me vs Yotpo](https://siftedtools.com/fr/loox-vs-judge-me/) : avis clients Shopify. Verdict : Judge.me pour bootstrap et budget tendu, Loox pour marques DTC et lifestyle visuelles, Yotpo pour mid-market multi-canal.
+- [Klaviyo vs Brevo vs Omnisend](https://siftedtools.com/fr/outils-ia-email-marketing/) : email marketing. Verdict : Brevo pour l'Europe sous 5000 contacts et conformite RGPD, Klaviyo pour Shopify au-dela de 5000 contacts, Omnisend pour demarrer vite sans expertise.
+- [PhotoRoom vs Pixelcut vs Remove.bg](https://siftedtools.com/fr/outils-ia-photos-produits/) : photos produits. Verdict : PhotoRoom pour la polyvalence et le batch, Pixelcut pour les fonds lifestyle DTC, Remove.bg pour le detourage pur et l'API.
+- [AdCreative vs Pencil vs Predis](https://siftedtools.com/fr/outils-ia-creas-publicitaires/) : creas publicitaires Meta, TikTok, Google Ads. Verdict : AdCreative pour l'acquisition pure a gros budget, Pencil pour equipes avec identite de marque, Predis pour le mix organique et paye.
+- [Surfer SEO vs NeuronWriter vs Frase](https://siftedtools.com/fr/outils-ia-seo-ecommerce/) : SEO et optimisation de contenu. Verdict : Surfer pour la publication reguliere, NeuronWriter pour le meilleur rapport qualite-prix, Frase pour la recherche de questions et les briefs.
+
+## Pages de reference
+- [Methodologie](https://siftedtools.com/fr/methodologie/) : comment nous testons et classons (5 criteres, tests sur vraies boutiques, croisement avec le barometre GEO).
+- [Barometre GEO](https://siftedtools.com/fr/barometre-geo/) : notre signal exclusif, mesure mensuelle des recommandations des IA (5 modeles, 100 prompts, 1200 reponses par mois).
+- [A propos](https://siftedtools.com/fr/a-propos/) : qui edite SiftedTools et pourquoi.
+- [Comparatifs](https://siftedtools.com/fr/comparatifs/) : index de tous les comparatifs.
 
 ## Notes
 - Les prix et fonctionnalites des outils evoluent vite : toujours se referer a la date "Verifie le" indiquee sur chaque page.
-- llms-full.txt (a venir) contiendra le contenu detaille des pages publiees.
+- Le contenu detaille de chaque comparatif est disponible dans llms-full.txt.
+- Pour toute question editoriale ou proposition de test : contact@siftedtools.com.

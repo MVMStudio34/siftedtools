@@ -1,0 +1,230 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Bienvenue dans le Crible | SiftedTools";
+const description = "Votre inscription au Baromètre GEO mensuel est confirmée. Premier envoi le 1er juillet 2026.";
+---
+
+<BaseLayout title={title} description={description} lang="fr">
+
+  <main class="message-page">
+    <div class="container">
+
+      <div class="icon-wrap">
+        <svg width="44" height="44" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12L10 17L20 7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+
+      <p class="eyebrow">Étape 2/2 · Inscription confirmée</p>
+
+      <h1>Bienvenue dans <em>le Crible</em>.</h1>
+
+      <p class="lede">Vous êtes officiellement inscrit au Baromètre GEO mensuel. À partir de maintenant, chaque mois, vous recevrez les vrais classements : pas les outils qui crient le plus fort, mais ceux que ChatGPT, Gemini et Perplexity recommandent réellement.</p>
+
+      <div class="schedule">
+        <p class="schedule-label">Prochain envoi</p>
+        <p class="schedule-date">1<sup>er</sup> juillet 2026</p>
+      </div>
+
+      <div class="next-content">
+        <h2>En attendant, lisez ce qu'on a déjà publié</h2>
+        <div class="links-grid">
+          <a href="/fr/meilleurs-outils-ia-ecommerce/" class="next-link">
+            <span class="next-link-eyebrow">Pilier</span>
+            <span class="next-link-title">Meilleurs outils IA pour l'e-commerce 2026</span>
+            <span class="next-link-arrow">→</span>
+          </a>
+          <a href="/fr/outils-ia-service-client/" class="next-link">
+            <span class="next-link-eyebrow">Comparatif</span>
+            <span class="next-link-title">Service client : Gorgias vs Tidio</span>
+            <span class="next-link-arrow">→</span>
+          </a>
+        </div>
+      </div>
+
+      <p class="meta-note">Ajoutez <strong>contact@siftedtools.com</strong> à vos contacts pour ne jamais manquer un envoi.</p>
+
+    </div>
+  </main>
+
+</BaseLayout>
+
+<style>
+  .message-page {
+    min-height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1.5rem;
+    background: var(--porcelaine, #F4F5F2);
+  }
+
+  .container {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+  }
+
+  .icon-wrap {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background: var(--or-tamise, #B17C2E);
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 2rem;
+    box-shadow: 0 4px 20px rgba(177, 124, 46, 0.25);
+  }
+
+  .eyebrow {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--or-tamise, #B17C2E);
+    margin-bottom: 1rem;
+  }
+
+  h1 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    color: var(--encre, #16171D);
+    margin-bottom: 1.25rem;
+  }
+
+  h1 em { font-style: italic; color: var(--or-tamise, #B17C2E); }
+
+  .lede {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.05rem;
+    line-height: 1.65;
+    color: var(--gris-tamis, #6B6C73);
+    margin-bottom: 2.5rem;
+  }
+
+  .schedule {
+    background: var(--encre, #16171D);
+    color: var(--porcelaine, #F4F5F2);
+    padding: 1.75rem 2rem;
+    border-radius: 4px;
+    margin-bottom: 3rem;
+    position: relative;
+  }
+
+  .schedule::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 2rem;
+    right: 2rem;
+    height: 2px;
+    background: var(--or-tamise, #B17C2E);
+  }
+
+  .schedule-label {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--or-pale, #D4A04F);
+    margin-bottom: 0.5rem;
+  }
+
+  .schedule-date {
+    font-family: 'Newsreader', serif;
+    font-style: italic;
+    font-size: 2rem;
+    color: var(--porcelaine, #F4F5F2);
+    line-height: 1;
+  }
+
+  .schedule-date sup {
+    font-size: 0.6em;
+    vertical-align: super;
+  }
+
+  .next-content {
+    text-align: left;
+    margin-bottom: 2rem;
+  }
+
+  .next-content h2 {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gris-tamis, #6B6C73);
+    margin-bottom: 1rem;
+    text-align: center;
+    font-weight: 400;
+  }
+
+  .links-grid {
+    display: grid;
+    gap: 0.75rem;
+  }
+
+  .next-link {
+    display: grid;
+    grid-template-columns: 1fr auto;
+    gap: 0.5rem 1rem;
+    align-items: center;
+    background: white;
+    border: 1px solid var(--gris-fin, #C9CAC4);
+    border-radius: 4px;
+    padding: 1.25rem 1.5rem;
+    text-decoration: none;
+    color: var(--encre, #16171D);
+    transition: all 0.15s ease;
+  }
+
+  .next-link:hover {
+    border-color: var(--or-tamise, #B17C2E);
+    transform: translateY(-1px);
+  }
+
+  .next-link-eyebrow {
+    grid-column: 1;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--or-tamise, #B17C2E);
+  }
+
+  .next-link-title {
+    grid-column: 1;
+    grid-row: 2;
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+  }
+
+  .next-link-arrow {
+    grid-column: 2;
+    grid-row: 1 / 3;
+    font-family: 'Newsreader', serif;
+    font-size: 1.5rem;
+    color: var(--or-tamise, #B17C2E);
+  }
+
+  .meta-note {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 0.85rem;
+    color: var(--gris-tamis, #6B6C73);
+    margin-top: 1.5rem;
+  }
+
+  .meta-note strong {
+    color: var(--encre, #16171D);
+    font-weight: 600;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.85rem;
+  }
+</style>

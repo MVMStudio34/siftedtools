@@ -1,0 +1,250 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const title = "Baromètre GEO mensuel | SiftedTools";
+const description = "Chaque mois, on mesure ce que ChatGPT, Gemini et Perplexity recommandent comme outils IA pour l'e-commerce. Données mesurées par Quotis.ai, livrées dans votre boîte mail.";
+---
+
+<BaseLayout title={title} description={description} lang="fr">
+
+  <main class="newsletter-page">
+
+    <div class="container">
+
+      <div class="badge">Le Crible · Newsletter</div>
+
+      <h1>Quels outils IA <em>ChatGPT, Gemini et Perplexity</em> recommandent vraiment ce mois-ci.</h1>
+
+      <p class="lede">Chaque mois, on mesure ce que les IA disent quand on leur demande « quel est le meilleur outil pour... ». Pas d'opinion. Des données.</p>
+
+      <div class="form-card" id="formCard">
+
+        <div class="form-content">
+
+          <form id="newsletterForm" method="POST" action="https://8408209a.sibforms.com/serve/MUIFAAROj0qPfDixIsYDMIBUfmf1sP3x14RK2wiJ06T2kwPnCLSJ0k_2ts6YmbcCJf38OfaJ4aC7FitxINDq0x7GZ5GMANaW9wvN2hF0K-GD6qby5iww44X35gWBn3ZDnOLaEHHf9o6NcegapIB1gXixVgC_df5HlQQEdF1lSIN9Gry7h9pXe984sZk6sDJEkLTmb7WklFPSl_HFdA==" accept-charset="utf-8">
+
+            <label class="form-label" for="email">Votre adresse email</label>
+            <input type="email" id="email" name="EMAIL" placeholder="vous@boutique.com" required autocomplete="email">
+
+            <div class="rgpd">
+              <input type="checkbox" id="rgpd" required>
+              <label for="rgpd">J'accepte de recevoir le Baromètre GEO mensuel. Désinscription en 1 clic. <a href="/fr/confidentialite/">Politique de confidentialité</a>.</label>
+            </div>
+
+            <button type="submit" id="submitBtn">Recevoir le Baromètre</button>
+
+            <p class="meta">Prochain envoi : <strong>1er juillet 2026</strong> · Pas de spam, pas de revente</p>
+
+            <input type="text" name="email_address_check" value="" style="position:absolute;left:-9999px;" tabindex="-1" autocomplete="off">
+            <input type="hidden" name="locale" value="fr">
+            <input type="hidden" name="html_type" value="simple">
+          </form>
+
+          <div class="proof">
+            <div class="proof-item">
+              <span class="num">5</span>
+              <span class="lbl">IA testées</span>
+            </div>
+            <div class="proof-item">
+              <span class="num">100</span>
+              <span class="lbl">Prompts/mois</span>
+            </div>
+            <div class="proof-item">
+              <span class="num">1 200</span>
+              <span class="lbl">Réponses analysées</span>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+
+  </main>
+
+</BaseLayout>
+
+<style>
+  .newsletter-page {
+    min-height: calc(100vh - 200px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 4rem 1.5rem;
+    background: var(--porcelaine, #F4F5F2);
+  }
+
+  .container { max-width: 560px; width: 100%; }
+
+  .badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--or-tamise, #B17C2E);
+    margin-bottom: 1.5rem;
+  }
+
+  .badge::before {
+    content: '';
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: var(--or-tamise, #B17C2E);
+    border-radius: 50%;
+  }
+
+  h1 {
+    font-family: 'Newsreader', Georgia, serif;
+    font-weight: 500;
+    font-size: clamp(2rem, 5vw, 2.75rem);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: 1.25rem;
+    color: var(--encre, #16171D);
+  }
+
+  h1 em { font-style: italic; color: var(--or-tamise, #B17C2E); }
+
+  .lede {
+    font-size: 1.125rem;
+    color: var(--gris-tamis, #6B6C73);
+    margin-bottom: 2.5rem;
+    max-width: 520px;
+  }
+
+  .form-card {
+    background: white;
+    border: 1px solid var(--gris-fin, #C9CAC4);
+    border-radius: 4px;
+    padding: 2rem;
+    position: relative;
+  }
+
+  .form-card::before {
+    content: '';
+    position: absolute;
+    top: -1px;
+    left: 2rem;
+    right: 2rem;
+    height: 2px;
+    background: var(--or-tamise, #B17C2E);
+  }
+
+  .form-label {
+    display: block;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--gris-tamis, #6B6C73);
+    margin-bottom: 0.5rem;
+  }
+
+  input[type="email"] {
+    width: 100%;
+    padding: 0.85rem 1rem;
+    font-family: inherit;
+    font-size: 1rem;
+    background: var(--porcelaine, #F4F5F2);
+    border: 1px solid var(--gris-fin, #C9CAC4);
+    border-radius: 3px;
+    color: var(--encre, #16171D);
+    transition: border-color 0.15s ease;
+  }
+
+  input[type="email"]:focus {
+    outline: none;
+    border-color: var(--or-tamise, #B17C2E);
+    background: white;
+  }
+
+  .rgpd {
+    display: flex;
+    align-items: flex-start;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
+    margin-bottom: 1.5rem;
+    font-size: 0.85rem;
+    color: var(--gris-tamis, #6B6C73);
+    line-height: 1.5;
+  }
+
+  .rgpd input[type="checkbox"] {
+    flex-shrink: 0;
+    width: 18px;
+    height: 18px;
+    margin-top: 2px;
+    accent-color: var(--encre, #16171D);
+    cursor: pointer;
+  }
+
+  .rgpd label { cursor: pointer; }
+  .rgpd a { color: var(--gris-tamis, #6B6C73); }
+
+  button[type="submit"] {
+    width: 100%;
+    padding: 1rem 1.5rem;
+    font-family: inherit;
+    font-size: 0.95rem;
+    font-weight: 600;
+    letter-spacing: 0.02em;
+    background: var(--encre, #16171D);
+    color: var(--porcelaine, #F4F5F2);
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background 0.15s ease, transform 0.05s ease;
+  }
+
+  button[type="submit"]:hover { background: #2A2B33; }
+  button[type="submit"]:active { transform: translateY(1px); }
+
+  .meta {
+    margin-top: 1.5rem;
+    font-family: 'Space Mono', monospace;
+    font-size: 0.75rem;
+    color: var(--gris-tamis, #6B6C73);
+    text-align: center;
+    letter-spacing: 0.02em;
+  }
+
+  .meta strong { color: var(--encre, #16171D); font-weight: 700; }
+
+  .proof {
+    margin-top: 2.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--gris-fin, #C9CAC4);
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 1rem;
+    text-align: center;
+  }
+
+  .proof-item .num {
+    font-family: 'Newsreader', serif;
+    font-size: 1.75rem;
+    font-weight: 500;
+    color: var(--or-tamise, #B17C2E);
+    display: block;
+    margin-bottom: 0.25rem;
+  }
+
+  .proof-item .lbl {
+    font-family: 'Space Mono', monospace;
+    font-size: 0.7rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--gris-tamis, #6B6C73);
+  }
+
+  @media (max-width: 480px) {
+    .form-card { padding: 1.5rem; }
+    .proof { grid-template-columns: 1fr; gap: 1rem; }
+    .proof-item { padding: 0.75rem 0; }
+  }
+</style>

@@ -13,12 +13,12 @@ geoPriorityScore: 89
 schemaTypes: ["Article", "FAQPage"]
 requiredTools: ["gorgias", "tidio"]
 offers:
-  - tool: Tidio
-    label: Essayer Tidio
-    url: https://www.tidio.com/
   - tool: Gorgias
     label: Essayer Gorgias
     url: https://partner.gorgias.com/0lyboc5bc5h7
+  - tool: Tidio
+    label: Essayer Tidio
+    url: https://www.tidio.com/
 faq:
   - q: "Gorgias et Tidio, quelle différence en une phrase ?"
     a: "Tidio est un chat avec IA pensé pour démarrer vite et à petit budget ; Gorgias est un véritable helpdesk e-commerce, conçu pour les équipes qui gèrent un gros volume de tickets sur plusieurs canaux."

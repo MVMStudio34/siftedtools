@@ -5,6 +5,8 @@ import BaseLayout from "../../layouts/BaseLayout.astro";
 import AffiliateDisclosure from "../../components/AffiliateDisclosure.astro";
 import AuthorBio from "../../components/AuthorBio.astro";
 import FAQ from "../../components/FAQ.astro";
+import EmailCaptureInline from "../../components/EmailCaptureInline.astro";
+import RelatedComparisons from "../../components/RelatedComparisons.astro";
 import { organization, webPage, breadcrumb, faqPage, buildGraph } from "../../lib/schema";
 
 const SITE = "https://siftedtools.com";
@@ -21,13 +23,13 @@ export const getStaticPaths: GetStaticPaths = async () => {
     for (const entry of entries) {
       const lang = entry.data.lang;
       const slug = slugOf(entry.id, lang);
-      paths.push({ params: { lang, slug }, props: { entry, lang, slug } });
+      paths.push({ params: { lang, slug }, props: { entry, lang, slug, collection: col } });
     }
   }
   return paths;
 };
 
-const { entry, lang, slug } = Astro.props;
+const { entry, lang, slug, collection } = Astro.props;
 const data = entry.data;
 const pageUrl = `${SITE}/${lang}/${slug}/`;
 const dateStr = new Date(data.updatedAt).toISOString().slice(0, 10);
@@ -43,6 +45,8 @@ const nodes = [
 ];
 if (data.faq?.length) nodes.push(faqPage(data.faq.map((f) => ({ question: f.q, answer: f.a }))));
 const schema = [buildGraph(...nodes)];
+
+const showRelated = collection === "tools";
 ---
 <BaseLayout
   title={`${data.title} | SiftedTools`}
@@ -83,8 +87,14 @@ const schema = [buildGraph(...nodes)];
       <Content />
     </div>
 
+    <div class="email-slot"><EmailCaptureInline /></div>
+
     {data.faq?.length > 0 && (
       <div class="faq-slot"><FAQ items={data.faq} /></div>
+    )}
+
+    {showRelated && (
+      <div class="related-slot"><RelatedComparisons currentSlug={slug} lang={lang} limit={3} /></div>
     )}
 
     <div class="author-slot"><AuthorBio updatedAt={dateStr} /></div>
@@ -102,6 +112,8 @@ const schema = [buildGraph(...nodes)];
   .offers{background:var(--card);border:1px solid var(--mesh);border-radius:var(--radius-lg);padding:20px 22px;margin:26px 0}
   .offers .eyebrow{display:block;margin-bottom:12px}
   .offer-btns{display:flex;gap:10px;flex-wrap:wrap}
+  .email-slot{margin:48px 0}
   .faq-slot{margin-top:48px}
+  .related-slot{margin-top:8px}
   .author-slot{margin:48px 0}
 </style>

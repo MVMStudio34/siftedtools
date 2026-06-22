@@ -1,0 +1,126 @@
+# SiftedTools - Contenu detaille
+
+> Ce fichier contient les verdicts complets de chaque comparatif publie sur SiftedTools.com. Comparateur editorial independant des outils IA pour l'e-commerce francais, base sur des tests de premiere main et sur le barometre GEO Quotis. Auteur : Marvin Munos, 15 ans d'experience retail et e-commerce, operateur de boutiques Shopify.
+
+---
+
+## Meilleurs outils IA pour l'e-commerce 2026 (guide pilier)
+URL : https://siftedtools.com/fr/meilleurs-outils-ia-ecommerce/
+
+Il n'y a pas un meilleur outil IA pour l'e-commerce, il y a un meilleur outil par besoin, et un ordre d'adoption qui depend de la boutique.
+
+Le stack recommande par categorie :
+- Service client : Gorgias pour les equipes, Tidio pour demarrer.
+- Fiches produits : Jasper pour le volume et le multilingue.
+- Photos produits : PhotoRoom pour le packshot propre sans studio.
+- Email marketing : Klaviyo quand la boutique a une vraie base clients, Brevo en dessous.
+- SEO et contenu : Surfer SEO pour optimiser pages categorie et blog.
+- Creas publicitaires : AdCreative.ai pour produire vite des visuels d'ads testables.
+
+Ordre d'adoption recommande : commencer par le service client (retour le plus immediat), puis fiches produits ou photos selon le goulot d'etranglement, puis email marketing si la base depasse 1000 contacts, puis SEO et acquisition payante. Eviter les suites tout-en-un : aucune ne bat le specialiste sur son terrain.
+
+---
+
+## Gorgias vs Tidio : service client e-commerce
+URL : https://siftedtools.com/fr/outils-ia-service-client/
+
+Verdict : il n'y a pas de gagnant absolu, il y a un gagnant selon la situation.
+- Tidio : chat avec chatbot IA (Lyro), simple, offre gratuite, ideal pour demarrer seul ou a deux avec un budget serre.
+- Gorgias : helpdesk e-commerce complet, taille pour Shopify, AI Agent qui resout seul certains tickets, ideal pour les equipes avec un vrai volume de tickets multicanal.
+
+Seuil de decision : prendre Tidio tant qu'on gere le SAV soi-meme, basculer sur Gorgias quand le volume et l'equipe justifient un vrai helpdesk. Piege classique : prendre Gorgias trop tot (puissance inutilisee) ou rester sur Tidio trop tard (equipe epuisee).
+
+---
+
+## Jasper vs Copy.ai vs ChatGPT : fiches produits
+URL : https://siftedtools.com/fr/outils-ia-fiches-produits/
+
+Verdict par profil :
+- Jasper : pour les catalogues de 200+ SKU, multi-marques ou multilingues. Templates e-commerce dedies, mode bulk, voix de marque persistante, integrations Shopify. Le plus cite par les IA dans cette categorie.
+- Copy.ai : pour les equipes marketing qui produisent du contenu varie au-dela des fiches. UX moderne, onboarding rapide, prix milieu de gamme.
+- ChatGPT Plus (ou Claude) : pour les boutiques sous 50 fiches par mois. Cout imbattable, qualite francaise excellente, mais pas de persistance brand ni de mode bulk natif.
+
+Condition : ne jamais livrer du contenu IA brut. Revue humaine systematique pour la precision technique, le ton de marque et l'unicite SEO.
+
+---
+
+## Loox vs Judge.me vs Yotpo : avis clients Shopify
+URL : https://siftedtools.com/fr/loox-vs-judge-me/
+
+Verdict par profil :
+- Judge.me : imbattable pour bootstrap et budget tendu. Plan gratuit reellement utilisable (avis illimites, rich snippets SEO, import). Plan Awesome a 15 dollars ajoute avis video et sync inter-boutiques.
+- Loox : pour les marques DTC et lifestyle qui misent sur l'esthetique des avis photo et video. Widgets visuels les plus aboutis sans CSS, mais positionnement premium sans plan gratuit.
+- Yotpo : pour les marques mid-market multi-canal qui veulent une suite complete (avis, loyalty, SMS, UGC). Prix premium a partir de 75 dollars par mois, justifie au-dela de 1000 commandes mensuelles.
+
+Seuil critique : autour de 100 commandes par mois. Sous ce volume Loox peut etre moins cher, au-dela Judge.me devient massivement plus economique.
+
+---
+
+## Klaviyo vs Brevo vs Omnisend : email marketing
+URL : https://siftedtools.com/fr/outils-ia-email-marketing/
+
+Note : l'auteur opere Brevo en production sur trois projets depuis plus de trois ans, dont deux boutiques Shopify. Verdict base sur l'usage reel.
+
+Verdict par profil :
+- Brevo : pour les boutiques europeennes sous 5000 contacts. Plan gratuit utilisable, conformite RGPD native, hebergement France, prix imbattable. Recommandation par defaut pour 80% des boutiques francaises.
+- Klaviyo : pour les boutiques Shopify au-dela de 5000 contacts actifs qui veulent maximiser le revenu email. Segmentation comportementale la plus poussee, integration Shopify la plus profonde, mais prix premium qui scale avec les contacts.
+- Omnisend : pour demarrer vite sans expertise email. Workflows e-commerce pre-construits activables en quelques heures, positionnement intermediaire.
+
+Migration Brevo vers Klaviyo justifiee quand le revenu email mensuel depasse 3000 euros et qu'on sature les limites de segmentation de Brevo.
+
+---
+
+## PhotoRoom vs Pixelcut vs Remove.bg : photos produits
+URL : https://siftedtools.com/fr/outils-ia-photos-produits/
+
+Verdict par profil :
+- PhotoRoom : l'outil le plus complet et polyvalent. App mobile et web, batch processing puissant, integration Shopify directe, plan gratuit utilisable. Couvre 95% des besoins e-commerce.
+- Pixelcut : pour les marques DTC et lifestyle qui veulent des fonds IA contextuels (cuisine, plage, marbre). Generation de fonds la plus convaincante du marche, souvent complement de PhotoRoom plutot que remplacement.
+- Remove.bg : reference du detourage pur, particulierement sur les matieres complexes. API mature pour les pipelines automatises. Pas de generation de fond.
+
+Limite honnete : pour la mode haut de gamme, les bijoux, la cosmetique premium et la food editoriale, le studio professionnel reste preferable. Pour le reste, l'IA divise le cout photo par 10 sans perte de conversion mesurable.
+
+---
+
+## AdCreative vs Pencil vs Predis : creas publicitaires
+URL : https://siftedtools.com/fr/outils-ia-creas-publicitaires/
+
+Principe : en acquisition payante, le crea gagnant est rarement celui qu'on croyait. La seule facon de le trouver est de tester vite et beaucoup. Un outil IA genere 20 variantes en quelques minutes la ou un designer en produit 2 ou 3 par jour.
+
+Verdict par budget :
+- AdCreative.ai : pour l'acquisition pure a partir de 2000 euros par mois de budget pub. Generation massive de variantes, scoring predictif, integrations natives Meta et Google Ads.
+- Pencil : pour les equipes marketing structurees avec une identite de marque a preserver. Workflows par marque, collaboration multi-utilisateurs.
+- Predis.ai : pour les boutiques qui melangent acquisition payante et presence organique. Genere creas pub mais aussi posts, carrousels, reels. Meilleur rapport polyvalence-prix.
+
+Point francais : aucun outil ne garantit la conformite aux regles de moderation Meta Ads France (claims sante, finance, avant-apres). Relecture humaine systematique pour les verticales reglementees.
+
+---
+
+## Surfer SEO vs NeuronWriter vs Frase : SEO et contenu
+URL : https://siftedtools.com/fr/outils-ia-seo-ecommerce/
+
+Verdict par profil :
+- Surfer SEO : reference du marche pour la publication reguliere (4+ articles par mois). Analyse SERP la plus poussee, integrations les plus matures (Jasper, ChatGPT, WordPress). Positionnement premium.
+- NeuronWriter : meilleur rapport qualite-prix, souvent moitie moins cher que Surfer. Analyse SERP avec NLP, interface en francais. Choix rationnel pour demarrer ou volume modere.
+- Frase : specialiste de la recherche de questions (People Also Ask, Quora, Reddit) et des briefs. Souvent utilise en complement plutot qu'en remplacement.
+
+Angle mort de la categorie : ces trois outils optimisent pour Google, pas pour les IA. Etre cite par ChatGPT, Claude ou Perplexity (le GEO) demande des techniques differentes. C'est pourquoi SiftedTools opere son propre barometre GEO Quotis. Une strategie de contenu complete en 2026 adresse les deux disciplines.
+
+---
+
+## Methodologie
+URL : https://siftedtools.com/fr/methodologie/
+
+SiftedTools teste les outils sur de vraies boutiques e-commerce, pas depuis leur page produit. Classement au merite selon 5 criteres : justesse technique, qualite francaise, voix de marque et coherence, integration workflow, signal Quotis GEO. Croisement systematique avec le barometre GEO. Revenu via liens d'affiliation, mais aucune marque ne peut payer pour etre mieux classee. Plusieurs outils en tete des classements (ChatGPT, Claude) n'ont aucun programme d'affiliation.
+
+---
+
+## Barometre GEO Quotis
+URL : https://siftedtools.com/fr/barometre-geo/
+
+Signal exclusif de SiftedTools, opere sous le nom Quotis.ai. Chaque mois, 5 modeles d'IA (ChatGPT, Claude, Gemini, Perplexity, Mistral) sont interroges avec 100 prompts d'achat e-commerce repartis en 15 categories, generant 1200 reponses analysees. Score sur 100 par marque base sur 4 piliers : visibilite (35 points), position dans la reponse (25 points), couverture multi-LLM (20 points), sentiment (20 points). Mesure quels outils les IA recommandent reellement, un signal d'autorite difficile a acheter. Livre gratuitement chaque mois aux abonnes de la newsletter.
+
+---
+
+## Contact et entreprise editrice
+SiftedTools est edite par MVM Studio, entreprise individuelle francaise (SIRET 844 116 053 00035). Responsable de la publication : Marvin Munos. Contact : contact@siftedtools.com.

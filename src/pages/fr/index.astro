@@ -1,13 +1,13 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import MethodologyBox from "../../components/MethodologyBox.astro";
-import EmailCapture from "../../components/EmailCapture.astro";
+import EmailCaptureInline from "../../components/EmailCaptureInline.astro";
 import AuthorBio from "../../components/AuthorBio.astro";
 import { organization, webPage, buildGraph } from "../../lib/schema";
 
 const site = "https://siftedtools.com";
 const url = `${site}/fr/`;
-const updated = "2026-06-21";
+const updated = "2026-06-22";
 
 // JSON-LD : organisation + page d'accueil
 const schema = [
@@ -24,20 +24,21 @@ const schema = [
   ),
 ];
 
-// 3 verdicts mis en avant -> chacun cliquable vers son comparatif (correctif conversion #2)
+// 3 verdicts mis en avant -> chacun cliquable vers son comparatif (toutes pages existent)
 const picks = [
   { cat: "Service client", tool: "Gorgias", line: "Pour les boutiques qui scalent leur SAV sans grossir l'équipe.", href: "/fr/outils-ia-service-client/" },
   { cat: "Fiches produits", tool: "Jasper", line: "Rédaction en masse et multilingue, pensée pour les gros catalogues.", href: "/fr/outils-ia-fiches-produits/" },
-  { cat: "Photos produits", tool: "PhotoRoom", line: "Visuels packshot propres sans studio ni photographe.", href: "/fr/outils-ia-photos-produits/" },
+  { cat: "Avis Shopify", tool: "Loox", line: "L'app d'avis visuels la plus aboutie pour les marques DTC et lifestyle.", href: "/fr/loox-vs-judge-me/" },
 ];
 
+// Categories : `live` indique si la page existe deja
 const categories = [
-  { t: "Service client", d: "Chatbots et helpdesk IA", href: "/fr/outils-ia-service-client/" },
-  { t: "Fiches produits", d: "Rédaction à grande échelle", href: "/fr/outils-ia-fiches-produits/" },
-  { t: "Photos produits", d: "Retouche et packshots IA", href: "/fr/outils-ia-photos-produits/" },
-  { t: "Email marketing", d: "Séquences et segmentation", href: "/fr/outils-ia-email-marketing/" },
-  { t: "SEO & contenu", d: "Articles et pages optimisées", href: "/fr/outils-ia-seo-ecommerce/" },
-  { t: "Créas publicitaires", d: "Visuels et accroches d'ads", href: "/fr/outils-ia-creas-publicitaires/" },
+  { t: "Service client", d: "Chatbots et helpdesk IA", href: "/fr/outils-ia-service-client/", live: true },
+  { t: "Fiches produits", d: "Rédaction à grande échelle", href: "/fr/outils-ia-fiches-produits/", live: true },
+  { t: "Avis Shopify", d: "Loox vs Judge.me vs Yotpo", href: "/fr/loox-vs-judge-me/", live: true },
+  { t: "Email marketing", d: "Séquences et segmentation", href: "/fr/comparatifs/", live: false },
+  { t: "SEO & contenu", d: "Articles et pages optimisées", href: "/fr/comparatifs/", live: false },
+  { t: "Créas publicitaires", d: "Visuels et accroches d'ads", href: "/fr/comparatifs/", live: false },
 ];
 ---
 <BaseLayout
@@ -58,7 +59,7 @@ const categories = [
         vraies boutiques, on en garde une poignée, et on te dit lequel choisir selon ton besoin.
       </p>
       <div class="hero-cta">
-        <a class="btn btn-quiz" href="/fr/trouver-mon-stack/">Trouver mon stack (1 min)</a>
+        <a class="btn btn-quiz" href="/fr/barometre-geo/">Voir le Baromètre GEO</a>
         <a class="btn btn-ghost" href="/fr/comparatifs/">Parcourir les comparatifs</a>
       </div>
     </div>
@@ -95,10 +96,10 @@ const categories = [
       </div>
       <div class="cat-grid">
         {categories.map((c) => (
-          <a class="cat" href={c.href}>
+          <a class={`cat ${c.live ? '' : 'cat-soon'}`} href={c.href}>
             <h3 class="ui">{c.t}</h3>
             <p>{c.d}</p>
-            <span class="cat-link ui">Voir le comparatif →</span>
+            <span class="cat-link ui">{c.live ? 'Voir le comparatif →' : 'En préparation · Bientôt'}</span>
           </a>
         ))}
       </div>
@@ -135,7 +136,7 @@ const categories = [
 
   <!-- CAPTURE EMAIL -->
   <section class="email-section">
-    <div class="wrap"><EmailCapture /></div>
+    <div class="wrap"><EmailCaptureInline /></div>
   </section>
 
   <!-- AUTEUR (E-E-A-T) -->
@@ -171,6 +172,8 @@ const categories = [
   .cat h3{font-size:19px;margin-bottom:6px}
   .cat p{font-size:14.5px;color:var(--slate);margin-bottom:16px}
   .cat-link{font-size:14px;color:var(--gold);font-weight:600}
+  .cat-soon{opacity:.7}
+  .cat-soon .cat-link{color:var(--slate)}
 
   /* BAROMETRE */
   .baro{background:var(--ink)}
