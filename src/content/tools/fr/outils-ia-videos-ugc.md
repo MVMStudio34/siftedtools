@@ -18,7 +18,7 @@ alternates:
 offers:
   - tool: Arcads
     label: Tester Arcads
-    url: https://www.arcads.ai/
+    url: https://arcads.ai/?via=marvin
   - tool: Creatify
     label: Découvrir Creatify
     url: https://creatify.ai/

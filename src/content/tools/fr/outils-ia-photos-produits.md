@@ -21,7 +21,7 @@ offers:
     url: https://www.photoroom.com/
   - tool: Pixelcut
     label: Découvrir Pixelcut
-    url: https://www.pixelcut.ai/
+    url: https://getpixa.link/marvin-munos
   - tool: Remove.bg
     label: Tester Remove.bg
     url: https://www.remove.bg/

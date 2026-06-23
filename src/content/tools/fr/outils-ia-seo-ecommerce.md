@@ -21,7 +21,7 @@ offers:
     url: https://surferseo.com/
   - tool: NeuronWriter
     label: Découvrir NeuronWriter
-    url: https://neuronwriter.com/
+    url: https://app.neuronwriter.com/ar/7672ed007cbbfc6f9c619f1e7b362970
   - tool: Frase
     label: Tester Frase
     url: https://www.frase.io/

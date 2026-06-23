@@ -24,7 +24,7 @@ offers:
     url: https://www.klaviyo.com/
   - tool: Omnisend
     label: Découvrir Omnisend
-    url: https://www.omnisend.com/
+    url: https://your.omnisend.com/c/7429317/1793390/21260
   - tool: GetResponse
     label: Tester GetResponse
     url: https://www.getresponse.com/
