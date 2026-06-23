@@ -47,6 +47,15 @@ const tools = defineCollection({
   loader: glob({ pattern: "**/[^_]*.{md,mdx}", base: "./src/content/tools" }),
   schema: baseSchema.extend({
     pageType: z.enum(["pillar", "best-for", "vs", "review"]).default("best-for"),
+    // Outils comparés -> schema SoftwareApplication (GEO). website = site officiel, pas le lien affilié.
+    apps: z.array(z.object({
+      name: z.string(),
+      website: z.string(),
+      description: z.string().optional(),
+      pricingFrom: z.string().optional(),   // uniquement si vérifié
+      rating: z.number().optional(),        // UNIQUEMENT si note réelle et sourcée
+      ratingCount: z.number().optional(),
+    })).default([]),
   }),
 });
 

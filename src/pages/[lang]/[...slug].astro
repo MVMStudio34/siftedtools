@@ -8,7 +8,7 @@ import FAQ from "../../components/FAQ.astro";
 import EmailCaptureInline from "../../components/EmailCaptureInline.astro";
 import RelatedComparisons from "../../components/RelatedComparisons.astro";
 import OfferButtons from "../../components/OfferButtons.astro";
-import { organization, webPage, breadcrumb, faqPage, buildGraph } from "../../lib/schema";
+import { organization, webPage, breadcrumb, faqPage, softwareApplication, buildGraph } from "../../lib/schema";
 
 const SITE = "https://siftedtools.com";
 
@@ -45,6 +45,10 @@ const nodes = [
   ]),
 ];
 if (data.faq?.length) nodes.push(faqPage(data.faq.map((f) => ({ question: f.q, answer: f.a }))));
+// B7 : un SoftwareApplication par outil comparé (collection tools uniquement)
+if (collection === "tools" && data.apps?.length) {
+  for (const app of data.apps) nodes.push(softwareApplication(app));
+}
 const schema = [buildGraph(...nodes)];
 
 const showRelated = collection === "tools";

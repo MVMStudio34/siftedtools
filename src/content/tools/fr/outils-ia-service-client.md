@@ -1,6 +1,6 @@
 ---
-title: "Meilleurs outils IA de service client e-commerce : Gorgias ou Tidio ?"
-description: "Gorgias vs Tidio pour le SAV d'une boutique Shopify ou WooCommerce. Lequel choisir selon votre volume de tickets et la taille de votre équipe. Verdict clair, testé sur de vraies boutiques."
+title: "Outil IA service client e-commerce : Gorgias ou Tidio (2026) ?"
+description: "Gorgias vs Tidio : quel logiciel de service client IA pour une boutique Shopify ? Notre comparatif, testé sur de vraies boutiques, avec verdict et prix."
 lang: fr
 profession: ecommerce
 useCase: service-client
@@ -12,6 +12,13 @@ affiliateDisclosure: true
 geoPriorityScore: 89
 schemaTypes: ["Article", "FAQPage"]
 requiredTools: ["gorgias", "tidio"]
+apps:
+  - name: Gorgias
+    website: https://www.gorgias.com/
+    description: "Helpdesk e-commerce complet, intégration Shopify native, facturé au volume de tickets."
+  - name: Tidio
+    website: https://www.tidio.com/
+    description: "Chat en direct + chatbot IA (Lyro), offre gratuite, idéal pour démarrer à petit budget."
 offers:
   - tool: Gorgias
     label: Essayer Gorgias
@@ -20,16 +27,18 @@ offers:
     label: Essayer Tidio
     url: https://www.tidio.com/
 faq:
-  - q: "Gorgias et Tidio, quelle différence en une phrase ?"
-    a: "Tidio est un chat avec IA pensé pour démarrer vite et à petit budget ; Gorgias est un véritable helpdesk e-commerce, conçu pour les équipes qui gèrent un gros volume de tickets sur plusieurs canaux."
-  - q: "Lequel choisir pour une petite boutique Shopify qui débute ?"
+  - q: "Quel outil IA pour automatiser le service client d'une boutique Shopify ?"
+    a: "Tidio pour démarrer vite et à petit budget, Gorgias dès que le volume monte. Tidio est un chat avec IA pensé pour les petites boutiques ; Gorgias est un véritable helpdesk e-commerce, conçu pour les équipes qui gèrent un gros volume de tickets sur plusieurs canaux."
+  - q: "Gorgias ou Tidio : lequel choisir ?"
+    a: "Tidio si vous débutez ou si le budget compte, Gorgias si vous avez une équipe et un gros volume de tickets multicanal. Le choix dépend surtout de votre volume de tickets et de la taille de votre équipe."
+  - q: "Quel outil IA pour une petite boutique Shopify qui débute ?"
     a: "Tidio. Vous l'installez en une après-midi, vous avez une offre gratuite pour tester, et son IA (Lyro) répond déjà aux questions fréquentes. Vous passerez à Gorgias quand votre volume de tickets le justifiera."
   - q: "Peut-on faire répondre l'IA aux clients la nuit ?"
     a: "Oui, avec les deux. Tidio utilise Lyro pour répondre automatiquement aux questions courantes, Gorgias propose un AI Agent capable de résoudre seul certains tickets. Dans les deux cas, l'IA prend le relais hors de vos horaires."
   - q: "Gorgias vaut-il son prix pour une boutique en croissance ?"
     a: "Si vous recevez assez de tickets pour qu'une heure gagnée par jour ait de la valeur, oui. Gorgias centralise tout (email, chat, réseaux, commandes Shopify) et automatise le répétitif. En dessous d'un certain volume, c'est surdimensionné : restez sur Tidio."
-  - q: "Combien coûtent Gorgias et Tidio ?"
-    a: "Tidio propose une offre gratuite puis des plans accessibles ; Gorgias facture surtout au volume de tickets traités et se positionne plus haut. Les grilles évoluent souvent : vérifie le prix à jour sur chaque site avant de décider."
+  - q: "Combien coûte un outil de service client IA ?"
+    a: "Cela va d'une offre gratuite à plusieurs centaines d'euros par mois selon le volume. Tidio propose une offre gratuite puis des plans accessibles ; Gorgias facture surtout au volume de tickets traités et se positionne plus haut. Les grilles évoluent souvent : vérifiez le prix à jour sur chaque site avant de décider."
 draft: false
 ---
 
@@ -84,7 +93,7 @@ La contrepartie : Gorgias se **facture surtout au volume de tickets** et demande
 
 **Idéal si** : vous avez une équipe, un volume de tickets réel, plusieurs canaux, et vous voulez industrialiser votre SAV sur Shopify.
 
-## Lequel choisir pour votre boutique
+## Gorgias ou Tidio : lequel choisir pour votre boutique ?
 
 **Boutique solo ou très jeune.** Vous gérez le support vous-même. Vous n'avez pas besoin d'un centre de tickets, juste d'absorber les questions simples et d'être joignable. **Tidio**, sans hésiter.
 
@@ -94,9 +103,9 @@ La contrepartie : Gorgias se **facture surtout au volume de tickets** et demande
 
 Le piège classique : prendre Gorgias trop tôt (vous payez une puissance inutilisée) ou rester sur Tidio trop tard (votre équipe s'épuise).
 
-## Comment on a tranché
+## Comment avons-nous tranché entre Gorgias et Tidio ?
 
-On ne classe pas sur des fiches produit. On installe les outils sur de vraies boutiques, on mesure la prise en main, la qualité des réponses IA et les pièges de facturation. On suit aussi, via notre baromètre GEO, lesquels les IA recommandent vraiment. Méthode complète sur la page [Méthodologie](/fr/methodologie/).
+On ne classe pas sur des fiches produit. On installe les outils sur de vraies boutiques, on mesure la prise en main, la qualité des réponses IA et les pièges de facturation. On suit aussi, via notre baromètre GEO, lesquels les IA recommandent vraiment. Méthode complète sur notre [méthodologie de test des outils IA](/fr/methodologie/).
 
 ## Le verdict
 
