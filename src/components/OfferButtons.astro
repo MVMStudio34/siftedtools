@@ -1,0 +1,35 @@
+---
+// Boutons d'offres affiliées avec hiérarchie visuelle (A2).
+// 1er bouton = CTA principal (fond doré), suivants = secondaires (outline doré).
+interface Offer { tool: string; label: string; url: string; note?: string; }
+interface Props { offers?: Offer[]; eyebrow?: string; }
+const { offers = [], eyebrow = "Tester directement" } = Astro.props;
+---
+<div class="offers">
+  <span class="eyebrow">{eyebrow}</span>
+  <div class="offer-btns">
+    {offers.map((o, i) => (
+      <a
+        class={`btn ${i === 0 ? "btn-offer-primary" : "btn-offer-secondary"}`}
+        href={o.url}
+        rel="sponsored nofollow noopener"
+        target="_blank"
+      >
+        {o.label} <span aria-hidden="true">↗</span>
+      </a>
+    ))}
+  </div>
+  <p class="offers-reassurance note">Voir l'offre sur le site officiel · lien partenaire</p>
+</div>
+
+<style>
+  .offers{background:var(--card);border:1px solid var(--mesh);border-radius:var(--radius-lg);padding:20px 22px;margin:26px 0}
+  .offers .eyebrow{display:block;margin-bottom:12px}
+  .offer-btns{display:flex;gap:10px;flex-wrap:wrap}
+  /* A2 — hiérarchie des CTA */
+  .btn-offer-primary{background:#B17C2E;border:1.4px solid #B17C2E;color:#16171D}
+  .btn-offer-primary:hover{background:#9c6c26;border-color:#9c6c26}
+  .btn-offer-secondary{background:transparent;border:1.4px solid #B17C2E;color:#16171D}
+  .btn-offer-secondary:hover{background:rgba(177,124,46,0.08)}
+  .offers-reassurance{margin-top:12px;margin-bottom:0;font-size:12px;color:var(--slate)}
+</style>

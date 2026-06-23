@@ -35,11 +35,11 @@ export const ui = {
     "email.heading": "Le bon outil, au bon moment",
     "email.sub":
       "Une fois par mois : les outils qui valent vraiment le coup pour une boutique, et ceux qu'on a écartés. Sans blabla.",
-    "email.placeholder": "ton@email.com",
+    "email.placeholder": "vous@email.com",
     "email.button": "Je m'abonne",
     "email.note": "Désinscription en un clic. Pas de spam.",
     "disclosure.short":
-      "Certains liens sont affiliés : si tu souscris, on peut toucher une commission, sans surcoût pour toi. Ça ne change pas nos classements, établis au mérite.",
+      "Certains liens sont affiliés : si vous souscrivez, on peut toucher une commission, sans surcoût pour vous. Ça ne change pas nos classements, établis au mérite.",
     "footer.method": "Méthodologie",
     "footer.about": "À propos",
     "footer.legal": "Mentions légales",

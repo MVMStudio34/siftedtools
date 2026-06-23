@@ -7,6 +7,7 @@ import AuthorBio from "../../components/AuthorBio.astro";
 import FAQ from "../../components/FAQ.astro";
 import EmailCaptureInline from "../../components/EmailCaptureInline.astro";
 import RelatedComparisons from "../../components/RelatedComparisons.astro";
+import OfferButtons from "../../components/OfferButtons.astro";
 import { organization, webPage, breadcrumb, faqPage, buildGraph } from "../../lib/schema";
 
 const SITE = "https://siftedtools.com";
@@ -71,16 +72,7 @@ const showRelated = collection === "tools";
     <div class="disclosure-slot"><AffiliateDisclosure compact={true} /></div>
 
     {data.offers?.length > 0 && (
-      <div class="offers">
-        <span class="eyebrow">Tester directement</span>
-        <div class="offer-btns">
-          {data.offers.map((o) => (
-            <a class="btn btn-primary" href={o.url} rel="sponsored nofollow noopener" target="_blank">
-              {o.label} <span aria-hidden="true">↗</span>
-            </a>
-          ))}
-        </div>
-      </div>
+      <OfferButtons offers={data.offers} eyebrow="Tester directement" />
     )}
 
     <div class="prose">
@@ -91,6 +83,13 @@ const showRelated = collection === "tools";
 
     {data.faq?.length > 0 && (
       <div class="faq-slot"><FAQ items={data.faq} /></div>
+    )}
+
+    {collection === "tools" && data.offers?.length > 0 && (
+      <div class="cta-repeat">
+        <h2 class="ui">Prêt à choisir ?</h2>
+        <OfferButtons offers={data.offers} eyebrow="Notre sélection testée" />
+      </div>
     )}
 
     {showRelated && (
@@ -109,9 +108,8 @@ const showRelated = collection === "tools";
   .art-head h1{font-size:clamp(30px,5vw,44px);line-height:1.08}
   .art-head .meta{margin-top:14px}
   .disclosure-slot{margin:26px 0}
-  .offers{background:var(--card);border:1px solid var(--mesh);border-radius:var(--radius-lg);padding:20px 22px;margin:26px 0}
-  .offers .eyebrow{display:block;margin-bottom:12px}
-  .offer-btns{display:flex;gap:10px;flex-wrap:wrap}
+  .cta-repeat{margin-top:48px}
+  .cta-repeat h2{font-size:clamp(22px,3vw,28px);margin-bottom:4px}
   .email-slot{margin:48px 0}
   .faq-slot{margin-top:48px}
   .related-slot{margin-top:8px}
