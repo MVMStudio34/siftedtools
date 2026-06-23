@@ -18,7 +18,7 @@ alternates:
 offers:
   - tool: Otterly
     label: Tester Otterly
-    url: https://otterly.ai/
+    url: https://otterlyai-gmbh.getrewardful.com/signup
   - tool: Peec AI
     label: Découvrir Peec AI
     url: https://peec.ai/
@@ -57,7 +57,7 @@ Le reste de cette page détaille le pourquoi, pour que vous choisissiez en conna
 |---|---|---|---|
 | **Prix de départ** | ~25-29 $/mois | ~89 €/mois | ~82-99 $/mois (selon plan) |
 | **Essai gratuit** | Oui (14 jours) | Oui | Démo, pas d'essai libre |
-| **Cible** | Freelances, petites équipes | Équipes, agences mid-market | Enterprise |
+| **Cible** | PME aux grands comptes | Équipes, agences mid-market | Enterprise |
 | **Moteurs suivis (base)** | ChatGPT, Perplexity, AIO, Copilot | ChatGPT, Perplexity, AIO | ChatGPT (multi en plan supérieur) |
 | **Mentions ET citations** | Oui | Oui (distinction nette) | Oui (détail par réponse) |
 | **Analyse de sentiment** | Oui | Oui | Oui |
@@ -82,9 +82,9 @@ Otterly est l'outil que je recommande pour démarrer dans le suivi de visibilit�
 
 **Ce qu'il fait très bien.** Le prix est son atout majeur : à partir de 25 à 29 dollars par mois avec un essai gratuit, c'est le seul outil de la catégorie réellement accessible à un freelance ou une petite boutique. Il suit automatiquement vos mentions et citations sur les plateformes majeures (ChatGPT, Perplexity, Google AI Overviews et AI Mode, Copilot). Une fonction maligne transforme vos mots-clés SEO existants en prompts IA conversationnels, ce qui facilite le démarrage. L'audit GEO aide à comprendre comment optimiser votre contenu pour être mieux cité. La prise en main est rapide : des données exploitables en 48 heures contre deux semaines pour des outils plus lourds. Otterly a été reconnu Cool Vendor par Gartner en 2025.
 
-**Ce qui pèche.** Otterly suit moins de moteurs que certains concurrents (pas de Meta AI ni de Grok ni de DeepSeek dans certains plans), même si ChatGPT et Perplexity dominent l'usage réel. Le tableau de bord peut devenir encombré quand vous suivez beaucoup de prompts ou de projets. L'analyse de sentiment n'est pas toujours parfaitement exacte. Les options d'intégration restent plus limitées que chez Profound ou Peec, même si un connecteur Looker Studio existe. Et comme tous, Otterly ne fournit pas d'estimation directe du trafic généré par les IA.
+**Ce qui pèche.** Otterly suit moins de moteurs que certains concurrents (pas de Meta AI ni de Grok ni de DeepSeek dans certains plans), même si ChatGPT et Perplexity dominent l'usage réel. Le tableau de bord peut devenir encombré quand vous suivez beaucoup de prompts ou de projets. L'analyse de sentiment n'est pas toujours parfaitement exacte. Les options d'intégration restent plus limitées que chez Profound ou Peec, même si un connecteur Looker Studio existe.
 
-**Pour qui ?** Freelances et solos qui découvrent la visibilité IA. Petites boutiques e-commerce qui veulent vérifier si elles apparaissent dans les recommandations. Agences qui gèrent plusieurs petits clients et veulent un outil simple. Équipes avec un budget GEO limité qui veulent l'essentiel sans payer le prix enterprise.
+**Pour qui ?** Accessible à partir de 25 à 29 dollars par mois, Otterly est le point d'entrée le plus abordable pour les freelances et petites boutiques e-commerce qui débutent dans le suivi de visibilité IA. Mais l'outil ne s'y limite pas : il est aussi utilisé par de grands comptes internationaux, déployés sur une cinquantaine de marchés avec plus de 200 utilisateurs (assureurs mondiaux, par exemple). Bref, un tarif d'entrée bas qui tient pourtant à l'échelle des grandes organisations.
 
 ## Peec AI, le verdict détaillé
 

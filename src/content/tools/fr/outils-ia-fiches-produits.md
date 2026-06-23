@@ -27,7 +27,7 @@ offers:
     url: https://www.hypotenuse.ai/
   - tool: Writesonic
     label: Découvrir Writesonic
-    url: https://writesonic.com/
+    url: https://writesonic.com?fp_ref=marvin66
   - tool: Rytr
     label: Essayer Rytr
     url: https://rytr.me/
