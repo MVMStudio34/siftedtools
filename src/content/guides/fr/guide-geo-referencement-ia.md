@@ -1,6 +1,6 @@
 ---
-title: "Qu'est-ce que le GEO ? Le guide complet du référencement sur ChatGPT, Claude et Perplexity (2026)"
-description: "Le GEO (Generative Engine Optimization) consiste à être cité par les IA comme ChatGPT, Claude et Perplexity. Guide complet pour comprendre, appliquer et mesurer le GEO en e-commerce."
+title: "GEO : guide du référencement sur les IA en 2026"
+description: "Le GEO (Generative Engine Optimization) sert à être cité par ChatGPT et les autres IA. Apprenez à optimiser votre contenu pour les moteurs de réponse IA et à mesurer votre visibilité."
 lang: fr
 profession: ecommerce
 useCase: geo-referencement-ia
@@ -19,13 +19,13 @@ faq:
     a: "Le GEO, ou Generative Engine Optimization, est l'ensemble des techniques visant à faire citer votre marque, vos produits ou votre contenu par les intelligences artificielles génératives comme ChatGPT, Claude, Gemini et Perplexity. C'est l'équivalent du SEO, mais pour les réponses des IA plutôt que pour les résultats de recherche Google. Quand un utilisateur demande à une IA quel outil ou quelle marque choisir, le GEO détermine si vous apparaissez dans la réponse."
   - q: "Quelle est la différence entre le SEO et le GEO ?"
     a: "Le SEO (Search Engine Optimization) optimise votre site pour apparaître dans les résultats de Google. Le GEO (Generative Engine Optimization) optimise votre contenu pour être cité dans les réponses des IA génératives. Les deux partagent des fondations communes (contenu de qualité, autorité, structure claire), mais le GEO ajoute des exigences spécifiques : réponses directes et extractibles, structure FAQ, mention de sources, données fraîches et signaux d'expertise. Le GEO ne remplace pas le SEO, il le complète."
-  - q: "Comment être cité par ChatGPT ou Perplexity ?"
+  - q: "Comment être cité par ChatGPT et les autres IA ?"
     a: "Pour être cité par une IA, votre contenu doit être facilement extractible (réponse claire dès le début de la page), répondre directement à la question posée, montrer des signaux d'autorité (auteur identifié, expertise, données originales), et être accessible aux robots des IA (ne pas bloquer GPTBot, ClaudeBot, PerplexityBot dans votre robots.txt). Les IA privilégient aussi les pages qui rankent déjà bien sur Google, donc un bon SEO renforce votre GEO."
   - q: "Le GEO est-il utile pour une boutique e-commerce ?"
     a: "Oui, de plus en plus. Quand un acheteur demande à ChatGPT quelle marque de complément alimentaire ou quelle boutique de mode choisir, la réponse de l'IA oriente sa décision d'achat. Si vos concurrents sont cités et pas vous, vous perdez des ventes sans le savoir. Le GEO permet de mesurer et d'améliorer votre présence dans ces recommandations, un canal d'acquisition encore peu exploité en 2026."
   - q: "Comment mesurer sa visibilité dans les réponses des IA ?"
     a: "Vous pouvez interroger manuellement ChatGPT, Claude et Perplexity avec les questions que posent vos clients et noter si votre marque apparaît. Pour un suivi sérieux, des outils dédiés automatisent cette mesure sur plusieurs moteurs et dizaines de prompts. C'est exactement ce que mesure notre baromètre GEO Quotis, qui interroge mensuellement cinq modèles d'IA pour suivre quelles marques et outils sont recommandés en e-commerce."
-  - q: "Le GEO va-t-il remplacer le SEO ?"
+  - q: "Le GEO remplace-t-il le SEO ?"
     a: "Non, les deux coexistent. Google reste le canal de recherche dominant en 2026, notamment sur les requêtes longues, locales et transactionnelles. Mais une part croissante des recherches d'achat et de comparaison se déplace vers les IA. Une stratégie de contenu complète adresse les deux disciplines en parallèle, avec des techniques adaptées à chacune."
 draft: false
 ---
@@ -60,7 +60,7 @@ Ce qu'ils ont en commun : un contenu de qualité, une autorité réelle (qui vou
 
 Ce qui les distingue : le GEO valorise davantage la réponse directe et extractible (l'IA doit pouvoir prélever une phrase qui répond à la question), la structure en questions-réponses, la mention explicite de sources et de données, et la présence dans des contenus que les IA consultent au moment de répondre. Là où le SEO récompense la profondeur et l'exhaustivité, le GEO récompense la clarté et l'extractibilité.
 
-## Comment faire du GEO concrètement : les techniques qui comptent
+## Comment optimiser son contenu pour les IA concrètement ?
 
 Le GEO n'est pas une boîte noire. Voici les leviers concrets qui augmentent vos chances d'être cité par les IA, applicables dès aujourd'hui sur votre site.
 
@@ -78,7 +78,7 @@ Le GEO n'est pas une boîte noire. Voici les leviers concrets qui augmentent vos
 
 **Ajoutez un fichier llms.txt.** Ce fichier, placé à la racine de votre site, fournit aux IA une version structurée et propre de vos contenus principaux, facilitant leur compréhension de votre site. C'est une bonne pratique émergente du GEO.
 
-## Comment mesurer votre visibilité dans les IA
+## Comment mesurer votre visibilité dans les moteurs de réponse IA ?
 
 On ne peut améliorer que ce que l'on mesure. Or mesurer sa visibilité dans les réponses des IA est plus délicat que suivre un positionnement Google, pour une raison fondamentale : les IA sont non-déterministes. La même question posée deux fois peut donner des réponses légèrement différentes. Le suivi demande donc de la rigueur et de la répétition.
 
@@ -86,7 +86,7 @@ Deux approches existent. La première, manuelle, consiste à interroger réguli�
 
 La seconde, automatisée, s'appuie sur des outils dédiés qui interrogent plusieurs moteurs d'IA sur des dizaines de prompts et suivent vos mentions dans le temps. Ces outils de suivi de visibilité IA se sont multipliés en 2026. Nous les comparons en détail dans notre guide [Otterly vs Peec AI vs Profound](/fr/outils-visibilite-ia-geo/), qui explique lequel choisir selon votre budget et votre maturité.
 
-C'est précisément cette discipline que nous pratiquons nous-mêmes. Notre baromètre GEO, Quotis, interroge chaque mois cinq modèles d'IA (ChatGPT, Claude, Gemini, Perplexity, Mistral) avec une centaine de prompts d'achat e-commerce, pour mesurer quelles marques et quels outils sont réellement recommandés. Cette expérience de terrain nourrit l'ensemble de nos analyses sur SiftedTools, et c'est ce qui nous permet d'évaluer les outils non pas sur leurs promesses marketing, mais sur leur présence réelle dans les réponses des IA. Pour comprendre notre approche, voir la page [Baromètre GEO](/fr/barometre-geo/).
+C'est précisément cette discipline que nous pratiquons nous-mêmes. Notre baromètre GEO, Quotis, interroge chaque mois cinq modèles d'IA (ChatGPT, Claude, Gemini, Perplexity, Mistral) avec une centaine de prompts d'achat e-commerce, pour mesurer quelles marques et quels outils sont réellement recommandés. Cette expérience de terrain nourrit l'ensemble de nos analyses sur SiftedTools, et c'est ce qui nous permet d'évaluer les outils non pas sur leurs promesses marketing, mais sur leur présence réelle dans les réponses des IA. Pour comprendre notre approche, consultez notre [baromètre GEO Quotis et sa méthodologie](/fr/barometre-geo/).
 
 ## Les erreurs de GEO à éviter
 
