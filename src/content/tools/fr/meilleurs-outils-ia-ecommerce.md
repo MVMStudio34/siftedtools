@@ -154,3 +154,10 @@ Suivre cet ordre, c'est s'assurer que chaque outil ajouté apporte un gain mesur
 Il n'y a pas un "meilleur outil IA pour l'e-commerce". Il y a **un meilleur outil par besoin**, et un ordre d'adoption qui dépend de ta boutique.
 
 Commence par le service client. C'est le poste où le retour est le plus immédiat. Ajoute les autres briques quand le besoin se fait sentir, pas avant. Et méfie-toi des suites tout-en-un : aucune ne bat le spécialiste sur son terrain.
+
+## Pour aller plus loin
+
+Nos guides pour passer à l'action :
+- [Débuter avec l'intelligence artificielle en e-commerce](/fr/intelligence-artificielle-ecommerce-debuter/)
+- [Rédiger des fiches produits avec l'IA](/fr/rediger-fiches-produits-ia/)
+- [Le référencement GEO sur les moteurs de réponse IA](/fr/guide-geo-referencement-ia/)

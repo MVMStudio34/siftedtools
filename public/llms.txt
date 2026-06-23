@@ -20,6 +20,11 @@
 - [AdCreative vs Pencil vs Predis](https://siftedtools.com/fr/outils-ia-creas-publicitaires/) : creas publicitaires Meta, TikTok, Google Ads. Verdict : AdCreative pour l'acquisition pure a gros budget, Pencil pour equipes avec identite de marque, Predis pour le mix organique et paye.
 - [Surfer SEO vs NeuronWriter vs Frase](https://siftedtools.com/fr/outils-ia-seo-ecommerce/) : SEO et optimisation de contenu. Verdict : Surfer pour la publication reguliere, NeuronWriter pour le meilleur rapport qualite-prix, Frase pour la recherche de questions et les briefs.
 
+## Guides
+- [Debuter avec l'intelligence artificielle en e-commerce](https://siftedtools.com/fr/intelligence-artificielle-ecommerce-debuter/) : guide d'introduction pour lancer une boutique avec l'IA, par ou commencer et dans quel ordre adopter les outils.
+- [Rediger des fiches produits avec l'IA](https://siftedtools.com/fr/rediger-fiches-produits-ia/) : methode pas a pas pour produire des fiches produits optimisees a l'echelle (ton de marque, multilingue, SEO).
+- [Le referencement GEO sur les moteurs de reponse IA](https://siftedtools.com/fr/guide-geo-referencement-ia/) : comment etre cite par ChatGPT, Claude, Gemini et Perplexity, en complement du SEO Google classique.
+
 ## Pages de reference
 - [Methodologie](https://siftedtools.com/fr/methodologie/) : comment nous testons et classons (5 criteres, tests sur vraies boutiques, croisement avec le barometre GEO).
 - [Barometre GEO](https://siftedtools.com/fr/barometre-geo/) : notre signal exclusif, mesure mensuelle des recommandations des IA (5 modeles, 100 prompts, 1200 reponses par mois).

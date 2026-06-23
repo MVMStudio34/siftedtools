@@ -149,3 +149,5 @@ D'autres comparatifs SiftedTools disponibles :
 - Pour les fiches produits : [meilleurs outils IA fiches produits](/fr/outils-ia-fiches-produits/)
 - Pour les avis Shopify : [Loox vs Judge.me vs Yotpo](/fr/loox-vs-judge-me/)
 - Pour l'email marketing : [Klaviyo vs Brevo vs Omnisend](/fr/outils-ia-email-marketing/)
+
+**Pour débuter :** vous lancez votre boutique avec l'IA ? Lisez notre [guide pour débuter avec l'intelligence artificielle en e-commerce](/fr/intelligence-artificielle-ecommerce-debuter/).

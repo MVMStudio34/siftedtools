@@ -103,3 +103,7 @@ On ne classe pas sur des fiches produit. On installe les outils sur de vraies bo
 Il n'y a pas de gagnant absolu, il y a un gagnant **pour ta situation**.
 
 Commence par **Tidio** si tu débutes ou si le budget commande : opérationnel aujourd'hui, pour pas cher, avec une IA qui travaille déjà. Passe à **Gorgias** le jour où ton volume et ton équipe justifient un vrai helpdesk.
+
+## Pour aller plus loin
+
+**Pour débuter :** vous lancez votre boutique avec l'IA ? Lisez notre [guide pour débuter avec l'intelligence artificielle en e-commerce](/fr/intelligence-artificielle-ecommerce-debuter/).

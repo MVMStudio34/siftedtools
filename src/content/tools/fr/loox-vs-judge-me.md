@@ -137,3 +137,5 @@ Le détail complet de notre méthodologie : [voir la page Méthodologie](/fr/met
 Vous évaluez votre stack complet d'outils Shopify ? Voir notre [guide pilier des meilleurs outils IA e-commerce 2026](/fr/meilleurs-outils-ia-ecommerce/).
 
 Vous travaillez aussi votre service client et la rédaction de fiches produits ? Voir [Gorgias vs Tidio](/fr/outils-ia-service-client/) et [comparatif outils IA pour fiches produits](/fr/outils-ia-fiches-produits/).
+
+**Pour débuter :** vous lancez votre boutique avec l'IA ? Lisez notre [guide pour débuter avec l'intelligence artificielle en e-commerce](/fr/intelligence-artificielle-ecommerce-debuter/).

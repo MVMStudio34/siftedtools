@@ -170,3 +170,5 @@ D'autres comparatifs SiftedTools disponibles :
 - Pour les avis Shopify : [Loox vs Judge.me vs Yotpo](/fr/loox-vs-judge-me/)
 - Pour les vidéos UGC : [Arcads vs Creatify vs HeyGen](/fr/outils-ia-videos-ugc/)
 - Pour suivre votre visibilité IA : [Otterly vs Peec AI vs Profound](/fr/outils-visibilite-ia-geo/)
+
+**Pour débuter :** vous lancez votre boutique avec l'IA ? Lisez notre [guide pour débuter avec l'intelligence artificielle en e-commerce](/fr/intelligence-artificielle-ecommerce-debuter/).

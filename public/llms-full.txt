@@ -108,6 +108,29 @@ Angle mort de la categorie : ces trois outils optimisent pour Google, pas pour l
 
 ---
 
+## Guides
+
+### Debuter avec l'intelligence artificielle en e-commerce
+URL : https://siftedtools.com/fr/intelligence-artificielle-ecommerce-debuter/
+
+Guide d'introduction pour les e-commercants qui veulent integrer l'IA sans se disperser. Explique par ou commencer (le service client, ou le retour est le plus immediat), puis dans quel ordre adopter les autres briques selon la croissance de la boutique. Insiste sur le fait que l'IA n'est ni magique ni reservee aux gros budgets, et qu'il faut mesurer le gain concret de chaque outil avant d'empiler.
+
+---
+
+### Rediger des fiches produits avec l'IA
+URL : https://siftedtools.com/fr/rediger-fiches-produits-ia/
+
+Methode pas a pas pour produire des fiches produits a l'echelle avec l'IA : adapter le ton de marque, traduire en plusieurs langues, optimiser pour le SEO et la recherche vocale. Montre comment reutiliser les donnees produit existantes et garder une relecture humaine plutot que de publier du contenu IA brut.
+
+---
+
+### Le referencement GEO sur les moteurs de reponse IA
+URL : https://siftedtools.com/fr/guide-geo-referencement-ia/
+
+Guide du GEO (Generative Engine Optimization) : comment etre cite par ChatGPT, Claude, Gemini et Perplexity. Positionne le GEO en complement du SEO Google classique (pas un remplacement), explique les signaux exploites par les moteurs de reponse et pourquoi la mesure multi-moteur (via le barometre Quotis) est necessaire pour suivre sa visibilite IA.
+
+---
+
 ## Methodologie
 URL : https://siftedtools.com/fr/methodologie/
 
