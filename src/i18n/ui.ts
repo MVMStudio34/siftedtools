@@ -17,6 +17,7 @@ export const ui = {
     "brand.name": "SiftedTools",
     "nav.tools": "Outils",
     "nav.comparisons": "Comparatifs",
+    "nav.guides": "Guides",
     "nav.barometer": "Baromètre GEO",
     "nav.method": "Méthodologie",
     "nav.about": "À propos",

@@ -12,6 +12,20 @@ const updated = "2026-06-22";
 const all = await getCollection("tools", ({ data }) => data.draft !== true && data.lang === "fr");
 const comparatifs = all.sort((a, b) => new Date(b.data.updatedAt).getTime() - new Date(a.data.updatedAt).getTime());
 
+// Slug d'un fichier de collection (fr/<slug>.md -> <slug>)
+const slugOf = (entry) => entry.id.replace(/\.(md|mdx)$/i, "").replace(/^fr\//, "");
+
+// Guides informationnels (ordre fixe), hors pages utilitaires (à propos, méthodologie, baromètre)
+const GUIDE_SLUGS = [
+  "intelligence-artificielle-ecommerce-debuter",
+  "rediger-fiches-produits-ia",
+  "guide-geo-referencement-ia",
+];
+const allGuides = await getCollection("guides", ({ data }) => data.draft !== true && data.lang === "fr");
+const guides = GUIDE_SLUGS
+  .map((s) => allGuides.find((e) => slugOf(e) === s))
+  .filter(Boolean);
+
 const schema = [
   buildGraph(
     organization(),
@@ -62,6 +76,30 @@ const schema = [
         </div>
       )}
 
+      {guides.length > 0 && (
+        <section id="guides" class="guides-section">
+          <header class="hub-head">
+            <p class="eyebrow">Guides pratiques · {guides.length} guides</p>
+            <h2 class="section-title">Nos guides pour passer à l'action</h2>
+            <p class="lede">Au-delà des comparatifs, nos guides expliquent comment utiliser l'IA concrètement dans votre boutique.</p>
+          </header>
+          <div class="grid">
+            {guides.map((entry) => {
+              const slug = slugOf(entry);
+              const href = `/fr/${slug}/`;
+              return (
+                <a class="card" href={href}>
+                  <span class="card-eyebrow">Guide</span>
+                  <h2>{entry.data.title}</h2>
+                  <p>{entry.data.description}</p>
+                  <span class="card-arrow">Lire le guide →</span>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
       <div class="newsletter-slot"><EmailCaptureInline /></div>
 
     </div>
@@ -90,6 +128,9 @@ const schema = [
   .card-arrow { font-family: 'Space Grotesk', sans-serif; font-size: 0.9rem; font-weight: 600; color: var(--gold, #B17C2E); }
 
   .empty { font-family: 'Space Grotesk', sans-serif; color: var(--slate, #6B6C73); text-align: center; padding: 60px 0; background: white; border-radius: 4px; }
+
+  .guides-section { margin-top: 64px; scroll-margin-top: 80px; }
+  .section-title { font-family: 'Newsreader', Georgia, serif; font-weight: 500; font-size: clamp(1.6rem, 4vw, 2rem); line-height: 1.2; letter-spacing: -0.02em; color: var(--ink, #16171D); margin-bottom: 1rem; }
 
   .newsletter-slot { margin-top: 56px; }
 
