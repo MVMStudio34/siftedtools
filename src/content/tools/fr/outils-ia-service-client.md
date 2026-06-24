@@ -20,12 +20,12 @@ apps:
     website: https://www.tidio.com/
     description: "Chat en direct + chatbot IA (Lyro), offre gratuite, idéal pour démarrer à petit budget."
 offers:
-  - tool: Gorgias
-    label: Essayer Gorgias
-    url: https://partner.gorgias.com/0lyboc5bc5h7
   - tool: Tidio
     label: Essayer Tidio
     url: https://www.tidio.com/
+  - tool: Gorgias
+    label: Essayer Gorgias
+    url: https://partner.gorgias.com/0lyboc5bc5h7
 faq:
   - q: "Quel outil IA pour automatiser le service client d'une boutique Shopify ?"
     a: "Tidio pour démarrer vite et à petit budget, Gorgias dès que le volume monte. Tidio est un chat avec IA pensé pour les petites boutiques ; Gorgias est un véritable helpdesk e-commerce, conçu pour les équipes qui gèrent un gros volume de tickets sur plusieurs canaux."
@@ -82,6 +82,8 @@ La limite : Tidio reste avant tout un outil de chat. Quand votre volume explose 
 **Idéal si** : vous débutez, vous voulez automatiser le chat et les questions simples, vous avez un budget serré.
 
 ## Gorgias : le helpdesk des boutiques qui scalent
+
+*Notre sélection pour les boutiques avec une équipe support structurée.*
 
 Gorgias n'est pas un chat, c'est une **plateforme de service client complète**, pensée dès le départ pour l'e-commerce et particulièrement pour Shopify. Tous vos canaux arrivent au même endroit : email, chat, téléphone, Messenger, Instagram, WhatsApp.
 

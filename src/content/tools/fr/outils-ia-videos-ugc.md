@@ -91,11 +91,13 @@ La limite à garder en tête : ces vidéos sont parfaites pour le format talking
 
 ## Arcads, le verdict détaillé
 
+*Notre sélection pour les boutiques qui veulent scaler leurs vidéos UGC sans casting.*
+
 Arcads est l'outil le plus abouti du marché pour la vidéo UGC publicitaire. Avec un financement solide et plus de 6000 clients générant environ 100 000 vidéos par mois début 2026, ce n'est pas un outil que les gens testent, c'est un outil que les marques et agences utilisent en production régulière.
 
 **Ce qu'il fait très bien.** La bibliothèque d'acteurs est son atout maître : plus de 1000 acteurs IA filtrables par genre, âge et contexte, des jeunes vingtenaires aux seniors, diverses ethnicités, intérieur et extérieur. Cela compte parce que la performance UGC repose largement sur l'adéquation entre le messager et l'acheteur (un profil fitness pour des compléments, un professionnel d'âge mûr pour du B2B). La qualité du rendu et du lip-sync est la meilleure du marché. La fonction speech-to-speech permet de mapper votre propre lecture (rythme, emphase, émotion) sur un acteur, ce qui contourne le problème de la voix IA qui sonne artificielle. Le workflow est pensé pour la production publicitaire et le test de créas à grande échelle, pas pour de l'édition vidéo générique.
 
-**Ce qui pèche.** Le prix. Arcads est nettement le plus cher de la catégorie, avec un plan de départ élevé et un système de crédits où chaque vidéo générée consomme un crédit (une petite retouche implique de régénérer toute la vidéo, donc un nouveau crédit). Pour une boutique qui itère beaucoup et teste de nombreux hooks, le coût par vidéo s'additionne vite. Il n'y a pas de plan gratuit ni d'essai, le prix n'apparaît qu'après création de compte. Pour des produits physiques qu'un acteur ne peut pas démontrer, le rapport coût-bénéfice est moins évident.
+**Point d'attention.** Le tarif se justifie à partir d'un certain volume : le plan de départ se situe dans le haut de la fourchette, avec un système de crédits où chaque vidéo générée consomme un crédit (une petite retouche implique de régénérer toute la vidéo, donc un nouveau crédit). Pour une boutique qui itère beaucoup et teste de nombreux hooks, mieux vaut anticiper le coût cumulé par vidéo. Il n'y a pas de plan gratuit ni d'essai, et le prix s'affiche après création de compte. Pour des produits physiques qu'un acteur ne peut pas démontrer, le rapport coût-bénéfice mérite d'être évalué au cas par cas.
 
 **Pour qui ?** Marques DTC et équipes performance qui font de l'acquisition payante sérieuse sur TikTok, Meta et YouTube Shorts. Agences qui gèrent plusieurs comptes clients. Annonceurs qui ont un vrai workflow de test de créas et peuvent transformer la vitesse de production en résultats de campagne. Produits digitaux (cours, apps, SaaS) où un témoignage talking-head fait le travail.
 

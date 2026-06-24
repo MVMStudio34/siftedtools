@@ -92,11 +92,13 @@ PhotoRoom est l'outil que je recommande par défaut à la majorité des e-commer
 
 ## Pixelcut, le verdict détaillé
 
+*Notre sélection pour le packshot produit sans studio photo.*
+
 Pixelcut est l'outil que je recommande quand l'esthétique des fonds compte plus que la polyvalence du workflow. C'est un outil plus spécialisé que PhotoRoom, qui mise sur un seul angle (la génération de fonds IA contextuels) et le fait mieux que la concurrence.
 
 **Ce qu'il fait très bien.** La génération de fonds IA est la plus convaincante du marché sur des contextes lifestyle : cuisine éditoriale pour la food, plage et bord de mer pour la mode estivale, intérieur design pour le mobilier et la déco, marbre et métal pour la cosmétique et les bijoux. Là où PhotoRoom propose des fonds génériques bien faits, Pixelcut propose des contextes qui ressemblent à un vrai shoot studio. C'est précieux pour des marques qui jouent sur l'image et qui ne peuvent pas se permettre des packshots évidemment retouchés.
 
-**Ce qui pèche.** Le détourage brut est légèrement en retrait par rapport à PhotoRoom et clairement derrière Remove.bg sur les matières complexes. Le batch processing existe mais reste moins industriel que celui de PhotoRoom. L'intégration Shopify est limitée et demande plus de manipulations manuelles. L'écosystème de templates est moins riche que celui de PhotoRoom. Pour une boutique généraliste, Pixelcut est souvent un complément à PhotoRoom plutôt qu'un remplacement.
+**Point d'attention.** Le détourage brut reste correct sur la plupart des produits, mais montre ses limites sur les matières les plus complexes : c'est un détourage solide, pas son point fort. Le batch processing est disponible et fait le travail, même s'il vise plutôt des volumes raisonnables que la production industrielle massive. L'intégration Shopify est plus légère et demande quelques manipulations manuelles supplémentaires. L'écosystème de templates est volontairement plus ciblé, centré sur les fonds contextuels. Pour une boutique généraliste, Pixelcut s'utilise idéalement en complément d'un outil de workflow plutôt qu'en remplacement complet.
 
 **Pour qui ?** Marques DTC et lifestyle qui veulent une esthétique studio sans le studio. Boutiques mode, beauté et accessoires premium. Équipes marketing qui produisent du contenu visuel pour Instagram et TikTok en plus des fiches produits.
 

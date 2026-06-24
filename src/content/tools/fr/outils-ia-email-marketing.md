@@ -108,11 +108,13 @@ Klaviyo est la référence mondiale du marketing email pour le e-commerce. C'est
 
 ## Omnisend, le verdict détaillé
 
+*Notre sélection pour l'email marketing e-commerce avec automatisations natives.*
+
 Omnisend occupe une position intermédiaire sur le marché. Pas aussi puissant que Klaviyo sur les segmentations avancées, pas aussi économique que Brevo sur le long terme, mais avec un avantage clair sur les workflows e-commerce pré-construits.
 
 **Ce qu'il fait très bien.** Les workflows e-commerce sont les plus rapides à activer du marché. Abandon panier, post-achat, réactivation, anniversaire, retour de stock : tous existent en version pré-construite, activables en quelques clics avec des templates de copy déjà rédigés. Pour une équipe marketing qui démarre sans expertise email et qui veut être opérationnelle en une journée, c'est un gain de temps réel. L'interface est plus simple que Klaviyo, plus moderne que Brevo. Le support inclut une assistance à la mise en place des automatisations dès le plan payant de base.
 
-**Ce qui pèche.** Sur la segmentation avancée, Omnisend est nettement en retrait par rapport à Klaviyo. Sur le prix, il est plus cher que Brevo à volumes égaux à partir de 1000 contacts. La présence européenne est plus limitée que celle de Brevo (pas d'hébergement France, support en français existant mais moins étendu). Et l'écosystème de partenaires est moins dense, ce qui complique la recherche d'aide à l'implémentation en France.
+**Point d'attention.** La segmentation avancée n'est pas le point fort d'Omnisend : elle couvre les besoins courants mais reste moins poussée que les plateformes les plus spécialisées sur ce terrain. Côté tarif, le coût grimpe à partir de 1000 contacts, à intégrer dans votre calcul de rentabilité. La présence européenne est encore en développement (pas d'hébergement France, support en français existant mais moins étendu), à garder en tête si vous avez des contraintes RGPD strictes. Enfin, l'écosystème de partenaires reste à étoffer en France, ce qui peut demander un peu plus d'autonomie pour l'implémentation.
 
 **Pour qui ?** Équipes marketing qui démarrent et veulent être opérationnelles rapidement sans expertise email. Boutiques internationales mid-market qui veulent un compromis entre puissance et simplicité. Boutiques qui hésitent entre Brevo et Klaviyo et veulent une option intermédiaire pour gagner du temps de mise en place.
 

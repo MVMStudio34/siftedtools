@@ -90,11 +90,13 @@ Précision honnête d'emblée : ces outils mesurent, ils n'optimisent pas à vot
 
 ## Otterly, le verdict détaillé
 
+*Notre sélection pour débuter le monitoring GEO dès le premier mois.*
+
 Otterly est l'outil que je recommande pour démarrer dans le suivi de visibilité IA. C'est le plus accessible du marché, et il couvre l'essentiel sans la complexité ni le prix des plateformes enterprise.
 
 **Ce qu'il fait très bien.** Le prix est son atout majeur : à partir de 25 à 29 dollars par mois avec un essai gratuit, c'est le seul outil de la catégorie réellement accessible à un freelance ou une petite boutique. Il suit automatiquement vos mentions et citations sur les plateformes majeures (ChatGPT, Perplexity, Google AI Overviews et AI Mode, Copilot). Une fonction maligne transforme vos mots-clés SEO existants en prompts IA conversationnels, ce qui facilite le démarrage. L'audit GEO aide à comprendre comment optimiser votre contenu pour être mieux cité. La prise en main est rapide : des données exploitables en 48 heures contre deux semaines pour des outils plus lourds. Otterly a été reconnu Cool Vendor par Gartner en 2025.
 
-**Ce qui pèche.** Otterly suit moins de moteurs que certains concurrents (pas de Meta AI ni de Grok ni de DeepSeek dans certains plans), même si ChatGPT et Perplexity dominent l'usage réel. Le tableau de bord peut devenir encombré quand vous suivez beaucoup de prompts ou de projets. L'analyse de sentiment n'est pas toujours parfaitement exacte. Les options d'intégration restent plus limitées que chez Profound ou Peec, même si un connecteur Looker Studio existe.
+**Point d'attention.** Certains plans couvrent un nombre de moteurs plus restreint (Meta AI, Grok ou DeepSeek ne sont pas toujours inclus), un compromis raisonnable puisque ChatGPT et Perplexity concentrent l'essentiel de l'usage réel. Le tableau de bord gagne à être organisé quand vous suivez beaucoup de prompts ou de projets. L'analyse de sentiment donne une bonne tendance générale, à recouper ponctuellement pour les cas les plus fins. Les options d'intégration s'étoffent progressivement et un connecteur Looker Studio est déjà disponible.
 
 **Pour qui ?** Accessible à partir de 25 à 29 dollars par mois, Otterly est le point d'entrée le plus abordable pour les freelances et petites boutiques e-commerce qui débutent dans le suivi de visibilité IA. Mais l'outil ne s'y limite pas : il est aussi utilisé par de grands comptes internationaux, déployés sur une cinquantaine de marchés avec plus de 200 utilisateurs (assureurs mondiaux, par exemple). Bref, un tarif d'entrée bas qui tient pourtant à l'échelle des grandes organisations.
 

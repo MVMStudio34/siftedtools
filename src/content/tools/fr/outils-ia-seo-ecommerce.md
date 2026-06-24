@@ -106,21 +106,25 @@ Surfer SEO est la référence du marché. C'est l'outil le plus mature, le plus 
 
 ## NeuronWriter, le verdict détaillé
 
+*Notre sélection pour le meilleur rapport qualité-prix en optimisation SEO.*
+
 NeuronWriter est l'alternative européenne au meilleur rapport qualité-prix. Il offre la majorité de ce que fait Surfer, à un prix souvent moitié moindre. Pour la plupart des boutiques e-commerce françaises, c'est le choix rationnel, surtout au démarrage.
 
 **Ce qu'il fait très bien.** L'analyse SERP avec contextualisation NLP est solide : NeuronWriter identifie les termes sémantiques pertinents et vous guide pour structurer un contenu compétitif. Le prix est son atout majeur, souvent moitié moins cher que Surfer pour des fonctionnalités proches, avec un système de crédits qui convient bien aux opérateurs qui publient un volume modéré. L'interface est disponible en français, ce qui simplifie la prise en main pour les opérateurs francophones. La génération de briefs et l'éditeur intégré couvrent l'essentiel du flux de travail SEO. L'intégration avec ChatGPT et WordPress permet un workflow correct de la recherche à la publication.
 
-**Ce qui pèche.** Sur la profondeur de l'analyse SERP, NeuronWriter reste un cran derrière Surfer : les recommandations sont bonnes mais légèrement moins précises et moins riches. L'écosystème d'intégrations est moins large que celui de Surfer (pas d'intégration native Jasper, par exemple). L'expérience utilisateur est fonctionnelle mais moins polie que celle de Surfer. Et comme les autres, NeuronWriter optimise pour Google, pas pour les IA.
+**Point d'attention.** Les recommandations issues de l'analyse SERP sont solides et couvrent l'essentiel pour produire un contenu compétitif, même si l'on peut viser une finesse encore supérieure sur les requêtes les plus concurrentielles. L'écosystème d'intégrations couvre les usages courants (ChatGPT, WordPress), sans aller jusqu'à une intégration native Jasper. L'expérience utilisateur est fonctionnelle et va à l'essentiel, avec une marge de progression sur le raffinement de l'interface. Enfin, comme les autres, NeuronWriter optimise pour Google, pas pour les IA.
 
 **Pour qui ?** Boutiques qui démarrent en SEO et veulent un bon outil sans payer le prix premium. Opérateurs francophones qui apprécient une interface en français. Boutiques avec un volume de publication modéré (1 à 4 articles par mois). Solos et petites équipes au budget contraint qui veulent l'essentiel des fonctionnalités SEO à un prix raisonnable.
 
 ## Frase, le verdict détaillé
 
+*Notre sélection pour la recherche de questions et la construction de briefs SEO.*
+
 Frase est le spécialiste complémentaire. Son point fort n'est pas l'optimisation on-page brute mais la phase amont : la recherche de questions et la création de briefs. C'est un outil que la plupart des opérateurs utilisent en complément de Surfer ou NeuronWriter, pas en remplacement.
 
 **Ce qu'il fait très bien.** La recherche de questions est sa vraie force : Frase agrège les questions que se posent vos clients à partir de People Also Ask, Quora, Reddit et d'autres sources, ce qui est précieux pour construire un contenu qui répond aux vraies interrogations de votre audience. La création de briefs structurés est rapide et complète, idéale si vous déléguez la rédaction à des rédacteurs externes qui ont besoin d'un cadre clair. L'outil propose aussi une fonction de réponse automatique aux questions qui peut accélérer la première version d'un contenu. L'interface est claire et la prise en main rapide.
 
-**Ce qui pèche.** L'optimisation on-page basée sur l'analyse SERP est moins poussée que celle de Surfer ou NeuronWriter. Frase vous aide à structurer et à couvrir les bons sujets, mais il est moins précis sur les recommandations sémantiques fines qui font ranker. Utilisé seul, il laisse un trou sur la phase d'optimisation du contenu rédigé. C'est pour ça qu'il est rarement suffisant comme outil SEO unique. Et comme les autres, il optimise pour Google, pas pour les IA.
+**Point d'attention.** L'optimisation on-page basée sur l'analyse SERP n'est pas le terrain où Frase concentre ses efforts : l'outil brille davantage en amont, sur la recherche et le brief. Il vous aide à structurer et à couvrir les bons sujets, mais reste plus léger sur les recommandations sémantiques fines qui font ranker. Utilisé seul, il laisse une partie de la phase d'optimisation du contenu rédigé à compléter, ce qui explique qu'on le déploie le plus souvent en complément d'un outil d'optimisation plutôt qu'en outil SEO unique. Et comme les autres, il optimise pour Google, pas pour les IA.
 
 **Pour qui ?** Opérateurs qui délèguent la rédaction et ont besoin de briefs structurés de qualité. Boutiques qui veulent construire leur contenu autour des vraies questions de leur audience. Équipes qui utilisent déjà Surfer ou NeuronWriter pour l'optimisation et veulent renforcer la phase de recherche. Créateurs de contenu qui valorisent la phase amont (recherche, brief) plus que l'optimisation technique.
 
