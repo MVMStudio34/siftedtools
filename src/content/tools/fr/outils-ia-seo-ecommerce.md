@@ -37,7 +37,7 @@ offers:
     url: https://app.neuronwriter.com/ar/7672ed007cbbfc6f9c619f1e7b362970
   - tool: Frase
     label: Tester Frase
-    url: https://www.frase.io/
+    url: https://www.frase.io/?via=marvin87
   - tool: Scalenut
     label: Découvrir Scalenut
     url: https://www.scalenut.com/
