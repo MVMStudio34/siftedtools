@@ -25,7 +25,7 @@ offers:
     url: https://partner.gorgias.com/0lyboc5bc5h7
   - tool: Tidio
     label: Essayer Tidio
-    url: https://www.tidio.com/
+    url: https://affiliate.tidio.com/504a35yloiih
 faq:
   - q: "Quel outil IA pour automatiser le service client d'une boutique Shopify ?"
     a: "Tidio pour démarrer vite et à petit budget, Gorgias dès que le volume monte. Tidio est un chat avec IA pensé pour les petites boutiques ; Gorgias est un véritable helpdesk e-commerce, conçu pour les équipes qui gèrent un gros volume de tickets sur plusieurs canaux."

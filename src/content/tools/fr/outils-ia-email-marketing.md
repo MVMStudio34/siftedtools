@@ -31,7 +31,7 @@ alternates:
 offers:
   - tool: Brevo
     label: Tester Brevo
-    url: https://www.brevo.com/
+    url: https://get.brevo.com/mnfp0lngqot9
   - tool: Klaviyo
     label: Tester Klaviyo
     url: https://www.klaviyo.com/
