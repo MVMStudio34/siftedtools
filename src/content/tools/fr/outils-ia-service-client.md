@@ -20,12 +20,12 @@ apps:
     website: https://www.tidio.com/
     description: "Chat en direct + chatbot IA (Lyro), offre gratuite, idéal pour démarrer à petit budget."
 offers:
-  - tool: Tidio
-    label: Essayer Tidio
-    url: https://www.tidio.com/
   - tool: Gorgias
     label: Essayer Gorgias
     url: https://partner.gorgias.com/0lyboc5bc5h7
+  - tool: Tidio
+    label: Essayer Tidio
+    url: https://www.tidio.com/
 faq:
   - q: "Quel outil IA pour automatiser le service client d'une boutique Shopify ?"
     a: "Tidio pour démarrer vite et à petit budget, Gorgias dès que le volume monte. Tidio est un chat avec IA pensé pour les petites boutiques ; Gorgias est un véritable helpdesk e-commerce, conçu pour les équipes qui gèrent un gros volume de tickets sur plusieurs canaux."
@@ -48,38 +48,26 @@ On a testé les deux sur de vraies boutiques. Voici lequel choisir, selon où vo
 
 ## Gorgias ou Tidio : la réponse en bref
 
-**Vous démarrez, vous êtes seul ou à deux, le budget compte ?** Prenez **Tidio**. Installation rapide, offre gratuite, IA qui répond déjà aux questions de base.
-
 **Vous avez une équipe support, un gros volume de tickets, plusieurs canaux (email, chat, réseaux) ?** Prenez **Gorgias**. C'est un helpdesk complet, taillé pour Shopify, qui centralise et automatise à grande échelle.
+
+**Vous démarrez, vous êtes seul ou à deux, le budget compte ?** Prenez **Tidio**. Installation rapide, offre gratuite, IA qui répond déjà aux questions de base.
 
 Le reste de cette page détaille pourquoi, pour que vous choisissiez en connaissance de cause.
 
 ## Comparatif en un coup d'œil
 
-| Critère | Tidio | Gorgias |
+| Critère | Gorgias | Tidio |
 |---|---|---|
-| Idéal pour | Petites boutiques, solo, démarrage | Équipes support, gros volume |
-| Type d'outil | Chat en direct + chatbot IA | Helpdesk e-commerce complet |
-| Canaux gérés | Chat, email, Messenger, Instagram | Email, chat, téléphone, réseaux, WhatsApp |
-| IA intégrée | Lyro (questions fréquentes) | AI Agent (résout seul certains tickets) |
-| Intégration Shopify | Bonne | Native et profonde |
-| Prise en main | Rapide, une après-midi | Plus exigeante, à configurer |
-| Tarification | Offre gratuite + plans accessibles | Au volume de tickets, plus haut |
+| Idéal pour | Équipes support, gros volume | Petites boutiques, solo, démarrage |
+| Type d'outil | Helpdesk e-commerce complet | Chat en direct + chatbot IA |
+| Canaux gérés | Email, chat, téléphone, réseaux, WhatsApp | Chat, email, Messenger, Instagram |
+| IA intégrée | AI Agent (résout seul certains tickets) | Lyro (questions fréquentes) |
+| Intégration Shopify | Native et profonde | Bonne |
+| Prise en main | Plus exigeante, à configurer | Rapide, une après-midi |
+| Tarification | Au volume de tickets, plus haut | Offre gratuite + plans accessibles |
 | Essai | Oui | Oui |
 
 > Les grilles tarifaires évoluent souvent. Considérez ce tableau comme un repère de positionnement, et vérifiez le prix exact sur chaque site avant de vous engager.
-
-## Tidio : démarrer le support IA sans se ruiner
-
-Tidio est un outil de **chat en direct doublé d'un chatbot IA**. Son point fort, c'est la simplicité : vous l'installez sur Shopify, WooCommerce ou n'importe quel site en quelques minutes, et vous avez tout de suite une bulle de chat fonctionnelle.
-
-Son IA, **Lyro**, répond automatiquement aux questions récurrentes (délais de livraison, retours, disponibilité) à partir de vos contenus. Pour une boutique qui reçoit quelques dizaines de messages par semaine, ça absorbe une bonne partie de la charge.
-
-L'**offre gratuite** permet de tester en conditions réelles avant de payer, ce qui est rare et appréciable. Les plans payants restent accessibles pour une petite structure.
-
-La limite : Tidio reste avant tout un outil de chat. Quand votre volume explose et que vous jonglez entre email, Instagram et réclamations, vous sentez vite le plafond.
-
-**Idéal si** : vous débutez, vous voulez automatiser le chat et les questions simples, vous avez un budget serré.
 
 ## Gorgias : le helpdesk des boutiques qui scalent
 
@@ -94,6 +82,18 @@ Côté IA, l'**AI Agent** peut **résoudre seul** certains tickets récurrents d
 La contrepartie : Gorgias se **facture surtout au volume de tickets** et demande un peu de configuration. En dessous d'un certain seuil, c'est surdimensionné.
 
 **Idéal si** : vous avez une équipe, un volume de tickets réel, plusieurs canaux, et vous voulez industrialiser votre SAV sur Shopify.
+
+## Tidio : démarrer le support IA sans se ruiner
+
+Tidio est un outil de **chat en direct doublé d'un chatbot IA**. Son point fort, c'est la simplicité : vous l'installez sur Shopify, WooCommerce ou n'importe quel site en quelques minutes, et vous avez tout de suite une bulle de chat fonctionnelle.
+
+Son IA, **Lyro**, répond automatiquement aux questions récurrentes (délais de livraison, retours, disponibilité) à partir de vos contenus. Pour une boutique qui reçoit quelques dizaines de messages par semaine, ça absorbe une bonne partie de la charge.
+
+L'**offre gratuite** permet de tester en conditions réelles avant de payer, ce qui est rare et appréciable. Les plans payants restent accessibles pour une petite structure.
+
+La limite : Tidio reste avant tout un outil de chat. Quand votre volume explose et que vous jonglez entre email, Instagram et réclamations, vous sentez vite le plafond.
+
+**Idéal si** : vous débutez, vous voulez automatiser le chat et les questions simples, vous avez un budget serré.
 
 ## Gorgias ou Tidio : lequel choisir pour votre boutique ?
 

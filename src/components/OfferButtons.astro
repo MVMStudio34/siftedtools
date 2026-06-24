@@ -4,36 +4,19 @@
 interface Offer { tool: string; label: string; url: string; note?: string; }
 interface Props { offers?: Offer[]; eyebrow?: string; }
 const { offers = [], eyebrow = "Tester directement" } = Astro.props;
-
-// Chantier 2 : marqueurs des liens de tracking affiliés (seuls ceux-ci reçoivent le badge).
-const AFFILIATE_MARKERS = [
-  "partner.gorgias.com",
-  "writesonic.com?fp_ref",
-  "rytr.me/?via",
-  "otterlyai-gmbh.getrewardful.com",
-  "getpixa.link",
-  "app.neuronwriter.com/ar/",
-  "arcads.ai/?via",
-  "your.omnisend.com",
-  "frase.io/?via",
-];
-const isAffiliate = (url: string) => AFFILIATE_MARKERS.some((m) => url.includes(m));
 ---
 <div class="offers">
   <span class="eyebrow">{eyebrow}</span>
   <div class="offer-btns">
     {offers.map((o, i) => (
-      <span class="offer-item">
-        <a
-          class={`btn ${i === 0 ? "btn-offer-primary" : "btn-offer-secondary"}`}
-          href={o.url}
-          rel="sponsored nofollow noopener"
-          target="_blank"
-        >
-          {o.label} <span aria-hidden="true">↗</span>
-        </a>
-        {isAffiliate(o.url) && <span class="partner-badge">✓ Programme partenaire</span>}
-      </span>
+      <a
+        class={`btn ${i === 0 ? "btn-offer-primary" : "btn-offer-secondary"}`}
+        href={o.url}
+        rel="sponsored nofollow noopener"
+        target="_blank"
+      >
+        {o.label} <span aria-hidden="true">↗</span>
+      </a>
     ))}
   </div>
   <p class="offers-reassurance note">Voir l'offre sur le site officiel · lien partenaire</p>
@@ -42,9 +25,7 @@ const isAffiliate = (url: string) => AFFILIATE_MARKERS.some((m) => url.includes(
 <style>
   .offers{background:var(--card);border:1px solid var(--mesh);border-radius:var(--radius-lg);padding:20px 22px;margin:26px 0}
   .offers .eyebrow{display:block;margin-bottom:12px}
-  .offer-btns{display:flex;gap:10px;flex-wrap:wrap;align-items:flex-start}
-  .offer-item{display:flex;flex-direction:column;gap:5px}
-  .partner-badge{font-size:11px;color:var(--slate);font-family:'Space Grotesk',sans-serif;letter-spacing:.01em}
+  .offer-btns{display:flex;gap:10px;flex-wrap:wrap}
   /* A2 — hiérarchie des CTA */
   .btn-offer-primary{background:#B17C2E;border:1.4px solid #B17C2E;color:#16171D}
   .btn-offer-primary:hover{background:#9c6c26;border-color:#9c6c26}
