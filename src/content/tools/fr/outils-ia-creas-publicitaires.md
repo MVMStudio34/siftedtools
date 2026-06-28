@@ -34,7 +34,7 @@ offers:
     url: https://www.trypencil.com/
   - tool: Predis.ai
     label: Tester Predis.ai
-    url: https://predis.ai/
+    url: https://predis.ai?ref=marvin90
 faq:
   - q: "Quel outil IA pour créer des publicités ?"
     a: "Aucun des trois n'est universellement le meilleur : le bon choix dépend de votre budget publicitaire mensuel et de votre besoin. AdCreative.ai domine sur la génération massive de variantes optimisées pour la performance, avec un scoring prédictif et des intégrations natives Meta et Google Ads. Pencil est plus adapté aux équipes marketing qui veulent préserver une voix de marque et collaborer à plusieurs. Predis.ai est le plus polyvalent : il couvre les créas pub mais aussi les posts organiques social media, ce qui en fait un bon choix pour les boutiques qui mélangent acquisition et présence organique."
