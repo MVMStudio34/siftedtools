@@ -28,7 +28,7 @@ alternates:
 offers:
   - tool: AdCreative.ai
     label: Tester AdCreative.ai
-    url: https://www.adcreative.ai/
+    url: https://free-trial.adcreative.ai/dr8b0i63v2n6
   - tool: Pencil
     label: Découvrir Pencil
     url: https://www.trypencil.com/
