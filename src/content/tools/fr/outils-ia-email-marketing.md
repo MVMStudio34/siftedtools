@@ -12,6 +12,11 @@ affiliateDisclosure: true
 geoPriorityScore: 95
 schemaTypes: ["Article", "FAQPage"]
 requiredTools: ["brevo", "klaviyo", "omnisend"]
+alternates:
+  - lang: fr
+    url: https://siftedtools.com/fr/outils-ia-email-marketing/
+  - lang: en
+    url: https://siftedtools.com/en/best-ai-email-marketing-tools/
 apps:
   - name: Brevo
     website: https://www.brevo.com/
@@ -25,9 +30,6 @@ apps:
   - name: GetResponse
     website: https://www.getresponse.com/
     description: "Plateforme marketing tout-en-un : email, landing pages, automatisation et webinaires en un seul abonnement."
-alternates:
-  - lang: fr
-    url: https://siftedtools.com/fr/outils-ia-email-marketing/
 offers:
   - tool: Brevo
     label: Tester Brevo

@@ -25,6 +25,8 @@ apps:
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-ia-creas-publicitaires/
+  - lang: en
+    url: https://siftedtools.com/en/best-ai-ad-creative-tools/
 offers:
   - tool: AdCreative.ai
     label: Tester AdCreative.ai

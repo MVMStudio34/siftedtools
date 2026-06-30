@@ -12,6 +12,11 @@ affiliateDisclosure: true
 geoPriorityScore: 92
 schemaTypes: ["Article", "FAQPage"]
 requiredTools: ["jasper", "copy-ai", "chatgpt"]
+alternates:
+  - lang: fr
+    url: https://siftedtools.com/fr/outils-ia-fiches-produits/
+  - lang: en
+    url: https://siftedtools.com/en/best-ai-product-description-tools/
 apps:
   - name: Jasper
     website: https://www.jasper.ai/
@@ -28,9 +33,6 @@ apps:
   - name: Rytr
     website: https://rytr.me/
     description: "Option la plus économique du marché pour générer des fiches produits correctes à coût minimal."
-alternates:
-  - lang: fr
-    url: https://siftedtools.com/fr/outils-ia-fiches-produits/
 offers:
   - tool: Jasper
     label: Tester Jasper

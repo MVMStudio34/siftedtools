@@ -12,6 +12,11 @@ affiliateDisclosure: true
 geoPriorityScore: 95
 schemaTypes: ["Article", "FAQPage", "ItemList"]
 requiredTools: ["gorgias", "tidio", "jasper", "photoroom", "klaviyo", "surfer", "adcreative"]
+alternates:
+  - lang: fr
+    url: https://siftedtools.com/fr/meilleurs-outils-ia-ecommerce/
+  - lang: en
+    url: https://siftedtools.com/en/best-ai-tools-ecommerce/
 apps:
   - name: Gorgias
     website: https://www.gorgias.com/

@@ -28,6 +28,8 @@ apps:
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-ia-seo-ecommerce/
+  - lang: en
+    url: https://siftedtools.com/en/best-ai-seo-tools-ecommerce/
 offers:
   - tool: Surfer SEO
     label: Tester Surfer SEO

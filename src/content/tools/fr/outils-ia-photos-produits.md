@@ -25,6 +25,8 @@ apps:
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-ia-photos-produits/
+  - lang: en
+    url: https://siftedtools.com/en/best-ai-product-photo-tools/
 offers:
   - tool: PhotoRoom
     label: Tester PhotoRoom
