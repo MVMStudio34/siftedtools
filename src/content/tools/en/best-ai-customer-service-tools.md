@@ -31,6 +31,8 @@ alternates:
     url: https://siftedtools.com/fr/outils-ia-service-client/
   - lang: en
     url: https://siftedtools.com/en/best-ai-customer-service-tools/
+  - lang: es
+    url: https://siftedtools.com/es/herramientas-ia-atencion-cliente/
 faq:
   - q: "What is the best AI customer service tool for Shopify?"
     a: "Gorgias if you have a support team and real ticket volume across multiple channels; Tidio if you're small, starting out, or watching the budget. Gorgias is a full e-commerce helpdesk built to scale. Tidio is live chat with an AI layer (Lyro) built to get a small store automating fast."

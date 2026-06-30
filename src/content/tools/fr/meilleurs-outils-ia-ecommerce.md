@@ -17,6 +17,8 @@ alternates:
     url: https://siftedtools.com/fr/meilleurs-outils-ia-ecommerce/
   - lang: en
     url: https://siftedtools.com/en/best-ai-tools-ecommerce/
+  - lang: es
+    url: https://siftedtools.com/es/mejores-herramientas-ia-ecommerce/
 apps:
   - name: Gorgias
     website: https://www.gorgias.com/

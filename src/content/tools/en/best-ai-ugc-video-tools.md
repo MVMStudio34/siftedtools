@@ -39,6 +39,8 @@ alternates:
     url: https://siftedtools.com/fr/outils-ia-videos-ugc/
   - lang: en
     url: https://siftedtools.com/en/best-ai-ugc-video-tools/
+  - lang: es
+    url: https://siftedtools.com/es/herramientas-ia-videos-ugc/
 faq:
   - q: "What is the best AI UGC video tool?"
     a: "Arcads for scroll-stopping UGC ad creatives with realistic AI actors reading your script, and it leads this niche for paid social. Creatify if you want to paste a product URL and get an ad video fast. HeyGen if you need avatar or presenter videos beyond ads. The deciding factor is the job: ad creatives at volume, product-URL automation, or general spokesperson video."

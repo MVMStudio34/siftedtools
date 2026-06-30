@@ -38,6 +38,8 @@ alternates:
     url: https://siftedtools.com/fr/outils-ia-creas-publicitaires/
   - lang: en
     url: https://siftedtools.com/en/best-ai-ad-creative-tools/
+  - lang: es
+    url: https://siftedtools.com/es/herramientas-ia-creatividades-publicitarias/
 faq:
   - q: "What is the best AI ad creative tool for Shopify?"
     a: "AdCreative.ai if you run real paid budgets on Meta and Google and need high-volume creative to test into, scored by predicted conversion likelihood. Predis.ai if you're social-first and smaller and want organic posts and ad creative from one tool. Pencil if your bottleneck is testing video ad variations against live ad accounts. The best pick depends on your monthly ad spend and whether you're paid-first or social-first, not on which tool has the slickest demo."

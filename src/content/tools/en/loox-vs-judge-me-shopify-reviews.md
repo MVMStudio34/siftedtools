@@ -40,6 +40,8 @@ alternates:
     url: https://siftedtools.com/fr/loox-vs-judge-me/
   - lang: en
     url: https://siftedtools.com/en/loox-vs-judge-me-shopify-reviews/
+  - lang: es
+    url: https://siftedtools.com/es/loox-vs-judge-me-opiniones-shopify/
 faq:
   - q: "What is the best Shopify reviews app in 2026?"
     a: "For most stores, Judge.me. It does what actually matters, the free plan is usable in production, and SEO rich snippets are included, which is rare. Pick Loox instead if photo and video reviews drive conversion in your category, like fashion, beauty or home. Pick Yotpo only if you're at real scale and need reviews bundled with loyalty, SMS and UGC in one suite. There's no universal winner, but Judge.me wins for the majority."

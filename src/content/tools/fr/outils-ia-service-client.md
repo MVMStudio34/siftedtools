@@ -17,6 +17,8 @@ alternates:
     url: https://siftedtools.com/fr/outils-ia-service-client/
   - lang: en
     url: https://siftedtools.com/en/best-ai-customer-service-tools/
+  - lang: es
+    url: https://siftedtools.com/es/herramientas-ia-atencion-cliente/
 apps:
   - name: Gorgias
     website: https://www.gorgias.com/

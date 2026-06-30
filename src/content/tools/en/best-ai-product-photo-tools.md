@@ -39,6 +39,8 @@ alternates:
     url: https://siftedtools.com/fr/outils-ia-photos-produits/
   - lang: en
     url: https://siftedtools.com/en/best-ai-product-photo-tools/
+  - lang: es
+    url: https://siftedtools.com/es/herramientas-ia-fotos-producto/
 faq:
   - q: "What is the best AI product photo tool for Shopify?"
     a: "PhotoRoom for most stores. It turns a phone photo into a clean, on-brand product shot, runs the same job in batch, and pushes straight to Shopify. Pixelcut is the value pick if you want strong lifestyle scenes for less. Remove.bg wins on one thing only: clean cutouts you'll finish in another tool."
