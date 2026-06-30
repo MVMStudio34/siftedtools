@@ -17,6 +17,8 @@ alternates:
     url: https://siftedtools.com/en/getting-started-ai-ecommerce/
   - lang: es
     url: https://siftedtools.com/es/inteligencia-artificial-ecommerce-empezar/
+  - lang: de
+    url: https://siftedtools.com/de/ki-im-ecommerce-einstieg/
 faq:
   - q: "¿Por dónde empiezo con la IA en mi tienda Shopify?"
     a: "No compres un montón de herramientas. Busca la tarea que más tiempo o dinero te cuesta ahora mismo (normalmente la atención al cliente o escribir fichas de producto), aplica la IA solo a ese trabajo y mide lo que ahorras. Cuando salga a cuenta, pasa al siguiente cuello de botella. Una herramienta bien usada vale más que cinco a medias. Esa secuencia es toda la estrategia."

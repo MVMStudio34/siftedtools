@@ -33,6 +33,8 @@ alternates:
     url: https://siftedtools.com/en/best-ai-customer-service-tools/
   - lang: es
     url: https://siftedtools.com/es/herramientas-ia-atencion-cliente/
+  - lang: de
+    url: https://siftedtools.com/de/ki-tools-kundenservice/
 faq:
   - q: "¿Cuál es la mejor herramienta de IA de atención al cliente para Shopify?"
     a: "Gorgias si tienes un equipo de soporte y volumen real de tickets en varios canales; Tidio si eres pequeño, estás empezando o cuidas el presupuesto. Gorgias es un helpdesk de e-commerce completo, pensado para escalar. Tidio es un chat en vivo con una capa de IA (Lyro) hecho para que una tienda pequeña empiece a automatizar rápido."

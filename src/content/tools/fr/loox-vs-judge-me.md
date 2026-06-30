@@ -29,6 +29,8 @@ alternates:
     url: https://siftedtools.com/en/loox-vs-judge-me-shopify-reviews/
   - lang: es
     url: https://siftedtools.com/es/loox-vs-judge-me-opiniones-shopify/
+  - lang: de
+    url: https://siftedtools.com/de/loox-vs-judge-me-bewertungen-shopify/
 offers:
   - tool: Judge.me
     label: Tester Judge.me

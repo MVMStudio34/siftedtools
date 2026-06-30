@@ -41,6 +41,8 @@ alternates:
     url: https://siftedtools.com/en/best-geo-ai-visibility-tools/
   - lang: es
     url: https://siftedtools.com/es/herramientas-visibilidad-ia-geo/
+  - lang: de
+    url: https://siftedtools.com/de/ki-tools-sichtbarkeit-geo/
 faq:
   - q: "¿Qué es la visibilidad en IA o seguimiento GEO?"
     a: "GEO significa Generative Engine Optimization, optimización para motores generativos. El seguimiento de visibilidad IA consiste en medir con qué frecuencia, y cómo, tu marca aparece mencionada o citada dentro de las respuestas de ChatGPT, Gemini, Perplexity, Copilot y los AI Overviews de Google. Es el equivalente del seguimiento de posiciones, pero para la era de la búsqueda con IA. En vez de preguntarte en qué puesto sales en Google, te preguntas si la IA nombra tu tienda cuando un comprador le pide una recomendación."

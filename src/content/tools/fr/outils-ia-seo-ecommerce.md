@@ -32,6 +32,8 @@ alternates:
     url: https://siftedtools.com/en/best-ai-seo-tools-ecommerce/
   - lang: es
     url: https://siftedtools.com/es/herramientas-ia-seo-ecommerce/
+  - lang: de
+    url: https://siftedtools.com/de/ki-tools-seo-ecommerce/
 offers:
   - tool: Surfer SEO
     label: Tester Surfer SEO

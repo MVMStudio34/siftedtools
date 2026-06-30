@@ -19,6 +19,8 @@ alternates:
     url: https://siftedtools.com/en/best-ai-product-description-tools/
   - lang: es
     url: https://siftedtools.com/es/herramientas-ia-fichas-producto/
+  - lang: de
+    url: https://siftedtools.com/de/ki-tools-produktbeschreibungen/
 apps:
   - name: Jasper
     website: https://www.jasper.ai/

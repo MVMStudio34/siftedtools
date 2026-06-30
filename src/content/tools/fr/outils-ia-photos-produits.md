@@ -29,6 +29,8 @@ alternates:
     url: https://siftedtools.com/en/best-ai-product-photo-tools/
   - lang: es
     url: https://siftedtools.com/es/herramientas-ia-fotos-producto/
+  - lang: de
+    url: https://siftedtools.com/de/ki-tools-produktfotos/
 offers:
   - tool: PhotoRoom
     label: Tester PhotoRoom
