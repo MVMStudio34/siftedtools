@@ -14,6 +14,8 @@ requiredTools: []
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/intelligence-artificielle-ecommerce-debuter/
+  - lang: en
+    url: https://siftedtools.com/en/getting-started-ai-ecommerce/
 faq:
   - q: "Comment débuter avec l'intelligence artificielle en e-commerce ?"
     a: "L'IA aide une boutique sur six grands domaines : la rédaction de fiches produits, les photos produits, le service client, l'email marketing, le SEO et la création de publicités. Le bon point de départ n'est pas d'adopter tous les outils d'un coup, mais d'identifier votre goulot d'étranglement principal (la tâche qui vous coûte le plus de temps ou d'argent) et d'y appliquer l'IA en premier. On mesure le gain, puis on étend progressivement aux autres domaines."

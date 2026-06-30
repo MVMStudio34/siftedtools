@@ -14,6 +14,8 @@ requiredTools: []
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/rediger-fiches-produits-ia/
+  - lang: en
+    url: https://siftedtools.com/en/write-product-descriptions-with-ai/
 faq:
   - q: "Comment rédiger une fiche produit qui convertit ?"
     a: "Une fiche produit qui convertit suit une structure claire : un titre précis avec le bénéfice principal, une accroche qui parle du problème résolu, les bénéfices avant les caractéristiques techniques, des éléments de réassurance (avis, garanties, livraison), et un appel à l'action visible. Elle est rédigée pour l'acheteur, pas pour le moteur de recherche, tout en intégrant naturellement les mots-clés que vos clients utilisent. L'IA accélère cette rédaction, mais la structure et la connaissance de votre client restent votre travail."
