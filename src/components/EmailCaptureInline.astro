@@ -1,32 +1,35 @@
 ---
 // Composant compact d'inscription newsletter, réutilisable sur la home et les pages de contenu.
 // URL Brevo et champs cachés alignés sur newsletter.astro.
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 ---
 
-<section class="capture-inline" aria-label="Inscription au Baromètre GEO mensuel">
+<section class="capture-inline" aria-label={t("email.captureAria")}>
   <div class="capture-grid">
 
     <div class="capture-text">
-      <p class="capture-eyebrow">Newsletter mensuelle · gratuite</p>
-      <h2 class="capture-title">Quels outils IA <em>ChatGPT, Gemini et Perplexity</em> recommandent ce mois-ci ?</h2>
-      <p class="capture-lede">Le Baromètre GEO, livré dans votre boîte le 1<sup>er</sup> de chaque mois. Données mesurées, pas opinions.</p>
+      <p class="capture-eyebrow">{t("capture.eyebrow")}</p>
+      <h2 class="capture-title" set:html={t("capture.title")} />
+      <p class="capture-lede">{t("capture.lede")}</p>
     </div>
 
     <div class="capture-form-wrap">
       <form class="capture-form" method="POST" action="https://8408209a.sibforms.com/serve/MUIFAAROj0qPfDixIsYDMIBUfmf1sP3x14RK2wiJ06T2kwPnCLSJ0k_2ts6YmbcCJf38OfaJ4aC7FitxINDq0x7GZ5GMANaW9wvN2hF0K-GD6qby5iww44X35gWBn3ZDnOLaEHHf9o6NcegapIB1gXixVgC_df5HlQQEdF1lSIN9Gry7h9pXe984sZk6sDJEkLTmb7WklFPSl_HFdA==" accept-charset="utf-8">
 
         <div class="capture-row">
-          <input type="email" name="EMAIL" placeholder="votre@email.com" required autocomplete="email" aria-label="Adresse email">
-          <button type="submit">Recevoir</button>
+          <input type="email" name="EMAIL" placeholder={t("email.placeholder")} required autocomplete="email" aria-label={t("email.ariaLabel")}>
+          <button type="submit">{t("capture.submit")}</button>
         </div>
 
         <label class="capture-rgpd">
           <input type="checkbox" required>
-          <span>J'accepte de recevoir le Baromètre. Désinscription en 1 clic. <a href="/fr/confidentialite/">Confidentialité</a>.</span>
+          <span>{t("capture.rgpd")} <a href={`/${lang}/confidentialite/`}>{t("capture.privacy")}</a>.</span>
         </label>
 
         <input type="text" name="email_address_check" value="" style="position:absolute;left:-9999px;" tabindex="-1" autocomplete="off">
-        <input type="hidden" name="locale" value="fr">
+        <input type="hidden" name="locale" value={lang}>
         <input type="hidden" name="html_type" value="simple">
       </form>
     </div>

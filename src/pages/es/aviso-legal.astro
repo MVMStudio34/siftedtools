@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const SITE = "https://siftedtools.com";
+---
+<BaseLayout
+  title="Aviso legal | SiftedTools"
+  description="Información legal sobre SiftedTools: editor, alojamiento, propiedad intelectual, transparencia de afiliados."
+  canonical={`${SITE}/es/aviso-legal/`}
+  alternates={[
+    { lang: "es", href: `${SITE}/es/aviso-legal/` },
+    { lang: "fr", href: `${SITE}/fr/mentions-legales/` },
+    { lang: "en", href: `${SITE}/en/legal-notice/` },
+    { lang: "de", href: `${SITE}/de/impressum/` },
+  ]}
+>
+  <main class="legal-page"><article class="container">
+    <header class="legal-header"><p class="eyebrow">Legal</p><h1>Aviso legal</h1></header>
+    <section><h2>Editor</h2><p><strong>MVM Studio</strong>, empresa individual (auto-entrepreneur). SIRET: 844 116 053 00035. Director de publicación: Marvin Munos. Dirección: 200 rue de la Croix Nivert, 75015 París, Francia. Contacto: <a href="mailto:contact@siftedtools.com">contact@siftedtools.com</a></p></section>
+    <section><h2>Alojamiento</h2><p>Cloudflare, Inc. — 101 Townsend St, San Francisco, CA 94107, USA.</p></section>
+    <section><h2>Propiedad intelectual</h2><p>Todo el contenido (textos, gráficos, comparativas, metodología) es propiedad de MVM Studio salvo indicación contraria. Queda prohibida su reproducción sin autorización previa.</p></section>
+    <section><h2>Transparencia de afiliados</h2><p>SiftedTools contiene enlaces de afiliado. Si te suscribes a un servicio a través de uno de estos enlaces, podemos recibir una comisión sin coste adicional para ti. Esto nunca influye en nuestras clasificaciones ni recomendaciones.</p></section>
+  </article></main>
+</BaseLayout>
+<style>
+  .legal-page{padding:48px 0 80px}.container{max-width:720px;margin:0 auto;padding:0 24px}.legal-header{margin-bottom:40px}.eyebrow{font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}h1{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.15;margin-bottom:.75rem}section{margin-bottom:36px}h2{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:600;margin-bottom:12px}p{font-size:.95rem;line-height:1.65;color:var(--slate);margin-bottom:10px}a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px}
+</style>

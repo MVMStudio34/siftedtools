@@ -1,0 +1,38 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const SITE = "https://siftedtools.com";
+---
+<BaseLayout
+  title="Impressum | SiftedTools"
+  description="Impressum gemäß § 5 TMG: Angaben zum Diensteanbieter, Hosting, geistiges Eigentum, Affiliate-Transparenz."
+  canonical={`${SITE}/de/impressum/`}
+  alternates={[
+    { lang: "de", href: `${SITE}/de/impressum/` },
+    { lang: "fr", href: `${SITE}/fr/mentions-legales/` },
+    { lang: "en", href: `${SITE}/en/legal-notice/` },
+    { lang: "es", href: `${SITE}/es/aviso-legal/` },
+  ]}
+>
+  <main class="legal-page"><article class="container">
+    <header class="legal-header"><p class="eyebrow">Rechtliches</p><h1>Impressum</h1></header>
+
+    <section><h2>Angaben gem&auml;&szlig; &sect; 5 TMG</h2>
+    <p><strong>MVM Studio</strong>, Einzelunternehmen (auto-entrepreneur, Frankreich).</p>
+    <p>SIRET: 844 116 053 00035</p>
+    <p>Inhaltlich verantwortlich gem&auml;&szlig; &sect; 18 Abs. 2 MStV: Marvin Munos</p>
+    <p>Anschrift: 200 rue de la Croix Nivert, 75015 Paris, Frankreich</p>
+    <p>Kontakt: <a href="mailto:contact@siftedtools.com">contact@siftedtools.com</a></p></section>
+
+    <section><h2>Hosting</h2>
+    <p>Cloudflare, Inc. &mdash; 101 Townsend St, San Francisco, CA 94107, USA.</p></section>
+
+    <section><h2>Urheberrecht</h2>
+    <p>Alle Inhalte (Texte, Grafiken, Vergleiche, Methodik) sind Eigentum von MVM Studio, sofern nicht anders angegeben. Die Vervielf&auml;ltigung ohne vorherige Genehmigung ist untersagt.</p></section>
+
+    <section><h2>Affiliate-Transparenz</h2>
+    <p>SiftedTools enth&auml;lt Affiliate-Links. Wenn Sie sich &uuml;ber einen dieser Links anmelden, erhalten wir m&ouml;glicherweise eine Provision ohne Mehrkosten f&uuml;r Sie. Dies beeinflusst niemals unsere Rankings oder Empfehlungen, die auf Leistung und dokumentierter Methodik basieren.</p></section>
+  </article></main>
+</BaseLayout>
+<style>
+  .legal-page{padding:48px 0 80px}.container{max-width:720px;margin:0 auto;padding:0 24px}.legal-header{margin-bottom:40px}.eyebrow{font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}h1{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.15;margin-bottom:.75rem}section{margin-bottom:36px}h2{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:600;margin-bottom:12px}p{font-size:.95rem;line-height:1.65;color:var(--slate);margin-bottom:10px}a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px}
+</style>

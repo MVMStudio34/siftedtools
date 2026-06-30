@@ -1,19 +1,20 @@
 ---
-import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import { getLangFromUrl, useTranslations, getSlug } from "../i18n/utils";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const s = (key) => getSlug(lang as any, key);
 const base = `/${lang}`;
 const nav = [
-  { href: `${base}/outils-ia-ecommerce/`, label: t("nav.tools") },
-  { href: `${base}/comparatifs/`, label: t("nav.comparisons") },
-  { href: `${base}/comparatifs/#guides`, label: t("nav.guides") },
-  { href: `${base}/barometre-geo/`, label: t("nav.barometer") },
-  { href: `${base}/methodologie/`, label: t("nav.method") },
+  { href: `${base}/${s("pillar")}/`, label: t("nav.tools") },
+  { href: `${base}/${s("comparisons")}/`, label: t("nav.comparisons") },
+  { href: `${base}/${s("comparisons")}/#guides`, label: t("nav.guides") },
+  { href: `${base}/${s("barometer")}/`, label: t("nav.barometer") },
+  { href: `${base}/${s("methodology")}/`, label: t("nav.method") },
 ];
 ---
 <header class="site-header">
   <div class="wrap bar">
-    <a class="brand" href={`${base}/`} aria-label="SiftedTools — accueil">
+    <a class="brand" href={`${base}/`} aria-label={t("brand.aria")}>
       <svg width="22" height="22" viewBox="0 0 22 22" aria-hidden="true">
         <circle cx="3" cy="3" r="1.4" fill="var(--gold)"/>
         <circle cx="9" cy="3" r="1.4" fill="var(--mesh)"/>
@@ -28,22 +29,22 @@ const nav = [
       <span class="ui brand-name">{t("brand.name")}</span>
     </a>
 
-    <nav class="nav-desktop ui" aria-label="Navigation principale">
+    <nav class="nav-desktop ui" aria-label={t("nav.main")}>
       {nav.map((n) => <a href={n.href}>{n.label}</a>)}
     </nav>
 
     <div class="header-right">
-      <a class="btn btn-quiz quiz-desktop" href={`${base}/trouver-mon-stack/`}>{t("cta.quiz")}</a>
-      <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="mobile-menu" aria-label={t("menu.open")}>
+      <a class="btn btn-quiz quiz-desktop" href={`${base}/${s("quiz")}/`}>{t("cta.quiz")}</a>
+      <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="mobile-menu" aria-label={t("menu.open")} data-label-open={t("menu.open")} data-label-close={t("menu.close")}>
         <span></span><span></span><span></span>
       </button>
     </div>
   </div>
 
   <div class="mobile-menu" id="mobile-menu" data-menu>
-    <nav class="ui" aria-label="Navigation mobile">
+    <nav class="ui" aria-label={t("nav.mobile")}>
       {nav.map((n) => <a href={n.href}>{n.label}</a>)}
-      <a class="btn btn-quiz mobile-quiz" href={`${base}/trouver-mon-stack/`}>{t("cta.quizLong")}</a>
+      <a class="btn btn-quiz mobile-quiz" href={`${base}/${s("quiz")}/`}>{t("cta.quizLong")}</a>
     </nav>
   </div>
 </header>
@@ -83,6 +84,6 @@ const nav = [
   btn?.addEventListener("click", () => {
     const open = menu?.classList.toggle("open");
     btn.setAttribute("aria-expanded", String(!!open));
-    btn.setAttribute("aria-label", open ? "Fermer le menu" : "Ouvrir le menu");
+    btn.setAttribute("aria-label", open ? btn.dataset.labelClose : btn.dataset.labelOpen);
   });
 </script>

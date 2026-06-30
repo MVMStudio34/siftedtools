@@ -1,0 +1,62 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const SITE = "https://siftedtools.com";
+const title = "Legal Notice | SiftedTools";
+const description = "Legal information about SiftedTools: publisher, hosting, intellectual property, affiliate disclosure.";
+---
+
+<BaseLayout title={title} description={description}
+  canonical={`${SITE}/en/legal-notice/`}
+  alternates={[
+    { lang: "en", href: `${SITE}/en/legal-notice/` },
+    { lang: "fr", href: `${SITE}/fr/mentions-legales/` },
+    { lang: "es", href: `${SITE}/es/aviso-legal/` },
+    { lang: "de", href: `${SITE}/de/impressum/` },
+  ]}
+>
+  <main class="legal-page">
+    <article class="container">
+      <header class="legal-header">
+        <p class="eyebrow">Legal</p>
+        <h1>Legal Notice</h1>
+      </header>
+
+      <section>
+        <h2>Publisher</h2>
+        <p><strong>MVM Studio</strong>, sole proprietorship (auto-entrepreneur).</p>
+        <p>SIRET: 844 116 053 00035</p>
+        <p>Director of publication: Marvin Munos</p>
+        <p>Address: 200 rue de la Croix Nivert, 75015 Paris, France</p>
+        <p>Contact: <a href="mailto:contact@siftedtools.com">contact@siftedtools.com</a></p>
+      </section>
+
+      <section>
+        <h2>Hosting</h2>
+        <p>Cloudflare, Inc. — 101 Townsend St, San Francisco, CA 94107, USA.</p>
+      </section>
+
+      <section>
+        <h2>Intellectual property</h2>
+        <p>All content (text, graphics, comparisons, methodology) is the property of MVM Studio unless otherwise stated. Reproduction without prior authorization is prohibited.</p>
+      </section>
+
+      <section>
+        <h2>Affiliate disclosure</h2>
+        <p>SiftedTools contains affiliate links. If you sign up for a service through one of these links, we may earn a commission at no additional cost to you. This never influences our rankings or recommendations, which are based on merit and documented methodology.</p>
+      </section>
+    </article>
+  </main>
+</BaseLayout>
+
+<style>
+  .legal-page{padding:48px 0 80px}
+  .container{max-width:720px;margin:0 auto;padding:0 24px}
+  .legal-header{margin-bottom:40px}
+  .eyebrow{font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}
+  h1{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.15;margin-bottom:.75rem}
+  section{margin-bottom:36px}
+  h2{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:600;margin-bottom:12px}
+  p{font-size:.95rem;line-height:1.65;color:var(--slate);margin-bottom:10px}
+  a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px}
+</style>

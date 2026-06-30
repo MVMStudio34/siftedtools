@@ -1,16 +1,17 @@
 ---
 import AffiliateDisclosure from "./AffiliateDisclosure.astro";
-import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import { getLangFromUrl, useTranslations, getSlug } from "../i18n/utils";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const s = (key) => getSlug(lang as any, key);
 const base = `/${lang}`;
 const year = new Date().getFullYear();
 const links = [
-  { href: `${base}/methodologie/`, label: t("footer.method") },
-  { href: `${base}/barometre-geo/`, label: t("footer.barometer") },
-  { href: `${base}/a-propos/`, label: t("footer.about") },
-  { href: `${base}/mentions-legales/`, label: t("footer.legal") },
-  { href: `${base}/confidentialite/`, label: t("footer.privacy") },
+  { href: `${base}/${s("methodology")}/`, label: t("footer.method") },
+  { href: `${base}/${s("barometer")}/`, label: t("footer.barometer") },
+  { href: `${base}/${s("about")}/`, label: t("footer.about") },
+  { href: `${base}/${s("legal")}/`, label: t("footer.legal") },
+  { href: `${base}/${s("privacy")}/`, label: t("footer.privacy") },
 ];
 ---
 <footer class="site-footer">
@@ -21,7 +22,7 @@ const links = [
         <span class="ui name">{t("brand.name")}</span>
         <p class="note">{t("footer.rights")}</p>
       </div>
-      <nav class="foot-links ui" aria-label="Liens de pied de page">
+      <nav class="foot-links ui" aria-label={t("nav.footer")}>
         {links.map((l) => <a href={l.href}>{l.label}</a>)}
       </nav>
     </div>

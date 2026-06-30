@@ -1,0 +1,126 @@
+---
+import { getCollection } from "astro:content";
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EmailCaptureInline from "../../components/EmailCaptureInline.astro";
+import { organization, webPage, buildGraph } from "../../lib/schema";
+
+const SITE = "https://siftedtools.com";
+const LANG = "es";
+const url = `${SITE}/${LANG}/comparativas/`;
+const updated = "2026-06-30";
+
+const all = await getCollection("tools", ({ data }) => data.draft !== true && data.lang === LANG);
+const comparisons = all.sort((a, b) => new Date(b.data.updatedAt).getTime() - new Date(a.data.updatedAt).getTime());
+const slugOf = (entry) => entry.id.replace(/\.(md|mdx)$/i, "").replace(new RegExp(`^${LANG}/`), "");
+
+const allGuías = await getCollection("guides", ({ data }) => data.draft !== true && data.lang === LANG);
+const guides = allGuías.sort((a, b) => new Date(b.data.updatedAt).getTime() - new Date(a.data.updatedAt).getTime());
+
+const schema = [
+  buildGraph(
+    organization(),
+    webPage({
+      url,
+      title: "Todas las comparativas de herramientas IA para e-commerce",
+      description: "Todas nuestras comparativas de herramientas IA probadas en tiendas reales: servicio al cliente, fichas de producto, fotos, email, SEO, creatividades publicitarias.",
+      updatedAt: new Date(updated),
+      lang: LANG,
+    })
+  ),
+];
+---
+<BaseLayout
+  title="Todas las comparativas de herramientas IA para e-commerce | SiftedTools"
+  description="Todas nuestras comparativas de herramientas IA probadas en tiendas reales: servicio al cliente, fichas de producto, fotos, email, SEO, creatividades publicitarias."
+  canonical={url}
+  alternates={[
+    { lang: "en", href: url },
+    { lang: "fr", href: `${SITE}/fr/comparatifs/` },
+    { lang: "es", href: `${SITE}/es/comparativas/` },
+    { lang: "de", href: `${SITE}/de/vergleiche/` },
+  ]}
+  updatedAt={updated}
+  schema={schema}
+>
+  <main class="hub">
+    <div class="wrap">
+
+      <header class="hub-head">
+        <p class="eyebrow">El filtro · {comparisons.length} comparativas publicadas</p>
+        <h1>Todas nuestras comparativas de herramientas IA para e-commerce</h1>
+        <p class="lede">Cada comparativa se basa en pruebas en tiendas reales. Ninguna clasificación refleja un presupuesto de marketing. Ver nuestra <a href={`/${LANG}/metodologia/`}>metodología</a>.</p>
+      </header>
+
+      {comparisons.length === 0 ? (
+        <p class="empty">No comparativas publicadas yet. Our English comparisons are being prepared. Check back soon.</p>
+      ) : (
+        <div class="grid">
+          {comparisons.map((entry) => {
+            const slug = slugOf(entry);
+            const href = `/${LANG}/${slug}/`;
+            const dateStr = new Date(entry.data.updatedAt).toLocaleDateString("es-ES", { month: "long", year: "numeric" });
+            return (
+              <a class="card" href={href}>
+                <span class="card-eyebrow">Comparativa · {dateStr}</span>
+                <h2>{entry.data.title}</h2>
+                <p>{entry.data.description}</p>
+                <span class="card-arrow">Leer el veredicto →</span>
+              </a>
+            );
+          })}
+        </div>
+      )}
+
+      {guides.length > 0 && (
+        <section id="guides" class="guides-section">
+          <header class="hub-head">
+            <p class="eyebrow">Guías prácticas · {guides.length} guides</p>
+            <h2 class="section-title">Nuestras guías para pasar a la acción</h2>
+            <p class="lede">Más allá de las comparativas, nuestras guías explican cómo usar la IA de forma concreta en tu tienda.</p>
+          </header>
+          <div class="grid">
+            {guides.map((entry) => {
+              const slug = slugOf(entry);
+              const href = `/${LANG}/${slug}/`;
+              return (
+                <a class="card" href={href}>
+                  <span class="card-eyebrow">Guía</span>
+                  <h2>{entry.data.title}</h2>
+                  <p>{entry.data.description}</p>
+                  <span class="card-arrow">Leer la guía →</span>
+                </a>
+              );
+            })}
+          </div>
+        </section>
+      )}
+
+      <div class="newsletter-slot"><EmailCaptureInline /></div>
+
+    </div>
+  </main>
+</BaseLayout>
+
+<style>
+  .hub { padding: 60px 0 80px; background: var(--porcelain, #F4F5F2); min-height: calc(100vh - 200px); }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 0 24px; }
+  .hub-head { margin-bottom: 48px; }
+  .eyebrow { font-family: 'Space Mono', monospace; font-size: 0.75rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold, #B17C2E); margin-bottom: 1rem; }
+  h1 { font-family: 'Newsreader', Georgia, serif; font-weight: 500; font-size: clamp(2rem, 5vw, 2.75rem); line-height: 1.15; letter-spacing: -0.02em; color: var(--ink, #16171D); margin-bottom: 1rem; }
+  .lede { font-size: 1.1rem; color: var(--slate, #6B6C73); line-height: 1.6; max-width: 60ch; }
+  .lede a { color: var(--ink, #16171D); text-decoration: underline; text-decoration-color: var(--gold, #B17C2E); text-underline-offset: 3px; }
+  .grid { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
+  .card { background: white; border: 1px solid var(--mesh, #C9CAC4); border-radius: 4px; padding: 28px 26px; text-decoration: none; color: var(--ink, #16171D); transition: border-color 0.15s, transform 0.15s; position: relative; }
+  .card::before { content: ''; position: absolute; top: -1px; left: 28px; right: 28px; height: 2px; background: var(--gold, #B17C2E); opacity: 0; transition: opacity 0.15s; }
+  .card:hover { border-color: var(--gold, #B17C2E); transform: translateY(-2px); }
+  .card:hover::before { opacity: 1; }
+  .card-eyebrow { font-family: 'Space Mono', monospace; font-size: 0.7rem; letter-spacing: 0.1em; text-transform: uppercase; color: var(--gold, #B17C2E); display: block; margin-bottom: 0.75rem; }
+  .card h2 { font-family: 'Newsreader', Georgia, serif; font-weight: 500; font-size: 1.25rem; line-height: 1.3; margin-bottom: 0.75rem; color: var(--ink, #16171D); }
+  .card p { font-family: 'Space Grotesk', sans-serif; font-size: 0.95rem; color: var(--slate, #6B6C73); line-height: 1.5; margin-bottom: 1.25rem; }
+  .card-arrow { font-family: 'Space Grotesk', sans-serif; font-size: 0.9rem; font-weight: 600; color: var(--gold, #B17C2E); }
+  .empty { font-family: 'Space Grotesk', sans-serif; color: var(--slate, #6B6C73); text-align: center; padding: 60px 0; background: white; border-radius: 4px; }
+  .guides-section { margin-top: 64px; scroll-margin-top: 80px; }
+  .section-title { font-family: 'Newsreader', Georgia, serif; font-weight: 500; font-size: clamp(1.6rem, 4vw, 2rem); line-height: 1.2; letter-spacing: -0.02em; color: var(--ink, #16171D); margin-bottom: 1rem; }
+  .newsletter-slot { margin-top: 56px; }
+  @media (max-width: 720px) { .grid { grid-template-columns: 1fr; } }
+</style>

@@ -1,0 +1,66 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import EmailCaptureInline from "../../components/EmailCaptureInline.astro";
+import AuthorBio from "../../components/AuthorBio.astro";
+import { organization, webPage, buildGraph } from "../../lib/schema";
+
+const site = "https://siftedtools.com";
+const url = `${site}/en/`;
+const updated = "2026-06-30";
+
+const schema = [
+  buildGraph(
+    organization(),
+    webPage({
+      url,
+      title: "AI Tools for E-commerce: The Verdict, Not the List",
+      description:
+        "Independent comparator of the best AI tools for Shopify, WooCommerce and DTC stores. Tested on real stores, ranked on merit.",
+      updatedAt: new Date(updated),
+      lang: "en",
+    })
+  ),
+];
+---
+<BaseLayout
+  title="AI Tools for E-commerce: The Verdict, Not the List | SiftedTools"
+  description="Independent comparator of the best AI tools for Shopify, WooCommerce and DTC stores. Tested on real stores, ranked on merit."
+  canonical={url}
+  alternates={[
+    { lang: "en", href: `${site}/en/` },
+    { lang: "fr", href: `${site}/fr/` },
+    { lang: "es", href: `${site}/es/` },
+    { lang: "de", href: `${site}/de/` },
+  ]}
+  updatedAt={updated}
+  schema={schema}
+>
+  <div class="home">
+    <section class="hero">
+      <p class="kicker ui">Independent AI tools comparator for e-commerce</p>
+      <h1>The right tool.<br /><em>Not the longest list.</em></h1>
+      <p class="subtitle">We test AI tools on real stores, not from product pages. Clear verdict, documented methodology, zero bias.</p>
+    </section>
+
+    <section class="coming">
+      <h2 class="ui">Comparisons coming soon</h2>
+      <p>Our English comparisons are being prepared. In the meantime, subscribe to get the GEO Barometer as soon as it launches.</p>
+      <EmailCaptureInline />
+    </section>
+
+    <div class="author-slot"><AuthorBio updatedAt={updated} /></div>
+  </div>
+</BaseLayout>
+
+<style>
+  .home{max-width:760px;margin:0 auto;padding:48px 24px}
+  .hero{text-align:center;margin-bottom:56px}
+  .kicker{font-size:13px;letter-spacing:0.08em;text-transform:uppercase;color:var(--gold);margin-bottom:20px}
+  .hero h1{font-size:clamp(36px,6vw,56px);line-height:1.05;letter-spacing:-0.02em}
+  .hero em{font-style:italic;color:var(--gold)}
+  .subtitle{font-size:clamp(17px,2.5vw,20px);color:var(--slate);max-width:52ch;margin:20px auto 0;line-height:1.5}
+  .coming{margin:48px 0}
+  .coming h2{font-size:clamp(22px,3vw,28px);margin-bottom:8px}
+  .coming p{color:var(--slate);margin-bottom:24px;max-width:60ch}
+  .author-slot{margin:48px 0}
+</style>

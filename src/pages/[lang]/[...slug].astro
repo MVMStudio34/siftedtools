@@ -9,6 +9,7 @@ import EmailCaptureInline from "../../components/EmailCaptureInline.astro";
 import RelatedComparisons from "../../components/RelatedComparisons.astro";
 import OfferButtons from "../../components/OfferButtons.astro";
 import { organization, webPage, breadcrumb, faqPage, softwareApplication, buildGraph } from "../../lib/schema";
+import { useTranslations } from "../../i18n/utils";
 
 const SITE = "https://siftedtools.com";
 
@@ -31,6 +32,7 @@ export const getStaticPaths: GetStaticPaths = async () => {
 };
 
 const { entry, lang, slug, collection } = Astro.props;
+const t = useTranslations(lang);
 const data = entry.data;
 const pageUrl = `${SITE}/${lang}/${slug}/`;
 const dateStr = new Date(data.updatedAt).toISOString().slice(0, 10);
@@ -40,7 +42,7 @@ const nodes = [
   organization(),
   webPage({ url: pageUrl, title: data.title, description: data.description, updatedAt: new Date(data.updatedAt), lang }),
   breadcrumb([
-    { name: "Accueil", url: `${SITE}/${lang}/` },
+    { name: t("breadcrumb.home"), url: `${SITE}/${lang}/` },
     { name: data.title, url: pageUrl },
   ]),
 ];
@@ -62,21 +64,21 @@ const showRelated = collection === "tools";
   schema={schema}
 >
   <article class="article">
-    <nav class="crumbs ui" aria-label="Fil d'Ariane">
-      <a href={`/${lang}/`}>Accueil</a>
+    <nav class="crumbs ui" aria-label={t("breadcrumb.aria")}>
+      <a href={`/${lang}/`}>{t("breadcrumb.home")}</a>
       <span aria-hidden="true">/</span>
       <span>{data.title}</span>
     </nav>
 
     <header class="art-head">
       <h1 class="ui">{data.title}</h1>
-      <p class="meta note">Testé et rédigé par {data.reviewedBy} · Vérifié le {dateStr}</p>
+      <p class="meta note">{t("page.reviewedBy")} {data.reviewedBy} · {t("page.updated")} {dateStr}</p>
     </header>
 
     <div class="disclosure-slot"><AffiliateDisclosure compact={true} /></div>
 
     {data.offers?.length > 0 && (
-      <OfferButtons offers={data.offers} eyebrow="Tester directement" />
+      <OfferButtons offers={data.offers} eyebrow={t("cta.testNow")} />
     )}
 
     <div class="prose">
@@ -91,8 +93,8 @@ const showRelated = collection === "tools";
 
     {collection === "tools" && data.offers?.length > 0 && (
       <div class="cta-repeat">
-        <h2 class="ui">Prêt à choisir ?</h2>
-        <OfferButtons offers={data.offers} eyebrow="Notre sélection testée" />
+        <h2 class="ui">{t("cta.readyTitle")}</h2>
+        <OfferButtons offers={data.offers} eyebrow={t("cta.readyEyebrow")} />
       </div>
     )}
 
