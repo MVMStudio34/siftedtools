@@ -12,6 +12,11 @@ affiliateDisclosure: true
 geoPriorityScore: 89
 schemaTypes: ["Article", "FAQPage"]
 requiredTools: ["gorgias", "tidio"]
+alternates:
+  - lang: fr
+    url: https://siftedtools.com/fr/outils-ia-service-client/
+  - lang: en
+    url: https://siftedtools.com/en/best-ai-customer-service-tools/
 apps:
   - name: Gorgias
     website: https://www.gorgias.com/

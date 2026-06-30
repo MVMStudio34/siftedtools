@@ -59,7 +59,7 @@ const showRelated = collection === "tools";
   title={`${data.title} | SiftedTools`}
   description={data.description}
   canonical={pageUrl}
-  alternates={data.alternates}
+  alternates={data.alternates.map((a) => ({ lang: a.lang, href: a.url }))}
   updatedAt={dateStr}
   schema={schema}
 >
