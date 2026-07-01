@@ -1,9 +1,10 @@
 ---
 // Composant compact d'inscription newsletter, réutilisable sur la home et les pages de contenu.
 // URL Brevo et champs cachés alignés sur newsletter.astro.
-import { getLangFromUrl, useTranslations } from "../i18n/utils";
+import { getLangFromUrl, useTranslations, getSlug } from "../i18n/utils";
 const lang = getLangFromUrl(Astro.url);
 const t = useTranslations(lang);
+const s = (key) => getSlug(lang, key);
 ---
 
 <section class="capture-inline" aria-label={t("email.captureAria")}>
@@ -25,7 +26,7 @@ const t = useTranslations(lang);
 
         <label class="capture-rgpd">
           <input type="checkbox" required>
-          <span>{t("capture.rgpd")} <a href={`/${lang}/confidentialite/`}>{t("capture.privacy")}</a>.</span>
+          <span>{t("capture.rgpd")} <a href={`/${lang}/${s("privacy")}/`}>{t("capture.privacy")}</a>.</span>
         </label>
 
         <input type="text" name="email_address_check" value="" style="position:absolute;left:-9999px;" tabindex="-1" autocomplete="off">

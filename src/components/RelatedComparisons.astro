@@ -1,6 +1,6 @@
 ---
 import { getCollection } from "astro:content";
-import { useTranslations } from "../i18n/utils";
+import { useTranslations, getSlug } from "../i18n/utils";
 
 interface Props {
   currentSlug: string;
@@ -10,6 +10,7 @@ interface Props {
 
 const { currentSlug, lang, limit = 3 } = Astro.props;
 const t = useTranslations(lang as any);
+const s = (key) => getSlug(lang as any, key);
 
 // Récupère tous les comparatifs publiés dans la même langue, exclut l'article courant
 const all = await getCollection("tools", ({ data }) => data.draft !== true && data.lang === lang);
@@ -36,16 +37,16 @@ const slugOf = (entry: typeof others[0]) => entry.id.replace(/\.(md|mdx)$/i, "")
     <div class="related-grid">
       {others.map((entry) => (
         <a class="related-card" href={`/${lang}/${slugOf(entry)}/`}>
-          <span class="related-card-eyebrow">Comparatif</span>
+          <span class="related-card-eyebrow">{t("related.cardEyebrow")}</span>
           <h3>{entry.data.title}</h3>
           <p>{entry.data.description}</p>
-          <span class="related-arrow">Lire le verdict →</span>
+          <span class="related-arrow">{t("related.readVerdict")}</span>
         </a>
       ))}
     </div>
 
     <div class="related-footer">
-      <a href={`/${lang}/comparatifs/`} class="related-all">Voir tous les comparatifs →</a>
+      <a href={`/${lang}/${s("comparisons")}/`} class="related-all">{t("related.viewAll")}</a>
     </div>
   </section>
 )}

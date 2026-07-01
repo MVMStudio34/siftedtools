@@ -1,9 +1,12 @@
 ---
 // Boutons d'offres affiliées avec hiérarchie visuelle (A2).
 // 1er bouton = CTA principal (fond doré), suivants = secondaires (outline doré).
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 interface Offer { tool: string; label: string; url: string; note?: string; }
 interface Props { offers?: Offer[]; eyebrow?: string; }
-const { offers = [], eyebrow = "Tester directement" } = Astro.props;
+const { offers = [], eyebrow = t("cta.testNow") } = Astro.props;
 ---
 <div class="offers">
   <span class="eyebrow">{eyebrow}</span>
@@ -19,7 +22,7 @@ const { offers = [], eyebrow = "Tester directement" } = Astro.props;
       </a>
     ))}
   </div>
-  <p class="offers-reassurance note">Voir l'offre sur le site officiel · lien partenaire</p>
+  <p class="offers-reassurance note">{t("offers.reassurance")}</p>
 </div>
 
 <style>

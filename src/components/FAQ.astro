@@ -1,8 +1,11 @@
 ---
 // FAQ accessible (details/summary). Très bon pour l'extraction par les IA.
 // Le JSON-LD FAQPage correspondant s'injecte côté page via buildFaqPage() (src/lib/schema.ts).
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const lang = getLangFromUrl(Astro.url);
+const t = useTranslations(lang);
 interface QA { q: string; a: string; }
-const { items = [], title = "Questions fréquentes" } = Astro.props as { items: QA[]; title?: string };
+const { items = [], title = t("faq.title") } = Astro.props as { items: QA[]; title?: string };
 ---
 <section class="faq" aria-labelledby="faq-title">
   <h2 id="faq-title" class="ui">{title}</h2>

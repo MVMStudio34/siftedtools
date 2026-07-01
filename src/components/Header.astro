@@ -34,7 +34,8 @@ const nav = [
     </nav>
 
     <div class="header-right">
-      <a class="btn btn-quiz quiz-desktop" href={`${base}/${s("quiz")}/`}>{t("cta.quiz")}</a>
+      <!-- Quiz link hidden: page not yet created -->
+      <!-- <a class="btn btn-quiz quiz-desktop" href={`${base}/${s("quiz")}/`}>{t("cta.quiz")}</a> -->
       <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="mobile-menu" aria-label={t("menu.open")} data-label-open={t("menu.open")} data-label-close={t("menu.close")}>
         <span></span><span></span><span></span>
       </button>
@@ -44,7 +45,8 @@ const nav = [
   <div class="mobile-menu" id="mobile-menu" data-menu>
     <nav class="ui" aria-label={t("nav.mobile")}>
       {nav.map((n) => <a href={n.href}>{n.label}</a>)}
-      <a class="btn btn-quiz mobile-quiz" href={`${base}/${s("quiz")}/`}>{t("cta.quizLong")}</a>
+      <!-- Quiz link hidden: page not yet created -->
+      <!-- <a class="btn btn-quiz mobile-quiz" href={`${base}/${s("quiz")}/`}>{t("cta.quizLong")}</a> -->
     </nav>
   </div>
 </header>
