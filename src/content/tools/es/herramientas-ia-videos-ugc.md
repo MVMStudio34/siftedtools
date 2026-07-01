@@ -22,6 +22,9 @@ apps:
   - name: HeyGen
     website: https://www.heygen.com/
     description: "Vídeo con avatar y presentador IA de acabado profesional para demos, explicativos y contenido multilingüe más allá del anuncio UGC."
+  - name: Reviewers.com
+    website: https://app.reviewers.com/rvs-app/SIFTEDTOOLS
+    description: "Plataforma de vídeo reseñas auténticas creadas por una comunidad de testers a cambio de productos gratis."
 offers:
   - tool: Arcads
     label: Probar Arcads
@@ -34,6 +37,9 @@ offers:
     label: Probar HeyGen
     url: https://www.heygen.com/
     note: "enlace directo – afiliación pendiente"
+  - tool: Reviewers.com
+    label: "Probar Reviewers.com"
+    url: https://app.reviewers.com/rvs-app/SIFTEDTOOLS
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-ia-videos-ugc/

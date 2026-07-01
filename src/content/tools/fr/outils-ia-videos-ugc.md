@@ -22,6 +22,9 @@ apps:
   - name: HeyGen
     website: https://www.heygen.com/
     description: "Avatar IA vidéo professionnel pour démos produits, vidéos explicatives et contenu multilingue."
+  - name: Reviewers.com
+    website: https://app.reviewers.com/rvs-app/SIFTEDTOOLS
+    description: "Plateforme de vidéo reviews authentiques par une communauté de testeurs, en échange de produits gratuits."
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-ia-videos-ugc/
@@ -41,6 +44,9 @@ offers:
   - tool: HeyGen
     label: Tester HeyGen
     url: https://www.heygen.com/
+  - tool: Reviewers.com
+    label: "Essayer Reviewers.com"
+    url: https://app.reviewers.com/rvs-app/SIFTEDTOOLS
 faq:
   - q: "Quel outil IA pour créer des vidéos UGC ?"
     a: "Aucun des trois n'est universellement le meilleur : le bon choix dépend de votre budget et de votre cas d'usage. Arcads est la référence pour les publicités UGC à acteurs IA, avec la plus grande bibliothèque d'acteurs (1000+) et la meilleure qualité, mais c'est le plus cher. Creatify est l'alternative accessible avec un plan gratuit et un workflow URL produit vers vidéo idéal pour l'e-commerce. HeyGen est meilleur pour les vidéos avatar professionnelles, les démos et le contenu de formation plutôt que pour la pub UGC pure."

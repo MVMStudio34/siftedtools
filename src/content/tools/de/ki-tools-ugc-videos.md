@@ -22,6 +22,9 @@ apps:
   - name: HeyGen
     website: https://www.heygen.com/
     description: "Sauberes KI-Avatar- und Presenter-Video für Demos, Erklärclips und mehrsprachige Inhalte jenseits von UGC-Anzeigen."
+  - name: Reviewers.com
+    website: https://app.reviewers.com/rvs-app/SIFTEDTOOLS
+    description: "Plattform für authentische Video-Reviews von einer Community aus Testern im Tausch gegen Gratisprodukte."
 offers:
   - tool: Arcads
     label: Arcads testen
@@ -34,6 +37,9 @@ offers:
     label: HeyGen testen
     url: https://www.heygen.com/
     note: "Direktlink – Affiliate-Programm ausstehend"
+  - tool: Reviewers.com
+    label: "Reviewers.com testen"
+    url: https://app.reviewers.com/rvs-app/SIFTEDTOOLS
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-ia-videos-ugc/

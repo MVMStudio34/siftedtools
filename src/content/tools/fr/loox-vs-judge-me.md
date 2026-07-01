@@ -36,8 +36,8 @@ offers:
     label: Tester Judge.me
     url: https://judge.me/
   - tool: Loox
-    label: Tester Loox
-    url: https://loox.app/
+    label: Essayer Loox
+    url: https://loox.io/app/SIFTEDTOOLS
   - tool: Yotpo
     label: Découvrir Yotpo
     url: https://www.yotpo.com/

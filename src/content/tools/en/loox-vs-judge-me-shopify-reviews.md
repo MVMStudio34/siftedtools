@@ -28,9 +28,8 @@ offers:
     url: https://judge.me/
     note: "direct link – affiliate pending"
   - tool: Loox
-    label: See Loox
-    url: https://loox.app/
-    note: "direct link – affiliate pending"
+    label: Try Loox
+    url: https://loox.io/app/SIFTEDTOOLS
   - tool: Yotpo
     label: See Yotpo
     url: https://www.yotpo.com/

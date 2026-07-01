@@ -28,9 +28,8 @@ offers:
     url: https://judge.me/
     note: "Direktlink – Affiliate-Programm ausstehend"
   - tool: Loox
-    label: Loox ansehen
-    url: https://loox.app/
-    note: "Direktlink – Affiliate-Programm ausstehend"
+    label: Loox testen
+    url: https://loox.io/app/SIFTEDTOOLS
   - tool: Yotpo
     label: Yotpo ansehen
     url: https://www.yotpo.com/
