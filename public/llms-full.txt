@@ -198,3 +198,18 @@ SiftedTools est edite par MVM Studio, entreprise individuelle francaise (SIRET 8
 - https://siftedtools.com/de/ratgeber-geo-sichtbarkeit-ki.md
 - https://siftedtools.com/de/produktbeschreibungen-mit-ki-schreiben.md
 - https://siftedtools.com/de/ki-im-ecommerce-einstieg.md
+
+## Verdetti in italiano (testo completo via .md)
+- https://siftedtools.com/it/migliori-strumenti-ia-ecommerce.md
+- https://siftedtools.com/it/strumenti-ia-assistenza-clienti.md
+- https://siftedtools.com/it/strumenti-ia-schede-prodotto.md
+- https://siftedtools.com/it/loox-vs-judge-me-recensioni-shopify.md
+- https://siftedtools.com/it/strumenti-ia-email-marketing.md
+- https://siftedtools.com/it/strumenti-ia-foto-prodotto.md
+- https://siftedtools.com/it/strumenti-ia-creativita-pubblicitarie.md
+- https://siftedtools.com/it/strumenti-ia-seo-ecommerce.md
+- https://siftedtools.com/it/strumenti-ia-video-ugc.md
+- https://siftedtools.com/it/strumenti-visibilita-ia-geo.md
+- https://siftedtools.com/it/guida-geo-posizionamento-ia.md
+- https://siftedtools.com/it/scrivere-schede-prodotto-ia.md
+- https://siftedtools.com/it/intelligenza-artificiale-ecommerce-iniziare.md

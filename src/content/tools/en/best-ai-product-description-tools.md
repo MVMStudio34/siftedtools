@@ -56,6 +56,8 @@ alternates:
     url: https://siftedtools.com/es/herramientas-ia-fichas-producto/
   - lang: de
     url: https://siftedtools.com/de/ki-tools-produktbeschreibungen/
+  - lang: it
+    url: https://siftedtools.com/it/strumenti-ia-schede-prodotto/
 faq:
   - q: "What is the best AI product description tool for Shopify?"
     a: "Jasper if you're writing at volume across a large or multi-brand catalogue and you need a consistent brand voice. For most small stores under 50 products a month, ChatGPT is the better answer: it costs a fraction of a dedicated tool and the writing quality is now excellent. Hypotenuse sits between them for stores whose only job is bulk product copy plugged straight into Shopify."

@@ -82,6 +82,24 @@
 - [KI im E-Commerce: der Einstieg](https://siftedtools.com/de/ki-im-ecommerce-einstieg/)
 - [Methodik](https://siftedtools.com/de/methodik/) · [GEO-Barometer](https://siftedtools.com/de/geo-barometer/) · [Über uns](https://siftedtools.com/de/ueber-uns/)
 
+## Confronti — Italiano (/it/)
+- [Migliori strumenti IA per l'e-commerce 2026](https://siftedtools.com/it/migliori-strumenti-ia-ecommerce/) : guida pilastro, lo stack completo per caso d'uso (WooCommerce e Shopify).
+- [Gorgias vs Tidio: assistenza clienti](https://siftedtools.com/it/strumenti-ia-assistenza-clienti/)
+- [Strumenti IA per schede prodotto](https://siftedtools.com/it/strumenti-ia-schede-prodotto/)
+- [Loox vs Judge.me: recensioni Shopify](https://siftedtools.com/it/loox-vs-judge-me-recensioni-shopify/)
+- [Strumenti IA per l'email marketing](https://siftedtools.com/it/strumenti-ia-email-marketing/) : focus UE/GDPR per il mercato italiano.
+- [Strumenti IA per foto prodotto](https://siftedtools.com/it/strumenti-ia-foto-prodotto/)
+- [Strumenti IA per creatività pubblicitarie](https://siftedtools.com/it/strumenti-ia-creativita-pubblicitarie/)
+- [Strumenti IA SEO per l'e-commerce](https://siftedtools.com/it/strumenti-ia-seo-ecommerce/)
+- [Strumenti IA per video UGC](https://siftedtools.com/it/strumenti-ia-video-ugc/)
+- [Strumenti di visibilità IA / GEO](https://siftedtools.com/it/strumenti-visibilita-ia-geo/)
+
+## Guide — Italiano
+- [GEO: visibilità sui motori di risposta IA](https://siftedtools.com/it/guida-geo-posizionamento-ia/)
+- [Scrivere schede prodotto con l'IA](https://siftedtools.com/it/scrivere-schede-prodotto-ia/)
+- [Intelligenza artificiale nell'e-commerce: come iniziare](https://siftedtools.com/it/intelligenza-artificiale-ecommerce-iniziare/)
+- [Metodologia](https://siftedtools.com/it/metodologia/) · [Barometro GEO](https://siftedtools.com/it/barometro-geo/) · [Chi siamo](https://siftedtools.com/it/chi-siamo/)
+
 ## Full content
 - Detailed verdicts: https://siftedtools.com/llms-full.txt
 - Any content page as Markdown: append `.md` to its slug.

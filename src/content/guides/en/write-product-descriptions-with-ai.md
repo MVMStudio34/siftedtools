@@ -19,6 +19,8 @@ alternates:
     url: https://siftedtools.com/es/redactar-fichas-producto-ia/
   - lang: de
     url: https://siftedtools.com/de/produktbeschreibungen-mit-ki-schreiben/
+  - lang: it
+    url: https://siftedtools.com/it/scrivere-schede-prodotto-ia/
 faq:
   - q: "Why do AI product descriptions sound so generic?"
     a: "Because the model is filling gaps with averages. If you only give it a product name and ask for a description, it returns the statistically most likely text for that category, which reads like every other store. The fix is inputs: feed the real specs, the specific customer it's for, the objections it answers, and the words your buyers actually use. The more concrete the brief, the less generic the output."

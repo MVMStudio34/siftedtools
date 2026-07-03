@@ -43,6 +43,8 @@ alternates:
     url: https://siftedtools.com/es/herramientas-ia-fotos-producto/
   - lang: de
     url: https://siftedtools.com/de/ki-tools-produktfotos/
+  - lang: it
+    url: https://siftedtools.com/it/strumenti-ia-foto-prodotto/
 faq:
   - q: "¿Cuál es la mejor herramienta IA de fotos de producto para Shopify?"
     a: "PhotoRoom para la mayoría de tiendas. Convierte una foto de móvil en un packshot limpio y coherente con tu marca, repite el mismo trabajo por lotes y empuja las imágenes directo a Shopify. Pixelcut es la opción valor si quieres escenas lifestyle convincentes por menos dinero. Remove.bg gana en una sola cosa: recortes limpios que vas a terminar en otra herramienta."

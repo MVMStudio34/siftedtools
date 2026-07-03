@@ -31,6 +31,8 @@ alternates:
     url: https://siftedtools.com/es/herramientas-visibilidad-ia-geo/
   - lang: de
     url: https://siftedtools.com/de/ki-tools-sichtbarkeit-geo/
+  - lang: it
+    url: https://siftedtools.com/it/strumenti-visibilita-ia-geo/
 offers:
   - tool: Otterly
     label: Tester Otterly

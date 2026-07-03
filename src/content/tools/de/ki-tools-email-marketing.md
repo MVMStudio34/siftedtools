@@ -49,6 +49,8 @@ alternates:
     url: https://siftedtools.com/es/herramientas-ia-email-marketing/
   - lang: de
     url: https://siftedtools.com/de/ki-tools-email-marketing/
+  - lang: it
+    url: https://siftedtools.com/it/strumenti-ia-email-marketing/
 faq:
   - q: "Was ist das beste KI E-Mail-Marketing Tool für E-Commerce?"
     a: "Es gibt keinen Sieger für alle. Klaviyo ist der Kategorie-Standard, wenn E-Mail und SMS ein echter Umsatzkanal sind und Sie die tiefe Segmentierung und die Flows wirklich nutzen, besonders auf Shopify. Brevo bietet das beste Preis-Leistungs-Verhältnis, ist EU-Anbieter mit Servern in der EU und damit für DACH-Händler die DSGVO-freundliche All-in-one-Wahl, auch für WooCommerce. Omnisend liegt dazwischen und ist nativ für Shopify und WooCommerce mit starker Automatisierung ab Werk."

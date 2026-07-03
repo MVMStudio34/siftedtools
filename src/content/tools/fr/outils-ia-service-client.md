@@ -21,6 +21,8 @@ alternates:
     url: https://siftedtools.com/es/herramientas-ia-atencion-cliente/
   - lang: de
     url: https://siftedtools.com/de/ki-tools-kundenservice/
+  - lang: it
+    url: https://siftedtools.com/it/strumenti-ia-assistenza-clienti/
 apps:
   - name: Gorgias
     website: https://www.gorgias.com/

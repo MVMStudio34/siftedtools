@@ -77,6 +77,8 @@ alternates:
     url: https://siftedtools.com/es/mejores-herramientas-ia-ecommerce/
   - lang: de
     url: https://siftedtools.com/de/beste-ki-tools-ecommerce/
+  - lang: it
+    url: https://siftedtools.com/it/migliori-strumenti-ia-ecommerce/
 faq:
   - q: "¿Qué herramientas IA necesita de verdad una tienda Shopify?"
     a: "No un stack de cuarenta apps. En la práctica: una de atención al cliente (Gorgias o Tidio), una de reseñas (Judge.me o Loox) y una de email (Klaviyo o Brevo). El resto (fichas, fotos, creatividades, SEO) se añade cuando cada cuello de botella se vuelve real. La mayoría de tiendas compra de más demasiado pronto y usa de menos lo que paga."

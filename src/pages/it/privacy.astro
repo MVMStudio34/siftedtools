@@ -1,0 +1,43 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const SITE = "https://siftedtools.com";
+---
+<BaseLayout
+  title="Informativa sulla privacy | SiftedTools"
+  description="Come SiftedTools raccoglie, utilizza e protegge i tuoi dati personali. Impegni GDPR, tempi di conservazione, diritti, contatti."
+  canonical={`${SITE}/it/privacy/`}
+  alternates={[
+    { lang: "it", href: `${SITE}/it/privacy/` },
+    { lang: "fr", href: `${SITE}/fr/confidentialite/` },
+    { lang: "en", href: `${SITE}/en/privacy/` },
+    { lang: "es", href: `${SITE}/es/privacidad/` },
+    { lang: "de", href: `${SITE}/de/datenschutz/` },
+  ]}
+>
+  <main class="legal-page"><article class="container">
+    <header class="legal-header"><p class="eyebrow">Legale</p><h1>Informativa sulla privacy</h1><p class="meta">Ultimo aggiornamento: 1 luglio 2026</p></header>
+
+    <section><h2>1. Chi siamo</h2>
+    <p>SiftedTools &egrave; un sito editoriale pubblicato da <strong>MVM Studio</strong>, impresa individuale (auto-entrepreneur) registrata in Francia con SIRET <strong>844 116 053 00035</strong>.</p>
+    <p>Titolare del trattamento: <strong>Marvin Munos</strong>, 200 rue de la Croix Nivert, 75015 Parigi, Francia.</p>
+    <p>Contatto: <a href="mailto:contact@siftedtools.com">contact@siftedtools.com</a></p></section>
+
+    <section><h2>2. Dati raccolti</h2>
+    <p><strong>Iscrizione alla newsletter:</strong> solo indirizzo email, tramite Brevo (Sendinblue SAS), con doppio consenso esplicito (double opt-in). Nessun dato viene condiviso con terzi per fini di marketing.</p>
+    <p><strong>Analisi anonima:</strong> Cloudflare Web Analytics (senza cookie, senza dati personali). Niente Google Analytics.</p>
+    <p><strong>Link affiliati:</strong> cliccando su un link affiliato, la piattaforma partner pu&ograve; impostare i propri cookie. SiftedTools non controlla questo trattamento.</p></section>
+
+    <section><h2>3. I tuoi diritti (GDPR)</h2>
+    <p>Hai il diritto di accedere, rettificare, cancellare, trasferire e limitare il trattamento dei tuoi dati. Per esercitare questi diritti: <a href="mailto:contact@siftedtools.com">contact@siftedtools.com</a>.</p>
+    <p>Puoi anche presentare un reclamo alla <strong>CNIL</strong> (autorit&agrave; francese per la protezione dei dati) o al <strong>Garante per la protezione dei dati personali</strong>.</p></section>
+
+    <section><h2>4. Conservazione</h2>
+    <p>I dati della newsletter sono conservati fino alla disiscrizione. Puoi disiscriverti con un clic da qualsiasi email.</p></section>
+
+    <section><h2>5. Cookie</h2>
+    <p>SiftedTools non utilizza cookie di tracciamento propri. Cloudflare Web Analytics funziona senza cookie e non raccoglie dati personali.</p></section>
+  </article></main>
+</BaseLayout>
+<style>
+  .legal-page{padding:48px 0 80px}.container{max-width:720px;margin:0 auto;padding:0 24px}.legal-header{margin-bottom:40px}.eyebrow{font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}h1{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.15;margin-bottom:.75rem}.meta{font-size:.9rem;color:var(--slate)}section{margin-bottom:36px}h2{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:600;margin-bottom:12px}p{font-size:.95rem;line-height:1.65;color:var(--slate);margin-bottom:10px}a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px}
+</style>

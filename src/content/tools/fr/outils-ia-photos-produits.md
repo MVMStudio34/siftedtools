@@ -31,6 +31,8 @@ alternates:
     url: https://siftedtools.com/es/herramientas-ia-fotos-producto/
   - lang: de
     url: https://siftedtools.com/de/ki-tools-produktfotos/
+  - lang: it
+    url: https://siftedtools.com/it/strumenti-ia-foto-prodotto/
 offers:
   - tool: PhotoRoom
     label: Tester PhotoRoom

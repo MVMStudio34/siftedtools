@@ -21,6 +21,8 @@ alternates:
     url: https://siftedtools.com/es/herramientas-ia-fichas-producto/
   - lang: de
     url: https://siftedtools.com/de/ki-tools-produktbeschreibungen/
+  - lang: it
+    url: https://siftedtools.com/it/strumenti-ia-schede-prodotto/
 apps:
   - name: Jasper
     website: https://www.jasper.ai/

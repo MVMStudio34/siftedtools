@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const SITE = "https://siftedtools.com";
+---
+<BaseLayout
+  title="Note legali | SiftedTools"
+  description="Informazioni legali su SiftedTools: editore, hosting, proprietà intellettuale, trasparenza sui link affiliati."
+  canonical={`${SITE}/it/note-legali/`}
+  alternates={[
+    { lang: "it", href: `${SITE}/it/note-legali/` },
+    { lang: "fr", href: `${SITE}/fr/mentions-legales/` },
+    { lang: "en", href: `${SITE}/en/legal-notice/` },
+    { lang: "es", href: `${SITE}/es/aviso-legal/` },
+    { lang: "de", href: `${SITE}/de/impressum/` },
+  ]}
+>
+  <main class="legal-page"><article class="container">
+    <header class="legal-header"><p class="eyebrow">Legale</p><h1>Note legali</h1></header>
+    <section><h2>Editore</h2><p><strong>MVM Studio</strong>, impresa individuale (auto-entrepreneur, Francia). SIRET: 844 116 053 00035. Direttore della pubblicazione: Marvin Munos. Indirizzo: 200 rue de la Croix Nivert, 75015 Parigi, Francia. Contatto: <a href="mailto:contact@siftedtools.com">contact@siftedtools.com</a></p></section>
+    <section><h2>Hosting</h2><p>Cloudflare, Inc. &mdash; 101 Townsend St, San Francisco, CA 94107, USA.</p></section>
+    <section><h2>Propriet&agrave; intellettuale</h2><p>Tutti i contenuti (testi, grafiche, confronti, metodologia) sono di propriet&agrave; di MVM Studio salvo diversa indicazione. La riproduzione senza autorizzazione preventiva &egrave; vietata.</p></section>
+    <section><h2>Trasparenza sugli affiliati</h2><p>SiftedTools contiene link affiliati. Se ti abboni a un servizio tramite uno di questi link, possiamo ricevere una commissione senza costi aggiuntivi per te. Questo non influenza mai le nostre classifiche o raccomandazioni, basate sul merito e su una metodologia documentata.</p></section>
+  </article></main>
+</BaseLayout>
+<style>
+  .legal-page{padding:48px 0 80px}.container{max-width:720px;margin:0 auto;padding:0 24px}.legal-header{margin-bottom:40px}.eyebrow{font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}h1{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.15;margin-bottom:.75rem}section{margin-bottom:36px}h2{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:600;margin-bottom:12px}p{font-size:.95rem;line-height:1.65;color:var(--slate);margin-bottom:10px}a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px}
+</style>

@@ -43,6 +43,8 @@ alternates:
     url: https://siftedtools.com/es/herramientas-ia-fotos-producto/
   - lang: de
     url: https://siftedtools.com/de/ki-tools-produktfotos/
+  - lang: it
+    url: https://siftedtools.com/it/strumenti-ia-foto-prodotto/
 faq:
   - q: "Was ist das beste KI Produktfoto Tool für Shopify und WooCommerce?"
     a: "PhotoRoom für die meisten Shops. Es macht aus einem Handyfoto ein sauberes, markentreues Produktbild, erledigt denselben Schritt im Stapel und exportiert mobil wie im Web. Die fertigen Bilder laden Sie genauso in WooCommerce wie in Shopify hoch, denn das Tool ist plattformunabhängig. Pixelcut ist die Preis-Leistungs-Wahl, wenn Sie vor allem überzeugende Lifestyle-Szenen brauchen. Remove.bg gewinnt nur bei einer Sache: dem reinen Freisteller, den Sie danach in einem anderen Tool weiterverarbeiten."

@@ -34,6 +34,8 @@ alternates:
     url: https://siftedtools.com/es/herramientas-ia-videos-ugc/
   - lang: de
     url: https://siftedtools.com/de/ki-tools-ugc-videos/
+  - lang: it
+    url: https://siftedtools.com/it/strumenti-ia-video-ugc/
 offers:
   - tool: Arcads
     label: Tester Arcads

@@ -49,6 +49,8 @@ alternates:
     url: https://siftedtools.com/es/herramientas-ia-videos-ugc/
   - lang: de
     url: https://siftedtools.com/de/ki-tools-ugc-videos/
+  - lang: it
+    url: https://siftedtools.com/it/strumenti-ia-video-ugc/
 faq:
   - q: "¿Cuál es la mejor herramienta IA de vídeo UGC?"
     a: "Depende del trabajo que necesites. Arcads es la mejor para creatividades de anuncio tipo UGC a volumen, con actores IA realistas que leen tu guion, y lidera ese nicho en paid social. Creatify es la mejor si quieres pegar la URL de un producto y obtener un vídeo de anuncio rápido. HeyGen es la mejor para vídeo con avatar o presentador más allá del anuncio. El factor decisivo no es el precio, es el resultado que vas a publicar: creatividades a volumen, automatización desde la URL del producto o vídeo de presentador en general."
