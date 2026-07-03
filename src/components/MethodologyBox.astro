@@ -1,15 +1,17 @@
 ---
+import { getLangFromUrl, useTranslations } from "../i18n/utils";
+const t = useTranslations(getLangFromUrl(Astro.url));
 const steps = [
-  { n: "01", t: "On recense", d: "Tous les outils crédibles d'une catégorie, pas une sélection de complaisance." },
-  { n: "02", t: "On teste", d: "Sur de vraies boutiques : prise en main, qualité réelle, pièges, prix réel." },
-  { n: "03", t: "On mesure", d: "Notre baromètre GEO suit qui les IA citent vraiment. Donnée propriétaire." },
-  { n: "04", t: "On tranche", d: "Un verdict clair par besoin. Le bon outil, pas la liste de tous les outils." },
+  { n: "01", t: t("method.s1t"), d: t("method.s1d") },
+  { n: "02", t: t("method.s2t"), d: t("method.s2d") },
+  { n: "03", t: t("method.s3t"), d: t("method.s3d") },
+  { n: "04", t: t("method.s4t"), d: t("method.s4d") },
 ];
 ---
 <div class="method">
   <div class="method-head">
-    <span class="eyebrow">Méthodologie</span>
-    <h2 class="ui">Comment on passe les outils au crible</h2>
+    <span class="eyebrow">{t("method.eyebrow")}</span>
+    <h2 class="ui">{t("method.title")}</h2>
   </div>
   <ol class="steps">
     {steps.map((s) => (
