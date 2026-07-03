@@ -1,5 +1,5 @@
 ---
-title: "Meilleure app d'avis Shopify 2026 : Loox vs Judge.me vs Yotpo"
+title: "Loox vs Judge.me vs Yotpo : meilleure app d'avis Shopify"
 description: "Loox vs Judge.me vs Yotpo : quelle app d'avis clients Shopify choisir en 2026 ? Plan gratuit, rich snippets SEO et prix comparés sur de vraies boutiques."
 lang: fr
 profession: ecommerce

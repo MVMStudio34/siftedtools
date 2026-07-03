@@ -1,5 +1,5 @@
 ---
-title: "Klaviyo vs Brevo : quel outil email marketing e-commerce en 2026"
+title: "Klaviyo vs Brevo : meilleur email marketing e-commerce"
 description: "Klaviyo vs Brevo : quel logiciel emailing Shopify pour l'automatisation email e-commerce ? Comparatif testé en production, verdict par profil et budget."
 lang: fr
 profession: ecommerce

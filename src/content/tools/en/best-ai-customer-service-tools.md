@@ -1,5 +1,5 @@
 ---
-title: "Gorgias vs Tidio: Best AI Customer Service for Shopify (2026)"
+title: "Gorgias vs Tidio: Best AI Customer Service Shopify"
 description: "Gorgias vs Tidio: the best AI customer service tool for Shopify? Gorgias for scaling teams, Tidio to start cheap. Tested on real stores, clear verdict inside."
 lang: en
 profession: ecommerce

@@ -1,5 +1,5 @@
 ---
-title: "Acerca de SiftedTools: quién prueba las herramientas y por qué"
+title: "Acerca de SiftedTools: quién prueba y por qué"
 description: "SiftedTools es publicado por Marvin Munos (MVM Studio). 15 años de experiencia en retail y e-commerce, veredictos editoriales probados en tiendas reales."
 lang: "es"
 updatedAt: 2026-06-30

@@ -23,12 +23,9 @@ export default defineConfig({
 
   integrations: [
     mdx(),
-    sitemap({
-      i18n: {
-        defaultLocale: "fr",
-        locales: { fr: "fr-FR", en: "en", es: "es-ES", pt: "pt-PT", de: "de-DE", it: "it-IT" },
-      },
-    }),
+    // Le hreflang est déjà complet et correct dans le <head> de chaque page (source unique de vérité).
+    // Le bloc i18n du sitemap créait un doublon fr-FR sur la racine (/ et /fr/ tous deux tagués fr-FR).
+    sitemap(),
   ],
 
   build: { format: "directory" },

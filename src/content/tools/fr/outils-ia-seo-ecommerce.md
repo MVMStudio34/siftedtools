@@ -1,5 +1,5 @@
 ---
-title: "Meilleur outil SEO IA e-commerce 2026 : Surfer vs NeuronWriter"
+title: "Surfer vs NeuronWriter : meilleur SEO IA e-commerce"
 description: "Surfer vs NeuronWriter vs Frase : quel logiciel SEO e-commerce choisir pour votre optimisation de contenu IA, selon votre volume et votre budget. Vrais tests."
 lang: fr
 profession: ecommerce

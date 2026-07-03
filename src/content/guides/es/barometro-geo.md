@@ -1,5 +1,5 @@
 ---
-title: "Barómetro GEO: ¿qué herramientas IA recomiendan realmente los LLM?"
+title: "Barómetro GEO: qué recomiendan realmente los LLM"
 description: "Medición mensual de la visibilidad de herramientas IA en ChatGPT, Gemini y Perplexity. Datos independientes de Quotis."
 lang: "es"
 updatedAt: 2026-06-30

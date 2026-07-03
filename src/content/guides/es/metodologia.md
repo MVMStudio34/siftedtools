@@ -1,5 +1,5 @@
 ---
-title: "Nuestra metodología: cómo probamos y clasificamos las herramientas IA"
+title: "Metodología: cómo probamos las herramientas IA"
 description: "Cómo SiftedTools prueba, puntúa y clasifica las herramientas IA para e-commerce. Pruebas en tiendas reales, Barómetro GEO, independencia editorial."
 lang: "es"
 updatedAt: 2026-06-30

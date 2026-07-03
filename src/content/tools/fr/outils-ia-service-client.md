@@ -1,5 +1,5 @@
 ---
-title: "Outil IA service client e-commerce : Gorgias ou Tidio (2026) ?"
+title: "Gorgias vs Tidio : meilleur service client IA e-commerce"
 description: "Gorgias vs Tidio : quel logiciel de service client IA pour une boutique Shopify ? Notre comparatif, testé sur de vraies boutiques, avec verdict et prix."
 lang: fr
 profession: ecommerce

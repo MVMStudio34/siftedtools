@@ -1,5 +1,5 @@
 ---
-title: "Baromètre GEO : quels outils IA les ChatGPT, Gemini et Perplexity recommandent vraiment"
+title: "Baromètre GEO : quels outils IA les LLM recommandent"
 description: "Notre signal exclusif mesure mensuellement quels outils sont cités par les IA majeures dans les requêtes d'achat e-commerce. 5 IA, 100 prompts, 1 200 réponses par mois."
 lang: "fr"
 updatedAt: 2026-06-22

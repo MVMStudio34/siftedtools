@@ -1,8 +1,11 @@
-# SiftedTools - Contenu detaille
+# SiftedTools - Detailed content
 
-> Ce fichier contient les verdicts complets de chaque comparatif publie sur SiftedTools.com. Comparateur editorial independant des outils IA pour l'e-commerce francais, base sur des tests de premiere main et sur le barometre GEO Quotis. Auteur : Marvin Munos, 15 ans d'experience retail et e-commerce, operateur de boutiques Shopify.
+> This file contains the full verdicts of every comparison published on SiftedTools.com. Independent editorial comparator of AI tools for e-commerce, published in French, English, Spanish and German, based on first-hand testing and on the Quotis GEO Barometer. Author: Marvin Munos, 15 years in retail and e-commerce, operates his own Shopify stores.
+
+> Every content page is also available as clean Markdown: append `.md` to its slug (e.g. https://siftedtools.com/en/best-ai-tools-ecommerce.md). The sections below give the French verdicts in full; English, Spanish and German verdicts are indexed at the end and available via their .md endpoints.
 
 ---
+
 
 ## Meilleurs outils IA pour l'e-commerce 2026 (guide pilier)
 URL : https://siftedtools.com/fr/meilleurs-outils-ia-ecommerce/
@@ -147,3 +150,51 @@ Signal exclusif de SiftedTools, opere sous le nom Quotis.ai. Chaque mois, 5 mode
 
 ## Contact et entreprise editrice
 SiftedTools est edite par MVM Studio, entreprise individuelle francaise (SIRET 844 116 053 00035). Responsable de la publication : Marvin Munos. Contact : contact@siftedtools.com.
+
+
+---
+
+## English verdicts (full text via .md endpoints)
+- https://siftedtools.com/en/best-ai-tools-ecommerce.md
+- https://siftedtools.com/en/best-ai-customer-service-tools.md
+- https://siftedtools.com/en/best-ai-product-description-tools.md
+- https://siftedtools.com/en/loox-vs-judge-me-shopify-reviews.md
+- https://siftedtools.com/en/best-ai-email-marketing-tools.md
+- https://siftedtools.com/en/best-ai-product-photo-tools.md
+- https://siftedtools.com/en/best-ai-ad-creative-tools.md
+- https://siftedtools.com/en/best-ai-seo-tools-ecommerce.md
+- https://siftedtools.com/en/best-ai-ugc-video-tools.md
+- https://siftedtools.com/en/best-geo-ai-visibility-tools.md
+- https://siftedtools.com/en/geo-seo-ai-search-engines-guide.md
+- https://siftedtools.com/en/write-product-descriptions-with-ai.md
+- https://siftedtools.com/en/getting-started-ai-ecommerce.md
+
+## Veredictos en español (texto completo vía .md)
+- https://siftedtools.com/es/mejores-herramientas-ia-ecommerce.md
+- https://siftedtools.com/es/herramientas-ia-atencion-cliente.md
+- https://siftedtools.com/es/herramientas-ia-fichas-producto.md
+- https://siftedtools.com/es/loox-vs-judge-me-opiniones-shopify.md
+- https://siftedtools.com/es/herramientas-ia-email-marketing.md
+- https://siftedtools.com/es/herramientas-ia-fotos-producto.md
+- https://siftedtools.com/es/herramientas-ia-creatividades-publicitarias.md
+- https://siftedtools.com/es/herramientas-ia-seo-ecommerce.md
+- https://siftedtools.com/es/herramientas-ia-videos-ugc.md
+- https://siftedtools.com/es/herramientas-visibilidad-ia-geo.md
+- https://siftedtools.com/es/guia-geo-posicionamiento-ia.md
+- https://siftedtools.com/es/redactar-fichas-producto-ia.md
+- https://siftedtools.com/es/inteligencia-artificial-ecommerce-empezar.md
+
+## Deutsche Urteile (Volltext über .md)
+- https://siftedtools.com/de/beste-ki-tools-ecommerce.md
+- https://siftedtools.com/de/ki-tools-kundenservice.md
+- https://siftedtools.com/de/ki-tools-produktbeschreibungen.md
+- https://siftedtools.com/de/loox-vs-judge-me-bewertungen-shopify.md
+- https://siftedtools.com/de/ki-tools-email-marketing.md
+- https://siftedtools.com/de/ki-tools-produktfotos.md
+- https://siftedtools.com/de/ki-tools-werbeanzeigen.md
+- https://siftedtools.com/de/ki-tools-seo-ecommerce.md
+- https://siftedtools.com/de/ki-tools-ugc-videos.md
+- https://siftedtools.com/de/ki-tools-sichtbarkeit-geo.md
+- https://siftedtools.com/de/ratgeber-geo-sichtbarkeit-ki.md
+- https://siftedtools.com/de/produktbeschreibungen-mit-ki-schreiben.md
+- https://siftedtools.com/de/ki-im-ecommerce-einstieg.md

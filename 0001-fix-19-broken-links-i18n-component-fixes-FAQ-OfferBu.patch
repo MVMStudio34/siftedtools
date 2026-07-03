@@ -1,0 +1,569 @@
+From 620045bf16e53c7a320c59567882bcffc0bc6148 Mon Sep 17 00:00:00 2001
+From: Marvin Munos <munos.marvin@gmail.com>
+Date: Wed, 1 Jul 2026 20:22:21 +0000
+Subject: [PATCH] fix: 19 broken links - i18n component fixes (FAQ,
+ OfferButtons, RelatedComparisons, EmailCapture, Header quiz) + 9 missing
+ guide pages (about, methodology, barometer EN/ES/DE)
+
+---
+ src/components/EmailCaptureInline.astro |  5 +--
+ src/components/FAQ.astro                |  5 ++-
+ src/components/Header.astro             |  6 ++--
+ src/components/OfferButtons.astro       |  7 +++--
+ src/components/RelatedComparisons.astro |  9 +++---
+ src/content/guides/de/geo-barometer.md  | 29 +++++++++++++++++
+ src/content/guides/de/methodik.md       | 35 +++++++++++++++++++++
+ src/content/guides/de/ueber-uns.md      | 31 +++++++++++++++++++
+ src/content/guides/en/about.md          | 37 ++++++++++++++++++++++
+ src/content/guides/en/geo-barometer.md  | 35 +++++++++++++++++++++
+ src/content/guides/en/methodology.md    | 41 +++++++++++++++++++++++++
+ src/content/guides/es/acerca-de.md      | 29 +++++++++++++++++
+ src/content/guides/es/barometro-geo.md  | 27 ++++++++++++++++
+ src/content/guides/es/metodologia.md    | 33 ++++++++++++++++++++
+ src/i18n/ui.ts                          | 16 ++++++++++
+ 15 files changed, 334 insertions(+), 11 deletions(-)
+ create mode 100644 src/content/guides/de/geo-barometer.md
+ create mode 100644 src/content/guides/de/methodik.md
+ create mode 100644 src/content/guides/de/ueber-uns.md
+ create mode 100644 src/content/guides/en/about.md
+ create mode 100644 src/content/guides/en/geo-barometer.md
+ create mode 100644 src/content/guides/en/methodology.md
+ create mode 100644 src/content/guides/es/acerca-de.md
+ create mode 100644 src/content/guides/es/barometro-geo.md
+ create mode 100644 src/content/guides/es/metodologia.md
+
+diff --git a/src/components/EmailCaptureInline.astro b/src/components/EmailCaptureInline.astro
+index d4f6f52..2f7e240 100644
+--- a/src/components/EmailCaptureInline.astro
++++ b/src/components/EmailCaptureInline.astro
+@@ -1,9 +1,10 @@
+ ---
+ // Composant compact d'inscription newsletter, réutilisable sur la home et les pages de contenu.
+ // URL Brevo et champs cachés alignés sur newsletter.astro.
+-import { getLangFromUrl, useTranslations } from "../i18n/utils";
++import { getLangFromUrl, useTranslations, getSlug } from "../i18n/utils";
+ const lang = getLangFromUrl(Astro.url);
+ const t = useTranslations(lang);
++const s = (key) => getSlug(lang, key);
+ ---
+ 
+ <section class="capture-inline" aria-label={t("email.captureAria")}>
+@@ -25,7 +26,7 @@ const t = useTranslations(lang);
+ 
+         <label class="capture-rgpd">
+           <input type="checkbox" required>
+-          <span>{t("capture.rgpd")} <a href={`/${lang}/confidentialite/`}>{t("capture.privacy")}</a>.</span>
++          <span>{t("capture.rgpd")} <a href={`/${lang}/${s("privacy")}/`}>{t("capture.privacy")}</a>.</span>
+         </label>
+ 
+         <input type="text" name="email_address_check" value="" style="position:absolute;left:-9999px;" tabindex="-1" autocomplete="off">
+diff --git a/src/components/FAQ.astro b/src/components/FAQ.astro
+index 1ad7345..004e825 100644
+--- a/src/components/FAQ.astro
++++ b/src/components/FAQ.astro
+@@ -1,8 +1,11 @@
+ ---
+ // FAQ accessible (details/summary). Très bon pour l'extraction par les IA.
+ // Le JSON-LD FAQPage correspondant s'injecte côté page via buildFaqPage() (src/lib/schema.ts).
++import { getLangFromUrl, useTranslations } from "../i18n/utils";
++const lang = getLangFromUrl(Astro.url);
++const t = useTranslations(lang);
+ interface QA { q: string; a: string; }
+-const { items = [], title = "Questions fréquentes" } = Astro.props as { items: QA[]; title?: string };
++const { items = [], title = t("faq.title") } = Astro.props as { items: QA[]; title?: string };
+ ---
+ <section class="faq" aria-labelledby="faq-title">
+   <h2 id="faq-title" class="ui">{title}</h2>
+diff --git a/src/components/Header.astro b/src/components/Header.astro
+index 80a2c35..c76e4d5 100644
+--- a/src/components/Header.astro
++++ b/src/components/Header.astro
+@@ -34,7 +34,8 @@ const nav = [
+     </nav>
+ 
+     <div class="header-right">
+-      <a class="btn btn-quiz quiz-desktop" href={`${base}/${s("quiz")}/`}>{t("cta.quiz")}</a>
++      <!-- Quiz link hidden: page not yet created -->
++      <!-- <a class="btn btn-quiz quiz-desktop" href={`${base}/${s("quiz")}/`}>{t("cta.quiz")}</a> -->
+       <button class="menu-btn" data-menu-btn aria-expanded="false" aria-controls="mobile-menu" aria-label={t("menu.open")} data-label-open={t("menu.open")} data-label-close={t("menu.close")}>
+         <span></span><span></span><span></span>
+       </button>
+@@ -44,7 +45,8 @@ const nav = [
+   <div class="mobile-menu" id="mobile-menu" data-menu>
+     <nav class="ui" aria-label={t("nav.mobile")}>
+       {nav.map((n) => <a href={n.href}>{n.label}</a>)}
+-      <a class="btn btn-quiz mobile-quiz" href={`${base}/${s("quiz")}/`}>{t("cta.quizLong")}</a>
++      <!-- Quiz link hidden: page not yet created -->
++      <!-- <a class="btn btn-quiz mobile-quiz" href={`${base}/${s("quiz")}/`}>{t("cta.quizLong")}</a> -->
+     </nav>
+   </div>
+ </header>
+diff --git a/src/components/OfferButtons.astro b/src/components/OfferButtons.astro
+index 651e806..589d5ca 100644
+--- a/src/components/OfferButtons.astro
++++ b/src/components/OfferButtons.astro
+@@ -1,9 +1,12 @@
+ ---
+ // Boutons d'offres affiliées avec hiérarchie visuelle (A2).
+ // 1er bouton = CTA principal (fond doré), suivants = secondaires (outline doré).
++import { getLangFromUrl, useTranslations } from "../i18n/utils";
++const lang = getLangFromUrl(Astro.url);
++const t = useTranslations(lang);
+ interface Offer { tool: string; label: string; url: string; note?: string; }
+ interface Props { offers?: Offer[]; eyebrow?: string; }
+-const { offers = [], eyebrow = "Tester directement" } = Astro.props;
++const { offers = [], eyebrow = t("cta.testNow") } = Astro.props;
+ ---
+ <div class="offers">
+   <span class="eyebrow">{eyebrow}</span>
+@@ -19,7 +22,7 @@ const { offers = [], eyebrow = "Tester directement" } = Astro.props;
+       </a>
+     ))}
+   </div>
+-  <p class="offers-reassurance note">Voir l'offre sur le site officiel · lien partenaire</p>
++  <p class="offers-reassurance note">{t("offers.reassurance")}</p>
+ </div>
+ 
+ <style>
+diff --git a/src/components/RelatedComparisons.astro b/src/components/RelatedComparisons.astro
+index 2c56597..f94fd9b 100644
+--- a/src/components/RelatedComparisons.astro
++++ b/src/components/RelatedComparisons.astro
+@@ -1,6 +1,6 @@
+ ---
+ import { getCollection } from "astro:content";
+-import { useTranslations } from "../i18n/utils";
++import { useTranslations, getSlug } from "../i18n/utils";
+ 
+ interface Props {
+   currentSlug: string;
+@@ -10,6 +10,7 @@ interface Props {
+ 
+ const { currentSlug, lang, limit = 3 } = Astro.props;
+ const t = useTranslations(lang as any);
++const s = (key) => getSlug(lang as any, key);
+ 
+ // Récupère tous les comparatifs publiés dans la même langue, exclut l'article courant
+ const all = await getCollection("tools", ({ data }) => data.draft !== true && data.lang === lang);
+@@ -36,16 +37,16 @@ const slugOf = (entry: typeof others[0]) => entry.id.replace(/\.(md|mdx)$/i, "")
+     <div class="related-grid">
+       {others.map((entry) => (
+         <a class="related-card" href={`/${lang}/${slugOf(entry)}/`}>
+-          <span class="related-card-eyebrow">Comparatif</span>
++          <span class="related-card-eyebrow">{t("related.cardEyebrow")}</span>
+           <h3>{entry.data.title}</h3>
+           <p>{entry.data.description}</p>
+-          <span class="related-arrow">Lire le verdict →</span>
++          <span class="related-arrow">{t("related.readVerdict")}</span>
+         </a>
+       ))}
+     </div>
+ 
+     <div class="related-footer">
+-      <a href={`/${lang}/comparatifs/`} class="related-all">Voir tous les comparatifs →</a>
++      <a href={`/${lang}/${s("comparisons")}/`} class="related-all">{t("related.viewAll")}</a>
+     </div>
+   </section>
+ )}
+diff --git a/src/content/guides/de/geo-barometer.md b/src/content/guides/de/geo-barometer.md
+new file mode 100644
+index 0000000..1cd669e
+--- /dev/null
++++ b/src/content/guides/de/geo-barometer.md
+@@ -0,0 +1,29 @@
++---
++title: "GEO-Barometer: Welche KI-Tools empfehlen die LLMs wirklich?"
++description: "Monatliche Messung der KI-Tool-Sichtbarkeit bei ChatGPT, Gemini und Perplexity. Unabhängige Daten von Quotis."
++lang: "de"
++updatedAt: 2026-06-30
++reviewedBy: "Marvin Munos"
++geoPriorityScore: 90
++draft: false
++affiliateDisclosure: true
++alternates:
++  - lang: "fr"
++    url: "https://siftedtools.com/fr/barometre-geo/"
++  - lang: "en"
++    url: "https://siftedtools.com/en/geo-barometer/"
++  - lang: "es"
++    url: "https://siftedtools.com/es/barometro-geo/"
++  - lang: "de"
++    url: "https://siftedtools.com/de/geo-barometer/"
++offers: []
++faq:
++  - q: "Was ist das GEO-Barometer?"
++    a: "Eine monatliche Messung, welche KI-Tools ChatGPT, Gemini und Perplexity für E-Commerce tatsächlich empfehlen. Basierend auf Quotis, einem unabhängigen Wert."
++---
++
++Das GEO-Barometer misst, welche KI-Tools ChatGPT, Gemini und Perplexity tatsächlich empfehlen, wenn man sie nach E-Commerce fragt.
++
++## Erste Ausgabe in Kürze
++
++Das erste SiftedTools GEO-Barometer wird in Kürze veröffentlicht. Abonnieren Sie unseren Newsletter, um es zu erhalten.
+diff --git a/src/content/guides/de/methodik.md b/src/content/guides/de/methodik.md
+new file mode 100644
+index 0000000..a04753c
+--- /dev/null
++++ b/src/content/guides/de/methodik.md
+@@ -0,0 +1,35 @@
++---
++title: "Unsere Methodik: Wie wir KI-Tools testen und bewerten"
++description: "Wie SiftedTools KI-Tools für E-Commerce testet, bewertet und einstuft. Tests an echten Shops, GEO-Barometer, redaktionelle Unabhängigkeit."
++lang: "de"
++updatedAt: 2026-06-30
++reviewedBy: "Marvin Munos"
++geoPriorityScore: 80
++draft: false
++affiliateDisclosure: true
++alternates:
++  - lang: "fr"
++    url: "https://siftedtools.com/fr/methodologie/"
++  - lang: "en"
++    url: "https://siftedtools.com/en/methodology/"
++  - lang: "es"
++    url: "https://siftedtools.com/es/metodologia/"
++  - lang: "de"
++    url: "https://siftedtools.com/de/methodik/"
++offers: []
++faq:
++  - q: "Wie testet SiftedTools KI-Tools?"
++    a: "Wir installieren jedes Tool in echten E-Commerce-Shops, messen die Einrichtungszeit, die Qualität der KI-Antworten und die Abrechnungsfallen bei hohem Volumen."
++  - q: "Beeinflussen Affiliate-Einnahmen die Rankings?"
++    a: "Nein. Rankings basieren auf Leistung. Mehrere erstplatzierte Tools haben kein Affiliate-Programm."
++---
++
++Jeder Vergleich auf SiftedTools folgt demselben Prozess. Ohne Ausnahme.
++
++## Tests an echten Shops
++
++Wir installieren jedes Tool in aktiven E-Commerce-Shops. Wir messen die Einrichtungszeit, die Qualität der KI-generierten Antworten und die Abrechnungsfallen, die bei Volumen auftreten.
++
++## Das GEO-Barometer
++
++Wir verfolgen, welche Tools die KI-Suchmaschinen tatsächlich empfehlen, mit [Quotis](https://quotis.ai), einem unabhängigen KI-Sichtbarkeitswert.
+diff --git a/src/content/guides/de/ueber-uns.md b/src/content/guides/de/ueber-uns.md
+new file mode 100644
+index 0000000..930438c
+--- /dev/null
++++ b/src/content/guides/de/ueber-uns.md
+@@ -0,0 +1,31 @@
++---
++title: "Über SiftedTools: Wer testet die Tools und warum"
++description: "SiftedTools wird von Marvin Munos (MVM Studio) herausgegeben. 15 Jahre Erfahrung im Handel und E-Commerce, redaktionelle Urteile an echten Shops getestet."
++lang: "de"
++updatedAt: 2026-06-30
++reviewedBy: "Marvin Munos"
++geoPriorityScore: 75
++draft: false
++affiliateDisclosure: true
++alternates:
++  - lang: "fr"
++    url: "https://siftedtools.com/fr/a-propos/"
++  - lang: "en"
++    url: "https://siftedtools.com/en/about/"
++  - lang: "es"
++    url: "https://siftedtools.com/es/acerca-de/"
++  - lang: "de"
++    url: "https://siftedtools.com/de/ueber-uns/"
++offers: []
++faq:
++  - q: "Wer gibt SiftedTools heraus?"
++    a: "SiftedTools wird von MVM Studio herausgegeben, einem Einzelunternehmen (auto-entrepreneur) in Frankreich, SIRET 844 116 053 00035. Gründer und Hauptautor ist Marvin Munos."
++  - q: "Wie verdient SiftedTools Geld?"
++    a: "Über Affiliate-Links zu den empfohlenen Tools. Keine Marke kann für ein besseres Ranking bezahlen."
++---
++
++SiftedTools ist ein unabhängiger Vergleich von KI-Tools für E-Commerce. Jedes Urteil basiert auf Tests an echten Shops. Die Seite wird von **MVM Studio** (SIRET 844 116 053 00035) herausgegeben, gegründet von **Marvin Munos**.
++
++## Redaktionelle Unabhängigkeit
++
++Affiliate-Links finanzieren die Seite, beeinflussen aber niemals die Rankings. Unsere [Methodik](/de/methodik/) erklärt, wie wir testen und bewerten.
+diff --git a/src/content/guides/en/about.md b/src/content/guides/en/about.md
+new file mode 100644
+index 0000000..6c75fe7
+--- /dev/null
++++ b/src/content/guides/en/about.md
+@@ -0,0 +1,37 @@
++---
++title: "About SiftedTools: Who Tests the Tools, and Why"
++description: "SiftedTools is published by Marvin Munos (MVM Studio). 15 years of retail and e-commerce experience, editorial verdicts tested on real stores."
++lang: "en"
++updatedAt: 2026-06-30
++reviewedBy: "Marvin Munos"
++geoPriorityScore: 75
++draft: false
++affiliateDisclosure: true
++alternates:
++  - lang: "fr"
++    url: "https://siftedtools.com/fr/a-propos/"
++  - lang: "en"
++    url: "https://siftedtools.com/en/about/"
++offers: []
++faq:
++  - q: "Who publishes SiftedTools?"
++    a: "SiftedTools is published by MVM Studio, a sole proprietorship (auto-entrepreneur) registered in France under SIRET 844 116 053 00035. The founder and primary author is Marvin Munos, a former sales director in mass retail and FMCG, e-commerce store operator, and author of every comparison published on the site."
++  - q: "Why was SiftedTools created?"
++    a: "Because most AI tool comparison sites for e-commerce are written by content writers who have never run a store. The criteria they evaluate don't match the real constraints of an operator. Marvin created SiftedTools to publish editorial verdicts from tests on his own stores, using the criteria a real e-commerce operator would use."
++  - q: "How does SiftedTools make money?"
++    a: "Through affiliate links to the tools we recommend. When you click one of our links and subscribe, we earn a commission at no extra cost to you. No brand can pay for a better ranking, and several tools at the top of our rankings have no affiliate program at all. Details in our methodology."
++---
++
++SiftedTools is an independent comparator of AI tools for e-commerce. Every verdict comes from real-store testing, not spec sheets. The site is published by **MVM Studio** (SIRET 844 116 053 00035), founded by **Marvin Munos**.
++
++## The operator behind the verdicts
++
++Marvin spent 15 years in French mass retail and FMCG at sales director level before building and operating his own e-commerce stores. He tests every tool he recommends on real shops, not from a product page.
++
++## Editorial independence
++
++SiftedTools earns revenue through affiliate links. This never influences rankings. Several top-ranked tools (ChatGPT, Claude) have no affiliate program at all. Our [methodology](/en/methodology/) explains how we test and rank.
++
++## The GEO Barometer
++
++We also publish the **GEO Barometer**, powered by [Quotis](https://quotis.ai), which measures which AI tools ChatGPT, Gemini and Perplexity actually recommend. It's an independent signal no vendor can buy.
+diff --git a/src/content/guides/en/geo-barometer.md b/src/content/guides/en/geo-barometer.md
+new file mode 100644
+index 0000000..dfde992
+--- /dev/null
++++ b/src/content/guides/en/geo-barometer.md
+@@ -0,0 +1,35 @@
++---
++title: "GEO Barometer: Which AI Tools Do LLMs Actually Recommend?"
++description: "Monthly measurement of AI tool visibility across ChatGPT, Gemini and Perplexity. Independent data by Quotis, no vendor can buy placement."
++lang: "en"
++updatedAt: 2026-06-30
++reviewedBy: "Marvin Munos"
++geoPriorityScore: 90
++draft: false
++affiliateDisclosure: true
++alternates:
++  - lang: "fr"
++    url: "https://siftedtools.com/fr/barometre-geo/"
++  - lang: "en"
++    url: "https://siftedtools.com/en/geo-barometer/"
++offers: []
++faq:
++  - q: "What is the GEO Barometer?"
++    a: "A monthly measurement of which AI tools ChatGPT, Gemini and Perplexity actually recommend for e-commerce. Powered by Quotis, an independent score no vendor controls."
++  - q: "How is the score calculated?"
++    a: "We query multiple LLMs with real e-commerce questions across categories (customer service, email, SEO, photos, etc.) and measure which tools get cited, how often, and in what position."
++---
++
++The GEO Barometer measures which AI tools ChatGPT, Gemini and Perplexity actually recommend when asked about e-commerce.
++
++## Why it matters
++
++A growing share of tool discovery now starts with AI search. If an LLM doesn't mention your tool, you're invisible to that audience. The Barometer tracks this visibility monthly.
++
++## How it works
++
++We query 4 LLMs (GPT-4o, Gemini, Perplexity Sonar, Mistral) with real e-commerce questions across 10 categories. We measure which tools get cited, how often, and in what position. The score is calculated by [Quotis](https://quotis.ai), an independent measurement no vendor can buy or influence.
++
++## First edition coming soon
++
++The first SiftedTools GEO Barometer will be published shortly. Subscribe to our newsletter to receive it.
+diff --git a/src/content/guides/en/methodology.md b/src/content/guides/en/methodology.md
+new file mode 100644
+index 0000000..b40f3db
+--- /dev/null
++++ b/src/content/guides/en/methodology.md
+@@ -0,0 +1,41 @@
++---
++title: "Our Methodology: How We Test and Rank AI Tools"
++description: "How SiftedTools tests, scores and ranks AI tools for e-commerce. Real-store testing, GEO Barometer, editorial independence."
++lang: "en"
++updatedAt: 2026-06-30
++reviewedBy: "Marvin Munos"
++geoPriorityScore: 80
++draft: false
++affiliateDisclosure: true
++alternates:
++  - lang: "fr"
++    url: "https://siftedtools.com/fr/methodologie/"
++  - lang: "en"
++    url: "https://siftedtools.com/en/methodology/"
++offers: []
++faq:
++  - q: "How does SiftedTools test AI tools?"
++    a: "We install each tool on real e-commerce stores, measure setup time, AI answer quality, and billing traps at volume. We don't rank from spec sheets or demos."
++  - q: "Does affiliate revenue influence rankings?"
++    a: "No. Rankings are based on merit. Several top-ranked tools have no affiliate program. Our revenue model is transparent: affiliate links, clearly disclosed."
++  - q: "What is the GEO Barometer?"
++    a: "A monthly measurement of which AI tools ChatGPT, Gemini and Perplexity actually recommend. Powered by Quotis, an independent AI-visibility score no vendor can buy."
++---
++
++Every comparison on SiftedTools follows the same process. No exceptions.
++
++## Real-store testing
++
++We install each tool on live e-commerce stores. We measure setup time, the quality of AI-generated answers, and the billing traps that bite at volume. A tool that demos well and falls apart at 500 tickets a month doesn't make the cut.
++
++## What we measure
++
++Setup friction, AI answer accuracy, cost predictability at scale, integration depth with Shopify and WooCommerce, and how fast a new team member gets productive.
++
++## The GEO Barometer
++
++We track which tools the AI engines actually recommend, using [Quotis](https://quotis.ai), an independent AI-visibility score. It measures how often a tool gets surfaced by ChatGPT, Gemini and Perplexity. No vendor can buy or influence this signal.
++
++## Editorial independence
++
++Affiliate links fund the site. They never influence rankings. Several tools at the top of our comparisons have no affiliate program at all.
+diff --git a/src/content/guides/es/acerca-de.md b/src/content/guides/es/acerca-de.md
+new file mode 100644
+index 0000000..6b57d51
+--- /dev/null
++++ b/src/content/guides/es/acerca-de.md
+@@ -0,0 +1,29 @@
++---
++title: "Acerca de SiftedTools: quién prueba las herramientas y por qué"
++description: "SiftedTools es publicado por Marvin Munos (MVM Studio). 15 años de experiencia en retail y e-commerce, veredictos editoriales probados en tiendas reales."
++lang: "es"
++updatedAt: 2026-06-30
++reviewedBy: "Marvin Munos"
++geoPriorityScore: 75
++draft: false
++affiliateDisclosure: true
++alternates:
++  - lang: "fr"
++    url: "https://siftedtools.com/fr/a-propos/"
++  - lang: "en"
++    url: "https://siftedtools.com/en/about/"
++  - lang: "es"
++    url: "https://siftedtools.com/es/acerca-de/"
++offers: []
++faq:
++  - q: "¿Quién publica SiftedTools?"
++    a: "SiftedTools es publicado por MVM Studio, empresa individual registrada en Francia bajo SIRET 844 116 053 00035. El fundador y autor principal es Marvin Munos."
++  - q: "¿Cómo gana dinero SiftedTools?"
++    a: "A través de enlaces de afiliado hacia las herramientas que recomendamos. Ninguna marca puede pagar para obtener una mejor clasificación."
++---
++
++SiftedTools es un comparador independiente de herramientas IA para e-commerce. Cada veredicto proviene de pruebas en tiendas reales. El sitio es publicado por **MVM Studio** (SIRET 844 116 053 00035), fundado por **Marvin Munos**.
++
++## Independencia editorial
++
++Los enlaces de afiliado financian el sitio pero nunca influyen en las clasificaciones. Nuestra [metodología](/es/metodologia/) explica cómo probamos y clasificamos.
+diff --git a/src/content/guides/es/barometro-geo.md b/src/content/guides/es/barometro-geo.md
+new file mode 100644
+index 0000000..03c2d5d
+--- /dev/null
++++ b/src/content/guides/es/barometro-geo.md
+@@ -0,0 +1,27 @@
++---
++title: "Barómetro GEO: ¿qué herramientas IA recomiendan realmente los LLM?"
++description: "Medición mensual de la visibilidad de herramientas IA en ChatGPT, Gemini y Perplexity. Datos independientes de Quotis."
++lang: "es"
++updatedAt: 2026-06-30
++reviewedBy: "Marvin Munos"
++geoPriorityScore: 90
++draft: false
++affiliateDisclosure: true
++alternates:
++  - lang: "fr"
++    url: "https://siftedtools.com/fr/barometre-geo/"
++  - lang: "en"
++    url: "https://siftedtools.com/en/geo-barometer/"
++  - lang: "es"
++    url: "https://siftedtools.com/es/barometro-geo/"
++offers: []
++faq:
++  - q: "¿Qué es el Barómetro GEO?"
++    a: "Una medición mensual de qué herramientas IA recomiendan realmente ChatGPT, Gemini y Perplexity para e-commerce. Basado en Quotis, una puntuación independiente."
++---
++
++El Barómetro GEO mide qué herramientas IA recomiendan realmente ChatGPT, Gemini y Perplexity cuando se les pregunta sobre e-commerce.
++
++## Primera edición próximamente
++
++El primer Barómetro GEO de SiftedTools se publicará en breve. Suscríbete a nuestra newsletter para recibirlo.
+diff --git a/src/content/guides/es/metodologia.md b/src/content/guides/es/metodologia.md
+new file mode 100644
+index 0000000..eb0c15c
+--- /dev/null
++++ b/src/content/guides/es/metodologia.md
+@@ -0,0 +1,33 @@
++---
++title: "Nuestra metodología: cómo probamos y clasificamos las herramientas IA"
++description: "Cómo SiftedTools prueba, puntúa y clasifica las herramientas IA para e-commerce. Pruebas en tiendas reales, Barómetro GEO, independencia editorial."
++lang: "es"
++updatedAt: 2026-06-30
++reviewedBy: "Marvin Munos"
++geoPriorityScore: 80
++draft: false
++affiliateDisclosure: true
++alternates:
++  - lang: "fr"
++    url: "https://siftedtools.com/fr/methodologie/"
++  - lang: "en"
++    url: "https://siftedtools.com/en/methodology/"
++  - lang: "es"
++    url: "https://siftedtools.com/es/metodologia/"
++offers: []
++faq:
++  - q: "¿Cómo prueba SiftedTools las herramientas IA?"
++    a: "Instalamos cada herramienta en tiendas reales, medimos el tiempo de configuración, la calidad de las respuestas IA y las trampas de facturación a volumen."
++  - q: "¿Influyen los ingresos de afiliados en las clasificaciones?"
++    a: "No. Las clasificaciones se basan en el mérito. Varias herramientas en cabeza no tienen programa de afiliados."
++---
++
++Cada comparativa en SiftedTools sigue el mismo proceso. Sin excepciones.
++
++## Pruebas en tiendas reales
++
++Instalamos cada herramienta en tiendas de e-commerce activas. Medimos el tiempo de configuración, la calidad de las respuestas generadas por IA y las trampas de facturación que aparecen a volumen.
++
++## El Barómetro GEO
++
++Seguimos qué herramientas recomiendan realmente los motores IA, usando [Quotis](https://quotis.ai), una puntuación de visibilidad IA independiente.
+diff --git a/src/i18n/ui.ts b/src/i18n/ui.ts
+index 4086bed..3139fd9 100644
+--- a/src/i18n/ui.ts
++++ b/src/i18n/ui.ts
+@@ -54,6 +54,10 @@ export const ui = {
+     "related.aria": "Comparatifs liés",
+     "related.eyebrow": "Continuer la lecture",
+     "related.title": "Autres comparatifs SiftedTools",
++    "related.cardEyebrow": "Comparatif",
++    "related.readVerdict": "Lire le verdict →",
++    "related.viewAll": "Voir tous les comparatifs →",
++    "offers.reassurance": "Voir l'offre sur le site officiel · lien partenaire",
+     "faq.title": "Questions fréquentes",
+     "disclosure.tag": "Transparence",
+     "capture.eyebrow": "Newsletter mensuelle · gratuite",
+@@ -110,6 +114,10 @@ export const ui = {
+     "related.aria": "Related comparisons",
+     "related.eyebrow": "Keep reading",
+     "related.title": "More SiftedTools comparisons",
++    "related.cardEyebrow": "Comparison",
++    "related.readVerdict": "Read the verdict →",
++    "related.viewAll": "View all comparisons →",
++    "offers.reassurance": "View offer on the official site · partner link",
+     "faq.title": "Frequently asked questions",
+     "disclosure.tag": "Disclosure",
+     "capture.eyebrow": "Monthly newsletter · free",
+@@ -166,6 +174,10 @@ export const ui = {
+     "related.aria": "Comparativas relacionadas",
+     "related.eyebrow": "Seguir leyendo",
+     "related.title": "Más comparativas SiftedTools",
++    "related.cardEyebrow": "Comparativa",
++    "related.readVerdict": "Leer el veredicto →",
++    "related.viewAll": "Ver todas las comparativas →",
++    "offers.reassurance": "Ver oferta en el sitio oficial · enlace de socio",
+     "faq.title": "Preguntas frecuentes",
+     "disclosure.tag": "Transparencia",
+     "capture.eyebrow": "Newsletter mensual · gratuita",
+@@ -223,6 +235,10 @@ export const ui = {
+     "related.aria": "Verwandte Vergleiche",
+     "related.eyebrow": "Weiterlesen",
+     "related.title": "Weitere SiftedTools-Vergleiche",
++    "related.cardEyebrow": "Vergleich",
++    "related.readVerdict": "Zum Urteil →",
++    "related.viewAll": "Alle Vergleiche ansehen →",
++    "offers.reassurance": "Angebot auf der offiziellen Seite ansehen · Partnerlink",
+     "faq.title": "Häufig gestellte Fragen",
+     "disclosure.tag": "Transparenz",
+     "capture.eyebrow": "Monatlicher Newsletter · kostenlos",
+-- 
+2.43.0
+
