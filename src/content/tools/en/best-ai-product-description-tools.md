@@ -29,6 +29,12 @@ apps:
     website: https://rytr.me/
     description: "The cheapest option on the market for generating decent product copy when budget is the only real constraint."
 offers:
+  - tool: Writesonic
+    label: Try Writesonic
+    url: https://writesonic.com?fp_ref=marvin66
+  - tool: Rytr
+    label: Try Rytr
+    url: https://rytr.me/?via=marvin-munos
   - tool: Jasper
     label: Try Jasper
     url: https://www.jasper.ai/
@@ -41,12 +47,6 @@ offers:
     label: Try Hypotenuse
     url: https://www.hypotenuse.ai/
     note: "direct link – affiliate pending"
-  - tool: Writesonic
-    label: Try Writesonic
-    url: https://writesonic.com?fp_ref=marvin66
-  - tool: Rytr
-    label: Try Rytr
-    url: https://rytr.me/?via=marvin-munos
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-ia-fiches-produits/

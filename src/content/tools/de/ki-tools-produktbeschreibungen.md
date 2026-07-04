@@ -29,6 +29,12 @@ apps:
     website: https://rytr.me/
     description: "Die günstigste Option am Markt für brauchbare Produkttexte, wenn das Budget die einzige echte Einschränkung ist."
 offers:
+  - tool: Writesonic
+    label: Writesonic testen
+    url: https://writesonic.com?fp_ref=marvin66
+  - tool: Rytr
+    label: Rytr testen
+    url: https://rytr.me/?via=marvin-munos
   - tool: Jasper
     label: Jasper testen
     url: https://www.jasper.ai/
@@ -41,12 +47,6 @@ offers:
     label: Hypotenuse testen
     url: https://www.hypotenuse.ai/
     note: "Direktlink – Affiliate-Programm ausstehend"
-  - tool: Writesonic
-    label: Writesonic testen
-    url: https://writesonic.com?fp_ref=marvin66
-  - tool: Rytr
-    label: Rytr testen
-    url: https://rytr.me/?via=marvin-munos
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-ia-fiches-produits/

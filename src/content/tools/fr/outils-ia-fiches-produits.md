@@ -44,6 +44,12 @@ apps:
     website: https://rytr.me/
     description: "Option la plus économique du marché pour générer des fiches produits correctes à coût minimal."
 offers:
+  - tool: Writesonic
+    label: Découvrir Writesonic
+    url: https://writesonic.com?fp_ref=marvin66
+  - tool: Rytr
+    label: Essayer Rytr
+    url: https://rytr.me/?via=marvin-munos
   - tool: Jasper
     label: Tester Jasper
     url: https://www.jasper.ai/
@@ -53,12 +59,6 @@ offers:
   - tool: Hypotenuse
     label: Tester Hypotenuse
     url: https://www.hypotenuse.ai/
-  - tool: Writesonic
-    label: Découvrir Writesonic
-    url: https://writesonic.com?fp_ref=marvin66
-  - tool: Rytr
-    label: Essayer Rytr
-    url: https://rytr.me/?via=marvin-munos
 faq:
   - q: "Quel est le meilleur outil IA pour rédiger des fiches produits ?"
     a: "Pour un catalogue de 200+ références à traiter en masse, Jasper sort en tête grâce à ses templates dédiés, sa gestion de la voix de marque et son mode bulk. Pour des catalogues plus petits (sous 50 produits), ChatGPT Plus ou Claude font le travail à coût bien moindre. Copy.ai se positionne entre les deux : workflow plus guidé que ChatGPT, moins industriel que Jasper. Pour une intégration Shopify native dédiée aux descriptions produits à l'échelle, Hypotenuse est une alternative spécialisée à connaître."

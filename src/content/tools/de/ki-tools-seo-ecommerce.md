@@ -26,16 +26,16 @@ apps:
     website: https://www.scalenut.com/
     description: "All-in-one-SEO-Plattform für Keyword-Recherche, Themen-Cluster und Texterstellung in einem einzigen Workflow."
 offers:
-  - tool: Surfer SEO
-    label: Surfer SEO ansehen
-    url: https://surferseo.com/
-    note: "Direktlink – Affiliate-Programm ausstehend"
   - tool: NeuronWriter
     label: NeuronWriter testen
     url: https://app.neuronwriter.com/ar/7672ed007cbbfc6f9c619f1e7b362970
   - tool: Frase
     label: Frase testen
     url: https://www.frase.io/?via=marvin87
+  - tool: Surfer SEO
+    label: Surfer SEO ansehen
+    url: https://surferseo.com/
+    note: "Direktlink – Affiliate-Programm ausstehend"
   - tool: Scalenut
     label: Scalenut ansehen
     url: https://www.scalenut.com/

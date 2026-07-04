@@ -41,15 +41,15 @@ alternates:
   - lang: nl
     url: https://siftedtools.com/nl/ai-tools-seo-ecommerce/
 offers:
-  - tool: Surfer SEO
-    label: Tester Surfer SEO
-    url: https://surferseo.com/
   - tool: NeuronWriter
     label: Découvrir NeuronWriter
     url: https://app.neuronwriter.com/ar/7672ed007cbbfc6f9c619f1e7b362970
   - tool: Frase
     label: Tester Frase
     url: https://www.frase.io/?via=marvin87
+  - tool: Surfer SEO
+    label: Tester Surfer SEO
+    url: https://surferseo.com/
   - tool: Scalenut
     label: Découvrir Scalenut
     url: https://www.scalenut.com/
