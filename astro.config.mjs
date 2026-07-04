@@ -9,15 +9,16 @@ export default defineConfig({
   site: "https://siftedtools.com",
   trailingSlash: "always",
 
-  // Multilingue en sous-dossiers : /fr/ /en/ /es/ /pt/ /de/ /it/
-  // Lancement FR. prefixDefaultLocale: true => toutes les langues sont prefixees,
-  // aucune langue n'occupe la racine (plus propre pour un site europeen).
+  // Multilingue en sous-dossiers : /fr/ /en/ /es/ /pt/ /de/ /it/ /nl/
+  // prefixDefaultLocale: true => toutes les langues sont préfixées.
+  // redirectToDefaultLocale: false => la racine "/" affiche notre page de sélection
+  // de langue (src/pages/index.astro) avec détection douce, au lieu de rediriger vers /fr/.
   i18n: {
     defaultLocale: "fr",
-    locales: ["fr", "en", "es", "pt", "de", "it"],
+    locales: ["fr", "en", "es", "pt", "de", "it", "nl"],
     routing: {
       prefixDefaultLocale: true,
-      redirectToDefaultLocale: true, // "/" redirige vers /fr/ (a affiner plus tard avec detection geo edge)
+      redirectToDefaultLocale: false,
     },
   },
 
