@@ -13,12 +13,12 @@ geoPriorityScore: 95
 schemaTypes: ["Article", "FAQPage"]
 requiredTools: ["loox", "judge-me", "yotpo"]
 apps:
-  - name: Loox
-    website: https://loox.io/
-    description: "App d'avis Shopify axée sur les avis photo et vidéo, positionnement premium."
   - name: Judge.me
     website: https://judge.me/
     description: "App d'avis Shopify avec plan gratuit illimité et rich snippets SEO inclus."
+  - name: Loox
+    website: https://loox.io/
+    description: "App d'avis Shopify axée sur les avis photo et vidéo, positionnement premium."
   - name: Yotpo
     website: https://www.yotpo.com/
     description: "Suite marketing e-commerce (avis, loyalty, SMS, UGC) pour marques mid-market."
