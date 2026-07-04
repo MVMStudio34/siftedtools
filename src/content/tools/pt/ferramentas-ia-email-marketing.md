@@ -1,6 +1,6 @@
 ---
 title: "Brevo vs Klaviyo: melhor email marketing IA"
-description: "Brevo vs Klaviyo vs Omnisend: qual a melhor ferramenta de email marketing para a tua loja online? Brevo pelo preço e RGPD, Klaviyo no Shopify. Veredicto por perfil."
+description: "Brevo vs Klaviyo vs Omnisend: qual a melhor ferramenta de email marketing para a tua loja? Brevo pelo preço e RGPD, Klaviyo no Shopify. Veredicto por perfil."
 lang: pt
 profession: ecommerce
 useCase: ferramentas-ia-email-marketing

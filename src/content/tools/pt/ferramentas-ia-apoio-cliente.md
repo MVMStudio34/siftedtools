@@ -1,6 +1,6 @@
 ---
 title: "Gorgias vs Tidio: IA apoio ao cliente 2026"
-description: "Gorgias vs Tidio: qual a melhor ferramenta de IA para o apoio ao cliente? O Gorgias escala forte mas está preso ao Shopify. O Tidio corre em Shopify e WooCommerce."
+description: "Gorgias vs Tidio: qual a melhor ferramenta de IA para apoio ao cliente? O Gorgias escala forte mas prende-se ao Shopify; o Tidio corre nas duas plataformas."
 lang: pt
 profession: ecommerce
 useCase: ferramentas-ia-apoio-cliente

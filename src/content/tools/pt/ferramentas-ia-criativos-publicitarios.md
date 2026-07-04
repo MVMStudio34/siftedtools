@@ -1,6 +1,6 @@
 ---
 title: "IA para criativos de anúncios: AdCreative vs Predis"
-description: "Qual a melhor ferramenta de IA para criativos publicitários? AdCreative.ai para aquisição paga, Predis para misturar anúncios e orgânico. O veredito por orçamento."
+description: "Qual a melhor ferramenta de IA para criativos de anúncios? AdCreative.ai para aquisição paga, Predis para anúncios e orgânico. O veredito por orçamento."
 lang: pt
 profession: ecommerce
 useCase: criativos-publicitarios-ia

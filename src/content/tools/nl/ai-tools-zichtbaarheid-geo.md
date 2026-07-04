@@ -1,6 +1,6 @@
 ---
 title: "Otterly vs Peec AI: AI-zichtbaarheid volgen 2026"
-description: "Welke tool om je zichtbaarheid in AI te monitoren? Otterly om goedkoop te starten, Peec AI voor teams, Profound voor enterprise. Het GEO-verdict."
+description: "Welke tool om je zichtbaarheid in AI-antwoorden te volgen? Otterly om goedkoop te starten, Peec AI voor teams, Profound voor enterprise. Het GEO-verdict."
 lang: nl
 profession: ecommerce
 useCase: ai-zichtbaarheid-geo

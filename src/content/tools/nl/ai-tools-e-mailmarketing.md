@@ -1,6 +1,6 @@
 ---
 title: "Brevo vs Klaviyo: beste AI e-mailmarketing"
-description: "Brevo vs Klaviyo vs Omnisend: welke e-mailtool voor jouw webshop? Brevo voor WooCommerce en AVG, Klaviyo voor Shopify. Eerlijk verdict per profiel."
+description: "Brevo vs Klaviyo vs Omnisend: welke e-mailmarketingtool voor jouw webshop? Brevo voor WooCommerce en AVG, Klaviyo voor Shopify. Eerlijk verdict per profiel."
 lang: nl
 profession: ecommerce
 useCase: ai-tools-e-mailmarketing
