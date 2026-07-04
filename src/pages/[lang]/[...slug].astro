@@ -54,6 +54,22 @@ if (collection === "tools" && data.apps?.length) {
 const schema = [buildGraph(...nodes)];
 
 const showRelated = collection === "tools";
+
+// Les pages piliers couvrent tous les use cases. On y masque le bloc groupé de boutons
+// affiliés (11 outils de catégories différentes) : mauvais signal éditorial/GEO et déroutant
+// pour un lecteur qui ne sait pas encore ce qu'il lui faut. Le pilier aiguille vers chaque
+// comparatif dédié, où les 2-3 boutons pertinents s'affichent en contexte.
+const PILLAR_SLUGS = new Set([
+  "meilleurs-outils-ia-ecommerce",       // fr
+  "best-ai-tools-ecommerce",             // en
+  "mejores-herramientas-ia-ecommerce",   // es
+  "beste-ki-tools-ecommerce",            // de
+  "migliori-strumenti-ia-ecommerce",     // it
+  "melhores-ferramentas-ia-ecommerce",   // pt
+  "beste-ai-tools-ecommerce",            // nl
+]);
+const isPillar = PILLAR_SLUGS.has(slug);
+const showOffers = data.offers?.length > 0 && !isPillar;
 ---
 <BaseLayout
   title={`${data.title} | SiftedTools`}
@@ -77,7 +93,7 @@ const showRelated = collection === "tools";
 
     <div class="disclosure-slot"><AffiliateDisclosure compact={true} /></div>
 
-    {data.offers?.length > 0 && (
+    {showOffers && (
       <OfferButtons offers={data.offers} eyebrow={t("cta.testNow")} />
     )}
 
@@ -91,7 +107,7 @@ const showRelated = collection === "tools";
       <div class="faq-slot"><FAQ items={data.faq} /></div>
     )}
 
-    {collection === "tools" && data.offers?.length > 0 && (
+    {collection === "tools" && showOffers && (
       <div class="cta-repeat">
         <h2 class="ui">{t("cta.readyTitle")}</h2>
         <OfferButtons offers={data.offers} eyebrow={t("cta.readyEyebrow")} />
