@@ -23,6 +23,10 @@ alternates:
     url: https://siftedtools.com/de/ki-tools-email-marketing/
   - lang: it
     url: https://siftedtools.com/it/strumenti-ia-email-marketing/
+  - lang: pt
+    url: https://siftedtools.com/pt/ferramentas-ia-email-marketing/
+  - lang: nl
+    url: https://siftedtools.com/nl/ai-tools-e-mailmarketing/
 apps:
   - name: Brevo
     website: https://www.brevo.com/

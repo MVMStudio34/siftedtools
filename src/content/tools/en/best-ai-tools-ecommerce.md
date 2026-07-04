@@ -79,6 +79,10 @@ alternates:
     url: https://siftedtools.com/de/beste-ki-tools-ecommerce/
   - lang: it
     url: https://siftedtools.com/it/migliori-strumenti-ia-ecommerce/
+  - lang: pt
+    url: https://siftedtools.com/pt/melhores-ferramentas-ia-ecommerce/
+  - lang: nl
+    url: https://siftedtools.com/nl/beste-ai-tools-ecommerce/
 faq:
   - q: "What AI tools does a Shopify store actually need?"
     a: "Not a forty-tool stack. In practice: a customer service tool (Gorgias or Tidio), a reviews app (Judge.me or Loox), and an email platform (Klaviyo or Brevo). Add product-copy, photo, ad-creative and SEO tools as each one becomes a real bottleneck. Most stores over-buy early and under-use what they paid for."

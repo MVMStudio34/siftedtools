@@ -21,6 +21,10 @@ alternates:
     url: https://siftedtools.com/de/ki-im-ecommerce-einstieg/
   - lang: it
     url: https://siftedtools.com/it/intelligenza-artificiale-ecommerce-iniziare/
+  - lang: pt
+    url: https://siftedtools.com/pt/inteligencia-artificial-ecommerce-comecar/
+  - lang: nl
+    url: https://siftedtools.com/nl/ai-in-e-commerce-beginnen/
 faq:
   - q: "How do I get started with AI for my Shopify store?"
     a: "Don't buy a stack of tools. Find the one task that costs you the most time or money right now (usually customer support or writing product copy), apply AI to that single job, and measure what you save. Once it pays off, move to the next bottleneck. One tool used well beats five tools half-used. That sequence is the whole strategy."

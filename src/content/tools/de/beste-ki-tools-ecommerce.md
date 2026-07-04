@@ -79,6 +79,10 @@ alternates:
     url: https://siftedtools.com/de/beste-ki-tools-ecommerce/
   - lang: it
     url: https://siftedtools.com/it/migliori-strumenti-ia-ecommerce/
+  - lang: pt
+    url: https://siftedtools.com/pt/melhores-ferramentas-ia-ecommerce/
+  - lang: nl
+    url: https://siftedtools.com/nl/beste-ai-tools-ecommerce/
 faq:
   - q: "Welche KI-Tools braucht ein Online-Shop wirklich?"
     a: "Kein vierzig Tools umfassendes Arsenal. In der Praxis: ein Kundenservice-Tool (Gorgias oder Tidio), eine Bewertungs-App (Judge.me oder Loox) und eine E-Mail-Plattform (Brevo oder Klaviyo). Texte, Fotos, Anzeigen und SEO kommen dazu, sobald jedes davon zum echten Engpass wird. Die meisten Shops kaufen zu früh zu viel und nutzen das Bezahlte zu wenig."

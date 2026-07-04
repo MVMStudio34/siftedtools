@@ -58,6 +58,10 @@ alternates:
     url: https://siftedtools.com/de/ki-tools-produktbeschreibungen/
   - lang: it
     url: https://siftedtools.com/it/strumenti-ia-schede-prodotto/
+  - lang: pt
+    url: https://siftedtools.com/pt/ferramentas-ia-fichas-produto/
+  - lang: nl
+    url: https://siftedtools.com/nl/ai-tools-productbeschrijvingen/
 faq:
   - q: "Welches ist das beste KI-Tool für Produktbeschreibungen?"
     a: "Jasper, wenn Sie ein großes oder Multi-Marken-Sortiment in hoher Stückzahl betexten und eine durchgängige Markenstimme brauchen. Für die meisten kleinen Shops unter 50 Produkten pro Monat ist ChatGPT die bessere Antwort: Es kostet einen Bruchteil eines dedizierten Tools, und die Textqualität ist inzwischen exzellent. Hypotenuse liegt dazwischen, wenn die einzige Aufgabe Massentexte mit direkter Shopify-Anbindung sind. Der Vorteil aller reinen Texttools: Der exportierte Text passt in Shopify genauso wie in WooCommerce."

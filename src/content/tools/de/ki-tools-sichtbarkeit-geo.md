@@ -45,6 +45,10 @@ alternates:
     url: https://siftedtools.com/de/ki-tools-sichtbarkeit-geo/
   - lang: it
     url: https://siftedtools.com/it/strumenti-visibilita-ia-geo/
+  - lang: pt
+    url: https://siftedtools.com/pt/ferramentas-visibilidade-ia-geo/
+  - lang: nl
+    url: https://siftedtools.com/nl/ai-tools-zichtbaarheid-geo/
 faq:
   - q: "Was ist GEO oder KI-Sichtbarkeit?"
     a: "GEO steht für Generative Engine Optimization. KI-Sichtbarkeit zu tracken bedeutet, zu messen, wie oft und auf welche Weise Ihre Marke in den Antworten von ChatGPT, Gemini, Perplexity, Copilot oder Googles AI Overviews genannt oder zitiert wird. Es ist das Gegenstück zum Rank-Tracking, übertragen auf die Ära der KI-Suche. Statt zu fragen, auf welcher Position Sie bei Google stehen, fragen Sie: Nennt die KI Ihren Shop, wenn ein Käufer nach einer Empfehlung fragt?"

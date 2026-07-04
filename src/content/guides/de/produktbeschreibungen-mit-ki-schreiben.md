@@ -21,6 +21,10 @@ alternates:
     url: https://siftedtools.com/de/produktbeschreibungen-mit-ki-schreiben/
   - lang: it
     url: https://siftedtools.com/it/scrivere-schede-prodotto-ia/
+  - lang: pt
+    url: https://siftedtools.com/pt/escrever-fichas-produto-ia/
+  - lang: nl
+    url: https://siftedtools.com/nl/productbeschrijvingen-schrijven-met-ai/
 faq:
   - q: "Warum klingen Produktbeschreibungen mit KI so generisch?"
     a: "Weil das Modell Lücken mit Durchschnittswerten füllt. Wenn Sie nur einen Produktnamen nennen und um eine Beschreibung bitten, liefert die KI den statistisch wahrscheinlichsten Text für diese Kategorie. Der liest sich wie in jedem anderen Shop. Die Lösung sind konkrete Eingaben: echte technische Daten, der genaue Zielkunde, der Einwand, den das Produkt beantwortet, und die Worte, die Ihre Käufer wirklich benutzen. Je konkreter das Briefing, desto weniger generisch die Ausgabe."

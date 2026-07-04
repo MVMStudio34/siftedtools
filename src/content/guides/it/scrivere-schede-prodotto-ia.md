@@ -30,6 +30,10 @@ alternates:
     url: https://siftedtools.com/de/produktbeschreibungen-mit-ki-schreiben/
   - lang: it
     url: https://siftedtools.com/it/scrivere-schede-prodotto-ia/
+  - lang: pt
+    url: https://siftedtools.com/pt/melhores-ferramentas-ia-ecommerce/
+  - lang: nl
+    url: https://siftedtools.com/nl/beste-ai-tools-ecommerce/
 faq:
   - q: "Come scrivo una scheda prodotto con l'IA che converte davvero?"
     a: "Dai al modello materiale concreto invece di chiedere una descrizione generica. Servono quattro cose: le specifiche tecniche reali del prodotto, il profilo esatto del cliente, l'obiezione principale che frena l'acquisto e le parole che i tuoi clienti usano nelle recensioni. Racchiudi tutto in un prompt maestro riutilizzabile con la tua voce di marca, poi rileggi ogni testo prima di pubblicarlo. La struttura di una buona scheda e la conoscenza del cliente restano il tuo lavoro: l'IA accelera solo la produzione."

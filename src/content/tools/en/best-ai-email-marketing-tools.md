@@ -51,6 +51,10 @@ alternates:
     url: https://siftedtools.com/de/ki-tools-email-marketing/
   - lang: it
     url: https://siftedtools.com/it/strumenti-ia-email-marketing/
+  - lang: pt
+    url: https://siftedtools.com/pt/ferramentas-ia-email-marketing/
+  - lang: nl
+    url: https://siftedtools.com/nl/ai-tools-e-mailmarketing/
 faq:
   - q: "What is the best AI email marketing tool for e-commerce?"
     a: "Klaviyo, if email and SMS are a real revenue channel and you'll actually use the deep segmentation, flows and Shopify event data. It's the category standard for scaling stores. If you want roughly 80% of that value for a fraction of the cost, Brevo is the best-value all-in-one. Omnisend sits in between: Shopify-native with strong prebuilt automation out of the box."

@@ -30,6 +30,10 @@ alternates:
     url: https://siftedtools.com/de/ki-im-ecommerce-einstieg/
   - lang: it
     url: https://siftedtools.com/it/intelligenza-artificiale-ecommerce-iniziare/
+  - lang: pt
+    url: https://siftedtools.com/pt/melhores-ferramentas-ia-ecommerce/
+  - lang: nl
+    url: https://siftedtools.com/nl/beste-ai-tools-ecommerce/
 faq:
   - q: "Da dove inizio con l'IA per il mio negozio online?"
     a: "Non comprare cinque strumenti tutti insieme. Trova l'unica attività che oggi ti costa più tempo o più soldi (di solito l'assistenza clienti o la scrittura delle schede prodotto), applica lì un solo strumento IA e misura quanto risparmi. Solo quando conviene passi al collo di bottiglia successivo. Uno strumento usato bene batte cinque usati a metà. Questa sequenza è tutta la strategia."

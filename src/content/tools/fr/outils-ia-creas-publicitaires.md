@@ -33,6 +33,10 @@ alternates:
     url: https://siftedtools.com/de/ki-tools-werbeanzeigen/
   - lang: it
     url: https://siftedtools.com/it/strumenti-ia-creativita-pubblicitarie/
+  - lang: pt
+    url: https://siftedtools.com/pt/ferramentas-ia-criativos-publicitarios/
+  - lang: nl
+    url: https://siftedtools.com/nl/ai-tools-advertentiecreatives/
 offers:
   - tool: AdCreative.ai
     label: Tester AdCreative.ai

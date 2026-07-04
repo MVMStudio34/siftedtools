@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const SITE = "https://siftedtools.com";
+---
+<BaseLayout
+  title="Política de privacidade | SiftedTools"
+  description="Como a SiftedTools recolhe, utiliza e protege os teus dados pessoais. Compromissos RGPD, prazos de conservação, direitos, contactos."
+  canonical={`${SITE}/pt/privacidade/`}
+  alternates={[
+    { lang: "pt", href: `${SITE}/pt/privacidade/` },
+    { lang: "fr", href: `${SITE}/fr/confidentialite/` },
+    { lang: "en", href: `${SITE}/en/privacy/` },
+    { lang: "es", href: `${SITE}/es/privacidad/` },
+    { lang: "de", href: `${SITE}/de/datenschutz/` },
+    { lang: "it", href: `${SITE}/it/privacy/` },
+  ]}
+>
+  <main class="legal-page"><article class="container">
+    <header class="legal-header"><p class="eyebrow">Legal</p><h1>Pol&iacute;tica de privacidade</h1><p class="meta">&Uacute;ltima atualiza&ccedil;&atilde;o: 3 de julho de 2026</p></header>
+    <section><h2>1. Quem somos</h2><p>A SiftedTools &eacute; um site editorial publicado pela <strong>MVM Studio</strong>, empresa individual registada em Fran&ccedil;a com SIRET <strong>844 116 053 00035</strong>. Respons&aacute;vel pelo tratamento: <strong>Marvin Munos</strong>. Contacto: <a href="mailto:contact@siftedtools.com">contact@siftedtools.com</a></p></section>
+    <section><h2>2. Dados recolhidos</h2><p><strong>Subscri&ccedil;&atilde;o da newsletter:</strong> apenas o endere&ccedil;o de email, via Brevo, com duplo consentimento (double opt-in). Nenhum dado &eacute; partilhado com terceiros para fins de marketing.</p><p><strong>An&aacute;lise an&oacute;nima:</strong> Cloudflare Web Analytics (sem cookies, sem dados pessoais).</p></section>
+    <section><h2>3. Os teus direitos (RGPD)</h2><p>Tens o direito de aceder, retificar, apagar, transferir e limitar o tratamento dos teus dados. Contacto: <a href="mailto:contact@siftedtools.com">contact@siftedtools.com</a>. Podes tamb&eacute;m apresentar reclama&ccedil;&atilde;o &agrave; CNPD.</p></section>
+    <section><h2>4. Conserva&ccedil;&atilde;o</h2><p>Os dados da newsletter s&atilde;o conservados at&eacute; ao cancelamento, poss&iacute;vel com um clique em qualquer email.</p></section>
+    <section><h2>5. Cookies</h2><p>A SiftedTools n&atilde;o utiliza cookies de rastreio pr&oacute;prios.</p></section>
+  </article></main>
+</BaseLayout>
+<style>.legal-page{padding:48px 0 80px}.container{max-width:720px;margin:0 auto;padding:0 24px}.legal-header{margin-bottom:40px}.eyebrow{font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}h1{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.15;margin-bottom:.75rem}.meta{font-size:.9rem;color:var(--slate)}section{margin-bottom:36px}h2{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:600;margin-bottom:12px}p{font-size:.95rem;line-height:1.65;color:var(--slate);margin-bottom:10px}a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px}</style>

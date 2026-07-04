@@ -44,6 +44,10 @@ alternates:
     url: https://siftedtools.com/de/ki-tools-werbeanzeigen/
   - lang: it
     url: https://siftedtools.com/it/strumenti-ia-creativita-pubblicitarie/
+  - lang: pt
+    url: https://siftedtools.com/pt/ferramentas-ia-criativos-publicitarios/
+  - lang: nl
+    url: https://siftedtools.com/nl/ai-tools-advertentiecreatives/
 faq:
   - q: "¿Cuál es la mejor herramienta IA de creatividades publicitarias para Shopify?"
     a: "Depende de tu inversión publicitaria y de tu canal, no de qué demo brilla más. AdCreative.ai si gastas dinero real en Meta y Google y necesitas volumen de creatividades para testear, con cada variante puntuada por probabilidad de conversión. Predis.ai si eres social-first y más pequeño y quieres posts orgánicos y creatividades de anuncio desde una sola herramienta. Pencil si tu cuello de botella es testear variaciones de vídeo contra tus cuentas publicitarias. La clave es tu gasto mensual y si juegas primero al pago o primero al orgánico."

@@ -213,3 +213,33 @@ SiftedTools est edite par MVM Studio, entreprise individuelle francaise (SIRET 8
 - https://siftedtools.com/it/guida-geo-posizionamento-ia.md
 - https://siftedtools.com/it/scrivere-schede-prodotto-ia.md
 - https://siftedtools.com/it/intelligenza-artificiale-ecommerce-iniziare.md
+
+## Veredictos em português (texto completo via .md)
+- https://siftedtools.com/pt/melhores-ferramentas-ia-ecommerce.md
+- https://siftedtools.com/pt/ferramentas-ia-apoio-cliente.md
+- https://siftedtools.com/pt/ferramentas-ia-fichas-produto.md
+- https://siftedtools.com/pt/loox-vs-judge-me-avaliacoes-shopify.md
+- https://siftedtools.com/pt/ferramentas-ia-email-marketing.md
+- https://siftedtools.com/pt/ferramentas-ia-fotos-produto.md
+- https://siftedtools.com/pt/ferramentas-ia-criativos-publicitarios.md
+- https://siftedtools.com/pt/ferramentas-ia-seo-ecommerce.md
+- https://siftedtools.com/pt/ferramentas-ia-videos-ugc.md
+- https://siftedtools.com/pt/ferramentas-visibilidade-ia-geo.md
+- https://siftedtools.com/pt/guia-geo-posicionamento-ia.md
+- https://siftedtools.com/pt/escrever-fichas-produto-ia.md
+- https://siftedtools.com/pt/inteligencia-artificial-ecommerce-comecar.md
+
+## Nederlandse oordelen (volledige tekst via .md)
+- https://siftedtools.com/nl/beste-ai-tools-ecommerce.md
+- https://siftedtools.com/nl/ai-tools-klantenservice.md
+- https://siftedtools.com/nl/ai-tools-productbeschrijvingen.md
+- https://siftedtools.com/nl/loox-vs-judge-me-shopify-reviews.md
+- https://siftedtools.com/nl/ai-tools-e-mailmarketing.md
+- https://siftedtools.com/nl/ai-tools-productfotos.md
+- https://siftedtools.com/nl/ai-tools-advertentiecreatives.md
+- https://siftedtools.com/nl/ai-tools-seo-ecommerce.md
+- https://siftedtools.com/nl/ai-tools-ugc-videos.md
+- https://siftedtools.com/nl/ai-tools-zichtbaarheid-geo.md
+- https://siftedtools.com/nl/geo-gids-zichtbaarheid-ai.md
+- https://siftedtools.com/nl/productbeschrijvingen-schrijven-met-ai.md
+- https://siftedtools.com/nl/ai-in-e-commerce-beginnen.md

@@ -100,6 +100,42 @@
 - [Intelligenza artificiale nell'e-commerce: come iniziare](https://siftedtools.com/it/intelligenza-artificiale-ecommerce-iniziare/)
 - [Metodologia](https://siftedtools.com/it/metodologia/) · [Barometro GEO](https://siftedtools.com/it/barometro-geo/) · [Chi siamo](https://siftedtools.com/it/chi-siamo/)
 
+## Comparativos — Português (/pt/)
+- [Melhores ferramentas de IA para e-commerce 2026](https://siftedtools.com/pt/melhores-ferramentas-ia-ecommerce/) : guia pilar, o stack completo por necessidade (Shopify e WooCommerce).
+- [Gorgias vs Tidio: apoio ao cliente](https://siftedtools.com/pt/ferramentas-ia-apoio-cliente/)
+- [Ferramentas de IA para fichas de produto](https://siftedtools.com/pt/ferramentas-ia-fichas-produto/)
+- [Loox vs Judge.me: avaliações Shopify](https://siftedtools.com/pt/loox-vs-judge-me-avaliacoes-shopify/)
+- [Ferramentas de IA para email marketing](https://siftedtools.com/pt/ferramentas-ia-email-marketing/)
+- [Ferramentas de IA para fotos de produto](https://siftedtools.com/pt/ferramentas-ia-fotos-produto/)
+- [Ferramentas de IA para criativos publicitários](https://siftedtools.com/pt/ferramentas-ia-criativos-publicitarios/)
+- [Ferramentas de IA para SEO e-commerce](https://siftedtools.com/pt/ferramentas-ia-seo-ecommerce/)
+- [Ferramentas de IA para vídeos UGC](https://siftedtools.com/pt/ferramentas-ia-videos-ugc/)
+- [Ferramentas de visibilidade IA / GEO](https://siftedtools.com/pt/ferramentas-visibilidade-ia-geo/)
+
+## Guias — Português
+- [GEO: visibilidade nos motores de resposta IA](https://siftedtools.com/pt/guia-geo-posicionamento-ia/)
+- [Escrever fichas de produto com IA](https://siftedtools.com/pt/escrever-fichas-produto-ia/)
+- [Inteligência artificial no e-commerce: como começar](https://siftedtools.com/pt/inteligencia-artificial-ecommerce-comecar/)
+- [Metodologia](https://siftedtools.com/pt/metodologia/) · [Barómetro GEO](https://siftedtools.com/pt/barometro-geo/) · [Sobre](https://siftedtools.com/pt/sobre/)
+
+## Vergelijkingen — Nederlands (/nl/)
+- [Beste AI-tools voor e-commerce 2026](https://siftedtools.com/nl/beste-ai-tools-ecommerce/) : pijlergids, de volledige stack per use case (Shopify en WooCommerce).
+- [Gorgias vs Tidio: klantenservice](https://siftedtools.com/nl/ai-tools-klantenservice/)
+- [AI-tools voor productbeschrijvingen](https://siftedtools.com/nl/ai-tools-productbeschrijvingen/)
+- [Loox vs Judge.me: Shopify-reviews](https://siftedtools.com/nl/loox-vs-judge-me-shopify-reviews/)
+- [AI-tools voor e-mailmarketing](https://siftedtools.com/nl/ai-tools-e-mailmarketing/)
+- [AI-tools voor productfoto's](https://siftedtools.com/nl/ai-tools-productfotos/)
+- [AI-tools voor advertentiecreatives](https://siftedtools.com/nl/ai-tools-advertentiecreatives/)
+- [AI-SEO-tools voor e-commerce](https://siftedtools.com/nl/ai-tools-seo-ecommerce/)
+- [AI-tools voor UGC-video's](https://siftedtools.com/nl/ai-tools-ugc-videos/)
+- [AI-zichtbaarheidstools / GEO](https://siftedtools.com/nl/ai-tools-zichtbaarheid-geo/)
+
+## Gidsen — Nederlands
+- [GEO: zichtbaarheid in AI-zoekmachines](https://siftedtools.com/nl/geo-gids-zichtbaarheid-ai/)
+- [Productbeschrijvingen schrijven met AI](https://siftedtools.com/nl/productbeschrijvingen-schrijven-met-ai/)
+- [Aan de slag met AI in e-commerce](https://siftedtools.com/nl/ai-in-e-commerce-beginnen/)
+- [Methodologie](https://siftedtools.com/nl/methodologie/) · [GEO-barometer](https://siftedtools.com/nl/geo-barometer/) · [Over ons](https://siftedtools.com/nl/over-ons/)
+
 ## Full content
 - Detailed verdicts: https://siftedtools.com/llms-full.txt
 - Any content page as Markdown: append `.md` to its slug.

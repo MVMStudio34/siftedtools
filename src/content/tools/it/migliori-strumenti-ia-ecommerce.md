@@ -88,6 +88,10 @@ alternates:
     url: https://siftedtools.com/de/beste-ki-tools-ecommerce/
   - lang: it
     url: https://siftedtools.com/it/migliori-strumenti-ia-ecommerce/
+  - lang: pt
+    url: https://siftedtools.com/pt/melhores-ferramentas-ia-ecommerce/
+  - lang: nl
+    url: https://siftedtools.com/nl/beste-ai-tools-ecommerce/
 faq:
   - q: "Quali strumenti IA servono davvero a un negozio online?"
     a: "Non un arsenale di quaranta strumenti. Nella pratica ne bastano tre per partire: uno per l'assistenza clienti (Gorgias o Tidio), un'app per le recensioni (Judge.me o Loox) e una piattaforma email (Brevo o Klaviyo). Testi, foto, creatività pubblicitarie e SEO si aggiungono quando ciascuno diventa un collo di bottiglia reale. La maggior parte dei negozi compra troppo presto e usa troppo poco quello che ha già pagato."

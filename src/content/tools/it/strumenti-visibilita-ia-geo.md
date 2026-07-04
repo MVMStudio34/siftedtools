@@ -45,6 +45,10 @@ alternates:
     url: https://siftedtools.com/de/ki-tools-sichtbarkeit-geo/
   - lang: it
     url: https://siftedtools.com/it/strumenti-visibilita-ia-geo/
+  - lang: pt
+    url: https://siftedtools.com/pt/melhores-ferramentas-ia-ecommerce/
+  - lang: nl
+    url: https://siftedtools.com/nl/beste-ai-tools-ecommerce/
 faq:
   - q: "Cos'è il GEO o la visibilità IA?"
     a: "GEO sta per Generative Engine Optimization. Monitorare la visibilità IA significa misurare quanto spesso e in che modo il tuo brand viene nominato o citato nelle risposte di ChatGPT, Gemini, Perplexity, Copilot o negli AI Overviews di Google. È l'equivalente del rank tracking, trasferito all'era della ricerca conversazionale. Invece di chiederti a che posizione sei su Google, ti chiedi: quando un cliente chiede un consiglio a un'IA, il tuo negozio viene citato?"

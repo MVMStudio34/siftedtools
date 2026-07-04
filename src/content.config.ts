@@ -2,7 +2,7 @@
 import { defineCollection, z } from "astro:content";
 import { glob } from "astro/loaders";
 
-const LANGS = ["fr", "en", "es", "pt", "de", "it"] as const;
+const LANGS = ["fr", "en", "es", "pt", "de", "it", "nl"] as const;
 
 // FAQ structuree : alimente l'accordeon ET le JSON-LD FAQPage (bon pour l'extraction IA).
 const faqItem = z.object({ q: z.string(), a: z.string() });

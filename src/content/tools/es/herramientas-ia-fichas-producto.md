@@ -58,6 +58,10 @@ alternates:
     url: https://siftedtools.com/de/ki-tools-produktbeschreibungen/
   - lang: it
     url: https://siftedtools.com/it/strumenti-ia-schede-prodotto/
+  - lang: pt
+    url: https://siftedtools.com/pt/ferramentas-ia-fichas-produto/
+  - lang: nl
+    url: https://siftedtools.com/nl/ai-tools-productbeschrijvingen/
 faq:
   - q: "¿Cuál es la mejor herramienta IA para fichas de producto en Shopify?"
     a: "Jasper si escribes a volumen sobre un catálogo grande o multimarca y necesitas una voz de marca consistente. Para la mayoría de tiendas pequeñas, por debajo de 50 productos al mes, la mejor respuesta es ChatGPT: cuesta una fracción de una herramienta dedicada y la calidad de redacción ya es excelente. Hypotenuse se sitúa entre ambos para tiendas cuyo único trabajo es producir copy de producto en masa enchufado directamente a Shopify."

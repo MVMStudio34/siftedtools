@@ -21,6 +21,10 @@ alternates:
     url: https://siftedtools.com/de/produktbeschreibungen-mit-ki-schreiben/
   - lang: it
     url: https://siftedtools.com/it/scrivere-schede-prodotto-ia/
+  - lang: pt
+    url: https://siftedtools.com/pt/escrever-fichas-produto-ia/
+  - lang: nl
+    url: https://siftedtools.com/nl/productbeschrijvingen-schrijven-met-ai/
 faq:
   - q: "¿Por qué las fichas de producto con IA suenan tan genéricas?"
     a: "Porque el modelo rellena los huecos con promedios. Si solo le das el nombre del producto y le pides una descripción, devuelve el texto estadísticamente más probable de esa categoría, que suena igual que el de cualquier otra tienda. La solución son los datos de entrada: dale las características reales, el cliente concreto al que va dirigido, la objeción que resuelve y las palabras que usan tus compradores. Cuanto más concreto sea el brief, menos genérico será el resultado."

@@ -37,6 +37,10 @@ alternates:
     url: https://siftedtools.com/de/ki-tools-kundenservice/
   - lang: it
     url: https://siftedtools.com/it/strumenti-ia-assistenza-clienti/
+  - lang: pt
+    url: https://siftedtools.com/pt/melhores-ferramentas-ia-ecommerce/
+  - lang: nl
+    url: https://siftedtools.com/nl/beste-ai-tools-ecommerce/
 faq:
   - q: "Qual è il miglior strumento IA per l'assistenza clienti nell'e-commerce?"
     a: "Gorgias se hai un team di supporto e un volume di ticket reale su più canali. Tidio se parti da piccolo, lavori da solo o tieni d'occhio il budget. Un punto decisivo per il mercato italiano: Gorgias è legato in profondità a Shopify. Tidio invece supporta sia Shopify sia WooCommerce, che in Italia è di gran lunga la base tecnica più diffusa tra i negozi online."

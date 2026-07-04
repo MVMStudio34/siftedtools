@@ -23,6 +23,10 @@ alternates:
     url: https://siftedtools.com/de/ki-tools-kundenservice/
   - lang: it
     url: https://siftedtools.com/it/strumenti-ia-assistenza-clienti/
+  - lang: pt
+    url: https://siftedtools.com/pt/ferramentas-ia-apoio-cliente/
+  - lang: nl
+    url: https://siftedtools.com/nl/ai-tools-klantenservice/
 apps:
   - name: Gorgias
     website: https://www.gorgias.com/

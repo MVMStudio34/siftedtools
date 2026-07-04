@@ -1,0 +1,26 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const SITE = "https://siftedtools.com";
+---
+<BaseLayout
+  title="Juridische kennisgeving | SiftedTools"
+  description="Juridische informatie over SiftedTools: uitgever, hosting, intellectuele eigendom, affiliate-transparantie."
+  canonical={`${SITE}/nl/juridische-kennisgeving/`}
+  alternates={[
+    { lang: "nl", href: `${SITE}/nl/juridische-kennisgeving/` },
+    { lang: "fr", href: `${SITE}/fr/mentions-legales/` },
+    { lang: "en", href: `${SITE}/en/legal-notice/` },
+    { lang: "es", href: `${SITE}/es/aviso-legal/` },
+    { lang: "de", href: `${SITE}/de/impressum/` },
+    { lang: "it", href: `${SITE}/it/note-legali/` },
+  ]}
+>
+  <main class="legal-page"><article class="container">
+    <header class="legal-header"><p class="eyebrow">Juridisch</p><h1>Juridische kennisgeving</h1></header>
+    <section><h2>Uitgever</h2><p><strong>MVM Studio</strong>, eenmanszaak (auto-entrepreneur, Frankrijk). SIRET: 844 116 053 00035. Verantwoordelijk uitgever: Marvin Munos. Contact: <a href="mailto:contact@siftedtools.com">contact@siftedtools.com</a></p></section>
+    <section><h2>Hosting</h2><p>Cloudflare, Inc. &mdash; 101 Townsend St, San Francisco, CA 94107, USA.</p></section>
+    <section><h2>Intellectuele eigendom</h2><p>Alle content (teksten, afbeeldingen, vergelijkingen, methodologie) is eigendom van MVM Studio tenzij anders vermeld.</p></section>
+    <section><h2>Affiliate-transparantie</h2><p>SiftedTools bevat affiliate-links. Als je je via een van deze links aanmeldt voor een dienst, kunnen wij een commissie ontvangen zonder extra kosten voor jou. Dit beïnvloedt nooit onze ranglijsten.</p></section>
+  </article></main>
+</BaseLayout>
+<style>.legal-page{padding:48px 0 80px}.container{max-width:720px;margin:0 auto;padding:0 24px}.legal-header{margin-bottom:40px}.eyebrow{font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}h1{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.15;margin-bottom:.75rem}section{margin-bottom:36px}h2{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:600;margin-bottom:12px}p{font-size:.95rem;line-height:1.65;color:var(--slate);margin-bottom:10px}a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px}</style>

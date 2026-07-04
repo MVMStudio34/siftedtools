@@ -22,6 +22,10 @@ alternates:
     url: https://siftedtools.com/de/produktbeschreibungen-mit-ki-schreiben/
   - lang: it
     url: https://siftedtools.com/it/scrivere-schede-prodotto-ia/
+  - lang: pt
+    url: https://siftedtools.com/pt/escrever-fichas-produto-ia/
+  - lang: nl
+    url: https://siftedtools.com/nl/productbeschrijvingen-schrijven-met-ai/
 faq:
   - q: "Comment rédiger une fiche produit qui convertit ?"
     a: "Une fiche produit qui convertit suit une structure claire : un titre précis avec le bénéfice principal, une accroche qui parle du problème résolu, les bénéfices avant les caractéristiques techniques, des éléments de réassurance (avis, garanties, livraison), et un appel à l'action visible. Elle est rédigée pour l'acheteur, pas pour le moteur de recherche, tout en intégrant naturellement les mots-clés que vos clients utilisent. L'IA accélère cette rédaction, mais la structure et la connaissance de votre client restent votre travail."

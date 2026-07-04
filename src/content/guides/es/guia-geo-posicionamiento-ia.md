@@ -21,6 +21,10 @@ alternates:
     url: https://siftedtools.com/de/ratgeber-geo-sichtbarkeit-ki/
   - lang: it
     url: https://siftedtools.com/it/guida-geo-posizionamento-ia/
+  - lang: pt
+    url: https://siftedtools.com/pt/guia-geo-posicionamento-ia/
+  - lang: nl
+    url: https://siftedtools.com/nl/geo-gids-zichtbaarheid-ai/
 faq:
   - q: "¿Qué es el GEO (Generative Engine Optimization)?"
     a: "El GEO, o Generative Engine Optimization, es el conjunto de técnicas para conseguir que las IA generativas (ChatGPT, Gemini, Claude, Perplexity) citen tu marca, tus productos o tu contenido. Es el equivalente al SEO en la era de la IA: en lugar de optimizar para aparecer en los resultados de Google, optimizas para aparecer dentro de la respuesta que da la IA. Cuando un comprador pregunta a una IA qué marca o qué herramienta elegir, el GEO decide si tú apareces en esa respuesta."

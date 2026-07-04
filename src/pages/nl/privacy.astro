@@ -1,0 +1,27 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+const SITE = "https://siftedtools.com";
+---
+<BaseLayout
+  title="Privacybeleid | SiftedTools"
+  description="Hoe SiftedTools je persoonsgegevens verzamelt, gebruikt en beschermt. AVG-verplichtingen, bewaartermijnen, rechten, contact."
+  canonical={`${SITE}/nl/privacy/`}
+  alternates={[
+    { lang: "nl", href: `${SITE}/nl/privacy/` },
+    { lang: "fr", href: `${SITE}/fr/confidentialite/` },
+    { lang: "en", href: `${SITE}/en/privacy/` },
+    { lang: "es", href: `${SITE}/es/privacidad/` },
+    { lang: "de", href: `${SITE}/de/datenschutz/` },
+    { lang: "it", href: `${SITE}/it/privacy/` },
+  ]}
+>
+  <main class="legal-page"><article class="container">
+    <header class="legal-header"><p class="eyebrow">Juridisch</p><h1>Privacybeleid</h1><p class="meta">Laatst bijgewerkt: 3 juli 2026</p></header>
+    <section><h2>1. Wie we zijn</h2><p>SiftedTools is een redactionele site uitgegeven door <strong>MVM Studio</strong>, eenmanszaak geregistreerd in Frankrijk met SIRET <strong>844 116 053 00035</strong>. Verwerkingsverantwoordelijke: <strong>Marvin Munos</strong>. Contact: <a href="mailto:contact@siftedtools.com">contact@siftedtools.com</a></p></section>
+    <section><h2>2. Verzamelde gegevens</h2><p><strong>Newsletter-aanmelding:</strong> alleen het e-mailadres, via Brevo, met dubbele opt-in. Geen gegevens worden gedeeld met derden voor marketingdoeleinden.</p><p><strong>Anonieme analyse:</strong> Cloudflare Web Analytics (zonder cookies, zonder persoonsgegevens).</p></section>
+    <section><h2>3. Je rechten (AVG)</h2><p>Je hebt het recht op inzage, rectificatie, verwijdering, overdraagbaarheid en beperking van de verwerking van je gegevens. Contact: <a href="mailto:contact@siftedtools.com">contact@siftedtools.com</a>. Je kunt ook een klacht indienen bij de Autoriteit Persoonsgegevens.</p></section>
+    <section><h2>4. Bewaring</h2><p>Newsletter-gegevens worden bewaard tot je je uitschrijft, mogelijk met één klik in elke e-mail.</p></section>
+    <section><h2>5. Cookies</h2><p>SiftedTools gebruikt geen eigen tracking-cookies.</p></section>
+  </article></main>
+</BaseLayout>
+<style>.legal-page{padding:48px 0 80px}.container{max-width:720px;margin:0 auto;padding:0 24px}.legal-header{margin-bottom:40px}.eyebrow{font-family:'Space Mono',monospace;font-size:.7rem;letter-spacing:.1em;text-transform:uppercase;color:var(--gold);margin-bottom:1rem}h1{font-family:'Newsreader',Georgia,serif;font-weight:500;font-size:clamp(1.8rem,4vw,2.5rem);line-height:1.15;margin-bottom:.75rem}.meta{font-size:.9rem;color:var(--slate)}section{margin-bottom:36px}h2{font-family:'Space Grotesk',sans-serif;font-size:1.1rem;font-weight:600;margin-bottom:12px}p{font-size:.95rem;line-height:1.65;color:var(--slate);margin-bottom:10px}a{color:var(--ink);text-decoration:underline;text-decoration-color:var(--gold);text-underline-offset:3px}</style>

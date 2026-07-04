@@ -21,6 +21,10 @@ alternates:
     url: https://siftedtools.com/de/ki-im-ecommerce-einstieg/
   - lang: it
     url: https://siftedtools.com/it/intelligenza-artificiale-ecommerce-iniziare/
+  - lang: pt
+    url: https://siftedtools.com/pt/inteligencia-artificial-ecommerce-comecar/
+  - lang: nl
+    url: https://siftedtools.com/nl/ai-in-e-commerce-beginnen/
 faq:
   - q: "Wie steige ich mit KI für meinen Online-Shop ein?"
     a: "Kaufen Sie nicht gleich mehrere Tools. Suchen Sie die eine Aufgabe, die Sie gerade am meisten Zeit oder Geld kostet (meist Kundenservice oder das Schreiben von Produkttexten), setzen Sie dort ein einziges KI-Tool ein und messen Sie die Ersparnis. Erst wenn es sich lohnt, gehen Sie zum nächsten Engpass. Ein gut genutztes Tool schlägt fünf halb genutzte. Diese Reihenfolge ist die ganze Strategie."
