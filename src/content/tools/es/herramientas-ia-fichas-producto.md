@@ -1,6 +1,6 @@
 ---
 title: "Mejores herramientas IA para fichas de producto 2026"
-description: "Las mejores herramientas IA para fichas de producto en Shopify, ordenadas por mérito. Writesonic para volumen multilingüe al mejor precio, Jasper para catálogos multimarca a escala."
+description: "Las mejores herramientas IA para fichas de producto en Shopify: Writesonic para volumen multilingüe al mejor precio, Jasper para catálogos multimarca."
 lang: es
 profession: ecommerce
 useCase: fichas-producto

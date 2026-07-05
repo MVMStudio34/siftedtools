@@ -1,6 +1,6 @@
 ---
 title: "NeuronWriter vs Surfer: Bestes KI-SEO-Tool 2026"
-description: "Das beste KI SEO Tool E-Commerce 2026: NeuronWriter fürs Preis-Leistungs-Verhältnis, Surfer als leistungsstärkeres Premium, Frase für schnelle Briefings. Klares Urteil im Test."
+description: "Das beste KI-SEO-Tool für E-Commerce: NeuronWriter fürs Preis-Leistungs-Verhältnis, Surfer als stärkeres Premium, Frase für schnelle Briefings."
 lang: de
 profession: ecommerce
 useCase: seo-ecommerce

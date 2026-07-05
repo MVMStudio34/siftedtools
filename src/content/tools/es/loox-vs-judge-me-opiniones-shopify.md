@@ -1,6 +1,6 @@
 ---
 title: "Loox vs Judge.me vs Yotpo: Opiniones Shopify"
-description: "La mejor app de opiniones Shopify: Loox es la referencia para marcas visuales, Judge.me la opción de presupuesto con plan gratuito ilimitado, Yotpo a escala. Probadas en tiendas reales, veredicto claro y sin rodeos."
+description: "La mejor app de opiniones Shopify: Loox es la referencia para marcas visuales, Judge.me la opción económica con plan gratuito ilimitado. Veredicto claro."
 lang: es
 profession: ecommerce
 useCase: opiniones-shopify

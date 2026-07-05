@@ -1,6 +1,6 @@
 ---
 title: "Pixelcut vs PhotoRoom: Beste KI-Produktfotos"
-description: "Das beste KI Produktfoto Tool: Pixelcut für die überzeugendsten KI-Hintergründe und Studio-Optik, PhotoRoom als kompletter Allrounder mit nativer Shopify-Anbindung, Remove.bg fürs Freistellen. Für Shopify und WooCommerce getestet."
+description: "KI-Produktfoto-Tool im Test: Pixelcut für die besten KI-Hintergründe und Studio-Optik, PhotoRoom als kompletter Allrounder mit nativer Shopify-Anbindung."
 lang: de
 profession: ecommerce
 useCase: produktfotos

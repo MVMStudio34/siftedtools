@@ -1,6 +1,6 @@
 ---
 title: "Pixelcut vs PhotoRoom: Best AI Product Photo Tool"
-description: "The best AI product photo tool for Shopify: Pixelcut for the best AI backgrounds and studio-quality renders fast, PhotoRoom for the most complete ecosystem and native Shopify, Remove.bg for clean cutouts. Tested, ranked."
+description: "The best AI product photo tool for Shopify: Pixelcut for the best AI backgrounds and fast studio-quality renders, PhotoRoom for the complete ecosystem."
 lang: en
 profession: ecommerce
 useCase: product-photography

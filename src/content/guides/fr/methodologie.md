@@ -10,6 +10,18 @@ affiliateDisclosure: true
 alternates:
   - lang: "fr"
     url: "https://siftedtools.com/fr/methodologie/"
+  - lang: "en"
+    url: "https://siftedtools.com/en/methodology/"
+  - lang: "es"
+    url: "https://siftedtools.com/es/metodologia/"
+  - lang: "de"
+    url: "https://siftedtools.com/de/methodik/"
+  - lang: "it"
+    url: "https://siftedtools.com/it/metodologia/"
+  - lang: "pt"
+    url: "https://siftedtools.com/pt/metodologia/"
+  - lang: "nl"
+    url: "https://siftedtools.com/nl/methodologie/"
 offers: []
 faq:
   - q: "Comment SiftedTools sélectionne les outils à tester ?"

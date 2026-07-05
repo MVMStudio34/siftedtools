@@ -79,7 +79,7 @@ Otterly is the best value entry point. Peec AI is the best for competitor and sh
 
 | Criteria | Otterly | Peec AI | Profound |
 |---|---|---|---|
-| Best for | SMBs, agencies starting out | Teams, competitor benchmarking | Enterprise brands with a team |
+| Best for | SMB to enterprise | Teams, competitor benchmarking | Enterprise brands with a team |
 | Starting price | ~$25–29/mo | ~€89/mo | ~$82–99/mo and up |
 | Free trial | Yes (14 days) | Yes | Demo only, no free trial |
 | Engines tracked (base) | ChatGPT, Perplexity, AI Overviews, Copilot | ChatGPT, Perplexity, AI Overviews | ChatGPT (multi on higher tier) |
@@ -105,11 +105,11 @@ One honest caveat up front: these tools *measure*, they don't *optimize* for you
 
 Otterly is the tool I recommend to start with. It's the most affordable in the category and it covers the essentials without the complexity or cost of an enterprise platform.
 
-**What it does well.** Price is the headline: from around $25 to $29 a month with a free trial, it's the only tool here that a freelancer or a small Shopify store can adopt without a second thought. It automatically tracks your mentions and citations across the engines that matter most: ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Copilot. A genuinely smart feature converts your existing SEO keywords into conversational AI prompts, so you're not starting from a blank page. The built-in GEO audit points you at how to optimize your content to get cited more. Setup is quick: usable data in 48 hours, versus the week or two heavier tools demand. Gartner named it a Cool Vendor in 2025, which tells you the category is maturing.
+**What it does well.** Price is the headline: from around $25 to $29 a month with a free trial, it's the only tool here that a freelancer or a small Shopify store can adopt without a second thought. It automatically tracks your mentions and citations across the engines that matter most: ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Copilot. A genuinely smart feature converts your existing SEO keywords into conversational AI prompts, so you're not starting from a blank page. The built-in GEO audit points you at how to optimize your content to get cited more. Beyond measurement, Otterly also handles content auditing and AI-assisted content writing, on par with what Peec AI offers on those fronts, plus a search-intent volume that estimates your AI traffic — a metric it was among the first in the category to provide. Setup is quick: usable data in 48 hours, versus the week or two heavier tools demand. Gartner named it a Cool Vendor in 2025, which tells you the category is maturing.
 
 **Where it falls short.** Cheaper plans cover a narrower set of engines, so Meta AI, Grok or DeepSeek aren't always included. That's a fair trade given ChatGPT and Perplexity carry most real-world usage. The dashboard gets busy once you track a lot of prompts or projects. Sentiment analysis is good for the general trend but worth spot-checking on the finer cases. Competitor tracking exists but it's basic compared with Peec.
 
-**Best if:** you're a solo founder, a small DTC team or an agency, you want to prove this category is worth the spend, and the budget is tight.
+**Best if:** you're a solo founder, a small DTC team or an agency proving this category is worth the spend on a tight budget. But don't mistake it for a small-only tool: from around $29 a month it's the easiest way in, yet it's also deployed at enterprise scale, running across some 50 markets with 200+ users (a global insurer among them). A low entry price that holds up at the scale of large organizations.
 
 ## Peec AI: the competitor and share-of-voice specialist
 

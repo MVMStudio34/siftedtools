@@ -1,6 +1,6 @@
 ---
 title: "Beste AI-tool voor productbeschrijvingen 2026"
-description: "Wat is de beste AI-tool voor productbeschrijvingen? Writesonic voor volume en meertaligheid, Jasper voor grote multi-merk catalogi, ChatGPT of Rytr om goedkoop te starten. Het verdict per profiel."
+description: "Beste AI-tool voor productbeschrijvingen: Writesonic voor volume en meertaligheid, Jasper voor grote multi-merk catalogi. Het verdict per profiel."
 lang: nl
 profession: ecommerce
 useCase: ai-productbeschrijvingen

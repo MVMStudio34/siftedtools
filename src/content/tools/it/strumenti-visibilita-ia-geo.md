@@ -83,7 +83,7 @@ E poi c'è la vera occasione. In italiano, la concorrenza sul GEO è quasi inesi
 
 | Criterio | Otterly | Peec AI | Profound |
 |---|---|---|---|
-| Ideale per | PMI, agenzie che partono | Team, confronto competitivo | Brand enterprise con team |
+| Ideale per | Da PMI a enterprise | Team, confronto competitivo | Brand enterprise con team |
 | Prezzo di partenza | ~25-29 $/mese | ~89 €/mese | ~82-99 $/mese in su |
 | Prova gratuita | Sì (14 giorni) | Sì | Solo demo, niente prova libera |
 | Motori (base) | ChatGPT, Perplexity, AI Overviews, Copilot | ChatGPT, Perplexity, AI Overviews | ChatGPT (di più nel piano superiore) |
@@ -113,7 +113,7 @@ Una precisazione onesta subito: questi strumenti *misurano*, non *ottimizzano* a
 
 Otterly è lo strumento con cui consiglio di partire. È il più economico della categoria e copre l'essenziale senza la complessità né i costi di una piattaforma enterprise.
 
-**Cosa fa molto bene.** Il prezzo è il titolo: a partire da circa 25-29 dollari al mese con prova gratuita, è l'unico strumento qui che un freelance o un piccolo negozio può adottare senza lunghe esitazioni. Traccia automaticamente menzioni e citazioni sui motori principali: ChatGPT, Perplexity, Google AI Overviews e AI Mode, Copilot. Una funzione davvero intelligente trasforma le tue keyword SEO esistenti in prompt IA conversazionali, così non parti da zero. L'audit GEO integrato mostra come ottimizzare il contenuto per essere citato più spesso. La messa in opera è rapida: dati utilizzabili in 48 ore, contro le una o due settimane degli strumenti più pesanti. Gartner ha nominato Otterly Cool Vendor nel 2025, segno che la categoria sta maturando.
+**Cosa fa molto bene.** Il prezzo è il titolo: a partire da circa 25-29 dollari al mese con prova gratuita, è l'unico strumento qui che un freelance o un piccolo negozio può adottare senza lunghe esitazioni. Traccia automaticamente menzioni e citazioni sui motori principali: ChatGPT, Perplexity, Google AI Overviews e AI Mode, Copilot. Una funzione davvero intelligente trasforma le tue keyword SEO esistenti in prompt IA conversazionali, così non parti da zero. L'audit GEO integrato mostra come ottimizzare il contenuto per essere citato più spesso. Oltre alla misurazione, Otterly offre anche audit dei contenuti e scrittura di contenuti assistita, al livello di quanto fa Peec AI su queste funzioni, e un volume per intento di ricerca che stima il tuo traffico IA — un dato che è stato tra i primi del mercato a fornire. La messa in opera è rapida: dati utilizzabili in 48 ore, contro le una o due settimane degli strumenti più pesanti. Gartner ha nominato Otterly Cool Vendor nel 2025, segno che la categoria sta maturando.
 
 **Punto d'attenzione.** I piani più economici coprono un insieme più ristretto di motori, quindi Meta AI, Grok o DeepSeek non sono sempre inclusi: è un compromesso ragionevole, dato che ChatGPT e Perplexity concentrano gran parte dell'uso reale. La dashboard va tenuta ordinata quando segui molti prompt o progetti. L'analisi del sentiment dà una buona tendenza generale, da ricontrollare a campione nei casi più sottili. Il confronto competitivo c'è, ma è tenuto semplice rispetto a Peec.
 

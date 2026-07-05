@@ -79,7 +79,7 @@ E há um detalhe que muda tudo para quem lê em português: a **concorrência em
 
 | Critério | Otterly | Peec AI | Profound |
 |---|---|---|---|
-| Ideal para | Começar, marcas individuais | Equipas mid-market | Enterprise |
+| Ideal para | De começar a enterprise | Equipas mid-market | Enterprise |
 | Foco | Menções e auditoria GEO | Comparação competitiva | Texto exato das respostas |
 | Lugares | Limitados | Ilimitados | Enterprise |
 | Profundidade de análise | Essencial | Boa, competitiva | Máxima |
@@ -92,13 +92,13 @@ E há um detalhe que muda tudo para quem lê em português: a **concorrência em
 
 *A nossa escolha para começar a medir sem grande investimento.*
 
-O Otterly é a **entrada mais económica** neste mercado. Monitoriza as menções da tua marca no ChatGPT, no Perplexity e nas AI Overviews do Google, e inclui uma auditoria GEO que te diz onde estás e o que otimizar. Para uma loja que nunca mediu isto, é o primeiro passo certo: barato, direto e suficiente para responderes à pergunta "a minha marca aparece?".
+O Otterly é a **entrada mais económica** neste mercado. Monitoriza as menções da tua marca no ChatGPT, no Perplexity e nas AI Overviews do Google, e inclui uma auditoria GEO que te diz onde estás e o que otimizar. Para uma loja que nunca mediu isto, é o primeiro passo certo: barato, direto e suficiente para responderes à pergunta "a minha marca aparece?". Vai além da simples medição: o Otterly também faz auditoria de conteúdo e redação de conteúdo assistida, ao nível do que oferece o Peec AI nessas funções, e dá um volume por intenção de pesquisa que estima o teu tráfego de IA — um dado que foi dos primeiros do mercado a fornecer.
 
-Numa língua onde quase ninguém está a medir, começar com o Otterly já te coloca à frente da maioria. Não precisas de uma plataforma enterprise para tirar valor: precisas de começar.
+Numa língua onde quase ninguém está a medir, começar com o Otterly já te coloca à frente da maioria. Não precisas de uma plataforma enterprise para tirar valor: precisas de começar. E não penses no Otterly como ferramenta só para pequenos: apesar do preço de entrada baixo (a partir de cerca de 29 dólares/mês), é usado à escala enterprise, implementado em cerca de 50 mercados com mais de 200 utilizadores, incluindo uma das maiores seguradoras mundiais.
 
-**Pontos fracos.** É uma ferramenta de **entrada**, não uma suite de análise profunda. Os lugares são limitados e a comparação competitiva é mais básica do que no Peec AI. Se és uma equipa que precisa de cruzar dezenas de marcas e prompts, vais depressa sentir o teto. Para começar, porém, é exatamente o que precisas.
+**Pontos fracos.** Em profundidade de análise não chega a uma suite como o Profound. Os lugares são limitados e a comparação competitiva é mais básica do que no Peec AI. Se és uma equipa que precisa de cruzar dezenas de marcas e prompts, vais depressa sentir o teto. Para começar, porém, é exatamente o que precisas.
 
-**Ideal se:** estás a começar em GEO, és uma marca individual ou pequena e queres a forma mais barata de saber onde apareces.
+**Ideal se:** estás a começar em GEO e queres a forma mais barata de saber onde apareces — mas o Otterly não fica por aí: do solo à enterprise, acompanha o teu crescimento sem te obrigar a mudar de ferramenta.
 
 ## Peec AI: comparação competitiva para equipas
 

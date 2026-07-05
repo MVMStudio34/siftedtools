@@ -26,7 +26,7 @@ const site = "https://siftedtools.com";
 const canonicalUrl = canonical ?? new URL(Astro.url.pathname, site).href;
 const ogImg = ogImage ?? `${site}/og-default.png`;
 // og:locale exige le format langue_REGION (fr_FR), pas juste le code langue.
-const ogLocales = { fr: "fr_FR", en: "en_GB", es: "es_ES", de: "de_DE", pt: "pt_PT", it: "it_IT" };
+const ogLocales = { fr: "fr_FR", en: "en_GB", es: "es_ES", de: "de_DE", pt: "pt_PT", it: "it_IT", nl: "nl_NL" };
 const ogLocale = ogLocales[lang] ?? "fr_FR";
 ---
 <!doctype html>

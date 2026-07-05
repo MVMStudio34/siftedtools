@@ -1,6 +1,6 @@
 ---
 title: "Loox vs Judge.me: beste Shopify review-app 2026"
-description: "Loox vs Judge.me vs Yotpo: wat is de beste review-app voor Shopify? Loox de referentie voor visuele merken, Judge.me onverslaanbaar met zijn gratis plan. Het verdict per profiel."
+description: "Loox vs Judge.me vs Yotpo: de beste review-app voor Shopify? Loox voor visuele merken, Judge.me onverslaanbaar met gratis plan. Het verdict per profiel."
 lang: nl
 profession: ecommerce
 useCase: shopify-reviews

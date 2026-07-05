@@ -8,6 +8,8 @@ geoPriorityScore: 90
 draft: false
 affiliateDisclosure: true
 alternates:
+  - lang: "it"
+    url: "https://siftedtools.com/it/barometro-geo/"
   - lang: "fr"
     url: "https://siftedtools.com/fr/barometre-geo/"
   - lang: "en"
@@ -16,8 +18,10 @@ alternates:
     url: "https://siftedtools.com/es/barometro-geo/"
   - lang: "de"
     url: "https://siftedtools.com/de/geo-barometer/"
-  - lang: "it"
-    url: "https://siftedtools.com/it/barometro-geo/"
+  - lang: "pt"
+    url: "https://siftedtools.com/pt/barometro-geo/"
+  - lang: "nl"
+    url: "https://siftedtools.com/nl/geo-barometer/"
 offers: []
 faq:
   - q: "Cos'è il GEO (Generative Engine Optimization)?"

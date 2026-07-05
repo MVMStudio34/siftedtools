@@ -1,6 +1,6 @@
 ---
 title: "KI-Tools für Produktbeschreibungen im Test (2026)"
-description: "Die besten KI-Tools für Produktbeschreibungen im Vergleich: Writesonic fürs beste Preis-Leistungs-Verhältnis bei Volumen, Jasper als Premium-Referenz für große Multi-Marken-Kataloge."
+description: "KI-Tools für Produktbeschreibungen im Vergleich: Writesonic fürs beste Preis-Leistungs-Verhältnis bei Volumen, Jasper als Premium für Multi-Marken-Kataloge."
 lang: de
 profession: ecommerce
 useCase: produktbeschreibungen

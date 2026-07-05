@@ -8,10 +8,20 @@ geoPriorityScore: 75
 draft: false
 affiliateDisclosure: true
 alternates:
-  - lang: "fr"
-    url: "https://siftedtools.com/fr/a-propos/"
   - lang: "en"
     url: "https://siftedtools.com/en/about/"
+  - lang: "fr"
+    url: "https://siftedtools.com/fr/a-propos/"
+  - lang: "es"
+    url: "https://siftedtools.com/es/acerca-de/"
+  - lang: "de"
+    url: "https://siftedtools.com/de/ueber-uns/"
+  - lang: "it"
+    url: "https://siftedtools.com/it/chi-siamo/"
+  - lang: "pt"
+    url: "https://siftedtools.com/pt/sobre/"
+  - lang: "nl"
+    url: "https://siftedtools.com/nl/over-ons/"
 offers: []
 faq:
   - q: "Who publishes SiftedTools?"

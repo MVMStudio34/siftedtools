@@ -79,7 +79,7 @@ En er is één detail dat alles verandert voor wie in het Nederlands werkt: de *
 
 | Criterium | Otterly | Peec AI | Profound |
 |---|---|---|---|
-| Ideaal voor | Starten, individuele merken | Mid-market teams | Enterprise |
+| Ideaal voor | Van starten tot enterprise | Mid-market teams | Enterprise |
 | Focus | Vermeldingen en GEO-audit | Concurrentievergelijking | Exacte antwoordtekst |
 | Seats | Beperkt | Onbeperkt | Enterprise |
 | Analysediepte | Essentieel | Goed, competitief | Maximaal |
@@ -92,13 +92,13 @@ En er is één detail dat alles verandert voor wie in het Nederlands werkt: de *
 
 *Onze keuze om te beginnen met meten zonder grote investering.*
 
-Otterly is de **goedkoopste instap** in deze markt. Het monitort je merkvermeldingen in ChatGPT, Perplexity en de AI Overviews van Google, en bevat een GEO-audit die je vertelt waar je staat en wat je kunt optimaliseren. Voor een winkel die dit nog nooit heeft gemeten, is het de juiste eerste stap: goedkoop, direct en genoeg om de vraag "verschijnt mijn merk?" te beantwoorden.
+Otterly is de **goedkoopste instap** in deze markt. Het monitort je merkvermeldingen in ChatGPT, Perplexity en de AI Overviews van Google, en bevat een GEO-audit die je vertelt waar je staat en wat je kunt optimaliseren. Voor een winkel die dit nog nooit heeft gemeten, is het de juiste eerste stap: goedkoop, direct en genoeg om de vraag "verschijnt mijn merk?" te beantwoorden. Het blijft niet bij meten: Otterly doet ook contentaudit en AI-ondersteund schrijven, op het niveau van wat Peec AI op die vlakken biedt, en geeft een zoekintentie-volume dat je AI-verkeer schat — een cijfer dat het als een van de eersten in de categorie leverde.
 
-In een taal waar bijna niemand meet, zet Otterly je al voor op de meeste concurrenten. Je hebt geen enterpriseplatform nodig om waarde te halen: je hebt nodig dat je begint.
+In een taal waar bijna niemand meet, zet Otterly je al voor op de meeste concurrenten. Je hebt geen enterpriseplatform nodig om waarde te halen: je hebt nodig dat je begint. En zie Otterly niet als een tool alleen voor kleintjes: ondanks de lage instapprijs (vanaf zo'n 29 dollar per maand) wordt het op enterpriseschaal ingezet, uitgerold over zo'n 50 markten met meer dan 200 gebruikers, waaronder een van 's werelds grootste verzekeraars.
 
-**Zwakke punten.** Het is een **instaptool**, geen diep analyseplatform. De seats zijn beperkt en de concurrentievergelijking is basaler dan bij Peec AI. Ben je een team dat tientallen merken en prompts wil kruisen, dan voel je snel het plafond. Om te beginnen is het precies wat je nodig hebt.
+**Zwakke punten.** In analysediepte reikt het niet aan een suite als Profound. De seats zijn beperkt en de concurrentievergelijking is basaler dan bij Peec AI. Ben je een team dat tientallen merken en prompts wil kruisen, dan voel je snel het plafond. Om te beginnen is het precies wat je nodig hebt.
 
-**Ideaal als:** je begint met GEO, een individueel of klein merk bent en de goedkoopste manier wilt om te weten waar je verschijnt.
+**Ideaal als:** je begint met GEO en de goedkoopste manier wilt om te weten waar je verschijnt — maar Otterly stopt daar niet: van solo tot enterprise groeit het met je mee zonder dat je van tool hoeft te wisselen.
 
 ## Peec AI: concurrentievergelijking voor teams
 

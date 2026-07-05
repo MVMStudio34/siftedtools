@@ -81,7 +81,7 @@ Ein Punkt für den DACH-Markt vorweg: Hier dominiert WooCommerce, Shopify rangie
 
 | Kriterium | Otterly | Peec AI | Profound |
 |---|---|---|---|
-| Ideal für | KMU, Agenturen am Start | Teams, Wettbewerbsvergleich | Enterprise-Marken mit Team |
+| Ideal für | Von KMU bis Enterprise | Teams, Wettbewerbsvergleich | Enterprise-Marken mit Team |
 | Startpreis | ~25–29 $/Monat | ~89 €/Monat | ~82–99 $/Monat aufwärts |
 | Kostenlose Testphase | Ja (14 Tage) | Ja | Nur Demo, keine freie Testphase |
 | Engines (Basis) | ChatGPT, Perplexity, AI Overviews, Copilot | ChatGPT, Perplexity, AI Overviews | ChatGPT (mehr im höheren Tarif) |
@@ -109,11 +109,11 @@ Eine ehrliche Einschränkung vorweg: Diese Tools *messen*, sie *optimieren* nich
 
 Otterly ist das Tool, mit dem ich zu starten empfehle. Es ist das günstigste der Kategorie und deckt das Wesentliche ab, ohne die Komplexität oder die Kosten einer Enterprise-Plattform.
 
-**Stärken.** Der Preis ist die Schlagzeile: ab rund 25 bis 29 US-Dollar im Monat mit kostenloser Testphase ist es das einzige Tool hier, das ein Freelancer oder ein kleiner Shop ohne langes Zögern einsetzen kann. Es trackt automatisch Erwähnungen und Zitate über die wichtigsten Engines: ChatGPT, Perplexity, Google AI Overviews und AI Mode sowie Copilot. Eine wirklich kluge Funktion macht aus Ihren bestehenden SEO-Keywords konversationelle KI-Prompts, sodass Sie nicht bei null anfangen. Das integrierte GEO-Audit zeigt, wie Sie Ihren Content optimieren, um häufiger zitiert zu werden. Die Einrichtung ist schnell: nutzbare Daten in 48 Stunden statt der ein bis zwei Wochen, die schwerere Tools verlangen. Gartner kürte Otterly 2025 zum Cool Vendor, was zeigt, dass die Kategorie reift.
+**Stärken.** Der Preis ist die Schlagzeile: ab rund 25 bis 29 US-Dollar im Monat mit kostenloser Testphase ist es das einzige Tool hier, das ein Freelancer oder ein kleiner Shop ohne langes Zögern einsetzen kann. Es trackt automatisch Erwähnungen und Zitate über die wichtigsten Engines: ChatGPT, Perplexity, Google AI Overviews und AI Mode sowie Copilot. Eine wirklich kluge Funktion macht aus Ihren bestehenden SEO-Keywords konversationelle KI-Prompts, sodass Sie nicht bei null anfangen. Das integrierte GEO-Audit zeigt, wie Sie Ihren Content optimieren, um häufiger zitiert zu werden. Über das Messen hinaus bietet Otterly auch Content-Audit und KI-gestütztes Content-Writing, auf dem Niveau von Peec AI in diesen Funktionen, sowie ein Suchvolumen nach Suchintention, das Ihren KI-Traffic schätzt — eine Kennzahl, die Otterly als einer der Ersten der Kategorie geliefert hat. Die Einrichtung ist schnell: nutzbare Daten in 48 Stunden statt der ein bis zwei Wochen, die schwerere Tools verlangen. Gartner kürte Otterly 2025 zum Cool Vendor, was zeigt, dass die Kategorie reift.
 
 **Schwächen.** Günstigere Tarife decken einen schmaleren Satz an Engines ab, sodass Meta AI, Grok oder DeepSeek nicht immer enthalten sind. Das ist ein fairer Kompromiss, da ChatGPT und Perplexity den Großteil der realen Nutzung tragen. Das Dashboard wird unübersichtlich, sobald Sie viele Prompts oder Projekte verfolgen. Die Sentiment-Analyse taugt für den groben Trend, sollte in den feineren Fällen aber stichprobenartig geprüft werden. Wettbewerbs-Tracking gibt es, aber es ist im Vergleich zu Peec einfach gehalten.
 
-**Ideal, wenn:** Sie ein Solo-Gründer, ein kleines DTC-Team oder eine Agentur sind, beweisen wollen, dass diese Kategorie die Ausgabe wert ist, und das Budget knapp ist.
+**Ideal, wenn:** Sie ein Solo-Gründer, ein kleines DTC-Team oder eine Agentur sind, die mit knappem Budget beweisen will, dass diese Kategorie die Ausgabe wert ist. Halten Sie es aber nicht für ein reines Kleinkunden-Tool: Ab rund 29 US-Dollar im Monat ist es der einfachste Einstieg und wird zugleich auf Enterprise-Ebene eingesetzt, ausgerollt über rund 50 Märkte mit mehr als 200 Nutzern (darunter ein weltweit führender Versicherer). Ein niedriger Einstiegspreis, der auch im Maßstab großer Organisationen trägt.
 
 ## Peec AI: der Spezialist für Wettbewerb und Share-of-Voice
 

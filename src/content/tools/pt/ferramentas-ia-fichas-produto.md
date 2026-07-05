@@ -1,6 +1,6 @@
 ---
 title: "Melhor ferramenta IA para fichas de produto 2026"
-description: "Qual a melhor ferramenta de IA para fichas de produto? Writesonic pela melhor relação para o volume, Jasper para catálogos grandes multi-marca, ChatGPT ou Rytr para começar barato. Veredito por perfil."
+description: "Melhor ferramenta de IA para fichas de produto: Writesonic pela relação para o volume, Jasper para catálogos grandes multi-marca. Veredito por perfil."
 lang: pt
 profession: ecommerce
 useCase: fichas-produto-ia

@@ -1,6 +1,6 @@
 ---
 title: "Pixelcut vs PhotoRoom: beste AI-productfoto's"
-description: "Wat is de beste AI-tool voor productfoto's? Pixelcut voor de beste AI-achtergronden en studiolook, PhotoRoom als het completere ecosysteem. Getest voor WooCommerce en Shopify, helder verdict."
+description: "Beste AI-tool voor productfoto's: Pixelcut voor de beste AI-achtergronden en studiolook, PhotoRoom als het completere ecosysteem. Helder verdict."
 lang: nl
 profession: ecommerce
 useCase: ai-tools-productfotos

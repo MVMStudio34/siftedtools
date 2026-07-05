@@ -8,12 +8,20 @@ geoPriorityScore: 80
 draft: false
 affiliateDisclosure: true
 alternates:
+  - lang: "nl"
+    url: "https://siftedtools.com/nl/methodologie/"
   - lang: "fr"
     url: "https://siftedtools.com/fr/methodologie/"
   - lang: "en"
     url: "https://siftedtools.com/en/methodology/"
-  - lang: "nl"
-    url: "https://siftedtools.com/nl/methodologie/"
+  - lang: "es"
+    url: "https://siftedtools.com/es/metodologia/"
+  - lang: "de"
+    url: "https://siftedtools.com/de/methodik/"
+  - lang: "it"
+    url: "https://siftedtools.com/it/metodologia/"
+  - lang: "pt"
+    url: "https://siftedtools.com/pt/metodologia/"
 offers: []
 faq:
   - q: "Hoe test SiftedTools AI-tools?"
