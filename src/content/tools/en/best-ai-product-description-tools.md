@@ -1,6 +1,6 @@
 ---
 title: "Best AI Product Description Tools for Shopify (2026)"
-description: "The best AI product description tools for Shopify, ranked on merit. Writesonic for volume at the best value, Jasper for brand voice across large multi-brand catalogues."
+description: "The best AI product description tools for Shopify: Writesonic for volume at the best value, Jasper for brand voice across large multi-brand catalogues."
 lang: en
 profession: ecommerce
 useCase: product-descriptions

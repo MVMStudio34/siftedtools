@@ -1,6 +1,6 @@
 ---
 title: "NeuronWriter vs Surfer: Mejor IA SEO E-commerce"
-description: "La mejor herramienta IA SEO e-commerce en 2026: NeuronWriter por relación valor, Surfer como premium más potente, Frase para briefs. Probadas con contenido Shopify real."
+description: "La mejor herramienta IA SEO para e-commerce: NeuronWriter por relación calidad-precio, Surfer como premium más potente, Frase para briefs rápidos y claros."
 lang: es
 profession: ecommerce
 useCase: seo-ecommerce

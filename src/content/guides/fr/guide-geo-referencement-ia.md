@@ -1,6 +1,6 @@
 ---
 title: "GEO : guide du référencement sur les IA en 2026"
-description: "Le GEO (Generative Engine Optimization) sert à être cité par ChatGPT et les autres IA. Apprenez à optimiser votre contenu pour les moteurs de réponse IA et à mesurer votre visibilité."
+description: "GEO (Generative Engine Optimization) : optimisez votre contenu pour être cité par ChatGPT et les IA, et mesurez votre visibilité sur les moteurs de réponse."
 lang: fr
 profession: ecommerce
 useCase: geo-referencement-ia

@@ -1,6 +1,6 @@
 ---
 title: "Méthodologie : comment nous testons les outils IA"
-description: "Critères de test, processus d'évaluation, indépendance éditoriale. Comment SiftedTools sélectionne, teste et classe les outils IA recommandés aux e-commerçants français."
+description: "Méthodologie SiftedTools : nos critères de test, notre processus d'évaluation et notre indépendance éditoriale pour classer les outils IA e-commerce testés."
 lang: "fr"
 updatedAt: 2026-06-22
 reviewedBy: "Marvin Munos"

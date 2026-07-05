@@ -1,6 +1,6 @@
 ---
 title: "Débuter avec l'IA en e-commerce : le guide 2026"
-description: "Par où commencer avec l'intelligence artificielle pour votre boutique en ligne ? Découvrez les domaines où l'IA aide vraiment, dans quel ordre les adopter et comment mesurer le retour."
+description: "Débuter avec l'intelligence artificielle pour votre boutique en ligne : les domaines où l'IA aide vraiment, dans quel ordre les adopter, comment mesurer le ROI."
 lang: fr
 profession: ecommerce
 useCase: ia-ecommerce-debuter
