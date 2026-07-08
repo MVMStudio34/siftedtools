@@ -26,6 +26,9 @@ const links = [
         {links.map((l) => <a href={l.href}>{l.label}</a>)}
       </nav>
     </div>
+    <a class="pys-badge" href="https://postyourstartup.co/startup/siftedtools?ref=badge" target="_blank" rel="noopener">
+      <img src="https://postyourstartup.co/api/badge/siftedtools?theme=light" alt="Featured on PostYourStartup" width="53" height="14" loading="lazy" />
+    </a>
     <p class="copy note">© {year} {t("brand.name")}</p>
   </div>
 </footer>
@@ -39,5 +42,6 @@ const links = [
   .foot-links{display:flex;flex-wrap:wrap;gap:18px;font-size:14px}
   .foot-links a{color:var(--slate)}
   .foot-links a:hover{color:var(--ink)}
+  .pys-badge{display:inline-block;margin-top:16px}
   .copy{margin-top:30px}
 </style>
