@@ -17,7 +17,7 @@ apps:
     website: https://www.arcads.ai/
     description: "AI UGC ad-video generator with 1000+ realistic AI actors reading your script. The performance-marketing standard."
   - name: Creatify
-    website: https://creatify.ai/
+    website: https://creatify.ai/?via=marvin
     description: "Paste a product URL, get an ad video. The fastest path from a Shopify listing to a testable UGC creative."
   - name: HeyGen
     website: https://www.heygen.com/
@@ -31,7 +31,7 @@ offers:
     url: https://arcads.ai/?via=marvin
   - tool: Creatify
     label: See Creatify
-    url: https://creatify.ai/
+    url: https://creatify.ai/?via=marvin
     note: "direct link – affiliate pending"
   - tool: HeyGen
     label: Try HeyGen

@@ -17,7 +17,7 @@ apps:
     website: https://www.arcads.ai/
     description: "Generador de vídeo UGC con más de 1000 actores IA que leen tu guion. La referencia en creatividades para paid social."
   - name: Creatify
-    website: https://creatify.ai/
+    website: https://creatify.ai/?via=marvin
     description: "Pegas la URL de tu producto y te genera un vídeo de anuncio. El camino más rápido de una ficha Shopify a una creatividad testeable."
   - name: HeyGen
     website: https://www.heygen.com/
@@ -31,7 +31,7 @@ offers:
     url: https://arcads.ai/?via=marvin
   - tool: Creatify
     label: Ver Creatify
-    url: https://creatify.ai/
+    url: https://creatify.ai/?via=marvin
     note: "enlace directo – afiliación pendiente"
   - tool: HeyGen
     label: Probar HeyGen

@@ -20,7 +20,7 @@ apps:
     website: https://app.reviewers.com/rvs-app/SIFTEDTOOLS
     description: "Marketplace di creator e tester reali che girano video review autentiche del tuo prodotto in cambio di prodotti gratuiti. UGC vero, non sintetico."
   - name: Creatify
-    website: https://creatify.ai/
+    website: https://creatify.ai/?via=marvin
     description: "Strumento IA video UGC accessibile: incolli l'URL del prodotto e ottieni un video pubblicitario. Piano gratuito per iniziare a testare."
 offers:
   - tool: Arcads

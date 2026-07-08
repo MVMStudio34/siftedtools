@@ -17,7 +17,7 @@ apps:
     website: https://www.arcads.ai/
     description: "KI-Generator für UGC-Werbevideos mit über 1000 realistischen KI-Akteuren, die Ihr Skript sprechen. Der Standard für Paid-Social-Creatives."
   - name: Creatify
-    website: https://creatify.ai/
+    website: https://creatify.ai/?via=marvin
     description: "Produkt-URL einfügen, Werbevideo erhalten. Der schnellste Weg von der Produktseite zum testbaren UGC-Creative."
   - name: HeyGen
     website: https://www.heygen.com/
@@ -31,7 +31,7 @@ offers:
     url: https://arcads.ai/?via=marvin
   - tool: Creatify
     label: Creatify ansehen
-    url: https://creatify.ai/
+    url: https://creatify.ai/?via=marvin
     note: "Direktlink – Affiliate-Programm ausstehend"
   - tool: HeyGen
     label: HeyGen testen
