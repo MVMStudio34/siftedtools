@@ -49,6 +49,15 @@ alternates:
     url: https://siftedtools.com/pt/ferramentas-visibilidade-ia-geo/
   - lang: nl
     url: https://siftedtools.com/nl/ai-tools-zichtbaarheid-geo/
+prosCons:
+  tool: Otterly
+  pros:
+    - "La opción más asequible de la categoría"
+    - "Cubre ChatGPT, Perplexity, AI Overviews y Copilot"
+    - "Convierte tus keywords SEO en prompts, con auditoría GEO"
+  cons:
+    - "Los planes baratos cubren menos motores"
+    - "Seguimiento de competencia básico frente a Peec"
 faq:
   - q: "¿Qué es la visibilidad en IA o seguimiento GEO?"
     a: "GEO significa Generative Engine Optimization, optimización para motores generativos. El seguimiento de visibilidad IA consiste en medir con qué frecuencia, y cómo, tu marca aparece mencionada o citada dentro de las respuestas de ChatGPT, Gemini, Perplexity, Copilot y los AI Overviews de Google. Es el equivalente del seguimiento de posiciones, pero para la era de la búsqueda con IA. En vez de preguntarte en qué puesto sales en Google, te preguntas si la IA nombra tu tienda cuando un comprador le pide una recomendación."
@@ -107,13 +116,13 @@ Para el e-commerce esto es muy concreto. Un comprador ya no escribe "mejores aur
 
 Y el contexto español lo hace urgente. Shopify se llevó alrededor del 41% de las nuevas tiendas en España en 2025, con una subida de casi 15 puntos, y el grueso son marcas DTC de moda, belleza y lifestyle: justo las categorías en las que el comprador pregunta a la IA "¿qué marca de cosmética natural me recomiendas?" antes de buscar en ningún sitio. WooCommerce sigue presente, pero Shopify es quien gana terreno entre las tiendas nuevas. Y la conversación no se queda en España: el mismo prompt en español arrastra recomendaciones para todo LatAm.
 
-Un matiz honesto por delante: estas herramientas *miden*, no *optimizan* por ti. Ver subir tu puntuación de visibilidad no es lo mismo que hacerla subir. El trabajo de estructurar contenido, marcar schema y construir autoridad sigue teniendo que ocurrir, lo hagas tú o tu agencia.
+Un matiz honesto por delante: estas herramientas *miden*, no *optimizan* por ti. Ver subir tu puntuación de visibilidad no es lo mismo que hacerla subir. El trabajo de estructurar contenido, marcar schema y construir autoridad sigue teniendo que ocurrir, lo hagas tú o tu agencia. Google recoge buena parte de ese trabajo en su <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" rel="noopener">guía de optimización para IA</a> y en su <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guía de e-commerce para la búsqueda</a>: contenido estructurado, autoridad y fichas sólidas siguen siendo la base tanto para el buscador como para la respuesta generativa.
 
 ## Otterly: el mejor punto de entrada por valor
 
 *Nuestra elección para arrancar el seguimiento de visibilidad IA el primer mes.*
 
-Otterly es la herramienta con la que recomiendo empezar. Es la más asequible de la categoría y cubre lo esencial sin la complejidad ni el coste de una plataforma enterprise.
+<a href="https://otterly.ai/" rel="noopener">Otterly</a> es la herramienta con la que recomiendo empezar. Es la más asequible de la categoría y cubre lo esencial sin la complejidad ni el coste de una plataforma enterprise.
 
 **Lo que hace muy bien.** El precio es el titular: desde unos 25-29 dólares al mes con prueba gratuita, es la única herramienta de esta lista que un freelance o una tienda Shopify pequeña pueden adoptar sin pensárselo dos veces. Sigue de forma automática tus menciones y citas en los motores que más pesan: ChatGPT, Perplexity, Google AI Overviews y AI Mode, y Copilot. Una función realmente lista convierte tus keywords SEO existentes en prompts conversacionales de IA, así que no partes de una página en blanco. La auditoría GEO integrada te señala cómo optimizar tu contenido para que te citen más. Más allá de medir, Otterly también hace auditoría de contenido y redacción de contenido asistida, al nivel de lo que ofrece Peec AI en esas funciones, y da un volumen por intención de búsqueda que estima tu tráfico IA, un dato que fue de los primeros del mercado en ofrecer. La puesta en marcha es rápida: datos útiles en 48 horas, frente a la semana o dos que exigen las herramientas más pesadas. Gartner la nombró Cool Vendor en 2025, señal de que la categoría está madurando.
 
@@ -155,7 +164,7 @@ La trampa corta por los dos lados. Compra Profound antes de tener un equipo que 
 
 ## De dónde sale nuestra propia lectura GEO
 
-No clasificamos estas herramientas leyendo fichas técnicas. Podemos juzgarlas porque medimos visibilidad IA nosotros mismos, todos los meses. Nuestro [Barómetro GEO](/fr/barometre-geo/) se apoya en **Quotis**, una señal independiente de visibilidad IA que mide con qué frecuencia ChatGPT, Gemini y Perplexity sacan a flote herramientas y marcas de e-commerce en un conjunto fijo de prompts. Es una señal que ningún proveedor puede comprar ni influir en silencio, y por eso confiamos en ella como contraste de las plataformas que reseñamos aquí.
+No clasificamos estas herramientas leyendo fichas técnicas. Podemos juzgarlas porque medimos visibilidad IA nosotros mismos, todos los meses. Nuestro [Barómetro GEO](/fr/barometre-geo/) se apoya en **Quotis**, una señal independiente de visibilidad IA que mide con qué frecuencia ChatGPT, Gemini y Perplexity sacan a flote herramientas y marcas de e-commerce en un conjunto fijo de prompts. Es una señal que ningún proveedor puede comprar ni influir en silencio, y por eso confiamos en ella como contraste de las plataformas que reseñamos aquí. Puedes ver cómo evaluamos cada plataforma en nuestra [metodología de test](/es/metodologia/).
 
 En un tema que *es* visibilidad IA, eso importa más de lo normal. Otterly, Peec y Profound te dan tus números; Quotis es como los mantenemos honestos, porque vemos de forma independiente qué herramientas recomiendan de verdad los motores. Y la misma lógica aplica a tu tienda: que te citen depende de tu autoridad global, no del rastreador que contrates. La herramienta mide el resultado; no crea la autoridad. Si quieres entender la disciplina antes de pagar por un rastreador, el Barómetro es el sitio por donde empezar.
 

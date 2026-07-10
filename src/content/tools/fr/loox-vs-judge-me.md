@@ -47,6 +47,15 @@ offers:
   - tool: Yotpo
     label: Découvrir Yotpo
     url: https://www.yotpo.com/
+prosCons:
+  tool: Loox
+  pros:
+    - "Carrousels photo et vidéo les plus aboutis de Shopify"
+    - "L'avis photo convertit mieux qu'un avis texte"
+    - "Intégration Shopify native, rich snippets SEO inclus"
+  cons:
+    - "Pas de plan gratuit, app payante"
+    - "Support pas disponible en français"
 faq:
   - q: "Loox ou Judge.me : quelle est la meilleure app d'avis Shopify en 2026 ?"
     a: "Cela dépend de votre priorité. Pour les marques visuelles (mode, beauté, lifestyle, design, DTC) qui veulent des avis photo et vidéo qui convertissent, Loox est la référence : ses carrousels visuels sont les plus aboutis de Shopify et l'investissement (à partir de 9,99 dollars par mois) se rentabilise sur les ventes générées par la preuve sociale visuelle. Pour un budget serré ou des produits qui ne dépendent pas du visuel (électronique, accessoires techniques, consommables), Judge.me est imbattable grâce à son plan gratuit illimité avec rich snippets SEO inclus. Yotpo n'a de sens que pour les marques mid-market qui veulent une suite complète avis + loyalty + SMS + UGC."
@@ -91,13 +100,13 @@ Le choix entre Loox et Judge.me se résume à une question : **l'esthétique de 
 
 *Notre choix pour les marques visuelles.*
 
-Loox a fait un pari clair : être le meilleur sur les avis visuels (photo et vidéo) et assumer un positionnement premium en conséquence. Pour les marques dont l'image est un levier de vente, c'est la référence.
+<a href="https://loox.io/" rel="noopener">Loox</a> a fait un pari clair : être le meilleur sur les avis visuels (photo et vidéo) et assumer un positionnement premium en conséquence. Pour les marques dont l'image est un levier de vente, c'est la référence.
 
 **Ce qu'il fait très bien.** Les carrousels photo et vidéo sont les plus aboutis de Shopify en configuration par défaut : mosaïques, badges étoiles, galeries UGC, tout est calibré pour la conversion sans toucher au CSS. Sur les produits qu'on achète avec les yeux (mode, beauté, lifestyle, design), un avis photo convertit nettement mieux qu'un avis texte, et Loox met cet UGC visuel au centre de la fiche produit. La suite IA de Loox trie automatiquement les meilleurs avis visuels en premier, met en évidence les citations clés et traduit les avis pour les acheteurs internationaux, un vrai gain pour les boutiques multilingues. L'intégration Shopify est native, les rich snippets SEO sont inclus, et le système de referrals intégré (plan Convert et au-dessus) transforme les clients satisfaits en ambassadeurs avec le même outil.
 
 **Point d'attention.** Loox n'a pas de plan gratuit : c'est une app payante (essai d'environ 14 jours, à partir de 9,99 dollars par mois). C'est un investissement, pas un coût gratuit, et il se justifie dès que l'image de marque compte : le gain de conversion des widgets visuels compense l'abonnement à partir des premières ventes tirées par la preuve sociale. Le support n'est pas en français.
 
-**Pour qui ?** Marques mode, beauté, lifestyle, design et DTC où l'avis photo est central à la conversion, boutiques qui veulent un rendu premium sans investir en CSS, marques en croissance qui visent un look haut de gamme dès le démarrage.
+**Pour qui ?** Marques mode, beauté, lifestyle, design et DTC où l'avis photo est central à la conversion, boutiques qui veulent un rendu premium sans investir en CSS, marques en croissance qui visent un look haut de gamme dès le démarrage. L'avis photo se renforce d'ailleurs avec des visuels produits soignés : sur la même fiche, packshot IA et UGC client travaillent ensemble la conversion, comme le montre notre comparatif des [outils IA de photos produits](/fr/outils-ia-photos-produits/).
 
 ## Judge.me, le verdict détaillé
 
@@ -105,7 +114,7 @@ Loox a fait un pari clair : être le meilleur sur les avis visuels (photo et vid
 
 Judge.me est l'outil que je recommande dès que le budget est le premier critère, ou quand les produits ne dépendent pas du visuel. Pour une raison simple : son plan gratuit n'est pas un teaser marketing mais une vraie offre illimitée, utilisable en production, avec les rich snippets SEO inclus.
 
-**Ce qu'il fait très bien.** Le plan Forever Free inclut les avis illimités, les avis photo, les rich snippets SEO (essentiels pour faire apparaître les étoiles dans les résultats Google) et l'import depuis n'importe quelle app concurrente. Aucun concurrent ne joue à ce niveau de gratuité. Le plan Awesome à 15 dollars par mois ajoute les avis vidéo et la synchronisation inter-boutiques (utile si vous gérez plusieurs marques sur Shopify). L'éditeur d'email de demande d'avis propose plus de templates que Loox (jusqu'à 6 étapes dans le flow : initial, deux relances, demande photo, demande vidéo, Q and A), avec la possibilité d'écrire en HTML pur ou de désactiver complètement les envois Judge.me pour passer 100% via Klaviyo ou Brevo. Le rapport qualité-prix est tout simplement le meilleur du marché.
+**Ce qu'il fait très bien.** Le plan Forever Free inclut les avis illimités, les avis photo, les rich snippets SEO (essentiels pour faire apparaître les <a href="https://developers.google.com/search/docs/appearance/structured-data/review-snippet" rel="noopener">étoiles d'avis dans les résultats Google</a>) et l'import depuis n'importe quelle app concurrente. Aucun concurrent ne joue à ce niveau de gratuité. Le plan Awesome à 15 dollars par mois ajoute les avis vidéo et la synchronisation inter-boutiques (utile si vous gérez plusieurs marques sur Shopify). L'éditeur d'email de demande d'avis propose plus de templates que Loox (jusqu'à 6 étapes dans le flow : initial, deux relances, demande photo, demande vidéo, Q and A), avec la possibilité d'écrire en HTML pur ou de désactiver complètement les envois Judge.me pour passer 100% via Klaviyo ou Brevo. Le rapport qualité-prix est tout simplement le meilleur du marché.
 
 **Le bon usage.** Le widget par défaut est plus texte que celui de Loox : c'est parfait pour un gros volume d'avis écrits et pour les produits techniques, un peu moins spectaculaire si votre marque mise avant tout sur la photo. Pour un rendu très visuel, on peut personnaliser en CSS ou utiliser des templates communautaires. Le support est rapide (souvent une réponse en moins d'une minute) mais sans accompagnement humain en français.
 
@@ -147,6 +156,8 @@ Yotpo joue dans une catégorie au-dessus : ce n'est plus une simple app d'avis m
 
 Nous avons installé chacun des trois outils sur deux boutiques Shopify réelles que nous opérons : une boutique mode et une boutique complément alimentaire. Période de test de 4 semaines minimum par outil, sur le même volume de commandes pour permettre la comparaison.
 
+Ces apps se substituent aux systèmes d'avis natifs des plateformes — la <a href="https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews" rel="noopener">gestion d'avis produits de Shopify</a> comme celle décrite dans la <a href="https://woocommerce.com/document/product-reviews/" rel="noopener">documentation WooCommerce sur les avis</a> — en apportant la preuve sociale visuelle et les rich snippets que le natif ne couvre pas.
+
 Critères évalués :
 - Taux de réponse aux demandes d'avis (mesuré sur 100 demandes envoyées par outil)
 - Qualité visuelle finale des widgets en configuration par défaut
@@ -161,6 +172,6 @@ Le détail complet de notre méthodologie : [notre méthodologie de test des app
 
 Vous évaluez votre stack complet d'outils Shopify ? Voir notre [guide pilier des meilleurs outils IA e-commerce 2026](/fr/meilleurs-outils-ia-ecommerce/).
 
-Vous travaillez aussi votre service client et la rédaction de fiches produits ? Voir [meilleurs outils IA de service client : Gorgias vs Tidio](/fr/outils-ia-service-client/) et [meilleurs outils IA pour rédiger des fiches produits](/fr/outils-ia-fiches-produits/).
+Vous travaillez aussi votre service client et la rédaction de fiches produits ? Voir [meilleurs outils IA de service client : Gorgias vs Tidio](/fr/outils-ia-service-client/) et [meilleurs outils IA pour rédiger des fiches produits](/fr/outils-ia-fiches-produits/). Pour des visuels produits dignes d'un studio : [PhotoRoom vs Pixelcut vs Remove.bg](/fr/outils-ia-photos-produits/).
 
 **Pour débuter :** vous lancez votre boutique avec l'IA ? Lisez notre [guide pour débuter avec l'intelligence artificielle en e-commerce](/fr/intelligence-artificielle-ecommerce-debuter/).

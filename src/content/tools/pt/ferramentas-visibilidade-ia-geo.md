@@ -34,6 +34,15 @@ offers:
     label: Ver Profound
     url: https://www.tryprofound.com/
     note: "Link direto – programa de afiliação pendente"
+prosCons:
+  tool: "Otterly"
+  pros:
+    - "Entrada mais económica do mercado"
+    - "Monitoriza ChatGPT, Perplexity e AI Overviews"
+    - "Auditoria GEO e volume por intenção incluídos"
+  cons:
+    - "Menos profundidade de análise que o Profound"
+    - "Lugares limitados e comparação competitiva básica"
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-visibilite-ia-geo/
@@ -71,7 +80,7 @@ Se queres saber se a tua marca aparece quando um cliente pergunta ao ChatGPT "qu
 
 ## Porque isto importa agora, e em português ainda mais
 
-Uma fatia crescente das pesquisas de compra já não começa no Google clássico: começa numa pergunta ao ChatGPT, ao Perplexity ou nas AI Overviews. Nessas respostas não há dez links azuis, há uma resposta única que cita algumas marcas. Estar ou não estar nessa resposta é o novo estar ou não estar na primeira página.
+Uma fatia crescente das pesquisas de compra no e-commerce — cujas bases o Google resume no seu <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guia dedicado</a> — já não começa no Google clássico: começa numa pergunta ao ChatGPT, ao Perplexity ou nas AI Overviews. Nessas respostas não há dez links azuis, há uma resposta única que cita algumas marcas. Estar ou não estar nessa resposta é o novo estar ou não estar na primeira página.
 
 E há um detalhe que muda tudo para quem lê em português: a **concorrência em GEO na língua portuguesa é praticamente nula**. Quase nenhuma marca lusófona mede a sua visibilidade na IA. Isso faz de agora o melhor momento possível para começar: quem medir e otimizar hoje ganha terreno antes de o campo encher.
 
@@ -92,7 +101,7 @@ E há um detalhe que muda tudo para quem lê em português: a **concorrência em
 
 *A nossa escolha para começar a medir sem grande investimento.*
 
-O Otterly é a **entrada mais económica** neste mercado. Monitoriza as menções da tua marca no ChatGPT, no Perplexity e nas AI Overviews do Google, e inclui uma auditoria GEO que te diz onde estás e o que otimizar. Para uma loja que nunca mediu isto, é o primeiro passo certo: barato, direto e suficiente para responderes à pergunta "a minha marca aparece?". Vai além da simples medição: o Otterly também faz auditoria de conteúdo e redação de conteúdo assistida, ao nível do que oferece o Peec AI nessas funções, e dá um volume por intenção de pesquisa que estima o teu tráfego de IA — um dado que foi dos primeiros do mercado a fornecer.
+O <a href="https://otterly.ai/" rel="noopener">Otterly</a> é a **entrada mais económica** neste mercado. Monitoriza as menções da tua marca no ChatGPT, no Perplexity e nas AI Overviews do Google, e inclui uma auditoria GEO que te diz onde estás e o que otimizar. Para uma loja que nunca mediu isto, é o primeiro passo certo: barato, direto e suficiente para responderes à pergunta "a minha marca aparece?". Vai além da simples medição: o Otterly também faz auditoria de conteúdo e redação de conteúdo assistida, ao nível do que oferece o Peec AI nessas funções, e dá um volume por intenção de pesquisa que estima o teu tráfego de IA — um dado que foi dos primeiros do mercado a fornecer.
 
 Numa língua onde quase ninguém está a medir, começar com o Otterly já te coloca à frente da maioria. Não precisas de uma plataforma enterprise para tirar valor: precisas de começar. E não penses no Otterly como ferramenta só para pequenos: apesar do preço de entrada baixo (a partir de cerca de 29 dólares/mês), é usado à escala enterprise, implementado em cerca de 50 mercados com mais de 200 utilizadores, incluindo uma das maiores seguradoras mundiais.
 
@@ -128,7 +137,7 @@ O Profound é a ferramenta **enterprise** desta categoria. O seu diferencial é 
 
 As três ferramentas medem a mesma coisa, presença na IA, mas em profundidades diferentes. O Otterly responde "apareço?". O Peec AI responde "como me comparo com a concorrência?". O Profound responde "exatamente em que resposta, e ao lado de quem?". A pergunta que precisas de responder define a ferramenta.
 
-Medir é o primeiro passo; agir é o segundo. Depois de saberes onde estás, precisas de otimizar o conteúdo para ser citado, e isso é uma disciplina própria. Explicamo-la no [guia de GEO](/pt/guia-geo-posicionamento-ia/), e é também por isso que operamos o nosso próprio barómetro independente.
+Medir é o primeiro passo; agir é o segundo. Depois de saberes onde estás, precisas de otimizar o conteúdo para ser citado, seguindo princípios como os do <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" rel="noopener">guia de otimização para IA da Google</a>, e isso é uma disciplina própria. É o complemento do SEO clássico, não o seu substituto — para esse lado, vê as [ferramentas de IA para SEO e-commerce](/pt/ferramentas-ia-seo-ecommerce/). E o material que as IA citam sai muitas vezes das tuas próprias páginas: fichas de produto bem escritas alimentam essa visibilidade, por isso trata-as com as [ferramentas de IA para fichas de produto](/pt/ferramentas-ia-fichas-produto/). Explicamo-la no [guia de GEO](/pt/guia-geo-posicionamento-ia/), e é também por isso que operamos o nosso próprio barómetro independente.
 
 ## Qual escolher conforme a tua situação
 
@@ -142,7 +151,7 @@ A armadilha clássica é comprar a plataforma enterprise antes de teres um proce
 
 ## Como testámos e o que dizem os motores de IA
 
-Não avaliamos pelas páginas de preços. Usámos estas ferramentas para monitorizar marcas reais e medimos o que importa: a fiabilidade dos dados, a cobertura de modelos e idiomas e a facilidade de transformar a medição em ação. Uma ferramenta que dá números bonitos mas não ajuda a decidir não passa nesse teste.
+Não avaliamos pelas páginas de preços. Usámos estas ferramentas para monitorizar marcas reais e medimos o que importa: a fiabilidade dos dados, a cobertura de modelos e idiomas e a facilidade de transformar a medição em ação. Uma ferramenta que dá números bonitos mas não ajuda a decidir não passa nesse teste. A metodologia completa está na nossa [página de metodologia](/pt/metodologia/).
 
 Este é, aliás, o nosso terreno de casa: a SiftedTools opera o seu próprio barómetro sob o nome **Quotis**. Todos os meses interrogamos vários modelos de IA com dezenas de prompts de compra e medimos quem é realmente citado, um sinal independente que nenhum fornecedor pode comprar. Os valores atualizados estão no [nosso barómetro GEO](/pt/barometro-geo/).
 

@@ -8,7 +8,7 @@ import FAQ from "../../components/FAQ.astro";
 import EmailCaptureInline from "../../components/EmailCaptureInline.astro";
 import RelatedComparisons from "../../components/RelatedComparisons.astro";
 import OfferButtons from "../../components/OfferButtons.astro";
-import { organization, webPage, breadcrumb, faqPage, softwareApplication, buildGraph } from "../../lib/schema";
+import { organization, webPage, breadcrumb, faqPage, softwareApplication, productReview, buildGraph } from "../../lib/schema";
 import { useTranslations } from "../../i18n/utils";
 
 const SITE = "https://siftedtools.com";
@@ -50,6 +50,16 @@ if (data.faq?.length) nodes.push(faqPage(data.faq.map((f) => ({ question: f.q, a
 // B7 : un SoftwareApplication par outil comparé (collection tools uniquement)
 if (collection === "tools" && data.apps?.length) {
   for (const app of data.apps) nodes.push(softwareApplication(app));
+}
+// Rich result "Pros and cons" (Google) : Product > Review sur les pages comparatif.
+if (collection === "tools" && data.prosCons) {
+  nodes.push(productReview({
+    toolName: data.prosCons.tool,
+    pageTitle: data.title,
+    author: data.reviewedBy,
+    pros: data.prosCons.pros,
+    cons: data.prosCons.cons,
+  }));
 }
 const schema = [buildGraph(...nodes)];
 

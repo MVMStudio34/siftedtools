@@ -47,6 +47,15 @@ offers:
   - tool: Profound
     label: Voir Profound
     url: https://www.tryprofound.com/
+prosCons:
+  tool: Otterly
+  pros:
+    - "L'outil le plus accessible du marché (dès 25-29 $/mois)"
+    - "Suivi ChatGPT, Perplexity, AI Overviews et Copilot"
+    - "Audit GEO et conversion des mots-clés en prompts"
+  cons:
+    - "Certains plans couvrent moins de moteurs"
+    - "Tableau de bord à organiser sur gros volumes de prompts"
 faq:
   - q: "Quel outil pour suivre sa visibilité sur les IA ?"
     a: "Cela dépend de votre profil : Otterly pour démarrer avec un petit budget, Peec AI pour une équipe ou une agence, Profound pour une entreprise avec un budget dédié. Otterly est le plus accessible (à partir de 25 à 29 dollars par mois) et délivre environ 70% de ce que propose Profound. Peec AI mise sur les sièges illimités et la distinction mentions/citations, autour de 89 euros par mois. Profound offre la profondeur d'analyse la plus poussée, à prix premium."
@@ -98,13 +107,15 @@ Le SEO traditionnel mesure votre position dans les résultats Google. Mais ce mo
 
 D'où une nouvelle discipline : mesurer si les IA citent votre marque. C'est exactement ce que fait notre propre outil, le [Baromètre GEO Quotis](/fr/barometre-geo/), qui interroge mensuellement 5 modèles d'IA avec 100 prompts pour mesurer quels outils e-commerce sont recommandés. Nous ne sommes donc pas un site qui découvre cette catégorie : nous opérons un outil de mesure GEO au quotidien. Cette expérience de terrain nous permet d'évaluer ces plateformes sur ce qui compte vraiment.
 
+Google lui-même documente désormais comment structurer un contenu pour les réponses génératives dans son <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" rel="noopener">guide d'optimisation pour l'IA</a>, un complément direct au <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guide e-commerce pour la recherche</a> : les deux posent les bases d'un contenu que les moteurs, classiques comme génératifs, savent citer.
+
 Précision honnête d'emblée : ces outils mesurent, ils n'optimisent pas à votre place. Surveiller votre score de visibilité monter et descendre n'est pas la même chose que le faire monter. Le travail de structuration de contenu, de schema et de construction d'autorité reste à faire, par vous ou votre agence.
 
 ## Otterly, le verdict détaillé
 
 *Notre sélection pour débuter le monitoring GEO dès le premier mois.*
 
-Otterly est l'outil que je recommande pour démarrer dans le suivi de visibilité IA. C'est le plus accessible du marché, et il couvre l'essentiel sans la complexité ni le prix des plateformes enterprise.
+<a href="https://otterly.ai/" rel="noopener">Otterly</a> est l'outil que je recommande pour démarrer dans le suivi de visibilité IA. C'est le plus accessible du marché, et il couvre l'essentiel sans la complexité ni le prix des plateformes enterprise.
 
 **Ce qu'il fait très bien.** Le prix est son atout majeur : à partir de 25 à 29 dollars par mois avec un essai gratuit, c'est le seul outil de la catégorie réellement accessible à un freelance ou une petite boutique. Il suit automatiquement vos mentions et citations sur les plateformes majeures (ChatGPT, Perplexity, Google AI Overviews et AI Mode, Copilot). Une fonction maligne transforme vos mots-clés SEO existants en prompts IA conversationnels, ce qui facilite le démarrage. L'audit GEO aide à comprendre comment optimiser votre contenu pour être mieux cité. Au-delà de la mesure, Otterly propose aussi de l'audit de contenu et de la rédaction de contenu assistée, au niveau de ce que fait Peec AI sur ces fonctions, ainsi qu'un volume par intention de recherche qui estime le trafic IA — une donnée qu'il a été parmi les premiers du marché à fournir. La prise en main est rapide : des données exploitables en 48 heures contre deux semaines pour des outils plus lourds. Otterly a été reconnu Cool Vendor par Gartner en 2025.
 
@@ -149,6 +160,8 @@ Profound est la référence enterprise de la catégorie. C'est l'outil le plus p
 Pour une boutique e-commerce, suivre sa visibilité IA a un sens concret : quand un acheteur demande à ChatGPT quelle marque de complément alimentaire ou quelle boutique de mode choisir, êtes-vous cité ? Ces outils vous le disent. Mais rappelez-vous : être cité dépend largement de votre autorité globale (contenu, backlinks, mentions ailleurs). Ces outils mesurent le résultat, ils ne créent pas l'autorité.
 
 C'est exactement la logique de notre [Baromètre GEO Quotis](/fr/barometre-geo/) appliquée aux marques e-commerce : nous mesurons mensuellement quelles marques et quels outils les IA recommandent. Si vous voulez comprendre cette discipline avant d'investir dans un outil, notre [méthodologie de mesure de la visibilité IA](/fr/methodologie/) détaille comment fonctionne la mesure GEO.
+
+En amont de la mesure, c'est votre contenu qui nourrit cette visibilité : des fiches produits riches et bien structurées augmentent vos chances d'être cité dans les réponses IA, un chantier que couvre notre comparatif des [outils IA pour rédiger des fiches produits](/fr/outils-ia-fiches-produits/).
 
 ## Notre méthodologie d'évaluation
 

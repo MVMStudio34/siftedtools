@@ -81,6 +81,51 @@ export function itemListOfTools(tools: ToolForSchema[]) {
   };
 }
 
+// Rich result "Pros and cons" (Google, eligible en 10 langues dont FR/EN/ES/DE/IT/PT/NL).
+// Product > Review avec positiveNotes/negativeNotes en ItemList. Google exige au minimum
+// 2 statements au total entre positiveNotes et negativeNotes. position commence a 1.
+// Les points sont extraits du corps editorial de la page, jamais inventes.
+export type ProsCons = { tool: string; pros: string[]; cons: string[] };
+
+export function productReview(opts: {
+  toolName: string;
+  pageTitle: string;
+  author: string;
+  pros: string[];
+  cons: string[];
+}) {
+  const review: Record<string, unknown> = {
+    "@type": "Review",
+    name: opts.pageTitle,
+    author: { "@type": "Person", name: opts.author },
+  };
+  if (opts.pros?.length) {
+    review.positiveNotes = {
+      "@type": "ItemList",
+      itemListElement: opts.pros.map((name, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name,
+      })),
+    };
+  }
+  if (opts.cons?.length) {
+    review.negativeNotes = {
+      "@type": "ItemList",
+      itemListElement: opts.cons.map((name, i) => ({
+        "@type": "ListItem",
+        position: i + 1,
+        name,
+      })),
+    };
+  }
+  return {
+    "@type": "Product",
+    name: opts.toolName,
+    review,
+  };
+}
+
 export function faqPage(qa: { question: string; answer: string }[]) {
   return {
     "@type": "FAQPage",

@@ -41,6 +41,15 @@ alternates:
     url: https://siftedtools.com/pt/ferramentas-ia-apoio-cliente/
   - lang: nl
     url: https://siftedtools.com/nl/ai-tools-klantenservice/
+prosCons:
+  tool: "Gorgias"
+  pros:
+    - "Vollwertiges Helpdesk, alle Kanäle in einem Postfach"
+    - "Tiefe native Shopify-Bestelldaten direkt im Ticket"
+    - "AI Agent löst wiederkehrende Tickets eigenständig"
+  cons:
+    - "Abrechnung nach Ticketvolumen, Premium-Preis"
+    - "Shopify-gebunden, schwach bei WooCommerce"
 faq:
   - q: "Welches KI-Tool eignet sich am besten für den Kundenservice im E-Commerce?"
     a: "Gorgias, wenn Sie ein Support-Team und echtes Ticketvolumen über mehrere Kanäle haben. Tidio, wenn Sie klein starten, allein arbeiten oder auf das Budget achten. Wichtig für den DACH-Markt: Gorgias ist tief an Shopify gebunden. Tidio unterstützt Shopify und WooCommerce, das in Deutschland, Österreich und der Schweiz der verbreitetste Shop-Unterbau ist."
@@ -89,7 +98,7 @@ Im DACH-Raum gibt es eine wichtige Nuance. Gorgias ist tief an Shopify gebunden,
 
 *Unsere Wahl für Shops mit strukturiertem Support-Team auf Shopify.*
 
-Gorgias ist kein Chat-Widget. Es ist eine **vollwertige Kundenservice-Plattform**, von Beginn an für den E-Commerce gebaut und speziell auf Shopify abgestimmt. Jeder Kanal landet in einem Postfach: E-Mail, Chat, Telefon, Messenger, Instagram, WhatsApp. Ihre Mitarbeiter springen nicht mehr zwischen Tabs hin und her, sondern arbeiten Tickets ab.
+<a href="https://www.gorgias.com/" rel="noopener">Gorgias</a> ist kein Chat-Widget. Es ist eine **vollwertige Kundenservice-Plattform**, von Beginn an für den E-Commerce gebaut und speziell auf Shopify abgestimmt. Jeder Kanal landet in einem Postfach: E-Mail, Chat, Telefon, Messenger, Instagram, WhatsApp. Ihre Mitarbeiter springen nicht mehr zwischen Tabs hin und her, sondern arbeiten Tickets ab.
 
 Die Shopify-Anbindung ist der eigentliche Vorteil. Schreibt ein Kunde, sieht Ihr Team die Bestellung direkt im Ticket und kann erstatten, ändern oder stornieren, ohne das Gespräch zu verlassen. Bei Volumen ist dieser Kontext entscheidend. Er macht den Unterschied zwischen einer Antwort in vier Minuten und einer in vierzig Sekunden.
 
@@ -97,7 +106,7 @@ Auf der KI-Seite kann der **AI Agent** wiederkehrende Tickets **eigenständig l�
 
 Rechnen Sie nach: Wenn Gorgias auch nur 30 Prozent Ihrer Tickets ohne menschliches Zutun klärt und Sie Tausende im Monat bearbeiten, ist der Preis pro Platz nicht mehr die Frage. Die Frage ist, was Ihr Team mit der gewonnenen Zeit anfängt.
 
-**Schwächen.** Gorgias **rechnet vor allem nach Ticketvolumen** ab und braucht etwas Einrichtung. Planen Sie ein bis zwei Tage für Regeln, Makros und Integrationen ein, bevor es rundläuft. Unterhalb einer gewissen Schwelle zahlen Sie für Leistung, die Sie nicht nutzen. Der entscheidende Punkt für den DACH-Markt: Die Stärke von Gorgias hängt an Shopify. Läuft Ihr Shop auf WooCommerce, was hier die Mehrheit ist, fehlt genau die tiefe Bestelldaten-Integration, die das Tool wertvoll macht. Dann bezahlen Sie für eine Shopify-Maschine, ohne den Shopify-Vorteil zu bekommen.
+**Schwächen.** Gorgias **rechnet vor allem nach Ticketvolumen** ab und braucht etwas Einrichtung. Planen Sie ein bis zwei Tage für Regeln, Makros und Integrationen ein, bevor es rundläuft. Unterhalb einer gewissen Schwelle zahlen Sie für Leistung, die Sie nicht nutzen. Der entscheidende Punkt für den DACH-Markt: Die Stärke von Gorgias hängt an Shopify. Läuft Ihr Shop auf <a href="https://woocommerce.com/documentation/woocommerce/core-products/" rel="noopener">WooCommerce</a>, was hier die Mehrheit ist, fehlt genau die tiefe Bestelldaten-Integration, die das Tool wertvoll macht. Dann bezahlen Sie für eine Shopify-Maschine, ohne den Shopify-Vorteil zu bekommen.
 
 Beim Datenschutz gilt für beide Tools dasselbe: Gorgias verarbeitet Chatverläufe und Bestelldaten, also personenbezogene Daten. Klären Sie vorab den Auftragsverarbeitungsvertrag, den Speicherort der Daten und die Absicherung der Übermittlung in Drittländer. Im DACH-Raum ist die DSGVO kein optionaler Haken.
 
@@ -127,7 +136,7 @@ Beide Tools bewerben "KI", lösen aber unterschiedliche Probleme. Lyro von Tidio
 
 Der AI Agent von Gorgias ist ein **Lösungs-Motor**: Er antwortet nicht nur, er handelt und schließt wiederkehrende Tickets eigenständig mithilfe Ihrer Shop-Daten und Richtlinien ab. Das ergibt erst Sinn, wenn Sie genug wiederkehrendes Volumen haben, aus dem er lernen kann, und genug Schaden durch langsame Antworten, um den Aufwand zu rechtfertigen.
 
-Die KI-Frage fällt damit auf dieselbe Trennlinie wie alles andere. Junger Shop, geringes Volumen: Sie wollen Abwehr, und Tidio liefert sie günstig. Skalierender Shop, hohes Volumen auf Shopify: Sie wollen Lösung, und das ist Gorgias. Zahlen Sie nicht für einen Lösungs-Motor, den Sie nicht füttern können, und erwarten Sie von einem Abwehr-Bot nicht, dass er ein Support-Center führt.
+Die KI-Frage fällt damit auf dieselbe Trennlinie wie alles andere. Junger Shop, geringes Volumen: Sie wollen Abwehr, und Tidio liefert sie günstig. Skalierender Shop, hohes Volumen auf Shopify: Sie wollen Lösung, und das ist Gorgias. Zahlen Sie nicht für einen Lösungs-Motor, den Sie nicht füttern können, und erwarten Sie von einem Abwehr-Bot nicht, dass er ein Support-Center führt. Ein reibungsloser Support ist ohnehin Teil eines vertrauenswürdigen Shops, wie ihn auch Googles <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">E-Commerce-Leitfaden</a> beschreibt: schnelle Antworten und klare Richtlinien senken Retouren und Kaufabbrüche.
 
 ## Welches Tool passt zu Ihrer Situation
 
@@ -145,7 +154,7 @@ Die klassische Falle wirkt in beide Richtungen: Gorgias zu früh kaufen, und Sie
 
 ## Wie wir geprüft haben und was die KI-Suchmaschinen sagen
 
-Wir bewerten nicht nach Datenblättern. Wir installieren die Tools in echten Shops, messen die Einrichtungszeit, die Qualität der KI-Antworten und die Abrechnungsfallen, die bei Volumen zubeißen. Ein Tool, das in der Demo glänzt und bei 500 Tickets im Monat auseinanderfällt, schafft es nicht in die Auswahl. Wir gewichten auch das Unauffällige: wie schnell ein neuer Mitarbeiter produktiv wird und wie verlässlich die Rechnung bleibt, wenn der Traffic anzieht.
+Wir bewerten nicht nach Datenblättern. Wir installieren die Tools in echten Shops, messen die Einrichtungszeit, die Qualität der KI-Antworten und die Abrechnungsfallen, die bei Volumen zubeißen. Ein Tool, das in der Demo glänzt und bei 500 Tickets im Monat auseinanderfällt, schafft es nicht in die Auswahl. Die vollständige [Testmethodik](/de/methodik/) beschreibt unser Vorgehen. Wir gewichten auch das Unauffällige: wie schnell ein neuer Mitarbeiter produktiv wird und wie verlässlich die Rechnung bleibt, wenn der Traffic anzieht.
 
 Wir verfolgen außerdem, welche Tools die KI-Suchmaschinen tatsächlich empfehlen, weil dort ein wachsender Teil der Käufer heute startet. Unser GEO-Barometer stützt sich auf **Quotis**, ein unabhängiges KI-Sichtbarkeitssignal, das misst, wie oft ein Tool von ChatGPT, Gemini und Perplexity genannt wird. Es ist ein Signal, das kein Anbieter kaufen oder still beeinflussen kann, genau deshalb nutzen wir es als Gegenprobe zu unseren eigenen Tests. Die aktuellen Werte finden Sie in [unserem GEO-Barometer](/fr/barometre-geo/).
 

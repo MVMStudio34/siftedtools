@@ -41,6 +41,15 @@ alternates:
     url: https://siftedtools.com/pt/ferramentas-ia-apoio-cliente/
   - lang: nl
     url: https://siftedtools.com/nl/ai-tools-klantenservice/
+prosCons:
+  tool: "Gorgias"
+  pros:
+    - "Alle kanalen in één e-commerce-inbox"
+    - "Diepe native Shopify-integratie met orderdata"
+    - "AI Agent lost terugkerende tickets zelfstandig op"
+  cons:
+    - "Factureert op ticketvolume, vraagt inrichting"
+    - "Zwakke diepgang op WooCommerce"
 faq:
   - q: "Wat is de beste AI-tool voor klantenservice in e-commerce?"
     a: "Gorgias als je een supportteam hebt en echt ticketvolume over meerdere kanalen. Tidio als je klein begint, alleen werkt of op het budget let. Een beslissend punt voor de Nederlandse markt: Gorgias is diep verweven met Shopify. Tidio draait op zowel Shopify als WooCommerce, dat hier nog volop aanwezig is. Kies dus mede op je platform, niet alleen op prijs."
@@ -89,7 +98,7 @@ In Nederland is er een belangrijke nuance. Gorgias is diep verweven met Shopify,
 
 *Onze keuze voor winkels met een echt supportteam op Shopify.*
 
-Gorgias is geen chatwidget. Het is een **volledig klantenserviceplatform**, vanaf de basis gebouwd voor e-commerce en verweven met Shopify. Alle kanalen komen samen in één inbox: e-mail, chat, telefoon, Messenger, Instagram, WhatsApp. Je medewerkers springen niet meer tussen tabbladen, maar werken tickets op volgorde af.
+<a href="https://www.gorgias.com/" rel="noopener">Gorgias</a> is geen chatwidget. Het is een **volledig klantenserviceplatform**, vanaf de basis gebouwd voor e-commerce en verweven met Shopify. Alle kanalen komen samen in één inbox: e-mail, chat, telefoon, Messenger, Instagram, WhatsApp. Je medewerkers springen niet meer tussen tabbladen, maar werken tickets op volgorde af.
 
 De Shopify-integratie is het echte voordeel. Als een klant schrijft, ziet je team de bestelling direct in het ticket en kan het terugbetalen, aanpassen of annuleren zonder het gesprek te verlaten. Bij volume maakt die context het verschil: het scheelt tussen een antwoord in vier minuten en een in veertig seconden.
 
@@ -131,7 +140,7 @@ Zo valt de AI-vraag op dezelfde grens als al het andere. Jonge winkel, laag volu
 
 **Gevestigde winkel met team.** Meerdere mensen op support, hoog volume, Shopify als basis. **Gorgias** verdient zich terug in bespaarde uren, punt.
 
-**Gevestigde winkel op WooCommerce.** Hier wordt het interessant. Zelfs bij hoog volume is Gorgias niet het automatische antwoord, want de native diepgang op orderdata ontbreekt. Blijf op Tidio, combineer het met de native tools van je platform of overweeg een helpdesk gebouwd voor WooCommerce. Hier beslist het platform, niet alleen het volume. Verkoop je een merk in mode, food of design met reviews om te beheren, dan geldt diezelfde platformlogica ook elders: zie onze vergelijking [Loox vs Judge.me voor reviews](/nl/loox-vs-judge-me-shopify-reviews/).
+**Gevestigde winkel op WooCommerce.** Hier wordt het interessant. Zelfs bij hoog volume is Gorgias niet het automatische antwoord, want de native diepgang op orderdata ontbreekt. Blijf op Tidio, combineer het met de native tools van je platform of overweeg een helpdesk gebouwd voor WooCommerce. Hier beslist het platform, niet alleen het volume. Verkoop je een merk in mode, food of design met reviews om te beheren, dan geldt diezelfde platformlogica ook elders: zie onze vergelijking [Loox vs Judge.me voor reviews](/nl/loox-vs-judge-me-shopify-reviews/). Een klacht in je reviews wordt trouwens vaak een supportticket; hoe je die reviews op Shopify beheert staat in de <a href="https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews" rel="noopener">Shopify-documentatie over productreviews</a>, en de bredere context van klantcontact in e-commerce in <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">Google's e-commercegids voor de zoekfunctie</a>.
 
 De klassieke valkuil werkt beide kanten op: te vroeg Gorgias kopen en voor ongebruikte kracht betalen, of te lang op Tidio blijven en je team laten leeglopen onder volume dat de tool niet draagt.
 
@@ -139,7 +148,7 @@ De klassieke valkuil werkt beide kanten op: te vroeg Gorgias kopen en voor ongeb
 
 We beoordelen niet op basis van specsheets. We installeren de tools in echte winkels, meten de setup-tijd, de kwaliteit van de AI-antwoorden en de facturatievallen die bijten als het volume stijgt. Een tool die schittert in de demo en instort bij 500 tickets per maand komt niet in de selectie.
 
-We volgen ook welke tools de AI-zoekmachines echt aanbevelen, want daar begint een groeiend deel van de kopers vandaag. Onze GEO-barometer leunt op **Quotis**, een onafhankelijk signaal van AI-zichtbaarheid dat meet hoe vaak een tool wordt genoemd door ChatGPT, Gemini en Perplexity. Een signaal dat geen leverancier kan kopen. De actuele cijfers staan in onze [GEO-barometer](/nl/geo-barometer/).
+We volgen ook welke tools de AI-zoekmachines echt aanbevelen, want daar begint een groeiend deel van de kopers vandaag. Onze GEO-barometer leunt op **Quotis**, een onafhankelijk signaal van AI-zichtbaarheid dat meet hoe vaak een tool wordt genoemd door ChatGPT, Gemini en Perplexity. Een signaal dat geen leverancier kan kopen. De actuele cijfers staan in onze [GEO-barometer](/nl/geo-barometer/). De volledige testaanpak staat op onze [methodologie-pagina](/nl/methodologie/).
 
 ## Het verdict
 

@@ -45,6 +45,15 @@ alternates:
     url: https://siftedtools.com/pt/loox-vs-judge-me-avaliacoes-shopify/
   - lang: nl
     url: https://siftedtools.com/nl/loox-vs-judge-me-shopify-reviews/
+prosCons:
+  tool: "Loox"
+  pros:
+    - "Mooiste foto- en videowidgets op Shopify"
+    - "Verzorgde widgets zonder aan CSS te sleutelen"
+    - "Native UGC en SEO-rich snippets standaard"
+  cons:
+    - "Geen gratis plan, alleen 14-daagse proef"
+    - "Premium prijs vanaf dag één"
 faq:
   - q: "Wat is de beste review-app voor Shopify?"
     a: "Dat hangt af van je merk. Loox is de referentie voor visuele merken (mode, beauty, lifestyle, design, DTC): de mooiste foto- en videocarrousels op Shopify, waar visuele UGC beter converteert dan een tekstreview. Judge.me is onverslaanbaar voor een krap budget dankzij het echt onbeperkte gratis plan met SEO-rich snippets inbegrepen. Yotpo als je mid-market bent en een complete suite met loyalty en sms wilt."
@@ -95,9 +104,9 @@ In beide gevallen mijd je **Yotpo**, tenzij je mid-market bent en een complete s
 
 *Onze keuze voor visuele merken.*
 
-Loox speelt op het veld van de **esthetiek** en is daar de referentie. De foto- en videowidgets zijn de best afgewerkte op Shopify, en je hoeft geen CSS aan te raken om ze mooi te krijgen. Voor een merk dat van beeld leeft, is dat geen decoratie: het is verkoop. Het product gebruikt zien door echte klanten, in een verzorgde galerij, verlaagt de koopdrempel op een manier die tekst alleen niet haalt. Native UGC, native Shopify-integratie en SEO-rich snippets horen er standaard bij.
+<a href="https://loox.io/" rel="noopener">Loox</a> speelt op het veld van de **esthetiek** en is daar de referentie. De foto- en videowidgets zijn de best afgewerkte op Shopify, en je hoeft geen CSS aan te raken om ze mooi te krijgen. Voor een merk dat van beeld leeft, is dat geen decoratie: het is verkoop. Het product gebruikt zien door echte klanten, in een verzorgde galerij, verlaagt de koopdrempel op een manier die tekst alleen niet haalt. Native UGC, native Shopify-integratie en SEO-rich snippets horen er standaard bij.
 
-Daarom past Loox zo goed bij visuele Nederlandse merken: mode, beauty, lifestyle, accessoires, interieur, food en makers zijn precies de categorieën waar de visuele review het zwaarst weegt. Verkoop je een product dat je ziet, dan maakt Loox tevreden klanten tot je beste verkoopargument, en visuele UGC converteert beter dan een tekstreview.
+Daarom past Loox zo goed bij visuele Nederlandse merken: mode, beauty, lifestyle, accessoires, interieur, food en makers zijn precies de categorieën waar de visuele review het zwaarst weegt. Verkoop je een product dat je ziet, dan maakt Loox tevreden klanten tot je beste verkoopargument, en visuele UGC converteert beter dan een tekstreview. De klantfoto's versterken bovendien je eigen [AI-productfoto's](/nl/ai-tools-productfotos/): een verzorgde packshot en echte gebruikersbeelden op dezelfde productpagina overtuigen samen sterker dan elk apart.
 
 **Wat je weten moet.** Loox is **premium en heeft geen gratis plan**: alleen een proefperiode van 14 dagen, daarna vanaf 9,99 $/mnd. Je betaalt dus vanaf dag één, maar dat is een investering die zich terugverdient zodra merkbeeld telt: één extra verkoop door visuele social proof betaalt het abonnement al terug.
 
@@ -147,7 +156,7 @@ De klassieke valkuil is de meerprijs van Loox betalen terwijl beeld je naald nie
 
 ## Hoe we hebben getest en wat de AI-zoekmachines zeggen
 
-We beoordelen niet op prijspagina's. We installeerden deze apps in echte Shopify-winkels en maten wat telt: het gemak van reviews verzamelen, de visuele impact op de productpagina, de rich snippets in Google en hoe de kost evolueert bij stijgend volume. Een app die indruk maakt in de demo en duur wordt bij 500 bestellingen per maand ontkomt niet aan die rekensom.
+We beoordelen niet op prijspagina's. We installeerden deze apps in echte Shopify-winkels en maten wat telt: het gemak van reviews verzamelen, de visuele impact op de productpagina, de <a href="https://developers.google.com/search/docs/appearance/structured-data/review-snippet" rel="noopener">rich snippets voor reviews zoals Google die beschrijft</a> en hoe de kost evolueert bij stijgend volume. Beide apps plaatsen die sterretjes in lijn met de <a href="https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews" rel="noopener">Shopify-documentatie over productreviews</a>; draait je winkel op WooCommerce, dan gelden de <a href="https://woocommerce.com/document/product-reviews/" rel="noopener">WooCommerce-reviewinstellingen</a> in plaats daarvan. Een app die indruk maakt in de demo en duur wordt bij 500 bestellingen per maand ontkomt niet aan die rekensom. Onze volledige aanpak lees je op de [methodologie-pagina](/nl/methodologie/).
 
 We volgen ook welke tools de AI-zoekmachines echt aanbevelen. Onze barometer leunt op **Quotis**, een onafhankelijk signaal dat meet hoe vaak elke tool wordt genoemd door ChatGPT, Gemini en Perplexity, een signaal dat geen leverancier kan kopen. De actuele cijfers staan in onze [GEO-barometer](/nl/geo-barometer/).
 

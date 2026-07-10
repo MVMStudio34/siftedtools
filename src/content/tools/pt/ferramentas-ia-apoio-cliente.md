@@ -26,6 +26,15 @@ offers:
   - tool: Tidio
     label: Testar Tidio
     url: https://affiliate.tidio.com/504a35yloiih
+prosCons:
+  tool: "Gorgias"
+  pros:
+    - "Integração nativa e profunda com o Shopify"
+    - "AI Agent resolve tickets recorrentes de forma autónoma"
+    - "Todos os canais numa só caixa de entrada"
+  cons:
+    - "Fatura por volume de tickets, premium"
+    - "Integração fraca com WooCommerce"
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-ia-service-client/
@@ -89,7 +98,7 @@ Em Portugal há uma nuance importante. O Gorgias está profundamente ligado ao S
 
 *A nossa escolha para as lojas com uma equipa de apoio estruturada em Shopify.*
 
-O Gorgias não é um widget de chat. É uma **plataforma de apoio ao cliente completa**, pensada de raiz para o e-commerce e cosida ao Shopify. Cada canal termina numa só caixa de entrada: email, chat, telefone, Messenger, Instagram, WhatsApp. Os teus colaboradores deixam de saltar de separador em separador e trabalham os tickets em fila.
+O <a href="https://www.gorgias.com/" rel="noopener">Gorgias</a> não é um widget de chat. É uma **plataforma de apoio ao cliente completa**, pensada de raiz para o e-commerce e cosida ao Shopify. Cada canal termina numa só caixa de entrada: email, chat, telefone, Messenger, Instagram, WhatsApp. Os teus colaboradores deixam de saltar de separador em separador e trabalham os tickets em fila.
 
 A integração com o Shopify é a verdadeira vantagem. Quando um cliente escreve, a equipa vê a encomenda dentro do próprio ticket e pode reembolsar, alterar ou cancelar sem sair da conversa. No volume, este contexto faz a diferença: é o que separa uma resposta em quatro minutos de uma em quarenta segundos.
 
@@ -97,7 +106,7 @@ Do lado da IA, o **AI Agent** pode **resolver de forma autónoma** os tickets re
 
 Faz as contas: se o Gorgias fecha nem que seja 30% dos teus tickets sem intervenção humana e recebes milhares por mês, o custo por posto deixa de ser a pergunta. A pergunta passa a ser o que a tua equipa faz com o tempo recuperado.
 
-**Pontos fracos.** O Gorgias **fatura sobretudo por volume de tickets** e exige alguma configuração. Conta com um ou dois dias para regras, macros e integrações antes de correr liso. Abaixo de um certo limiar pagas potência que não usas. O ponto decisivo para o mercado português: a força do Gorgias depende do Shopify. Se a tua loja corre em WooCommerce, falta-te justamente aquela integração profunda com os dados de encomenda que torna a ferramenta valiosa. Na prática pagas uma máquina Shopify sem obter a vantagem Shopify.
+**Pontos fracos.** O Gorgias **fatura sobretudo por volume de tickets** e exige alguma configuração. Conta com um ou dois dias para regras, macros e integrações antes de correr liso. Abaixo de um certo limiar pagas potência que não usas. O ponto decisivo para o mercado português: a força do Gorgias depende do Shopify. Se a tua loja corre em WooCommerce — onde geres o catálogo e as encomendas segundo a <a href="https://woocommerce.com/documentation/woocommerce/core-products/" rel="noopener">documentação de produtos do WooCommerce</a> —, falta-te justamente aquela integração profunda com os dados de encomenda que torna a ferramenta valiosa. Na prática pagas uma máquina Shopify sem obter a vantagem Shopify.
 
 Na privacidade vale para ambos o mesmo princípio: o Gorgias trata históricos de conversa e dados de encomenda, portanto dados pessoais. Verifica com antecedência o contrato de tratamento de dados, onde ficam guardados e como está protegida a transferência para países terceiros. Com a CNPD em Portugal, o RGPD não é um detalhe opcional, mas sem alarmismos: é um controlo a fazer uma vez e deixar em ordem.
 
@@ -145,7 +154,7 @@ A armadilha clássica funciona nas duas direções: comprar o Gorgias cedo demai
 
 ## Como testámos e o que dizem os motores de pesquisa IA
 
-Não avaliamos a partir das fichas técnicas. Instalamos as ferramentas em lojas reais, medimos o tempo de configuração, a qualidade das respostas de IA e as armadilhas de faturação que mordem quando o volume sobe. Uma ferramenta que brilha na demo e se desfaz a 500 tickets por mês não entra na seleção. Pesamos também o que não se vê: com que rapidez um novo colaborador se torna produtivo e quão previsível continua a conta quando o tráfego cresce.
+Não avaliamos a partir das fichas técnicas. Instalamos as ferramentas em lojas reais, medimos o tempo de configuração, a qualidade das respostas de IA e as armadilhas de faturação que mordem quando o volume sobe. Uma ferramenta que brilha na demo e se desfaz a 500 tickets por mês não entra na seleção. Pesamos também o que não se vê: com que rapidez um novo colaborador se torna produtivo e quão previsível continua a conta quando o tráfego cresce. O apoio ao cliente é uma peça do teu e-commerce, cujas boas práticas o Google resume no seu <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guia dedicado</a>, e a nossa [metodologia completa](/pt/metodologia/) explica como pontuámos cada ferramenta.
 
 Seguimos ainda que ferramentas os motores de pesquisa IA recomendam mesmo, porque é aí que hoje começa uma fatia crescente de quem compra. O nosso barómetro GEO apoia-se no **Quotis**, um sinal independente de visibilidade IA que mede a frequência com que uma ferramenta é citada pelo ChatGPT, Gemini e Perplexity. É um sinal que nenhum fornecedor pode comprar ou influenciar às escondidas: precisamente por isso o usamos como contraprova dos nossos testes. Os valores atualizados estão no [nosso barómetro GEO](/pt/barometro-geo/).
 

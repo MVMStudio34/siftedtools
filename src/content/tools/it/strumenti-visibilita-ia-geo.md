@@ -49,6 +49,15 @@ alternates:
     url: https://siftedtools.com/pt/melhores-ferramentas-ia-ecommerce/
   - lang: nl
     url: https://siftedtools.com/nl/beste-ai-tools-ecommerce/
+prosCons:
+  tool: Otterly
+  pros:
+    - "Lo strumento più economico della categoria"
+    - "Copre ChatGPT, Perplexity, AI Overviews e Copilot"
+    - "Trasforma le keyword SEO in prompt IA, con audit GEO"
+  cons:
+    - "I piani base coprono un insieme più ristretto di motori"
+    - "Confronto competitivo tenuto semplice rispetto a Peec"
 faq:
   - q: "Cos'è il GEO o la visibilità IA?"
     a: "GEO sta per Generative Engine Optimization. Monitorare la visibilità IA significa misurare quanto spesso e in che modo il tuo brand viene nominato o citato nelle risposte di ChatGPT, Gemini, Perplexity, Copilot o negli AI Overviews di Google. È l'equivalente del rank tracking, trasferito all'era della ricerca conversazionale. Invece di chiederti a che posizione sei su Google, ti chiedi: quando un cliente chiede un consiglio a un'IA, il tuo negozio viene citato?"
@@ -97,9 +106,9 @@ E poi c'è la vera occasione. In italiano, la concorrenza sul GEO è quasi inesi
 
 ## Perché la visibilità IA (GEO) conta adesso, e chi può parlarne
 
-Il SEO classico misura dove sei su Google. Quel mondo si sta restringendo. Gartner prevede un calo del 25% del volume di ricerca tradizionale entro il 2026, e quando compaiono gli AI Overviews il tasso di clic verso i siti reali crolla. Sempre più spesso la risposta dell'IA *è* la risposta, senza alcun clic verso il tuo negozio.
+Il SEO classico misura dove sei su Google. Quel mondo si sta restringendo. Gartner prevede un calo del 25% del volume di ricerca tradizionale entro il 2026, e quando compaiono gli <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" rel="noopener">AI Overviews</a> il tasso di clic verso i siti reali crolla. Sempre più spesso la risposta dell'IA *è* la risposta, senza alcun clic verso il tuo negozio.
 
-Per l'e-commerce questo è molto concreto. Un cliente non digita più "migliori scarpe da corsa sotto i 100 euro" su Google e scorre i risultati. Lo chiede a ChatGPT, e ChatGPT nomina tre brand. Se sei uno dei tre, sei nel set considerato. Se non lo sei, la vendita è persa prima ancora che il cliente veda una scheda prodotto, e nessun file di log, nessuna dashboard di analytics ti dirà che è successo. Il GEO tracking rende visibile questa perdita invisibile.
+Per l'e-commerce questo è molto concreto, e si intreccia con i fondamentali descritti da Google nella sua <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guida e-commerce per la ricerca</a>. Un cliente non digita più "migliori scarpe da corsa sotto i 100 euro" su Google e scorre i risultati. Lo chiede a ChatGPT, e ChatGPT nomina tre brand. Se sei uno dei tre, sei nel set considerato. Se non lo sei, la vendita è persa prima ancora che il cliente veda una scheda prodotto, e nessun file di log, nessuna dashboard di analytics ti dirà che è successo. Il GEO tracking rende visibile questa perdita invisibile.
 
 E qui c'è un vantaggio raro che vale per te che leggi in italiano: mentre il mercato anglofono è già affollato di brand che ottimizzano, in italiano il campo è quasi vuoto. Misurare e agire ora significa costruire autorità in una lingua dove pochi concorrenti stanno ancora guardando.
 
@@ -111,7 +120,7 @@ Una precisazione onesta subito: questi strumenti *misurano*, non *ottimizzano* a
 
 *La nostra scelta per iniziare a monitorare la visibilità IA già dal primo mese.*
 
-Otterly è lo strumento con cui consiglio di partire. È il più economico della categoria e copre l'essenziale senza la complessità né i costi di una piattaforma enterprise.
+<a href="https://otterly.ai/" rel="noopener">Otterly</a> è lo strumento con cui consiglio di partire. È il più economico della categoria e copre l'essenziale senza la complessità né i costi di una piattaforma enterprise.
 
 **Cosa fa molto bene.** Il prezzo è il titolo: a partire da circa 25-29 dollari al mese con prova gratuita, è l'unico strumento qui che un freelance o un piccolo negozio può adottare senza lunghe esitazioni. Traccia automaticamente menzioni e citazioni sui motori principali: ChatGPT, Perplexity, Google AI Overviews e AI Mode, Copilot. Una funzione davvero intelligente trasforma le tue keyword SEO esistenti in prompt IA conversazionali, così non parti da zero. L'audit GEO integrato mostra come ottimizzare il contenuto per essere citato più spesso. Oltre alla misurazione, Otterly offre anche audit dei contenuti e scrittura di contenuti assistita, al livello di quanto fa Peec AI su queste funzioni, e un volume per intento di ricerca che stima il tuo traffico IA — un dato che è stato tra i primi del mercato a fornire. La messa in opera è rapida: dati utilizzabili in 48 ore, contro le una o due settimane degli strumenti più pesanti. Gartner ha nominato Otterly Cool Vendor nel 2025, segno che la categoria sta maturando.
 

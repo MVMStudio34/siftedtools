@@ -49,6 +49,15 @@ alternates:
     url: https://siftedtools.com/pt/ferramentas-visibilidade-ia-geo/
   - lang: nl
     url: https://siftedtools.com/nl/ai-tools-zichtbaarheid-geo/
+prosCons:
+  tool: Otterly
+  pros:
+    - "Cheapest entry point in the category"
+    - "Tracks ChatGPT, Perplexity, AI Overviews and Copilot"
+    - "Turns SEO keywords into AI prompts, plus GEO audit"
+  cons:
+    - "Cheaper plans cover fewer engines"
+    - "Competitor tracking basic compared with Peec"
 faq:
   - q: "What is GEO, or AI visibility tracking?"
     a: "GEO stands for Generative Engine Optimization. AI visibility tracking is the practice of measuring how often, and how, your brand gets mentioned or cited inside AI answers from ChatGPT, Gemini, Perplexity, Copilot and Google's AI Overviews. It's the equivalent of rank tracking for the age of AI search. Instead of asking where you rank on a Google results page, you're asking whether the AI names your store when a buyer asks it for a recommendation."
@@ -97,13 +106,15 @@ Traditional SEO measures where you rank on Google. That world is shrinking. Gart
 
 For e-commerce this is concrete. A buyer no longer types "best wireless earbuds under £100" into Google and scrolls. They ask ChatGPT, and ChatGPT names three brands. If you're one of the three, you're in the consideration set. If you're not, you lost the sale before the shopper ever saw a product page, and you have no log file or analytics dashboard telling you it happened. GEO tracking is how you make that invisible loss visible. The UK is the second-largest Shopify Plus market in the world, and British and US merchants are exactly the buyers shifting research into AI chat first.
 
+Google itself now publishes <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" rel="noopener">guidance on optimizing for AI features</a>, a sign the discipline is going mainstream, and its broader <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">e-commerce SEO fundamentals</a> still underpin whether an AI cites your store at all.
+
 One honest caveat up front: these tools *measure*, they don't *optimize* for you. Watching your visibility score move is not the same as moving it. The content structuring, schema and authority-building work still has to happen, by you or your agency.
 
 ## Otterly: the best value entry point
 
 *Our pick for starting AI visibility tracking in month one.*
 
-Otterly is the tool I recommend to start with. It's the most affordable in the category and it covers the essentials without the complexity or cost of an enterprise platform.
+<a href="https://otterly.ai/" rel="noopener">Otterly</a> is the tool I recommend to start with. It's the most affordable in the category and it covers the essentials without the complexity or cost of an enterprise platform.
 
 **What it does well.** Price is the headline: from around $25 to $29 a month with a free trial, it's the only tool here that a freelancer or a small Shopify store can adopt without a second thought. It automatically tracks your mentions and citations across the engines that matter most: ChatGPT, Perplexity, Google AI Overviews and AI Mode, and Copilot. A genuinely smart feature converts your existing SEO keywords into conversational AI prompts, so you're not starting from a blank page. The built-in GEO audit points you at how to optimize your content to get cited more. Beyond measurement, Otterly also handles content auditing and AI-assisted content writing, on par with what Peec AI offers on those fronts, plus a search-intent volume that estimates your AI traffic — a metric it was among the first in the category to provide. Setup is quick: usable data in 48 hours, versus the week or two heavier tools demand. Gartner named it a Cool Vendor in 2025, which tells you the category is maturing.
 
@@ -147,7 +158,7 @@ The trap cuts both ways. Buy Profound before you have a team to use it and you'r
 
 We don't rank these tools from spec sheets. We can judge them because we run AI-visibility measurement ourselves, every month. Our [GEO Barometer](/fr/barometre-geo/) leans on **Quotis**, an independent AI-visibility signal that measures how often e-commerce tools and brands get surfaced by ChatGPT, Gemini and Perplexity across a fixed set of prompts. It's a signal no vendor can buy or quietly influence, which is exactly why we trust it as a cross-check on the platforms reviewed here.
 
-On a topic that *is* AI visibility, that matters more than usual. Otterly, Peec and Profound all tell you your numbers; Quotis is how we keep them honest, because we see independently which tools the engines actually recommend. If you want to understand the discipline before you pay for a tracker, the Barometer is the place to start, and the same logic applies to your store: being cited depends on your overall authority, not on the tracker you buy. The tool measures the result; it doesn't create the authority.
+On a topic that *is* AI visibility, that matters more than usual. Otterly, Peec and Profound all tell you your numbers; Quotis is how we keep them honest, because we see independently which tools the engines actually recommend. If you want to understand the discipline before you pay for a tracker, the Barometer is the place to start, and the same logic applies to your store: being cited depends on your overall authority, not on the tracker you buy. The tool measures the result; it doesn't create the authority. How we run that measurement, month after month, is on our [methodology page](/en/methodology/).
 
 ## The verdict
 

@@ -53,6 +53,15 @@ offers:
   - tool: GetResponse
     label: Tester GetResponse
     url: https://www.getresponse.com/
+prosCons:
+  tool: Brevo
+  pros:
+    - "Plan gratuit réellement utilisable en production"
+    - "Conformité RGPD native, hébergement en France"
+    - "Suite email, SMS, WhatsApp à prix accessible"
+  cons:
+    - "Segmentation comportementale moins fine que Klaviyo"
+    - "Intégration Shopify moins profonde que Klaviyo"
 faq:
   - q: "Quel outil email marketing pour Shopify ?"
     a: "Pour Shopify, Klaviyo offre l'intégration la plus profonde et la segmentation la plus avancée, ce qui en fait le meilleur outil email marketing e-commerce au-delà de 5000 contacts actifs. Sous 5000 contacts en Europe, Brevo reste plus économique avec une intégration Shopify suffisante et une conformité RGPD native. Omnisend est un bon compromis si vous voulez activer des workflows e-commerce rapidement sans expertise email."
@@ -100,7 +109,7 @@ Le reste de cette page détaille le pourquoi de chaque verdict, pour que vous ch
 
 ## Brevo, le verdict détaillé
 
-Brevo (anciennement Sendinblue) est l'outil que je recommande par défaut à la majorité des e-commerçants français qui démarrent ou opèrent sous 5000 contacts. Cette recommandation s'appuie sur trois années d'utilisation en production sur trois projets différents : SiftedTools, Quotis.ai et Minha História. C'est l'outil que j'utilise tous les jours et celui dont je connais les vrais points forts et les vraies limites.
+<a href="https://www.brevo.com/" rel="noopener">Brevo</a> (anciennement Sendinblue) est l'outil que je recommande par défaut à la majorité des e-commerçants français qui démarrent ou opèrent sous 5000 contacts. Cette recommandation s'appuie sur trois années d'utilisation en production sur trois projets différents : SiftedTools, Quotis.ai et Minha História. C'est l'outil que j'utilise tous les jours et celui dont je connais les vrais points forts et les vraies limites.
 
 **Ce qu'il fait très bien.** Le plan gratuit (300 emails par jour) est réellement utilisable en production, pas un teaser marketing. Pour une boutique qui démarre avec 500 contacts et qui envoie une newsletter hebdomadaire plus quelques séquences automatisées, le plan gratuit suffit pendant plusieurs mois. La conformité RGPD est native, avec hébergement des données en France, ce qui simplifie considérablement la documentation de votre politique de confidentialité. L'interface en français est complète, le support en français répond rapidement, et la suite intégrée (email, SMS, WhatsApp, chat, CRM) permet de centraliser plusieurs canaux dans un seul outil avec des prix accessibles.
 
@@ -154,7 +163,7 @@ GetResponse mérite une mention pour les boutiques qui veulent une suite marketi
 
 **Boutique qui veut une plateforme marketing tout-en-un.** GetResponse. Si vous voulez email, landing pages, automatisation et webinaires dans un seul outil plutôt que d'assembler des spécialistes, c'est l'option qui centralise le plus.
 
-**Boutique multi-canal qui veut centraliser email, SMS, WhatsApp et chat.** Brevo. C'est la suite la plus complète à prix accessible pour ce besoin. Klaviyo a SMS mais pas WhatsApp natif. Omnisend a SMS mais moins de canaux que Brevo.
+**Boutique multi-canal qui veut centraliser email, SMS, WhatsApp et chat.** Brevo. C'est la suite la plus complète à prix accessible pour ce besoin. Klaviyo a SMS mais pas WhatsApp natif. Omnisend a SMS mais moins de canaux que Brevo. Pour le support client conversationnel proprement dit (chatbot, helpdesk, tickets), c'est en revanche un outil dédié qu'il faut : voir notre comparatif [service client IA Gorgias vs Tidio](/fr/outils-ia-service-client/), car email marketing et SAV forment ensemble le socle de la rétention.
 
 ## Pourquoi cette analyse est différente des autres
 
@@ -176,6 +185,8 @@ Critères évalués systématiquement :
 - Coût total mesuré à 1000, 5000 et 20 000 contacts pour permettre la comparaison à volume comparable
 
 Nous croisons aussi avec notre [Baromètre GEO Quotis](/fr/barometre-geo/) qui mesure mensuellement quels outils ChatGPT, Claude, Gemini, Perplexity et Mistral recommandent quand on leur pose la question "quel outil email marketing pour ma boutique e-commerce". C'est un signal indépendant que peu de comparatifs utilisent. Méthodologie complète sur notre [page Méthodologie](/fr/methodologie/).
+
+L'email e-commerce ne performe que branché à une boutique bien structurée : nous croisons nos tests avec les recommandations du <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guide e-commerce de Google pour la recherche</a>, et rappelons qu'un flow post-achat sert aussi à collecter des avis, dont la <a href="https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews" rel="noopener">gestion sur Shopify est documentée officiellement</a>.
 
 ## Quand migrer d'un outil email à l'autre ?
 

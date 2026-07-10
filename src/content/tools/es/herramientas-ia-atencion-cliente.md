@@ -41,6 +41,15 @@ alternates:
     url: https://siftedtools.com/pt/ferramentas-ia-apoio-cliente/
   - lang: nl
     url: https://siftedtools.com/nl/ai-tools-klantenservice/
+prosCons:
+  tool: Gorgias
+  pros:
+    - "Integración con Shopify profunda, pedido dentro del ticket"
+    - "AI Agent que resuelve tickets de extremo a extremo"
+    - "Todos los canales en una sola bandeja"
+  cons:
+    - "Factura sobre todo por volumen de tickets"
+    - "Requiere configuración antes de rendir"
 faq:
   - q: "¿Cuál es la mejor herramienta de IA de atención al cliente para Shopify?"
     a: "Gorgias si tienes un equipo de soporte y volumen real de tickets en varios canales; Tidio si eres pequeño, estás empezando o cuidas el presupuesto. Gorgias es un helpdesk de e-commerce completo, pensado para escalar. Tidio es un chat en vivo con una capa de IA (Lyro) hecho para que una tienda pequeña empiece a automatizar rápido."
@@ -88,9 +97,9 @@ En España esto pesa más de lo que parece. Shopify creció con fuerza en 2025: 
 
 *Nuestra elección para tiendas con un equipo de soporte estructurado.*
 
-Gorgias no es un widget de chat. Es una **plataforma de atención al cliente completa**, construida para e-commerce desde el primer día y afinada en concreto para Shopify. Todos los canales caen en una sola bandeja: email, chat, teléfono, Messenger, Instagram, WhatsApp. Tus agentes dejan de saltar entre pestañas y empiezan a cerrar tickets.
+<a href="https://www.gorgias.com/" rel="noopener">Gorgias</a> no es un widget de chat. Es una **plataforma de atención al cliente completa**, construida para e-commerce desde el primer día y afinada en concreto para Shopify. Todos los canales caen en una sola bandeja: email, chat, teléfono, Messenger, Instagram, WhatsApp. Tus agentes dejan de saltar entre pestañas y empiezan a cerrar tickets.
 
-La integración con Shopify es su verdadera ventaja. Cuando un cliente escribe, tu equipo ve el pedido dentro del propio ticket y puede reembolsar, editar o cancelar sin salir de la conversación. A volumen, ese contexto lo es todo. Es la diferencia entre una respuesta de cuatro minutos y una de cuarenta segundos.
+La integración con Shopify es su verdadera ventaja. Cuando un cliente escribe, tu equipo ve el pedido dentro del propio ticket y puede reembolsar, editar o cancelar sin salir de la conversación. A volumen, ese contexto lo es todo. Es la diferencia entre una respuesta de cuatro minutos y una de cuarenta segundos. Ese contexto es también donde nace buena parte del soporte: dudas de envío y devolución que Google recomienda anticipar en la propia ficha (ver su <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guía de e-commerce para la búsqueda</a>) y preguntas que los compradores dejan junto a las <a href="https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews" rel="noopener">opiniones de producto</a> antes de comprar.
 
 En el lado de la IA, el **AI Agent** **resuelve** tickets recurrentes de extremo a extremo, no solo sugiere una respuesta. Combínalo con reglas de automatización y un equipo reducido absorbe una carga que de otro modo exigiría el doble de personas. Por eso ves Gorgias por todas partes en tiendas de alto crecimiento. El Reino Unido es el segundo mayor mercado de Shopify Plus del mundo, y los comercios serios sobre Plus tienden a estandarizar con esta herramienta.
 
@@ -138,7 +147,7 @@ La trampa clásica corta por los dos lados: comprar Gorgias demasiado pronto y p
 
 No clasificamos a partir de fichas técnicas. Instalamos las herramientas en tiendas reales, medimos el tiempo de puesta en marcha, la calidad de las respuestas de la IA y las trampas de facturación que muerden a volumen. Una herramienta que demea bien y se cae a los 500 tickets al mes no entra. También pesamos lo poco vistoso: cuánto tarda un agente nuevo en ser productivo, con qué frecuencia la IA devuelve una respuesta limpia frente a una inventada, y cómo de predecible es la factura cuando el tráfico se dispara. Eso es lo que de verdad te ayuda o te hace daño en el sexto mes, mucho después de la demo comercial.
 
-También seguimos qué herramientas recomiendan de verdad las IA, porque ahí es donde una parte creciente de los compradores empieza ya su búsqueda. Nuestro [Barómetro GEO](/fr/barometre-geo/) se apoya en **Quotis**, una puntuación independiente de visibilidad en IA que mide con qué frecuencia una herramienta aparece recomendada por ChatGPT, Gemini y Perplexity. Es una señal que ningún proveedor puede comprar ni influir en silencio, y por eso la usamos como contraste de nuestras propias pruebas.
+También seguimos qué herramientas recomiendan de verdad las IA, porque ahí es donde una parte creciente de los compradores empieza ya su búsqueda. Nuestro [Barómetro GEO](/fr/barometre-geo/) se apoya en **Quotis**, una puntuación independiente de visibilidad en IA que mide con qué frecuencia una herramienta aparece recomendada por ChatGPT, Gemini y Perplexity. Es una señal que ningún proveedor puede comprar ni influir en silencio, y por eso la usamos como contraste de nuestras propias pruebas. El detalle completo de cómo instalamos y medimos cada herramienta está en nuestra [metodología de test](/es/metodologia/).
 
 ## El veredicto
 

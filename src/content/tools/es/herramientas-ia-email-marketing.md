@@ -55,6 +55,15 @@ alternates:
     url: https://siftedtools.com/pt/ferramentas-ia-email-marketing/
   - lang: nl
     url: https://siftedtools.com/nl/ai-tools-e-mailmarketing/
+prosCons:
+  tool: Klaviyo
+  pros:
+    - "La integración con Shopify más profunda del mercado"
+    - "Segmentación de comportamiento de referencia"
+    - "IA que predice el mejor momento de envío"
+  cons:
+    - "Precio premium que escala rápido con los contactos"
+    - "Su profundidad se desperdicia sin quien la use"
 faq:
   - q: "¿Cuál es la mejor herramienta IA de email marketing para e-commerce?"
     a: "Klaviyo, si el email y el SMS son un canal de ingresos real y de verdad vas a usar la segmentación profunda, los flows y los datos de eventos de Shopify. Es el estándar de la categoría para tiendas que escalan. Si quieres alrededor del 80% de ese valor por una fracción del coste, Brevo es el todo-en-uno con mejor relación valor. Omnisend queda en medio: nativo de Shopify y con automatización prediseñada potente desde el primer día."
@@ -108,7 +117,7 @@ Klaviyo gana por méritos en tiendas donde el email es un canal de ingresos genu
 
 *Nuestra elección para tiendas que escalan email y SMS como línea de ingresos real.*
 
-Klaviyo es la referencia mundial del email para e-commerce, y en Shopify eso no es palabrería de marketing. La integración es la más profunda del mercado, sin matices. Cada evento de Shopify (vista de producto, añadir al carrito, checkout abandonado, compra, devolución, nivel de fidelidad) está disponible como disparador de automatización con condiciones muy finas. Nada se acerca tanto a los datos de tu tienda.
+<a href="https://www.klaviyo.com/" rel="noopener">Klaviyo</a> es la referencia mundial del email para e-commerce, y en Shopify eso no es palabrería de marketing. La integración es la más profunda del mercado, sin matices. Cada evento de Shopify (vista de producto, añadir al carrito, checkout abandonado, compra, devolución, nivel de fidelidad) está disponible como disparador de automatización con condiciones muy finas. Nada se acerca tanto a los datos de tu tienda. Un flow post-compra bien montado es además el mejor momento para pedir esa reseña —Shopify explica cómo gestionarlas en su <a href="https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews" rel="noopener">documentación de opiniones de producto</a>— y para reactivar fichas que Google prioriza según su <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guía de e-commerce para la búsqueda</a>.
 
 La segmentación es donde está el dinero. Puedes construir segmentos dinámicos imposibles en otro sitio: compradores recurrentes de una categoría concreta, con un ticket medio por encima de cierto umbral, que no compran desde hace 30 días pero abrieron al menos dos de tus últimos cinco emails. Apunta esos segmentos al flow adecuado y tu ingreso por envío sube. Esa es la razón por la que las tiendas serias pagan el premium. En España, donde el DTC de moda, belleza y lifestyle es el que más crece, las marcas de alto crecimiento estandarizan en Klaviyo precisamente por esto.
 
@@ -168,7 +177,7 @@ La trampa clásica corta por los dos lados: comprar Klaviyo antes de que el emai
 
 ## Qué recomiendan de verdad los motores de IA
 
-Una parte creciente de los compradores arranca ahora en ChatGPT, Gemini o Perplexity en vez de en una barra de búsqueda, así que importa qué herramientas sacan esos motores. [Nuestro Barómetro GEO](/fr/barometre-geo/) se apoya en **Quotis**, una puntuación independiente de visibilidad IA que mide con qué frecuencia se recomienda cada herramienta cuando le preguntas a un motor de IA "cuál es la mejor herramienta de email marketing para mi tienda e-commerce". Es una señal que ningún proveedor puede comprar ni influir en silencio, y por eso la usamos como contraste cruzado frente a nuestras propias pruebas en producción, en vez de fiarnos de una sola de las dos.
+Una parte creciente de los compradores arranca ahora en ChatGPT, Gemini o Perplexity en vez de en una barra de búsqueda, así que importa qué herramientas sacan esos motores. [Nuestro Barómetro GEO](/fr/barometre-geo/) se apoya en **Quotis**, una puntuación independiente de visibilidad IA que mide con qué frecuencia se recomienda cada herramienta cuando le preguntas a un motor de IA "cuál es la mejor herramienta de email marketing para mi tienda e-commerce". Es una señal que ningún proveedor puede comprar ni influir en silencio, y por eso la usamos como contraste cruzado frente a nuestras propias pruebas en producción, en vez de fiarnos de una sola de las dos. Puedes ver cómo montamos y medimos cada suite en tiendas reales en nuestra [metodología de test](/es/metodologia/).
 
 ## El veredicto
 

@@ -56,6 +56,13 @@ const tools = defineCollection({
       rating: z.number().optional(),        // UNIQUEMENT si note réelle et sourcée
       ratingCount: z.number().optional(),
     })).default([]),
+    // Rich result "Pros and cons" Google : points extraits du corps éditorial (jamais inventés).
+    // tool = outil n°1 du verdict (= apps[0].name). Minimum 2 statements au total (pros + cons).
+    prosCons: z.object({
+      tool: z.string(),
+      pros: z.array(z.string()).default([]),
+      cons: z.array(z.string()).default([]),
+    }).optional(),
   }),
 });
 

@@ -49,6 +49,15 @@ alternates:
     url: https://siftedtools.com/pt/ferramentas-ia-fotos-produto/
   - lang: nl
     url: https://siftedtools.com/nl/ai-tools-productfotos/
+prosCons:
+  tool: Pixelcut
+  pros:
+    - "La mejor generación de fondos con IA del mercado"
+    - "Render con aspecto de estudio real"
+    - "Velocidad para pasar de foto a visual publicable"
+  cons:
+    - "Integración con Shopify por exportación, no nativa"
+    - "Modo por lotes no pensado para tiradas industriales"
 faq:
   - q: "¿Cuál es la mejor herramienta IA de fotos de producto para Shopify?"
     a: "Pixelcut para la mayoría de tiendas que quieren visuales de producto con calidad de estudio y rápido. Ofrece la mejor generación de fondos con IA del mercado: el resultado parece un shoot de estudio, no un packshot retocado, y lo hace a gran velocidad. PhotoRoom sigue siendo la elección si quieres el ecosistema más completo y la integración con Shopify más madura, con edición por lotes potente y plan gratuito usable. Remove.bg gana en una sola cosa: recortes limpios que vas a terminar en otra herramienta."
@@ -105,7 +114,7 @@ El resto de la página explica el porqué, para que elijas con criterio.
 
 *Nuestra elección para tiendas que quieren visuales de producto con calidad de estudio, y rápido.*
 
-Pixelcut es la herramienta que recomiendo por defecto, y la razón es concreta: hace la mejor generación de fondos con IA del mercado. Pones el producto en escena y el resultado parece un shoot de estudio, no un packshot retocado. A eso le suma velocidad de ejecución: pasas de una foto de móvil a un visual publicable en segundos. Para la mayoría de tiendas que quieren imágenes de producto profesionales sin montar un set ni contratar un estudio, ese es todo el valor.
+<a href="https://www.pixelcut.ai/" rel="noopener">Pixelcut</a> es la herramienta que recomiendo por defecto, y la razón es concreta: hace la mejor generación de fondos con IA del mercado. Pones el producto en escena y el resultado parece un shoot de estudio, no un packshot retocado. A eso le suma velocidad de ejecución: pasas de una foto de móvil a un visual publicable en segundos. Para la mayoría de tiendas que quieren imágenes de producto profesionales sin montar un set ni contratar un estudio, ese es todo el valor.
 
 **Lo que hace bien.** La generación de fondos es lo más convincente que hay ahora mismo: cocina editorial para food, playa y costa para moda de verano, mármol y metal para cosmética y joyería, fondos de estudio limpios para catálogo. El render tiene aspecto de foto real de estudio, con luz y sombra coherentes, no el clásico "esto es IA". El sistema de plantillas lleva a alguien sin perfil de diseño a un visual publicable para redes, anuncios o ficha en poco tiempo. La edición por lotes está y cumple. Tiene plan gratuito para probarlo en condiciones reales y el precio es accesible, así que la relación resultado-precio es excelente.
 
@@ -149,9 +158,11 @@ Remove.bg es el veterano, y sigue siendo la referencia en una tarea concreta: qu
 
 Si además estás escribiendo las fichas junto a las que viven esas imágenes, nuestra comparativa de [herramientas IA para fichas de producto](/es/herramientas-ia-fichas-producto/) cubre la parte de texto de esa misma página.
 
+Nuestros criterios se apoyan en las recomendaciones de Google sobre imágenes y fichas de producto, recogidas en su <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guía de e-commerce para la búsqueda</a>: un visual nítido, bien encuadrado y coherente ayuda tanto a la conversión como a la indexación. En una ficha de Shopify esos visuales conviven con las opiniones de tus clientes, cuya gestión describe la <a href="https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews" rel="noopener">documentación de Shopify sobre reseñas de producto</a>: una imagen cuidada y las [reseñas con foto de tus clientes](/es/loox-vs-judge-me-opiniones-shopify/) se refuerzan sobre la misma página.
+
 ## Lo que dicen los motores de IA
 
-Una parte creciente de compradores empieza ya preguntándole a ChatGPT, Gemini o Perplexity qué herramienta usar. Eso lo seguimos. Nuestro [Barómetro GEO](/fr/barometre-geo/) se apoya en **Quotis**, una puntuación independiente de visibilidad en IA que mide con qué frecuencia cada herramienta aparece recomendada por los grandes motores cuando alguien pregunta qué usar para las fotos de producto de e-commerce. Es una señal que ningún proveedor puede comprar ni empujar en silencio, y justo por eso la usamos como contraste de nuestras propias pruebas a mano, no como sustituto de ellas.
+Una parte creciente de compradores empieza ya preguntándole a ChatGPT, Gemini o Perplexity qué herramienta usar. Eso lo seguimos. Nuestro [Barómetro GEO](/fr/barometre-geo/) se apoya en **Quotis**, una puntuación independiente de visibilidad en IA que mide con qué frecuencia cada herramienta aparece recomendada por los grandes motores cuando alguien pregunta qué usar para las fotos de producto de e-commerce. Es una señal que ningún proveedor puede comprar ni empujar en silencio, y justo por eso la usamos como contraste de nuestras propias pruebas a mano, no como sustituto de ellas. Puedes ver cómo instalamos cada herramienta sobre catálogos reales en nuestra [metodología de test](/es/metodologia/).
 
 ## El veredicto
 

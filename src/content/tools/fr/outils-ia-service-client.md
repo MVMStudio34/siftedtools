@@ -41,6 +41,15 @@ offers:
   - tool: Tidio
     label: Essayer Tidio
     url: https://affiliate.tidio.com/504a35yloiih
+prosCons:
+  tool: Gorgias
+  pros:
+    - "Helpdesk e-commerce complet pensé pour Shopify"
+    - "Intégration Shopify native : commande visible dans le ticket"
+    - "AI Agent capable de résoudre seul certains tickets"
+  cons:
+    - "Facturé au volume de tickets"
+    - "Surdimensionné sous un certain seuil de volume"
 faq:
   - q: "Quel outil IA pour automatiser le service client d'une boutique Shopify ?"
     a: "Tidio pour démarrer vite et à petit budget, Gorgias dès que le volume monte. Tidio est un chat avec IA pensé pour les petites boutiques ; Gorgias est un véritable helpdesk e-commerce, conçu pour les équipes qui gèrent un gros volume de tickets sur plusieurs canaux."
@@ -88,7 +97,7 @@ Le reste de cette page détaille pourquoi, pour que vous choisissiez en connaiss
 
 *Notre sélection pour les boutiques avec une équipe support structurée.*
 
-Gorgias n'est pas un chat, c'est une **plateforme de service client complète**, pensée dès le départ pour l'e-commerce et particulièrement pour Shopify. Tous vos canaux arrivent au même endroit : email, chat, téléphone, Messenger, Instagram, WhatsApp.
+<a href="https://www.gorgias.com/" rel="noopener">Gorgias</a> n'est pas un chat, c'est une **plateforme de service client complète**, pensée dès le départ pour l'e-commerce et particulièrement pour Shopify. Tous vos canaux arrivent au même endroit : email, chat, téléphone, Messenger, Instagram, WhatsApp.
 
 L'intégration Shopify est sa vraie force : quand un client écrit, votre équipe voit sa commande et peut rembourser ou modifier directement depuis le ticket. Sur du volume, ce gain de contexte change tout.
 
@@ -124,12 +133,23 @@ Le piège classique : prendre Gorgias trop tôt (vous payez une puissance inutil
 
 On ne classe pas sur des fiches produit. On installe les outils sur de vraies boutiques, on mesure la prise en main, la qualité des réponses IA et les pièges de facturation. On suit aussi, via notre baromètre GEO, lesquels les IA recommandent vraiment. Méthode complète sur notre [méthodologie de test des outils IA](/fr/methodologie/).
 
+Un bon SAV s'inscrit dans une expérience e-commerce cohérente, telle que décrite dans le <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guide e-commerce de Google</a> ; sur Shopify, il se branche aussi sur les commandes et sur les avis clients — dont la <a href="https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews" rel="noopener">gestion est documentée par Shopify</a> — puisqu'un avis négatif se transforme souvent en ticket à traiter.
+
 ## Le verdict
 
 Il n'y a pas de gagnant absolu, il y a un gagnant **pour votre situation**.
 
 Commencez par **Tidio** si vous débutez ou si le budget commande : opérationnel aujourd'hui, pour pas cher, avec une IA qui travaille déjà. Passez à **Gorgias** le jour où votre volume et votre équipe justifient un vrai helpdesk.
 
+Le service client et l'email marketing forment le duo de la rétention : une fois vos tickets sous contrôle, structurez vos relances et newsletters avec un [outil d'email marketing e-commerce](/fr/outils-ia-email-marketing/), les deux canaux se nourrissant des mêmes conversations clients.
+
 ## Pour aller plus loin
+
+Vous évaluez l'ensemble de votre stack d'outils IA e-commerce ? Voir notre [guide pilier des meilleurs outils IA e-commerce 2026](/fr/meilleurs-outils-ia-ecommerce/).
+
+D'autres comparatifs SiftedTools disponibles :
+- Pour l'email marketing : [Klaviyo vs Brevo vs Omnisend](/fr/outils-ia-email-marketing/)
+- Pour les avis Shopify : [Loox vs Judge.me vs Yotpo](/fr/loox-vs-judge-me/)
+- Pour les fiches produits : [meilleurs outils IA fiches produits](/fr/outils-ia-fiches-produits/)
 
 **Pour débuter :** vous lancez votre boutique avec l'IA ? Lisez notre [guide pour débuter avec l'intelligence artificielle en e-commerce](/fr/intelligence-artificielle-ecommerce-debuter/).

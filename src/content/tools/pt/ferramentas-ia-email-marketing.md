@@ -33,6 +33,15 @@ offers:
   - tool: Omnisend
     label: Testar Omnisend
     url: https://your.omnisend.com/c/7429317/1793390/21260
+prosCons:
+  tool: "Brevo"
+  pros:
+    - "Melhor relação qualidade-preço da categoria"
+    - "Fornecedor europeu com servidores na UE (RGPD)"
+    - "Email, SMS e WhatsApp numa só suíte"
+  cons:
+    - "Segmentação comportamental padrão, não avançada"
+    - "Integração Shopify menos profunda que a Klaviyo"
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-ia-email-marketing/
@@ -98,9 +107,9 @@ Um esclarecimento sobre o mercado português que quase todos os comparativos int
 
 *A nossa recomendação por defeito para as lojas portuguesas em crescimento que vigiam ao mesmo tempo a privacidade e o orçamento.*
 
-A Brevo (antiga Sendinblue) é a solução tudo-em-um com a melhor relação qualidade-preço deste comparativo, e a escolha por defeito acertada para lojas em crescimento ou atentas ao orçamento. O primeiro argumento é o plano gratuito: 300 emails por dia, mesmo utilizável em produção e não só uma isca. Uma loja com algumas centenas de contactos que envia uma newsletter semanal mais duas sequências automatizadas pode ficar meses no plano gratuito antes de ter de pagar.
+A <a href="https://www.brevo.com/" rel="noopener">Brevo</a> (antiga Sendinblue) é a solução tudo-em-um com a melhor relação qualidade-preço deste comparativo, e a escolha por defeito acertada para lojas em crescimento ou atentas ao orçamento. O primeiro argumento é o plano gratuito: 300 emails por dia, mesmo utilizável em produção e não só uma isca. Uma loja com algumas centenas de contactos que envia uma newsletter semanal mais duas sequências automatizadas pode ficar meses no plano gratuito antes de ter de pagar.
 
-Para o mercado português, o ponto decisivo é a privacidade. A Brevo é um fornecedor europeu com servidores na UE, e isso é um argumento forte de RGPD: poupas-te à documentação de uma transferência para um país terceiro e alinhas com naturalidade as orientações da CNPD. O email é dado do cliente, e para um artesão ou uma PME que vende aos seus clientes em Portugal isto costuma fazer diferença. Junta-se a suíte: email, SMS, WhatsApp, chat ao vivo e um CRM leve numa única assinatura acessível, para não juntares três ferramentas e três faturas. E, sobretudo, o WooCommerce é suportado de forma limpa e nativa — num mercado onde metade das lojas está nessa plataforma, isso vale mais do que qualquer promessa focada só em Shopify.
+Para o mercado português, o ponto decisivo é a privacidade. A Brevo é um fornecedor europeu com servidores na UE, e isso é um argumento forte de RGPD: poupas-te à documentação de uma transferência para um país terceiro e alinhas com naturalidade as orientações da CNPD. O email é dado do cliente, e para um artesão ou uma PME que vende aos seus clientes em Portugal isto costuma fazer diferença. Junta-se a suíte: email, SMS, WhatsApp, chat ao vivo e um CRM leve numa única assinatura acessível, para não juntares três ferramentas e três faturas. E, sobretudo, o WooCommerce, cuja gestão de catálogo segue a <a href="https://woocommerce.com/documentation/woocommerce/core-products/" rel="noopener">documentação de produtos do WooCommerce</a>, é suportado de forma limpa e nativa — num mercado onde metade das lojas está nessa plataforma, isso vale mais do que qualquer promessa focada só em Shopify. As sequências de email encaixam no resto do teu e-commerce, cujas boas práticas o Google resume no seu <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guia de e-commerce para a pesquisa</a>.
 
 Os limites são o espelho exato dos pontos fortes da Klaviyo. Na segmentação comportamental fina, a Brevo é padrão, não avançada: crias segmentos por comportamento de compra ou de engagement, mas as opções são menos numerosas e o editor menos fluido. A integração Shopify existe, mas é menos profunda, algo que se sente quando queres disparar automações sobre eventos Shopify muito específicos. A IA integrada sugere assuntos e textos, mas fica um degrau abaixo da Klaviyo AI na previsão comportamental.
 
@@ -154,7 +163,7 @@ A armadilha clássica ataca nos dois sentidos: comprar a Klaviyo antes de o emai
 
 ## O que os motores de IA recomendam mesmo
 
-Uma fatia crescente de compradores começa hoje no ChatGPT, no Gemini ou no Perplexity em vez da barra de pesquisa, por isso conta quais ferramentas esses motores nomeiam. O nosso [Barómetro GEO](/pt/barometro-geo/) apoia-se no **Quotis**, um índice independente de visibilidade em IA que mede quantas vezes cada ferramenta é recomendada quando perguntas a um motor de IA: "qual a melhor ferramenta de email marketing para a minha loja online". É um sinal que nenhum fornecedor pode comprar ou influenciar em silêncio, e é precisamente por isso que o usamos como contraprova dos nossos testes no terreno, em vez de nos fiarmos só num dos dois. Em português, a concorrência GEO nesta vertical é praticamente nula — quem estrutura bem o conteúdo agora ganha visibilidade cedo.
+Uma fatia crescente de compradores começa hoje no ChatGPT, no Gemini ou no Perplexity em vez da barra de pesquisa, por isso conta quais ferramentas esses motores nomeiam. O nosso [Barómetro GEO](/pt/barometro-geo/) apoia-se no **Quotis**, um índice independente de visibilidade em IA que mede quantas vezes cada ferramenta é recomendada quando perguntas a um motor de IA: "qual a melhor ferramenta de email marketing para a minha loja online". É um sinal que nenhum fornecedor pode comprar ou influenciar em silêncio, e é precisamente por isso que o usamos como contraprova dos nossos testes no terreno, em vez de nos fiarmos só num dos dois. Em português, a concorrência GEO nesta vertical é praticamente nula — quem estrutura bem o conteúdo agora ganha visibilidade cedo. Vê a metodologia completa na nossa [página de metodologia](/pt/metodologia/).
 
 ## O veredicto
 

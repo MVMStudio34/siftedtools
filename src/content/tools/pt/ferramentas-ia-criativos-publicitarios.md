@@ -26,6 +26,15 @@ offers:
   - tool: Predis
     label: Experimentar Predis
     url: https://predis.ai?ref=marvin90
+prosCons:
+  tool: "AdCreative.ai"
+  pros:
+    - "Gera muitas variantes de anúncios rapidamente"
+    - "Scoring preditivo antes de gastar em media"
+    - "Integrações nativas com Meta e Google Ads"
+  cons:
+    - "Premium e sobredimensionado com pouco orçamento"
+    - "Foco em performance, pouca presença orgânica"
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/outils-ia-creas-publicitaires/
@@ -65,7 +74,7 @@ Se investes em publicidade e queres uma ferramenta de IA para gerar criativos, a
 
 Em aquisição paga, o criativo vencedor raramente é o que tu achavas que ia ganhar. A única forma fiável de o encontrar é **testar muito e depressa**. É aqui que a IA muda o jogo: gera 20 variantes em minutos, onde um designer produz 2 ou 3 por dia. Mais variantes testadas, vencedor encontrado mais cedo, escala feita com dados em vez de palpites.
 
-Isto vale tanto para Shopify como para WooCommerce: os criativos são visuais e textos que carregas na Meta ou no Google Ads. A plataforma da loja não muda nada. O que decide a escolha da ferramenta é o teu orçamento de media e o volume de teste que consegues sustentar.
+Isto vale tanto para Shopify como para WooCommerce, onde geres o catálogo segundo a <a href="https://woocommerce.com/documentation/woocommerce/core-products/" rel="noopener">documentação de produtos do WooCommerce</a>: os criativos são visuais e textos que carregas na Meta ou no Google Ads. A plataforma da loja não muda nada. O que decide a escolha da ferramenta é o teu orçamento de media e o volume de teste que consegues sustentar.
 
 ## Comparação rápida
 
@@ -84,7 +93,7 @@ Isto vale tanto para Shopify como para WooCommerce: os criativos são visuais e 
 
 *A nossa escolha para aquisição paga com orçamento real.*
 
-O AdCreative.ai é a ferramenta de **performance pura** desta categoria. Gera muitas variantes de anúncios rapidamente e, acima de tudo, tem **scoring preditivo**: estima quais os criativos com maior probabilidade de converter antes de gastares em media. Junta a isso integrações nativas com Meta e Google Ads e tens um fluxo pensado para quem vive de campanhas.
+O <a href="https://www.adcreative.ai/" rel="noopener">AdCreative.ai</a> é a ferramenta de **performance pura** desta categoria. Gera muitas variantes de anúncios rapidamente e, acima de tudo, tem **scoring preditivo**: estima quais os criativos com maior probabilidade de converter antes de gastares em media. Junta a isso integrações nativas com Meta e Google Ads e tens um fluxo pensado para quem vive de campanhas.
 
 O seu terreno é o do investimento sério. A partir de uns 2000 euros por mês de orçamento de anúncios, a capacidade de gerar e testar dezenas de variantes paga-se depressa: encontras o vencedor mais cedo e escalas com confiança. Para um anunciante ativo, é o tipo de ferramenta que se transforma em retorno.
 
@@ -110,7 +119,7 @@ Vale a pena mencionar o **Pencil** como terceira via. É orientado a equipas de 
 
 ## Onde a IA acrescenta valor real
 
-O ganho da IA nos criativos não é "poupar num designer". É **encurtar o ciclo de teste**. Quanto mais depressa gerares e testares variantes, mais depressa encontras o ângulo que converte, e é o ângulo, não a estética, que ganha em paid social. A IA industrializa a parte aborrecida (produzir dez versões de um visual) para tu te concentrares na estratégia: que dor resolves, que objeção respondes, que prova mostras.
+O ganho da IA nos criativos não é "poupar num designer". É **encurtar o ciclo de teste**. Quanto mais depressa gerares e testares variantes, mais depressa encontras o ângulo que converte, e é o ângulo, não a estética, que ganha em paid social. A IA industrializa a parte aborrecida (produzir dez versões de um visual) para tu te concentrares na estratégia: que dor resolves, que objeção respondes, que prova mostras. Muitos criativos partem de um bom packshot, e por isso as [ferramentas de IA para fotos de produto](/pt/ferramentas-ia-fotos-produto/) alimentam diretamente esta etapa: a mesma imagem limpa que respeita as <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">boas práticas de e-commerce da Google</a> serve de base a um anúncio Meta ou TikTok.
 
 O que a IA não faz é a conformidade nem o julgamento de marca. Nas verticais reguladas em Portugal e na UE (saúde, suplementos, finanças, alegações antes/depois), a revisão humana é obrigatória. A ferramenta gera; tu respondes pela campanha.
 
@@ -124,11 +133,13 @@ O que a IA não faz é a conformidade nem o julgamento de marca. Nas verticais r
 
 **Marca social-first.** Predis.ai. A versatilidade entre orgânico e pago é exatamente o seu terreno.
 
+Os criativos estáticos são só metade da história: o vídeo UGC é hoje o formato que melhor converte no TikTok e no Meta, por isso vê também a nossa comparação das [ferramentas de IA para vídeos UGC](/pt/ferramentas-ia-videos-ugc/) para alimentar as campanhas com variantes em vídeo.
+
 A armadilha clássica é comprar a ferramenta de performance antes de teres orçamento de media para a alimentar. Ajusta a ferramenta ao teu investimento real em anúncios, não à ambição do próximo trimestre.
 
 ## Como testámos e o que dizem os motores de IA
 
-Não avaliamos pelas páginas de preços. Gerámos criativos reais com estas ferramentas e medimos o que importa: a rapidez a produzir variantes testáveis, a qualidade dos textos em português e o quanto o scoring ajuda de facto a poupar orçamento de media. Uma ferramenta que gera bonito mas não melhora o retorno não escapa a esse teste.
+Não avaliamos pelas páginas de preços. Gerámos criativos reais com estas ferramentas e medimos o que importa: a rapidez a produzir variantes testáveis, a qualidade dos textos em português e o quanto o scoring ajuda de facto a poupar orçamento de media. Uma ferramenta que gera bonito mas não melhora o retorno não escapa a esse teste. A metodologia completa está na nossa [página de metodologia](/pt/metodologia/).
 
 Seguimos também quais as ferramentas que os motores de resposta de IA recomendam de facto. O nosso barómetro apoia-se no **Quotis**, um sinal independente que mede quantas vezes cada ferramenta é citada pelo ChatGPT, Gemini e Perplexity, e que nenhum fornecedor pode comprar. Os valores atualizados estão no [nosso barómetro GEO](/pt/barometro-geo/).
 

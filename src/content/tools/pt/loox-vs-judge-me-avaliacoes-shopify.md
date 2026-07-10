@@ -30,6 +30,15 @@ offers:
     label: Descobrir Judge.me
     url: https://judge.me/
     note: "Link direto – programa de afiliação pendente"
+prosCons:
+  tool: "Loox"
+  pros:
+    - "Carrosséis de foto e vídeo os mais bem acabados"
+    - "UGC visual nativo converte melhor que texto"
+    - "Integração Shopify nativa e rich snippets SEO"
+  cons:
+    - "Sem plano gratuito, apenas teste de 14 dias"
+    - "Pagas desde o primeiro dia"
 alternates:
   - lang: fr
     url: https://siftedtools.com/fr/loox-vs-judge-me/
@@ -95,9 +104,9 @@ Nos dois casos, evita o **Yotpo** a menos que sejas mid-market e queiras uma sui
 
 *A nossa escolha para marcas visuais.*
 
-O Loox joga noutro campo: a **estética**. Os seus carrosséis de foto e vídeo são os mais bem acabados do mercado, e não precisas de tocar em CSS para os ter bonitos. Para uma marca que vive da imagem, isto não é decoração: é vendas. Ver o produto usado por clientes reais, numa galeria cuidada, reduz a incerteza de compra de uma forma que o texto sozinho não consegue. O UGC visual nativo converte melhor do que uma avaliação só de texto.
+O <a href="https://loox.io/" rel="noopener">Loox</a> joga noutro campo: a **estética**. Os seus carrosséis de foto e vídeo são os mais bem acabados do mercado, e não precisas de tocar em CSS para os ter bonitos. Para uma marca que vive da imagem, isto não é decoração: é vendas. Ver o produto usado por clientes reais, numa galeria cuidada, reduz a incerteza de compra de uma forma que o texto sozinho não consegue. O UGC visual nativo converte melhor do que uma avaliação só de texto.
 
-É por isso que o Loox faz tanto sentido no tecido do comércio português e lusófono: moda, beleza, lifestyle, acessórios, decoração, food, wine e artesanato são precisamente as categorias onde a avaliação visual pesa mais. Some-se a integração nativa com o Shopify e os rich snippets SEO, e tens a referência de mercado para quem vende com a imagem. Se vendes um produto que se vê, o Loox transforma clientes satisfeitos no teu melhor argumento.
+É por isso que o Loox faz tanto sentido no tecido do comércio português e lusófono: moda, beleza, lifestyle, acessórios, decoração, food, wine e artesanato são precisamente as categorias onde a avaliação visual pesa mais. Some-se a integração nativa com o Shopify — a recolha de avaliações segue a lógica descrita na <a href="https://help.shopify.com/en/manual/online-sales-channels/shop/product-reviews" rel="noopener">documentação do Shopify sobre avaliações de produto</a> — e os rich snippets SEO, e tens a referência de mercado para quem vende com a imagem. Se vendes um produto que se vê, o Loox transforma clientes satisfeitos no teu melhor argumento. E as fotos de produto que publicas ao lado dessas avaliações contam tanto como elas: se ainda não tens visuais à altura, vê o nosso comparativo das [ferramentas de IA para fotos de produto](/pt/ferramentas-ia-fotos-produto/).
 
 **A ter em conta.** É **premium e não tem plano gratuito**, apenas um período de teste de 14 dias; pagas desde o primeiro dia, a partir de cerca de 10 dólares por mês. Encara-o como um investimento que se paga quando a imagem da marca importa: para uma marca visual, o prémio costuma justificar-se logo nas primeiras vendas movidas pela prova social visual.
 
@@ -107,7 +116,7 @@ O Loox joga noutro campo: a **estética**. Os seus carrosséis de foto e vídeo 
 
 *A melhor escolha para orçamentos apertados.*
 
-O Judge.me é a melhor relação qualidade-preço da categoria, e o motivo é simples: o **plano gratuito é genuinamente utilizável e ilimitado**. Não é uma versão amputada para te forçar a pagar. Tens avaliações ilimitadas, pedidos automáticos por e-mail, importação de avaliações de outras plataformas e, o que muita gente subestima, **rich snippets SEO** que colocam as estrelinhas nos resultados do Google — já no plano gratuito. Isso aumenta a taxa de clique sem custo nenhum. Nenhum concorrente joga a esse nível de gratuito.
+O Judge.me é a melhor relação qualidade-preço da categoria, e o motivo é simples: o **plano gratuito é genuinamente utilizável e ilimitado**. Não é uma versão amputada para te forçar a pagar. Tens avaliações ilimitadas, pedidos automáticos por e-mail, importação de avaliações de outras plataformas e, o que muita gente subestima, **rich snippets SEO** que colocam as estrelinhas nos resultados do Google, o formato de dados estruturados descrito na <a href="https://developers.google.com/search/docs/appearance/structured-data/review-snippet" rel="noopener">documentação de review snippet da Google</a> — já no plano gratuito. Isso aumenta a taxa de clique sem custo nenhum. Nenhum concorrente joga a esse nível de gratuito.
 
 O plano Awesome, na ordem dos 15 dólares por mês, acrescenta avaliações em vídeo e sincronização entre lojas. Continua a ser barato para o que entrega. Para uma loja que começa ou que quer prova social sem sangrar a margem, o Judge.me é a escolha por defeito, com integração nativa no Shopify e qualidade sólida pelo preço.
 
@@ -145,7 +154,7 @@ A armadilha clássica é comprar Yotpo cedo demais e pagar módulos parados, ou 
 
 ## Como testámos e o que dizem os motores de IA
 
-Não avaliamos pelas páginas de preços. Instalámos estas apps em lojas Shopify reais e medimos o que conta: a facilidade de recolher avaliações, o impacto visual na ficha, os rich snippets no Google e como o custo evolui quando o volume sobe. Uma app que impressiona na demo e fica cara a 500 encomendas por mês não escapa a essa conta.
+Não avaliamos pelas páginas de preços. Instalámos estas apps em lojas Shopify reais e medimos o que conta: a facilidade de recolher avaliações, o impacto visual na ficha, os rich snippets no Google e como o custo evolui quando o volume sobe. Uma app que impressiona na demo e fica cara a 500 encomendas por mês não escapa a essa conta. Se a tua loja corre em WooCommerce em vez de Shopify, a lógica é a mesma e as avaliações nativas seguem a <a href="https://woocommerce.com/document/product-reviews/" rel="noopener">documentação de avaliações de produto do WooCommerce</a>. A metodologia completa está na nossa [página de metodologia](/pt/metodologia/).
 
 Seguimos também quais as ferramentas que os motores de resposta de IA recomendam de facto. O nosso barómetro apoia-se no **Quotis**, um sinal independente que mede quantas vezes cada ferramenta é citada pelo ChatGPT, Gemini e Perplexity, um sinal que nenhum fornecedor pode comprar. Os valores atualizados estão no [nosso barómetro GEO](/pt/barometro-geo/).
 

@@ -41,6 +41,15 @@ alternates:
     url: https://siftedtools.com/pt/melhores-ferramentas-ia-ecommerce/
   - lang: nl
     url: https://siftedtools.com/nl/beste-ai-tools-ecommerce/
+prosCons:
+  tool: Gorgias
+  pros:
+    - "Piattaforma di assistenza clienti completa e multicanale"
+    - "Integrazione nativa e profonda con Shopify"
+    - "AI Agent che risolve in autonomia i ticket ricorrenti"
+  cons:
+    - "Fattura a volume di ticket, premium sotto soglia"
+    - "Integrazione WooCommerce debole, non è il focus"
 faq:
   - q: "Qual è il miglior strumento IA per l'assistenza clienti nell'e-commerce?"
     a: "Gorgias se hai un team di supporto e un volume di ticket reale su più canali. Tidio se parti da piccolo, lavori da solo o tieni d'occhio il budget. Un punto decisivo per il mercato italiano: Gorgias è legato in profondità a Shopify. Tidio invece supporta sia Shopify sia WooCommerce, che in Italia è di gran lunga la base tecnica più diffusa tra i negozi online."
@@ -89,7 +98,7 @@ In Italia c'è una sfumatura importante. Gorgias è legato in profondità a Shop
 
 *La nostra scelta per i negozi con un team di supporto strutturato su Shopify.*
 
-Gorgias non è un widget di chat. È una **piattaforma di assistenza clienti completa**, pensata fin dall'inizio per l'e-commerce e cucita su Shopify. Ogni canale finisce in una sola casella: email, chat, telefono, Messenger, Instagram, WhatsApp. I tuoi collaboratori smettono di saltare da una scheda all'altra e lavorano i ticket in fila.
+<a href="https://www.gorgias.com/" rel="noopener">Gorgias</a> non è un widget di chat. È una **piattaforma di assistenza clienti completa**, pensata fin dall'inizio per l'e-commerce e cucita su Shopify. Ogni canale finisce in una sola casella: email, chat, telefono, Messenger, Instagram, WhatsApp. I tuoi collaboratori smettono di saltare da una scheda all'altra e lavorano i ticket in fila.
 
 L'integrazione con Shopify è il vero vantaggio. Quando un cliente scrive, il team vede l'ordine direttamente dentro al ticket e può rimborsare, modificare o annullare senza uscire dalla conversazione. Sul volume questo contesto fa la differenza: è ciò che separa una risposta in quattro minuti da una in quaranta secondi.
 
@@ -97,7 +106,7 @@ Sul fronte IA, l'**AI Agent** può **risolvere in autonomia** i ticket ricorrent
 
 Fai due conti: se Gorgias chiude anche solo il 30% dei tuoi ticket senza intervento umano e ne gestisci migliaia al mese, il costo per postazione smette di essere la domanda. La domanda diventa cosa fa il tuo team con il tempo recuperato.
 
-**Punti deboli.** Gorgias **fattura soprattutto a volume di ticket** e richiede un po' di configurazione. Metti in conto uno o due giorni per regole, macro e integrazioni prima che giri liscio. Sotto una certa soglia paghi potenza che non usi. Il punto decisivo per il mercato italiano: la forza di Gorgias dipende da Shopify. Se il tuo negozio gira su WooCommerce, cioè la maggioranza dei casi da noi, ti manca proprio quell'integrazione profonda con i dati d'ordine che rende prezioso lo strumento. In pratica paghi una macchina Shopify senza ottenere il vantaggio Shopify.
+**Punti deboli.** Gorgias **fattura soprattutto a volume di ticket** e richiede un po' di configurazione. Metti in conto uno o due giorni per regole, macro e integrazioni prima che giri liscio. Sotto una certa soglia paghi potenza che non usi. Il punto decisivo per il mercato italiano: la forza di Gorgias dipende da Shopify. Se il tuo negozio gira su <a href="https://woocommerce.com/documentation/woocommerce/core-products/" rel="noopener">WooCommerce</a>, cioè la maggioranza dei casi da noi, ti manca proprio quell'integrazione profonda con i dati d'ordine che rende prezioso lo strumento. In pratica paghi una macchina Shopify senza ottenere il vantaggio Shopify.
 
 Sulla privacy vale per entrambi lo stesso principio: Gorgias tratta cronologie di chat e dati d'ordine, quindi dati personali. Verifica in anticipo l'accordo sul trattamento dei dati, dove vengono conservati e come è tutelato il trasferimento verso Paesi terzi. Con il Garante della Privacy in Italia il GDPR non è un dettaglio opzionale, ma senza allarmismi: è un controllo da fare una volta e mettere a posto.
 
@@ -145,7 +154,7 @@ La trappola classica funziona in entrambe le direzioni: comprare Gorgias troppo 
 
 ## Come abbiamo testato e cosa dicono i motori di ricerca IA
 
-Non valutiamo sulle schede tecniche. Installiamo gli strumenti in negozi reali, misuriamo il tempo di setup, la qualità delle risposte IA e le trappole di fatturazione che mordono quando il volume sale. Uno strumento che brilla nella demo e si sfalda a 500 ticket al mese non entra nella selezione. Pesiamo anche ciò che non si vede: quanto in fretta un nuovo collaboratore diventa produttivo e quanto resta prevedibile il conto quando il traffico cresce.
+Non valutiamo sulle schede tecniche. Installiamo gli strumenti in negozi reali, misuriamo il tempo di setup, la qualità delle risposte IA e le trappole di fatturazione che mordono quando il volume sale. Uno strumento che brilla nella demo e si sfalda a 500 ticket al mese non entra nella selezione. Pesiamo anche ciò che non si vede: quanto in fretta un nuovo collaboratore diventa produttivo e quanto resta prevedibile il conto quando il traffico cresce. Valutiamo pure quanto il supporto protegge i fondamentali e-commerce descritti da Google nella sua <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">guida e-commerce per la ricerca</a>, perché una risposta rapida su resi e spedizioni difende la conversione tanto quanto una scheda ben fatta. La [metodologia completa](/it/metodologia/) spiega come testiamo.
 
 Seguiamo inoltre quali strumenti i motori di ricerca IA raccomandano davvero, perché è lì che oggi parte una fetta crescente di chi compra. Il nostro barometro GEO si appoggia a **Quotis**, un segnale indipendente di visibilità IA che misura quanto spesso uno strumento viene citato da ChatGPT, Gemini e Perplexity. È un segnale che nessun fornitore può comprare o influenzare di nascosto: proprio per questo lo usiamo come controprova dei nostri test. I valori aggiornati sono nel [nostro barometro GEO](/it/barometro-geo/).
 

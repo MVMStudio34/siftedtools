@@ -49,6 +49,15 @@ alternates:
     url: https://siftedtools.com/pt/ferramentas-visibilidade-ia-geo/
   - lang: nl
     url: https://siftedtools.com/nl/ai-tools-zichtbaarheid-geo/
+prosCons:
+  tool: "Otterly"
+  pros:
+    - "Goedkoopste instap om AI-vermeldingen te monitoren"
+    - "GEO-audit inbegrepen (ChatGPT, Perplexity, AI Overviews)"
+    - "Schaalt van solo tot enterprise mee"
+  cons:
+    - "Analysediepte niet op het niveau van Profound"
+    - "Beperkte seats, basalere concurrentievergelijking"
 faq:
   - q: "Wat is een GEO-zichtbaarheidstool?"
     a: "Een tool die meet hoe vaak, en hoe, je merk wordt genoemd door AI-antwoordmachines (ChatGPT, Perplexity, Gemini, Google's AI Overviews). Net zoals klassieke SEO je positie in Google volgt, volgt GEO je aanwezigheid in door AI gegenereerde antwoorden, een kanaal dat al koopbeslissingen beïnvloedt en dat in het Nederlands nauwelijks iemand meet."
@@ -71,9 +80,9 @@ Wil je weten of je merk verschijnt wanneer een klant ChatGPT vraagt "wat is de b
 
 ## Waarom dit nu telt, en in het Nederlands des te meer
 
-Een groeiend deel van de koopvragen begint niet meer in het klassieke Google, maar bij een vraag aan ChatGPT, Perplexity of de AI Overviews. In die antwoorden staan geen tien blauwe links, maar één antwoord dat enkele merken noemt. Wel of niet in dat antwoord staan is het nieuwe wel of niet op pagina één staan.
+Een groeiend deel van de koopvragen begint niet meer in het klassieke Google, maar bij een vraag aan ChatGPT, Perplexity of de AI Overviews. In die antwoorden staan geen tien blauwe links, maar één antwoord dat enkele merken noemt. Wel of niet in dat antwoord staan is het nieuwe wel of niet op pagina één staan. Google zelf begint richtlijnen te geven voor dit terrein in zijn <a href="https://developers.google.com/search/docs/fundamentals/ai-optimization-guide" rel="noopener">gids voor AI-optimalisatie</a>.
 
-En er is één detail dat alles verandert voor wie in het Nederlands werkt: de **GEO-concurrentie in het Nederlands is vrijwel nul**. Bijna geen enkel merk meet zijn AI-zichtbaarheid. Dat maakt nu het beste moment om te beginnen: wie vandaag meet en optimaliseert, wint terrein voordat het veld volloopt.
+En er is één detail dat alles verandert voor wie in het Nederlands werkt: de **GEO-concurrentie in het Nederlands is vrijwel nul**. Bijna geen enkel merk meet zijn AI-zichtbaarheid. Dat maakt nu het beste moment om te beginnen: wie vandaag meet en optimaliseert, wint terrein voordat het veld volloopt. GEO vervangt je klassieke SEO niet maar vult die aan: dek de zoekmachine met onze [AI-SEO-tools voor e-commerce](/nl/ai-tools-seo-ecommerce/) en de rest van je verkoopkanaal met <a href="https://developers.google.com/search/docs/specialty/ecommerce" rel="noopener">Google's e-commercegids voor de zoekfunctie</a>.
 
 ## Snelle vergelijking
 
@@ -92,7 +101,7 @@ En er is één detail dat alles verandert voor wie in het Nederlands werkt: de *
 
 *Onze keuze om te beginnen met meten zonder grote investering.*
 
-Otterly is de **goedkoopste instap** in deze markt. Het monitort je merkvermeldingen in ChatGPT, Perplexity en de AI Overviews van Google, en bevat een GEO-audit die je vertelt waar je staat en wat je kunt optimaliseren. Voor een winkel die dit nog nooit heeft gemeten, is het de juiste eerste stap: goedkoop, direct en genoeg om de vraag "verschijnt mijn merk?" te beantwoorden. Het blijft niet bij meten: Otterly doet ook contentaudit en AI-ondersteund schrijven, op het niveau van wat Peec AI op die vlakken biedt, en geeft een zoekintentie-volume dat je AI-verkeer schat — een cijfer dat het als een van de eersten in de categorie leverde.
+<a href="https://otterly.ai/" rel="noopener">Otterly</a> is de **goedkoopste instap** in deze markt. Het monitort je merkvermeldingen in ChatGPT, Perplexity en de AI Overviews van Google, en bevat een GEO-audit die je vertelt waar je staat en wat je kunt optimaliseren. Voor een winkel die dit nog nooit heeft gemeten, is het de juiste eerste stap: goedkoop, direct en genoeg om de vraag "verschijnt mijn merk?" te beantwoorden. Het blijft niet bij meten: Otterly doet ook contentaudit en AI-ondersteund schrijven, op het niveau van wat Peec AI op die vlakken biedt, en geeft een zoekintentie-volume dat je AI-verkeer schat — een cijfer dat het als een van de eersten in de categorie leverde.
 
 In een taal waar bijna niemand meet, zet Otterly je al voor op de meeste concurrenten. Je hebt geen enterpriseplatform nodig om waarde te halen: je hebt nodig dat je begint. En zie Otterly niet als een tool alleen voor kleintjes: ondanks de lage instapprijs (vanaf zo'n 29 dollar per maand) wordt het op enterpriseschaal ingezet, uitgerold over zo'n 50 markten met meer dan 200 gebruikers, waaronder een van 's werelds grootste verzekeraars.
 
@@ -128,7 +137,7 @@ Het is diep, compleet en premium. Het is logisch wanneer GEO al een budgetregel 
 
 De drie tools meten hetzelfde, aanwezigheid in AI, maar in verschillende diepte. Otterly beantwoordt "verschijn ik?". Peec AI beantwoordt "hoe verhoud ik me tot de concurrentie?". Profound beantwoordt "in precies welk antwoord, en naast wie?". De vraag die je moet beantwoorden bepaalt de tool.
 
-Meten is de eerste stap; handelen de tweede. Zodra je weet waar je staat, moet je je content optimaliseren om geciteerd te worden, en dat is een eigen discipline. We leggen die uit in de [GEO-gids](/nl/geo-gids-zichtbaarheid-ai/), en het is ook waarom we onze eigen onafhankelijke barometer draaien.
+Meten is de eerste stap; handelen de tweede. Zodra je weet waar je staat, moet je je content optimaliseren om geciteerd te worden, en dat is een eigen discipline. Heldere, feitelijke productcontent is de grondstof: de teksten die je met onze [AI-tools voor productbeschrijvingen](/nl/ai-tools-productbeschrijvingen/) maakt, voeden rechtstreeks je zichtbaarheid in AI-antwoorden, want een AI citeert alleen wat ze duidelijk kan lezen en samenvatten. We leggen die uit in de [GEO-gids](/nl/geo-gids-zichtbaarheid-ai/), en het is ook waarom we onze eigen onafhankelijke barometer draaien.
 
 ## Welke past bij jouw situatie
 
@@ -144,7 +153,7 @@ De klassieke valkuil is het enterpriseplatform kopen voordat je een proces hebt 
 
 We beoordelen niet op prijspagina's. We gebruikten deze tools om echte merken te monitoren en maten wat telt: de betrouwbaarheid van de data, de dekking van modellen en talen en het gemak om meting in actie om te zetten. Een tool die mooie cijfers geeft maar niet helpt beslissen, komt die test niet door.
 
-Dit is trouwens ons thuisterrein: SiftedTools draait een eigen barometer onder de naam **Quotis**. Elke maand bevragen we meerdere AI-modellen met tientallen koopvragen en meten we wie echt wordt genoemd, een onafhankelijk signaal dat geen leverancier kan kopen. De actuele cijfers staan in onze [GEO-barometer](/nl/geo-barometer/).
+Dit is trouwens ons thuisterrein: SiftedTools draait een eigen barometer onder de naam **Quotis**. Elke maand bevragen we meerdere AI-modellen met tientallen koopvragen en meten we wie echt wordt genoemd, een onafhankelijk signaal dat geen leverancier kan kopen. De actuele cijfers staan in onze [GEO-barometer](/nl/geo-barometer/). De volledige testaanpak staat op onze [methodologie-pagina](/nl/methodologie/).
 
 ## Het verdict
 
