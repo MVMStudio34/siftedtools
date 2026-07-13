@@ -32,6 +32,7 @@ offers:
   - tool: Creatify
     label: See Creatify
     url: https://creatify.ai/?via=marvin
+    note: "direct link – affiliate pending"
   - tool: HeyGen
     label: Try HeyGen
     url: https://www.heygen.com/
