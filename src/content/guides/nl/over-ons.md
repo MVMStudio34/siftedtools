@@ -1,6 +1,6 @@
 ---
 title: "Over SiftedTools: wie de tools test en waarom"
-description: "SiftedTools wordt uitgegeven door Marvin Munos (MVM Studio). 15 jaar ervaring in retail en e-commerce, redactionele oordelen getest op echte shops."
+description: "SiftedTools wordt uitgegeven door Marvin Munos (Harmonie). 15 jaar ervaring in retail en e-commerce, redactionele oordelen getest op echte shops."
 lang: "nl"
 updatedAt: 2026-07-03
 reviewedBy: "Marvin Munos"
@@ -25,7 +25,7 @@ alternates:
 offers: []
 faq:
   - q: "Wie geeft SiftedTools uit?"
-    a: "SiftedTools wordt uitgegeven door MVM Studio, een eenmanszaak geregistreerd in Frankrijk met SIRET 844 116 053 00035. Oprichter en hoofdauteur is Marvin Munos."
+    a: "SiftedTools wordt uitgegeven door Harmonie, een eenmanszaak geregistreerd in Frankrijk met SIRET 392 358 180 00082. Oprichter en hoofdauteur is Marvin Munos."
   - q: "Hoe verdient SiftedTools geld?"
     a: "Via affiliate-links naar de tools die we aanraden. Geen enkel merk kan betalen voor een betere ranking."
 ---
@@ -76,7 +76,7 @@ Naast onze menselijke tests beheren we een onafhankelijk meetinstrument, **Quoti
 
 ## De uitgever
 
-**MVM Studio** is een Franse eenmanszaak (auto-entrepreneur), geregistreerd onder SIRET **844 116 053 00035**. Verantwoordelijk uitgever is Marvin Munos.
+**Harmonie** is een Franse eenmanszaak (auto-entrepreneur), geregistreerd onder SIRET **392 358 180 00082**. Verantwoordelijk uitgever is Marvin Munos.
 
 Het postadres, de wettelijke gegevens en de informatie over de hostingpartij vind je op onze [Juridische kennisgeving](/nl/juridische-kennisgeving/).
 

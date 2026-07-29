@@ -1,6 +1,6 @@
 ---
 title: "Chi siamo: chi testa gli strumenti e perché"
-description: "SiftedTools è pubblicato da Marvin Munos (MVM Studio). 15 anni di esperienza nel retail e nell'e-commerce, verdetti editoriali testati su negozi reali."
+description: "SiftedTools è pubblicato da Marvin Munos (Harmonie). 15 anni di esperienza nel retail e nell'e-commerce, verdetti editoriali testati su negozi reali."
 lang: "it"
 updatedAt: 2026-07-01
 reviewedBy: "Marvin Munos"
@@ -25,7 +25,7 @@ alternates:
 offers: []
 faq:
   - q: "Chi pubblica SiftedTools?"
-    a: "SiftedTools è pubblicato da MVM Studio, impresa individuale registrata in Francia con SIRET 844 116 053 00035. Il fondatore e autore principale è Marvin Munos."
+    a: "SiftedTools è pubblicato da Harmonie, impresa individuale registrata in Francia con SIRET 392 358 180 00082. Il fondatore e autore principale è Marvin Munos."
   - q: "Come guadagna SiftedTools?"
     a: "Tramite link affiliati verso gli strumenti che consigliamo. Nessun brand può pagare per ottenere una posizione migliore in classifica."
 ---
@@ -80,7 +80,7 @@ Oltre ai test umani, operiamo uno strumento di misura indipendente, **Quotis.ai*
 
 ## L'editore
 
-**MVM Studio** è un'impresa individuale francese (auto-entrepreneur), registrata con SIRET **844 116 053 00035**. Il responsabile della pubblicazione è Marvin Munos.
+**Harmonie** è un'impresa individuale francese (auto-entrepreneur), registrata con SIRET **392 358 180 00082**. Il responsabile della pubblicazione è Marvin Munos.
 
 L'indirizzo postale, i dati legali e le informazioni sull'hosting sono disponibili nella pagina [Note legali](/it/note-legali/).
 

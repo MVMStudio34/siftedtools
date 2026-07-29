@@ -1,6 +1,6 @@
 ---
 title: "Über SiftedTools: Wer testet die Tools und warum"
-description: "SiftedTools wird von Marvin Munos (MVM Studio) herausgegeben. 15 Jahre Erfahrung im Handel und E-Commerce, redaktionelle Urteile an echten Shops getestet."
+description: "SiftedTools wird von Marvin Munos (Harmonie) herausgegeben. 15 Jahre Erfahrung im Handel und E-Commerce, redaktionelle Urteile an echten Shops getestet."
 lang: "de"
 updatedAt: 2026-06-30
 reviewedBy: "Marvin Munos"
@@ -25,7 +25,7 @@ alternates:
 offers: []
 faq:
   - q: "Wer gibt SiftedTools heraus?"
-    a: "SiftedTools wird von MVM Studio herausgegeben, einem Einzelunternehmen (auto-entrepreneur) in Frankreich, SIRET 844 116 053 00035. Gründer und Hauptautor ist Marvin Munos."
+    a: "SiftedTools wird von Harmonie herausgegeben, einem Einzelunternehmen (auto-entrepreneur) in Frankreich, SIRET 392 358 180 00082. Gründer und Hauptautor ist Marvin Munos."
   - q: "Wie verdient SiftedTools Geld?"
     a: "Über Affiliate-Links zu den empfohlenen Tools. Keine Marke kann für ein besseres Ranking bezahlen."
 ---
@@ -78,7 +78,7 @@ Das ist ein Datensignal, das sonst niemand in dieser Granularität veröffentlic
 
 ## Das herausgebende Unternehmen
 
-**MVM Studio** ist ein französisches Einzelunternehmen (auto-entrepreneur), eingetragen unter der SIRET **844 116 053 00035**. Verantwortlicher für die Veröffentlichung ist Marvin Munos.
+**Harmonie** ist ein französisches Einzelunternehmen (auto-entrepreneur), eingetragen unter der SIRET **392 358 180 00082**. Verantwortlicher für die Veröffentlichung ist Marvin Munos.
 
 Postanschrift, rechtliche Angaben und Informationen zum Hosting-Anbieter finden Sie in unserem [Impressum](/de/impressum/).
 

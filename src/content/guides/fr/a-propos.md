@@ -1,6 +1,6 @@
 ---
 title: "À propos de SiftedTools : qui teste les outils, et pourquoi"
-description: "SiftedTools est édité par Marvin Munos (MVM Studio). 15 ans d'expérience retail et e-commerce, des verdicts éditoriaux testés sur de vraies boutiques."
+description: "SiftedTools est édité par Marvin Munos (Harmonie). 15 ans d'expérience retail et e-commerce, des verdicts éditoriaux testés sur de vraies boutiques."
 lang: "fr"
 updatedAt: 2026-06-22
 reviewedBy: "Marvin Munos"
@@ -25,7 +25,7 @@ alternates:
 offers: []
 faq:
   - q: "Qui édite SiftedTools ?"
-    a: "SiftedTools est édité par MVM Studio, entreprise individuelle (auto-entrepreneur) immatriculée en France sous le SIRET 844 116 053 00035. Le fondateur et auteur principal est Marvin Munos, ancien sales director en grande distribution et FMCG, opérateur de boutiques e-commerce et auteur de tous les comparatifs publiés sur le site."
+    a: "SiftedTools est édité par Harmonie, entreprise individuelle (auto-entrepreneur) immatriculée en France sous le SIRET 392 358 180 00082. Le fondateur et auteur principal est Marvin Munos, ancien sales director en grande distribution et FMCG, opérateur de boutiques e-commerce et auteur de tous les comparatifs publiés sur le site."
   - q: "Pourquoi SiftedTools a été créé ?"
     a: "Parce que la majorité des sites comparatifs d'outils IA pour e-commerce sont écrits par des content writers qui n'ont jamais géré une boutique. Les critères qu'ils évaluent ne correspondent pas aux contraintes réelles d'un opérateur. Marvin a créé SiftedTools pour publier des verdicts éditoriaux issus de tests sur ses propres boutiques, avec les critères qu'un vrai e-commerçant utiliserait."
   - q: "Comment SiftedTools gagne de l'argent ?"
@@ -88,7 +88,7 @@ C'est une donnée que personne d'autre ne publie en France à ce niveau de granu
 
 ## L'entreprise éditrice
 
-**MVM Studio** est une entreprise individuelle (auto-entrepreneur) française, immatriculée sous le SIRET **844 116 053 00035**. Le responsable de la publication est Marvin Munos.
+**Harmonie** est une entreprise individuelle (auto-entrepreneur) française, immatriculée sous le SIRET **392 358 180 00082**. Le responsable de la publication est Marvin Munos.
 
 L'adresse postale, les coordonnées légales et les informations relatives à l'hébergeur sont disponibles sur notre page [Mentions légales](/fr/mentions-legales/).
 
