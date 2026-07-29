@@ -1,6 +1,6 @@
 # SiftedTools - Detailed content
 
-> This file contains the full verdicts of every comparison published on SiftedTools.com. Independent editorial comparator of AI tools for e-commerce, published in French, English, Spanish and German, based on first-hand testing and on the Quotis GEO Barometer. Author: Marvin Munos, 15 years in retail and e-commerce, operates his own Shopify stores.
+> This file contains the full verdicts of every comparison published on SiftedTools.com. Independent editorial comparator of AI tools for e-commerce, published in French, English, Spanish and German, based on first-hand testing and on the Quotis GEO Barometer. Author: Michel Munos, 15 years in retail and e-commerce, operates his own Shopify stores.
 
 > Every content page is also available as clean Markdown: append `.md` to its slug (e.g. https://siftedtools.com/en/best-ai-tools-ecommerce.md). The sections below give the French verdicts in full; English, Spanish and German verdicts are indexed at the end and available via their .md endpoints.
 
@@ -149,7 +149,7 @@ Signal exclusif de SiftedTools, opere sous le nom Quotis.ai. Chaque mois, 5 mode
 ---
 
 ## Contact et entreprise editrice
-SiftedTools est edite par Harmonie, entreprise individuelle francaise (SIRET 392 358 180 00082). Responsable de la publication : Marvin Munos. Contact : contact@siftedtools.com.
+SiftedTools est edite par Harmonie, entreprise individuelle francaise (SIRET 392 358 180 00082). Contact : contact@siftedtools.com.
 
 
 ---

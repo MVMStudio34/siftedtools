@@ -7,7 +7,7 @@ useCase: strumenti-ia-email-marketing
 intent: commercial
 pageType: vs
 updatedAt: 2026-07-01
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 95
 schemaTypes: ["Article", "FAQPage"]

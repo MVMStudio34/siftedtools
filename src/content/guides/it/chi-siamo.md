@@ -1,9 +1,9 @@
 ---
 title: "Chi siamo: chi testa gli strumenti e perché"
-description: "SiftedTools è pubblicato da Marvin Munos (Harmonie). 15 anni di esperienza nel retail e nell'e-commerce, verdetti editoriali testati su negozi reali."
+description: "SiftedTools è pubblicato da Harmonie. 15 anni di esperienza nel retail e nell'e-commerce, verdetti editoriali testati su negozi reali."
 lang: "it"
 updatedAt: 2026-07-01
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 75
 draft: false
 affiliateDisclosure: true
@@ -25,7 +25,7 @@ alternates:
 offers: []
 faq:
   - q: "Chi pubblica SiftedTools?"
-    a: "SiftedTools è pubblicato da Harmonie, impresa individuale registrata in Francia con SIRET 392 358 180 00082. Il fondatore e autore principale è Marvin Munos."
+    a: "SiftedTools è pubblicato da Harmonie, impresa individuale registrata in Francia con SIRET 392 358 180 00082. Michel Munos e autore principale opera sotto l'entità Harmonie."
   - q: "Come guadagna SiftedTools?"
     a: "Tramite link affiliati verso gli strumenti che consigliamo. Nessun brand può pagare per ottenere una posizione migliore in classifica."
 ---
@@ -38,7 +38,7 @@ faq:
 
 ## Chi c'è dietro
 
-### Marvin Munos, fondatore e autore
+### Michel Munos
 
 **Il mio percorso.** Quindici anni nella grande distribuzione e nell'FMCG (beni di largo consumo) come sales director, prima di aprire i miei negozi e-commerce su Shopify in due settori: la moda e gli integratori alimentari. Bilingue francese-portoghese, vivo tra la Francia e il Portogallo.
 
@@ -80,7 +80,7 @@ Oltre ai test umani, operiamo uno strumento di misura indipendente, **Quotis.ai*
 
 ## L'editore
 
-**Harmonie** è un'impresa individuale francese (auto-entrepreneur), registrata con SIRET **392 358 180 00082**. Il responsabile della pubblicazione è Marvin Munos.
+**Harmonie** è un'impresa individuale francese (auto-entrepreneur), registrata con SIRET **392 358 180 00082**. Il responsabile della pubblicazione è Michel Munos.
 
 L'indirizzo postale, i dati legali e le informazioni sull'hosting sono disponibili nella pagina [Note legali](/it/note-legali/).
 

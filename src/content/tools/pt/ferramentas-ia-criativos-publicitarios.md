@@ -7,7 +7,7 @@ useCase: criativos-publicitarios-ia
 intent: commercial
 pageType: vs
 updatedAt: 2026-07-03
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 90
 schemaTypes: ["Article", "FAQPage"]

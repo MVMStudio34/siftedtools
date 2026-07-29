@@ -3,7 +3,7 @@ title: "Methodologie: hoe wij AI-tools testen"
 description: "Hoe SiftedTools AI-tools voor e-commerce test, beoordeelt en rangschikt. Tests op echte shops, GEO-barometer, redactionele onafhankelijkheid."
 lang: "nl"
 updatedAt: 2026-07-03
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 80
 draft: false
 affiliateDisclosure: true
@@ -81,7 +81,7 @@ Klantenservicetools testen we op 50 echte, geanonimiseerde gesprekken in 3 talen
 
 ### Stap 3: menselijke beoordeling
 
-Elke output wordt met de hand beoordeeld door Marvin Munos: een score van 1 tot 5 per criterium, met kwalitatieve notities. Om vertekening te beperken beoordelen we blind waar dat technisch kan (dezelfde briefings, geanonimiseerde outputs). De concrete testpunten zijn steeds dezelfde: de installatie- en configuratietijd, de werkelijke kwaliteit van de AI-output, en de facturatievalkuilen (kosten die pas bij volume opduiken).
+Elke output wordt met de hand beoordeeld door Michel Munos: een score van 1 tot 5 per criterium, met kwalitatieve notities. Om vertekening te beperken beoordelen we blind waar dat technisch kan (dezelfde briefings, geanonimiseerde outputs). De concrete testpunten zijn steeds dezelfde: de installatie- en configuratietijd, de werkelijke kwaliteit van de AI-output, en de facturatievalkuilen (kosten die pas bij volume opduiken).
 
 ### Stap 4: kruising met de GEO-barometer
 
@@ -112,7 +112,7 @@ De beste structurele garantie: meerdere tools die we bovenaan zetten (ChatGPT, C
 
 ## Wie de tools test
 
-De beoordeling gebeurt door **Marvin Munos**, oprichter van SiftedTools. Vijftien jaar in de grootdistributie en FMCG als sales director, uitbater van eigen Shopify-shops (mode en voedingssupplementen), tweetalig Frans-Portugees. Marvin bouwt, runt en test de tools op zijn eigen shops voordat hij ze aanraadt, en beoordeelt ze in de context van echte marges en echte beperkingen.
+De beoordeling gebeurt door **Michel Munos**, oprichter van SiftedTools. Vijftien jaar in de grootdistributie en FMCG als sales director, uitbater van eigen Shopify-shops (mode en voedingssupplementen), tweetalig Frans-Portugees. Michel Munos bouwt, runt en test de tools op zijn eigen shops voordat hij ze aanraadt, en beoordeelt ze in de context van echte marges en echte beperkingen.
 
 ## Update-beleid
 

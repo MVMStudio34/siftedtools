@@ -3,7 +3,7 @@ title: "Metodologia: come testiamo gli strumenti IA"
 description: "Come SiftedTools testa, valuta e classifica gli strumenti IA per e-commerce. Test su negozi reali, Barometro GEO, indipendenza editoriale."
 lang: "it"
 updatedAt: 2026-07-01
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 80
 draft: false
 affiliateDisclosure: true
@@ -76,7 +76,7 @@ Manteniamo due cataloghi e-commerce reali per i test sugli strumenti di contenut
 
 ### Passo 3: valutazione umana
 
-Ogni output è valutato da un umano, Marvin Munos. Voto da 1 a 5 su ciascun criterio, con note qualitative. Per ridurre i bias le valutazioni sono cieche dove tecnicamente possibile: stessi brief, output anonimizzati.
+Ogni output è valutato da un umano, Michel Munos. Voto da 1 a 5 su ciascun criterio, con note qualitative. Per ridurre i bias le valutazioni sono cieche dove tecnicamente possibile: stessi brief, output anonimizzati.
 
 ### Passo 4: incrocio con il Barometro GEO
 
@@ -107,7 +107,7 @@ I link affiliati finanziano il sito, ma non cambiano mai le classifiche. Quattro
 
 ## Chi testa gli strumenti
 
-La valutazione umana è affidata a **Marvin Munos**, fondatore di SiftedTools: 15 anni nella grande distribuzione e nell'FMCG come sales director, operatore di negozi Shopify (moda e integratori), bilingue francese-portoghese. Marvin testa gli strumenti sui propri negozi, con margini e vincoli reali, prima di consigliarli. Puoi leggere il suo percorso nella pagina [Chi siamo](/it/chi-siamo/).
+La valutazione umana è affidata a **Michel Munos**, fondatore di SiftedTools: 15 anni nella grande distribuzione e nell'FMCG come sales director, operatore di negozi Shopify (moda e integratori), bilingue francese-portoghese. Michel Munos testa gli strumenti sui propri negozi, con margini e vincoli reali, prima di consigliarli. Puoi leggere il suo percorso nella pagina [Chi siamo](/it/chi-siamo/).
 
 ## Frequenza di aggiornamento
 

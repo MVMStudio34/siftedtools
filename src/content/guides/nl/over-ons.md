@@ -1,9 +1,9 @@
 ---
 title: "Over SiftedTools: wie de tools test en waarom"
-description: "SiftedTools wordt uitgegeven door Marvin Munos (Harmonie). 15 jaar ervaring in retail en e-commerce, redactionele oordelen getest op echte shops."
+description: "SiftedTools wordt uitgegeven door Harmonie. 15 jaar ervaring in retail en e-commerce, redactionele oordelen getest op echte shops."
 lang: "nl"
 updatedAt: 2026-07-03
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 75
 draft: false
 affiliateDisclosure: true
@@ -25,7 +25,7 @@ alternates:
 offers: []
 faq:
   - q: "Wie geeft SiftedTools uit?"
-    a: "SiftedTools wordt uitgegeven door Harmonie, een eenmanszaak geregistreerd in Frankrijk met SIRET 392 358 180 00082. Oprichter en hoofdauteur is Marvin Munos."
+    a: "SiftedTools wordt uitgegeven door Harmonie, een eenmanszaak geregistreerd in Frankrijk met SIRET 392 358 180 00082. Michel Munos en hoofdauteur opereert onder de entiteit Harmonie."
   - q: "Hoe verdient SiftedTools geld?"
     a: "Via affiliate-links naar de tools die we aanraden. Geen enkel merk kan betalen voor een betere ranking."
 ---
@@ -38,7 +38,7 @@ Zo simpel is het. En zo zeldzaam is het in een markt vol vergelijkingen die gesc
 
 ## Wie er achter zit
 
-### Marvin Munos, oprichter en auteur
+### Michel Munos
 
 **Mijn achtergrond.** Vijftien jaar in de grootdistributie en FMCG (Fast Moving Consumer Goods) op het niveau van sales director, waarna ik mijn eigen Shopify-shops opzette in twee segmenten: mode en voedingssupplementen. Ik ben tweetalig Frans-Portugees en woon afwisselend in Frankrijk en Portugal.
 
@@ -76,9 +76,7 @@ Naast onze menselijke tests beheren we een onafhankelijk meetinstrument, **Quoti
 
 ## De uitgever
 
-**Harmonie** is een Franse eenmanszaak (auto-entrepreneur), geregistreerd onder SIRET **392 358 180 00082**. Verantwoordelijk uitgever is Marvin Munos.
-
-Het postadres, de wettelijke gegevens en de informatie over de hostingpartij vind je op onze [Juridische kennisgeving](/nl/juridische-kennisgeving/).
+**Harmonie** is een Franse eenmanszaak (auto-entrepreneur), geregistreerd onder SIRET **392 358 180 00082**. Het postadres, de wettelijke gegevens en de informatie over de hostingpartij vind je op onze [Juridische kennisgeving](/nl/juridische-kennisgeving/).
 
 ## Contact
 

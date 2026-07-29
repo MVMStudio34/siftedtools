@@ -3,7 +3,7 @@ title: "Metodología: cómo probamos las herramientas IA"
 description: "Cómo SiftedTools prueba, puntúa y clasifica las herramientas IA para e-commerce. Pruebas en tiendas reales, Barómetro GEO, independencia editorial."
 lang: "es"
 updatedAt: 2026-06-30
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 80
 draft: false
 affiliateDisclosure: true
@@ -76,7 +76,7 @@ Mantenemos dos catálogos de e-commerce reales para las herramientas de contenid
 
 ### Paso 3: evaluación humana
 
-Cada resultado lo evalúa Marvin Munos (ver «Quién prueba»), con una puntuación de 1 a 5 por criterio y notas cualitativas. Para reducir sesgos, la evaluación se hace a ciegas siempre que es técnicamente posible: mismos briefs, resultados anonimizados.
+Cada resultado lo evalúa Michel Munos (ver «Quién prueba»), con una puntuación de 1 a 5 por criterio y notas cualitativas. Para reducir sesgos, la evaluación se hace a ciegas siempre que es técnicamente posible: mismos briefs, resultados anonimizados.
 
 ### Paso 4: cruce con el Barómetro GEO
 
@@ -102,7 +102,7 @@ Cuatro salvaguardas lo garantizan: varias herramientas en cabeza (ChatGPT, Claud
 
 ## Quién prueba las herramientas
 
-La evaluación humana la realiza **Marvin Munos**, fundador de SiftedTools: quince años en gran distribución y gran consumo (FMCG) como director de ventas, operador de tiendas Shopify en moda y complementos alimenticios, bilingüe francés-portugués. Construye, opera y prueba las herramientas en sus propias tiendas antes de recomendarlas, evaluando cada una en el contexto de un negocio real y con márgenes reales, no como un content writer que nunca ha gestionado una tienda.
+La evaluación humana la realiza **Michel Munos**, fundador de SiftedTools: quince años en gran distribución y gran consumo (FMCG) como director de ventas, operador de tiendas Shopify en moda y complementos alimenticios, bilingüe francés-portugués. Construye, opera y prueba las herramientas en sus propias tiendas antes de recomendarlas, evaluando cada una en el contexto de un negocio real y con márgenes reales, no como un content writer que nunca ha gestionado una tienda.
 
 ## Frecuencia de actualización
 

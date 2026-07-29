@@ -3,7 +3,7 @@ title: "Our Methodology: How We Test and Rank AI Tools"
 description: "How SiftedTools tests, scores and ranks AI tools for e-commerce. Real-store testing, GEO Barometer, editorial independence."
 lang: "en"
 updatedAt: 2026-06-30
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 80
 draft: false
 affiliateDisclosure: true

@@ -7,7 +7,7 @@ useCase: mejores-herramientas-ia-ecommerce
 intent: commercial
 pageType: pillar
 updatedAt: 2026-06-30
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 95
 schemaTypes: ["Article", "FAQPage"]

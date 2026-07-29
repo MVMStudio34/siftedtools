@@ -6,7 +6,7 @@ profession: ecommerce
 useCase: escrever-fichas-produto-ia
 intent: informational
 updatedAt: 2026-07-03
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 93
 schemaTypes: ["Article", "FAQPage"]

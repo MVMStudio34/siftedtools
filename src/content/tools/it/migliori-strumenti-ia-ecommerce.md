@@ -7,7 +7,7 @@ useCase: migliori-strumenti-ia-ecommerce
 intent: commercial
 pageType: pillar
 updatedAt: 2026-07-01
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 95
 schemaTypes: ["Article", "FAQPage", "ItemList"]

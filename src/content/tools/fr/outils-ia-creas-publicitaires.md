@@ -7,7 +7,7 @@ useCase: creas-publicitaires
 intent: commercial
 pageType: vs
 updatedAt: 2026-06-22
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 90
 schemaTypes: ["Article", "FAQPage"]

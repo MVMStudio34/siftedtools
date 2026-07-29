@@ -5,7 +5,7 @@
 ## About
 - Editorial source, not an exhaustive directory: we rank on merit and commit to a verdict.
 - Full transparency on affiliate links; rankings are never influenced by commissions.
-- Author: Marvin Munos, 15 years in retail and e-commerce, operates his own Shopify stores, personally tests every tool.
+- Author: Michel Munos, 15 years in retail and e-commerce, operates his own Shopify stores, personally tests every tool.
 - Every page carries a "Verified on" date and is re-checked regularly.
 - Exclusive signal: the Quotis GEO Barometer, our methodology for measuring which tools ChatGPT, Claude, Gemini, Perplexity and Mistral actually recommend.
 - Every content page is also available as clean Markdown by appending `.md` to the slug (e.g. /en/best-ai-tools-ecommerce.md).

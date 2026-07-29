@@ -3,7 +3,7 @@ title: "Barómetro GEO: o que os LLM recomendam de facto"
 description: "Como medimos que ferramentas o ChatGPT, Gemini e Perplexity citam nas pesquisas de compra e-commerce. O método por trás do sinal e porque conta."
 lang: "pt"
 updatedAt: 2026-07-04
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 90
 draft: false
 affiliateDisclosure: true

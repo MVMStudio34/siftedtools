@@ -6,7 +6,7 @@ profession: ecommerce
 useCase: geo-posicionamiento-ia
 intent: informational
 updatedAt: 2026-06-30
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 96
 schemaTypes: ["Article", "FAQPage"]

@@ -3,7 +3,7 @@ title: "GEO-Barometer: Welche KI-Tools empfehlen die LLMs wirklich?"
 description: "Wie wir messen, welche Tools ChatGPT, Gemini und Perplexity bei E-Commerce-Kaufanfragen nennen. Die Methode hinter dem Signal und warum KI-Sichtbarkeit zählt."
 lang: "de"
 updatedAt: 2026-07-04
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 90
 draft: false
 affiliateDisclosure: true

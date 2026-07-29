@@ -6,7 +6,7 @@ profession: ecommerce
 useCase: geo-zichtbaarheid-ai
 intent: informational
 updatedAt: 2026-07-03
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 96
 schemaTypes: ["Article", "FAQPage"]

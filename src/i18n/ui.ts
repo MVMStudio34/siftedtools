@@ -38,7 +38,7 @@ export const ui = {
     "breadcrumb.aria": "Fil d'Ariane",
     "page.updated": "Vérifié le",
     "page.reviewedBy": "Testé et rédigé par",
-    "author.name": "Marvin Munos",
+    "author.name": "Michel Munos",
     "author.bio":
       "J'ai construit et opéré mes propres boutiques e-commerce. Je teste les outils IA que je recommande sur de vraies boutiques, pas depuis une page produit.",
     "author.role": "Fondateur de SiftedTools",
@@ -124,7 +124,7 @@ export const ui = {
     "breadcrumb.aria": "Breadcrumb",
     "page.updated": "Verified on",
     "page.reviewedBy": "Tested and written by",
-    "author.name": "Marvin Munos",
+    "author.name": "Michel Munos",
     "author.bio":
       "I built and operated my own e-commerce stores. I test the AI tools I recommend on real shops, not from a product page.",
     "author.role": "Founder of SiftedTools",
@@ -211,7 +211,7 @@ export const ui = {
     "breadcrumb.aria": "Migas de pan",
     "page.updated": "Verificado el",
     "page.reviewedBy": "Probado y redactado por",
-    "author.name": "Marvin Munos",
+    "author.name": "Michel Munos",
     "author.bio":
       "He construido y operado mis propias tiendas de e-commerce. Pruebo las herramientas IA que recomiendo en tiendas reales, no desde una página de producto.",
     "author.role": "Fundador de SiftedTools",
@@ -298,7 +298,7 @@ export const ui = {
     "breadcrumb.aria": "Navegação estruturada",
     "page.updated": "Verificado a",
     "page.reviewedBy": "Testado e escrito por",
-    "author.name": "Marvin Munos",
+    "author.name": "Michel Munos",
     "author.bio": "Construí e geri as minhas próprias lojas de e-commerce. Testo as ferramentas IA que recomendo em lojas reais, não a partir de uma página de produto.",
     "author.role": "Fundador da SiftedTools",
     "email.heading": "A ferramenta certa, no momento certo",
@@ -377,7 +377,7 @@ export const ui = {
     "breadcrumb.aria": "Brotkrümelnavigation",
     "page.updated": "Geprüft am",
     "page.reviewedBy": "Getestet und verfasst von",
-    "author.name": "Marvin Munos",
+    "author.name": "Michel Munos",
     "author.bio":
       "Ich habe meine eigenen E-Commerce-Shops aufgebaut und betrieben. Ich teste die KI-Tools, die ich empfehle, an echten Shops, nicht von einer Produktseite aus.",
     "author.role": "Gründer von SiftedTools",
@@ -464,7 +464,7 @@ export const ui = {
     "breadcrumb.aria": "Percorso di navigazione",
     "page.updated": "Verificato il",
     "page.reviewedBy": "Testato e scritto da",
-    "author.name": "Marvin Munos",
+    "author.name": "Michel Munos",
     "author.bio":
       "Ho costruito e gestito i miei negozi e-commerce. Testo gli strumenti IA che consiglio su negozi reali, non da una pagina prodotto.",
     "author.role": "Fondatore di SiftedTools",
@@ -553,7 +553,7 @@ export const ui = {
     "breadcrumb.aria": "Broodkruimelpad",
     "page.updated": "Gecontroleerd op",
     "page.reviewedBy": "Getest en geschreven door",
-    "author.name": "Marvin Munos",
+    "author.name": "Michel Munos",
     "author.bio": "Ik heb mijn eigen e-commerce webshops gebouwd en gerund. Ik test de AI-tools die ik aanraad op echte shops, niet vanaf een productpagina.",
     "author.role": "Oprichter van SiftedTools",
     "email.heading": "De juiste tool, op het juiste moment",

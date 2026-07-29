@@ -7,7 +7,7 @@ useCase: fiches-produits
 intent: commercial
 pageType: best-for
 updatedAt: 2026-06-22
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 92
 schemaTypes: ["Article", "FAQPage"]
@@ -195,7 +195,7 @@ Le verdict principal reste valable : pour le volume au meilleur rapport qualité
 
 ## Notre méthodologie de test
 
-Nous avons construit un catalogue test de 30 fiches produits réelles dans deux verticales (mode et complément alimentaire) et utilisé chacun des trois outils dans des conditions identiques : même brief, même cible, même longueur cible. Les sorties ont été évaluées par un humain (Marvin Munos) sur 5 critères : justesse technique, qualité rédactionnelle française, respect de la voix de marque, originalité par rapport à la concurrence, intégration possible dans un flux Shopify.
+Nous avons construit un catalogue test de 30 fiches produits réelles dans deux verticales (mode et complément alimentaire) et utilisé chacun des trois outils dans des conditions identiques : même brief, même cible, même longueur cible. Les sorties ont été évaluées par un humain (Michel Munos) sur 5 critères : justesse technique, qualité rédactionnelle française, respect de la voix de marque, originalité par rapport à la concurrence, intégration possible dans un flux Shopify.
 
 Nous croisons ces résultats avec notre Baromètre GEO Quotis : nous mesurons quels outils sont effectivement cités par ChatGPT, Gemini et Perplexity quand on leur demande de recommander un outil IA pour les fiches produits e-commerce. C'est un signal indépendant que peu de comparatifs utilisent.
 

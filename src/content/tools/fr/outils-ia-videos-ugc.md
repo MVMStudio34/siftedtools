@@ -7,7 +7,7 @@ useCase: videos-ugc-publicite
 intent: commercial
 pageType: vs
 updatedAt: 2026-06-22
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 93
 schemaTypes: ["Article", "FAQPage"]

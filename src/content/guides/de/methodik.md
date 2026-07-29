@@ -3,7 +3,7 @@ title: "Unsere Methodik: Wie wir KI-Tools testen und bewerten"
 description: "Wie SiftedTools KI-Tools für E-Commerce testet, bewertet und einstuft. Tests an echten Shops, GEO-Barometer, redaktionelle Unabhängigkeit."
 lang: "de"
 updatedAt: 2026-06-30
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 80
 draft: false
 affiliateDisclosure: true
@@ -76,7 +76,7 @@ Für Content-Tools pflegen wir zwei echte E-Commerce-Kataloge: **Mode** (30 Prod
 
 ### Schritt 3: Menschliche Bewertung
 
-Jede Ausgabe wird von einem Menschen bewertet, konkret von Marvin Munos (siehe Abschnitt "Wer testet"). Notenskala 1 bis 5 pro Kriterium, ergänzt um qualitative Anmerkungen. Um Verzerrungen zu minimieren, erfolgt die Bewertung blind, wo dies technisch möglich ist.
+Jede Ausgabe wird von einem Menschen bewertet, konkret vom Gründer (siehe Abschnitt "Wer testet"). Notenskala 1 bis 5 pro Kriterium, ergänzt um qualitative Anmerkungen. Um Verzerrungen zu minimieren, erfolgt die Bewertung blind, wo dies technisch möglich ist.
 
 ### Schritt 4: Abgleich mit dem GEO-Barometer
 
@@ -107,7 +107,7 @@ SiftedTools verdient über **Affiliate-Links** zu den empfohlenen Tools. Diese P
 
 ## Wer die Tools testet
 
-Die Bewertung übernimmt **Marvin Munos**, Gründer von SiftedTools. Sein Hintergrund: 15 Jahre im großflächigen Handel und in der FMCG-Branche als Sales Director, Betreiber eigener Shopify-Shops (Mode und Nahrungsergänzung), zweisprachig Französisch–Portugiesisch. Er baut, betreibt und testet die Tools auf seinen eigenen Shops, bevor er sie empfiehlt. Das ist entscheidend: Die meisten Vergleiche werden von Textern verfasst, die nie einen Shop geführt haben, und ihre Kriterien treffen nicht die realen Zwänge eines Betreibers.
+Die Bewertung übernimmt **Michel Munos**, Gründer von SiftedTools. Sein Hintergrund: 15 Jahre im großflächigen Handel und in der FMCG-Branche als Sales Director, Betreiber eigener Shopify-Shops (Mode und Nahrungsergänzung), zweisprachig Französisch–Portugiesisch. Er baut, betreibt und testet die Tools auf seinen eigenen Shops, bevor er sie empfiehlt. Das ist entscheidend: Die meisten Vergleiche werden von Textern verfasst, die nie einen Shop geführt haben, und ihre Kriterien treffen nicht die realen Zwänge eines Betreibers.
 
 ## Aktualisierung
 

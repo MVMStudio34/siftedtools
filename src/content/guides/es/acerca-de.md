@@ -1,9 +1,9 @@
 ---
 title: "Acerca de SiftedTools: quién prueba y por qué"
-description: "SiftedTools es publicado por Marvin Munos (Harmonie). 15 años de experiencia en retail y e-commerce, veredictos editoriales probados en tiendas reales."
+description: "SiftedTools es publicado por Harmonie. 15 años de experiencia en retail y e-commerce, veredictos editoriales probados en tiendas reales."
 lang: "es"
 updatedAt: 2026-06-30
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 75
 draft: false
 affiliateDisclosure: true
@@ -25,7 +25,7 @@ alternates:
 offers: []
 faq:
   - q: "¿Quién publica SiftedTools?"
-    a: "SiftedTools es publicado por Harmonie, empresa individual registrada en Francia bajo SIRET 392 358 180 00082. El fundador y autor principal es Marvin Munos."
+    a: "SiftedTools es publicado por Harmonie, empresa individual registrada en Francia bajo SIRET 392 358 180 00082. Michel Munos y autor principal opera bajo la entidad Harmonie."
   - q: "¿Cómo gana dinero SiftedTools?"
     a: "A través de enlaces de afiliado hacia las herramientas que recomendamos. Ninguna marca puede pagar para obtener una mejor clasificación."
 ---
@@ -38,7 +38,7 @@ Así de sencillo. Y así de raro en un mercado saturado de comparadores redactad
 
 ## El equipo
 
-### Marvin Munos, fundador y autor
+### Michel Munos
 
 **Mi trayectoria.** Quince años en gran distribución y gran consumo (FMCG, Fast Moving Consumer Goods) como director de ventas, antes de montar mis propias tiendas de e-commerce en Shopify en dos verticales: moda y complementos alimenticios. Bilingüe francés-portugués, vivo entre Francia y Portugal.
 
@@ -76,7 +76,7 @@ Más allá de las pruebas humanas, operamos una herramienta de medición indepen
 
 ## La empresa editora
 
-**Harmonie** es una empresa individual francesa (auto-entrepreneur), registrada bajo el SIRET **392 358 180 00082**. El responsable de la publicación es Marvin Munos. La dirección postal, los datos legales y la información sobre el alojamiento están disponibles en nuestro [Aviso legal](/es/aviso-legal/).
+**Harmonie** es una empresa individual francesa (auto-entrepreneur), registrada bajo el SIRET **392 358 180 00082**. El responsable de la publicación es Michel Munos. La dirección postal, los datos legales y la información sobre el alojamiento están disponibles en nuestro [Aviso legal](/es/aviso-legal/).
 
 ## Contacto
 

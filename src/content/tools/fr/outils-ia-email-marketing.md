@@ -7,7 +7,7 @@ useCase: email-marketing-ecommerce
 intent: commercial
 pageType: vs
 updatedAt: 2026-06-22
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 95
 schemaTypes: ["Article", "FAQPage"]
@@ -82,7 +82,7 @@ draft: false
 
 ## Le verdict en bref
 
-**Vous démarrez ou opérez sous 5000 contacts en Europe.** Brevo. Plan gratuit utilisable (300 emails par jour), conformité RGPD native, hébergement français, prix imbattable à mesure que vous montez. Marvin Munos opère Brevo en production sur trois projets différents depuis plus de trois ans, dont deux boutiques Shopify. C'est notre recommandation par défaut pour 80% des boutiques françaises.
+**Vous démarrez ou opérez sous 5000 contacts en Europe.** Brevo. Plan gratuit utilisable (300 emails par jour), conformité RGPD native, hébergement français, prix imbattable à mesure que vous montez. Michel Munos opère Brevo en production sur trois projets différents depuis plus de trois ans, dont deux boutiques Shopify. C'est notre recommandation par défaut pour 80% des boutiques françaises.
 
 **Vous dépassez 5000 contacts actifs sur Shopify et vous voulez maximiser le revenu email.** Klaviyo. Segmentation comportementale la plus poussée du marché, intégration Shopify native la plus profonde, intelligence artificielle (Klaviyo AI) opérationnelle pour la prédiction du meilleur moment d'envoi et la génération automatique de segments. Le prix premium se justifie quand votre revenu email mensuel dépasse plusieurs milliers d'euros.
 

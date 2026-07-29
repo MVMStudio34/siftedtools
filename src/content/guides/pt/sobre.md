@@ -1,9 +1,9 @@
 ---
 title: "Sobre a SiftedTools: quem testa as ferramentas e porquê"
-description: "A SiftedTools é publicada por Marvin Munos (Harmonie). 15 anos de experiência em retalho e e-commerce, veredictos editoriais testados em lojas reais."
+description: "A SiftedTools é publicada por Harmonie. 15 anos de experiência em retalho e e-commerce, veredictos editoriais testados em lojas reais."
 lang: "pt"
 updatedAt: 2026-07-03
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 75
 draft: false
 affiliateDisclosure: true
@@ -25,7 +25,7 @@ alternates:
 offers: []
 faq:
   - q: "Quem publica a SiftedTools?"
-    a: "A SiftedTools é publicada pela Harmonie, empresa individual registada em França com SIRET 392 358 180 00082. O fundador e autor principal é Marvin Munos."
+    a: "A SiftedTools é publicada pela Harmonie, empresa individual registada em França com SIRET 392 358 180 00082. Michel Munos e autor principal opera sob a entidade Harmonie."
   - q: "Como é que a SiftedTools ganha dinheiro?"
     a: "Através de ligações de afiliado para as ferramentas que recomendamos. Nenhuma marca pode pagar para obter uma melhor classificação."
 ---
@@ -38,7 +38,7 @@ faq:
 
 ## Quem está por trás
 
-### Marvin Munos, fundador e autor
+### Michel Munos
 
 **O meu percurso.** Quinze anos em grande distribuição e bens de grande consumo como diretor comercial, antes de montar as minhas próprias lojas de e-commerce na Shopify em duas verticais: a moda e os suplementos alimentares. Sou bilingue francês-português e vivo entre a França e Portugal.
 
@@ -76,9 +76,7 @@ Para além dos testes humanos, operamos uma ferramenta de medição independente
 
 ## A empresa editora
 
-A **Harmonie** é uma empresa individual francesa (*auto-entrepreneur*), registada com o SIRET **392 358 180 00082**. O diretor de publicação é Marvin Munos.
-
-A morada, os contactos legais e as informações sobre o alojamento estão disponíveis na página de [Aviso legal](/pt/aviso-legal/).
+A **Harmonie** é uma empresa individual francesa (*auto-entrepreneur*), registada com o SIRET **392 358 180 00082**. A morada, os contactos legais e as informações sobre o alojamento estão disponíveis na página de [Aviso legal](/pt/aviso-legal/).
 
 ## Contacto
 

@@ -7,7 +7,7 @@ useCase: photos-produits
 intent: commercial
 pageType: vs
 updatedAt: 2026-06-22
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 92
 schemaTypes: ["Article", "FAQPage"]

@@ -6,7 +6,7 @@ profession: ecommerce
 useCase: guida-geo-posizionamento-ia
 intent: informational
 updatedAt: 2026-07-01
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 96
 schemaTypes: ["Article", "FAQPage"]

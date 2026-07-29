@@ -6,7 +6,7 @@ profession: ecommerce
 useCase: ki-ecommerce-einstieg
 intent: informational
 updatedAt: 2026-06-30
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 94
 schemaTypes: ["Article", "FAQPage"]

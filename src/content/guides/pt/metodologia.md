@@ -3,7 +3,7 @@ title: "Metodologia: como testamos as ferramentas IA"
 description: "Como a SiftedTools testa, avalia e classifica as ferramentas IA para e-commerce. Testes em lojas reais, Barómetro GEO, independência editorial."
 lang: "pt"
 updatedAt: 2026-07-03
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 80
 draft: false
 affiliateDisclosure: true
@@ -76,7 +76,7 @@ Mantemos dois catálogos reais para os testes de conteúdo: **moda** (30 produto
 
 ### Passo 3: avaliação humana
 
-Cada resultado é avaliado por **Marvin Munos** (ver "Quem testa"), com nota de 1 a 5 em cada critério e comentários qualitativos. Para reduzir o viés, são feitas às cegas sempre que é tecnicamente possível.
+Cada resultado é avaliado por **Michel Munos** (ver "Quem testa"), com nota de 1 a 5 em cada critério e comentários qualitativos. Para reduzir o viés, são feitas às cegas sempre que é tecnicamente possível.
 
 ### Passo 4: cruzamento com o Barómetro GEO
 
@@ -102,7 +102,7 @@ As ligações de afiliado financiam o site, mas nunca alteram as classificaçõe
 
 ## Quem testa as ferramentas
 
-A avaliação é feita por **Marvin Munos**, fundador da SiftedTools: 15 anos em grande distribuição e bens de grande consumo como diretor comercial, operador de lojas Shopify (moda e suplementos alimentares) e bilingue francês-português. Testa as ferramentas nas suas próprias lojas antes de as recomendar. Ao contrário dos comparadores escritos por redatores que nunca geriram uma loja, os nossos critérios refletem as restrições reais de quem opera com margens apertadas.
+A avaliação é feita por **Michel Munos**, fundador da SiftedTools: 15 anos em grande distribuição e bens de grande consumo como diretor comercial, operador de lojas Shopify (moda e suplementos alimentares) e bilingue francês-português. Testa as ferramentas nas suas próprias lojas antes de as recomendar. Ao contrário dos comparadores escritos por redatores que nunca geriram uma loja, os nossos critérios refletem as restrições reais de quem opera com margens apertadas.
 
 ## Frequência de atualização
 

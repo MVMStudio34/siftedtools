@@ -3,7 +3,7 @@ title: "GEO Barometer: Which AI Tools Do LLMs Actually Recommend?"
 description: "How we measure which tools ChatGPT, Gemini and Perplexity cite in e-commerce buying queries. The method behind the signal, and why AI visibility matters."
 lang: "en"
 updatedAt: 2026-07-04
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 90
 draft: false
 affiliateDisclosure: true

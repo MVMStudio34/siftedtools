@@ -1,9 +1,9 @@
 ---
 title: "Über SiftedTools: Wer testet die Tools und warum"
-description: "SiftedTools wird von Marvin Munos (Harmonie) herausgegeben. 15 Jahre Erfahrung im Handel und E-Commerce, redaktionelle Urteile an echten Shops getestet."
+description: "SiftedTools wird von Harmonie herausgegeben. 15 Jahre Erfahrung im Handel und E-Commerce, redaktionelle Urteile an echten Shops getestet."
 lang: "de"
 updatedAt: 2026-06-30
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 75
 draft: false
 affiliateDisclosure: true
@@ -25,7 +25,7 @@ alternates:
 offers: []
 faq:
   - q: "Wer gibt SiftedTools heraus?"
-    a: "SiftedTools wird von Harmonie herausgegeben, einem Einzelunternehmen (auto-entrepreneur) in Frankreich, SIRET 392 358 180 00082. Gründer und Hauptautor ist Marvin Munos."
+    a: "SiftedTools wird von Harmonie herausgegeben, einem Einzelunternehmen (auto-entrepreneur) in Frankreich, SIRET 392 358 180 00082. Michel Munos und Hauptautor operiert unter der Entität Harmonie."
   - q: "Wie verdient SiftedTools Geld?"
     a: "Über Affiliate-Links zu den empfohlenen Tools. Keine Marke kann für ein besseres Ranking bezahlen."
 ---
@@ -38,7 +38,7 @@ So einfach ist das. Und so selten in einem Markt, der von Vergleichen überflute
 
 ## Wer dahintersteht
 
-### Marvin Munos, Gründer und Autor
+### Michel Munos
 
 **Mein Werdegang.** 15 Jahre im großflächigen Handel und in der FMCG-Branche (Fast Moving Consumer Goods) auf der Ebene Sales Director, bevor ich meine eigenen Shopify-Shops in zwei Bereichen aufgebaut habe: Mode und Nahrungsergänzungsmittel. Zweisprachig Französisch–Portugiesisch, ansässig zwischen Frankreich und Portugal.
 
@@ -78,9 +78,7 @@ Das ist ein Datensignal, das sonst niemand in dieser Granularität veröffentlic
 
 ## Das herausgebende Unternehmen
 
-**Harmonie** ist ein französisches Einzelunternehmen (auto-entrepreneur), eingetragen unter der SIRET **392 358 180 00082**. Verantwortlicher für die Veröffentlichung ist Marvin Munos.
-
-Postanschrift, rechtliche Angaben und Informationen zum Hosting-Anbieter finden Sie in unserem [Impressum](/de/impressum/).
+**Harmonie** ist ein französisches Einzelunternehmen (auto-entrepreneur), eingetragen unter der SIRET **392 358 180 00082**. Postanschrift, rechtliche Angaben und Informationen zum Hosting-Anbieter finden Sie in unserem [Impressum](/de/impressum/).
 
 ## Kontakt
 

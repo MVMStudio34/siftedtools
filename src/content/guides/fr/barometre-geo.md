@@ -3,7 +3,7 @@ title: "Baromètre GEO : mesurer ce que les IA recommandent"
 description: "Notre approche pour mesurer quels outils sont cités par ChatGPT, Gemini et Perplexity dans les requêtes d'achat e-commerce. La méthode, et pourquoi ce signal compte."
 lang: "fr"
 updatedAt: 2026-07-04
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 88
 draft: false
 affiliateDisclosure: true

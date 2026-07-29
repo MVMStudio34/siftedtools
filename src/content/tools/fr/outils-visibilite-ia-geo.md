@@ -7,7 +7,7 @@ useCase: visibilite-ia-geo
 intent: commercial
 pageType: vs
 updatedAt: 2026-06-22
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 94
 schemaTypes: ["Article", "FAQPage"]

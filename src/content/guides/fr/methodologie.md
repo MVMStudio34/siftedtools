@@ -3,7 +3,7 @@ title: "Méthodologie : comment nous testons les outils IA"
 description: "Méthodologie SiftedTools : nos critères de test, notre processus d'évaluation et notre indépendance éditoriale pour classer les outils IA e-commerce testés."
 lang: "fr"
 updatedAt: 2026-06-22
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 85
 draft: false
 affiliateDisclosure: true
@@ -29,7 +29,7 @@ faq:
   - q: "SiftedTools est-il indépendant des outils qu'il recommande ?"
     a: "Oui. Nous gagnons de l'argent via des liens d'affiliation, mais aucune marque ne peut payer pour être mieux classée ou pour figurer dans nos comparatifs. Le classement reflète notre verdict éditorial après test. Plusieurs des outils que nous classons en tête (ChatGPT, Claude) n'offrent même pas de programme d'affiliation. Notre transparence financière est détaillée dans notre divulgation affiliée sur chaque page concernée."
   - q: "Pourquoi vos verdicts diffèrent de ceux des autres sites comparatifs ?"
-    a: "Trois raisons. D'abord, nous testons sur des catalogues e-commerce réels, pas depuis la page produit. Ensuite, notre auteur Marvin Munos a 15 ans d'expérience dans la grande distribution et le e-commerce, donc nos critères reflètent les vraies contraintes d'un opérateur, pas des benchmarks marketing. Enfin, nous croisons nos tests humains avec le Baromètre GEO Quotis, qui mesure quels outils les IA recommandent réellement. C'est un signal indépendant que la plupart des comparatifs ignorent."
+    a: "Trois raisons. D'abord, nous testons sur des catalogues e-commerce réels, pas depuis la page produit. Ensuite, notre auteur Michel Munos a 15 ans d'expérience dans la grande distribution et le e-commerce, donc nos critères reflètent les vraies contraintes d'un opérateur, pas des benchmarks marketing. Enfin, nous croisons nos tests humains avec le Baromètre GEO Quotis, qui mesure quels outils les IA recommandent réellement. C'est un signal indépendant que la plupart des comparatifs ignorent."
   - q: "Qu'est-ce que le Baromètre GEO Quotis ?"
     a: "Quotis.ai est un outil de mesure que nous opérons. Chaque mois, nous interrogeons 5 modèles d'IA majeurs (ChatGPT, Claude, Gemini, Perplexity, Mistral) avec 100 prompts liés au e-commerce et nous comptons quels outils sont effectivement cités dans les réponses. Sur 1 200 réponses mensuelles, nous obtenons un classement objectif des outils dans le mindshare des IA. C'est cette donnée que nous croisons avec nos tests humains pour nos verdicts SiftedTools."
   - q: "À quelle fréquence les comparatifs sont-ils mis à jour ?"
@@ -95,7 +95,7 @@ Pour les outils de service client, nous testons sur 50 conversations clients ré
 
 ### Étape 3 : évaluation humaine
 
-Chaque sortie est évaluée par un humain, en l'occurrence Marvin Munos (voir section "Qui teste"). Notation de 1 à 5 sur chaque critère, avec commentaires qualitatifs. Pour minimiser les biais, les évaluations sont faites en aveugle quand c'est techniquement possible (mêmes briefs, sorties anonymisées).
+Chaque sortie est évaluée par un humain, en l'occurrence Michel Munos (voir section "Qui teste"). Notation de 1 à 5 sur chaque critère, avec commentaires qualitatifs. Pour minimiser les biais, les évaluations sont faites en aveugle quand c'est techniquement possible (mêmes briefs, sorties anonymisées).
 
 ### Étape 4 : croisement avec le Baromètre GEO
 
@@ -141,11 +141,11 @@ Quatre garde-fous :
 
 ## Qui teste les outils
 
-L'évaluation humaine est faite par **Marvin Munos**, fondateur de SiftedTools.
+L'évaluation humaine est faite par **Michel Munos**, fondateur de SiftedTools.
 
-**Parcours pertinent** : 15 ans en grande distribution et FMCG (sales director), opérateur de boutiques e-commerce sous Shopify (mode et complément alimentaire), bilingue français-portugais. Marvin construit, opère et teste les outils IA sur ses propres boutiques avant de les recommander.
+**Parcours pertinent** : 15 ans en grande distribution et FMCG (sales director), opérateur de boutiques e-commerce sous Shopify (mode et complément alimentaire), bilingue français-portugais. Michel Munos construit, opère et teste les outils IA sur ses propres boutiques avant de les recommander.
 
-**Pourquoi c'est important** : la plupart des comparatifs d'outils IA pour e-commerce sont rédigés par des content writers qui n'ont jamais géré une boutique. Les critères qu'ils évaluent ne correspondent pas aux contraintes réelles d'un opérateur (gestion de stock, fiscalité, retours clients, marges serrées, contraintes réglementaires). Marvin évalue les outils dans le contexte d'une vraie boutique avec de vraies marges.
+**Pourquoi c'est important** : la plupart des comparatifs d'outils IA pour e-commerce sont rédigés par des content writers qui n'ont jamais géré une boutique. Les critères qu'ils évaluent ne correspondent pas aux contraintes réelles d'un opérateur (gestion de stock, fiscalité, retours clients, marges serrées, contraintes réglementaires). Michel Munos évalue les outils dans le contexte d'une vraie boutique avec de vraies marges.
 
 ## Fréquence et politique de mise à jour
 

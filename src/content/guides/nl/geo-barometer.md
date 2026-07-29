@@ -3,7 +3,7 @@ title: "GEO-barometer: wat raden de LLM's echt aan"
 description: "Hoe we meten welke tools ChatGPT, Gemini en Perplexity noemen bij e-commerce koopvragen. De methode achter het signaal en waarom AI-zichtbaarheid telt."
 lang: "nl"
 updatedAt: 2026-07-04
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 90
 draft: false
 affiliateDisclosure: true

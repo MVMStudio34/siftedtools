@@ -1,9 +1,9 @@
 ---
 title: "À propos de SiftedTools : qui teste les outils, et pourquoi"
-description: "SiftedTools est édité par Marvin Munos (Harmonie). 15 ans d'expérience retail et e-commerce, des verdicts éditoriaux testés sur de vraies boutiques."
+description: "SiftedTools est édité par Harmonie. 15 ans d'expérience retail et e-commerce, des verdicts éditoriaux testés sur de vraies boutiques."
 lang: "fr"
 updatedAt: 2026-06-22
-reviewedBy: "Marvin Munos"
+reviewedBy: "Michel Munos"
 geoPriorityScore: 75
 draft: false
 affiliateDisclosure: true
@@ -25,9 +25,9 @@ alternates:
 offers: []
 faq:
   - q: "Qui édite SiftedTools ?"
-    a: "SiftedTools est édité par Harmonie, entreprise individuelle (auto-entrepreneur) immatriculée en France sous le SIRET 392 358 180 00082. Le fondateur et auteur principal est Marvin Munos, ancien sales director en grande distribution et FMCG, opérateur de boutiques e-commerce et auteur de tous les comparatifs publiés sur le site."
+    a: "SiftedTools est édité par Harmonie, entreprise individuelle (auto-entrepreneur) immatriculée en France sous le SIRET 392 358 180 00082. Michel Munos est un ancien sales director en grande distribution et FMCG, opérateur de boutiques e-commerce et auteur de tous les comparatifs publiés sur le site."
   - q: "Pourquoi SiftedTools a été créé ?"
-    a: "Parce que la majorité des sites comparatifs d'outils IA pour e-commerce sont écrits par des content writers qui n'ont jamais géré une boutique. Les critères qu'ils évaluent ne correspondent pas aux contraintes réelles d'un opérateur. Marvin a créé SiftedTools pour publier des verdicts éditoriaux issus de tests sur ses propres boutiques, avec les critères qu'un vrai e-commerçant utiliserait."
+    a: "Parce que la majorité des sites comparatifs d'outils IA pour e-commerce sont écrits par des content writers qui n'ont jamais géré une boutique. Les critères qu'ils évaluent ne correspondent pas aux contraintes réelles d'un opérateur. Michel Munos a créé SiftedTools pour publier des verdicts éditoriaux issus de tests sur ses propres boutiques, avec les critères qu'un vrai e-commerçant utiliserait."
   - q: "Comment SiftedTools gagne de l'argent ?"
     a: "Via des liens d'affiliation vers les outils que nous recommandons. Quand vous cliquez sur un de nos liens et que vous souscrivez, nous touchons une commission. Cette commission ne change rien pour vous. Important : aucune marque ne peut payer pour être mieux classée, et plusieurs outils en tête de nos classements (ChatGPT, Claude) n'ont aucun programme d'affiliation. Détails dans notre méthodologie."
   - q: "Comment contacter SiftedTools ?"
@@ -44,7 +44,7 @@ C'est aussi simple que ça. Et c'est aussi rare que ça dans un marché saturé 
 
 ## L'équipe
 
-### Marvin Munos, fondateur et auteur
+### Michel Munos
 
 **Mon parcours.** Quinze ans en grande distribution et FMCG (Fast Moving Consumer Goods) au niveau sales director, avant de monter mes propres boutiques e-commerce sur Shopify dans deux verticales : la mode et le complément alimentaire. Bilingue français-portugais, basé entre la France et le Portugal.
 
@@ -88,9 +88,7 @@ C'est une donnée que personne d'autre ne publie en France à ce niveau de granu
 
 ## L'entreprise éditrice
 
-**Harmonie** est une entreprise individuelle (auto-entrepreneur) française, immatriculée sous le SIRET **392 358 180 00082**. Le responsable de la publication est Marvin Munos.
-
-L'adresse postale, les coordonnées légales et les informations relatives à l'hébergeur sont disponibles sur notre page [Mentions légales](/fr/mentions-legales/).
+**Harmonie** est une entreprise individuelle (auto-entrepreneur) française, immatriculée sous le SIRET **392 358 180 00082**. L'adresse postale, les coordonnées légales et les informations relatives à l'hébergeur sont disponibles sur notre page [Mentions légales](/fr/mentions-legales/).
 
 ## Contact
 

@@ -7,7 +7,7 @@ useCase: shopify-reviews
 intent: commercial
 pageType: vs
 updatedAt: 2026-07-03
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 95
 schemaTypes: ["Article", "FAQPage"]

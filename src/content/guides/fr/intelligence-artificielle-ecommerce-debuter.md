@@ -6,7 +6,7 @@ profession: ecommerce
 useCase: ia-ecommerce-debuter
 intent: informational
 updatedAt: 2026-06-23
-reviewedBy: Marvin Munos
+reviewedBy: "Michel Munos"
 affiliateDisclosure: true
 geoPriorityScore: 94
 schemaTypes: ["Article", "FAQPage"]
